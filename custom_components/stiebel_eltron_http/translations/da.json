@@ -187,6 +187,45 @@
             },
             "efficiency_dhw_1_12m": {
                 "name": "VARMT VAND 1-12 M"
+            },
+            "wcci_input_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+            },
+            "wcci_input_source": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+            },
+            "wcci_buffer": {
+                "name": "EFFEKTPÅVIRKNING VARMEBUFFER"
+            },
+            "wcci_operating_mode": {
+                "name": "EFFEKTPÅVIRKNING AKTUEL TILSTAND"
+            },
+            "wcci_user_power_limit": {
+                "name": "EFFEKTPÅVIRKNING EFFEKTBEGRÆNSNING"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 1 / BUFFER"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR BUFFER"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMT VAND"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "EFFEKTPÅVIRKNING LIMITIERUNGSFUNKTION BLOCKIERT"
             }
         },
         "binary_sensor": {

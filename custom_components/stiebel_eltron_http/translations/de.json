@@ -193,6 +193,45 @@
             },
             "water_flow": {
                 "name": "WP WASSERVOLUMENSTROM"
+            },
+            "wcci_input_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+            },
+            "wcci_input_source": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+            },
+            "wcci_buffer": {
+                "name": "LEISTUNGSBEEINFLUSSUNG HEIZUNGSPUFFER"
+            },
+            "wcci_operating_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG AKTUELLER ZUSTAND"
+            },
+            "wcci_user_power_limit": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LEISTUNGSBEGRENZUNG"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR HEIZKREIS 1 / PUFFER"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR HEIZKREIS 2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR HEIZKREIS 3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR HEIZKREIS 4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR HEIZKREIS 5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR PUFFER"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LADETEMPERATUR WARMWASSER"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "LEISTUNGSBEEINFLUSSUNG LIMITIERUNGSFUNKTION BLOCKIERT"
             }
         },
         "binary_sensor": {

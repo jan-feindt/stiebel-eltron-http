@@ -187,6 +187,45 @@
             },
             "dual_mode_temp_ww": {
                 "name": "KYTKENTÄLÄMPÖT WW"
+            },
+            "wcci_input_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+            },
+            "wcci_input_source": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+            },
+            "wcci_buffer": {
+                "name": "VAIKUTUS TEHOON LÄMMITYSPUSKURI"
+            },
+            "wcci_operating_mode": {
+                "name": "VAIKUTUS TEHOON TÄMÄNHETKINEN TILA"
+            },
+            "wcci_user_power_limit": {
+                "name": "VAIKUTUS TEHOON TEHONRAJOITUS"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 1 / PUSKURI"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA PUSKURI"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMIN KÄYTTÖVESI"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "VAIKUTUS TEHOON LIMITIERUNGSFUNKTION BLOCKIERT"
             }
         },
         "binary_sensor": {

@@ -193,6 +193,45 @@
             },
             "water_flow": {
                 "name": "WP WATER FLOW RATE"
+            },
+            "wcci_input_mode": {
+                "name": "POWER CONSUMPTION CONTROL INPUT MODE"
+            },
+            "wcci_input_source": {
+                "name": "POWER CONSUMPTION CONTROL INPUT SOURCE"
+            },
+            "wcci_buffer": {
+                "name": "POWER CONSUMPTION CONTROL BUFFER"
+            },
+            "wcci_operating_mode": {
+                "name": "POWER CONSUMPTION CONTROL CURRENT STATE"
+            },
+            "wcci_user_power_limit": {
+                "name": "POWER CONSUMPTION CONTROL POWER LIMIT"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC1 / BUFFER"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE BUFFER"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE DHW"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "POWER CONSUMPTION CONTROL LIMIT FUNCTIONALITY BLOCKED"
             }
         },
         "binary_sensor": {

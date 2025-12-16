@@ -187,6 +187,45 @@
             },
             "inverter_current": {
                 "name": "INTENSITE INVERTER"
+            },
+            "wcci_input_mode": {
+                "name": "INFLUENCE SUR LA PUISSANCE MODE DE SAISIE"
+            },
+            "wcci_input_source": {
+                "name": "INFLUENCE SUR LA PUISSANCE SOURCE D'ENTRÉE"
+            },
+            "wcci_buffer": {
+                "name": "INFLUENCE SUR LA PUISSANCE BALLON TAMPON CHAUFFAGE"
+            },
+            "wcci_operating_mode": {
+                "name": "INFLUENCE SUR LA PUISSANCE ÉTAT ACTUEL"
+            },
+            "wcci_user_power_limit": {
+                "name": "INFLUENCE SUR LA PUISSANCE LIMITATION DE PUISSANCE"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 1 / TAMPON"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE TAMPON"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE ECS"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "INFLUENCE SUR LA PUISSANCE FONCTIONNALITÉ DE LIMITATION BLOQUÉE"
             }
         },
         "binary_sensor": {

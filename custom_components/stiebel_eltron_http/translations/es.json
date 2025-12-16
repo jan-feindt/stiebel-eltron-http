@@ -187,6 +187,45 @@
             },
             "efficiency_dhw_1_12m": {
                 "name": "AGUA CALIENTE 1-12 M"
+            },
+            "wcci_input_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+            },
+            "wcci_input_source": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+            },
+            "wcci_buffer": {
+                "name": "INFLUENCIA EN LA POTENCIA DEP. INERCIA CALEFACCIÓN"
+            },
+            "wcci_operating_mode": {
+                "name": "INFLUENCIA EN LA POTENCIA ESTADO ACTUAL"
+            },
+            "wcci_user_power_limit": {
+                "name": "INFLUENCIA EN LA POTENCIA LIMITACIÓN DE CONSUMO"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 1 / DEP. INERCIA"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 2 / DEP. INERCIA"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 3 / DEP. INERCIA"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 4 / DEP. INERCIA"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 5 / DEP. INERCIA"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA EN DEP. DE INERCIA"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA DE AGUA CALIENTE"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "INFLUENCIA EN LA POTENCIA LIMITIERUNGSFUNKTION BLOCKIERT"
             }
         },
         "binary_sensor": {

@@ -77,6 +77,20 @@ from .const import (
     COMPRESSOR_STARTS_KEY,
     DEFAULT_LANGUAGE,
     DEFAULT_FETCH_ENERGY,
+    WCCI_ENDPOINT,
+    WCCI_INPUT_MODE_KEY,
+    WCCI_INPUT_SOURCE_KEY,
+    WCCI_BUFFER_KEY,
+    WCCI_OPERATING_MODE_KEY,
+    WCCI_USER_POWER_LIMIT_KEY,
+    WCCI_LOAD_TEMP_ROOM_1_KEY,
+    WCCI_LOAD_TEMP_ROOM_2_KEY,
+    WCCI_LOAD_TEMP_ROOM_3_KEY,
+    WCCI_LOAD_TEMP_ROOM_4_KEY,
+    WCCI_LOAD_TEMP_ROOM_5_KEY,
+    WCCI_LOAD_TEMP_BUFFER_KEY,
+    WCCI_LOAD_TEMP_DHW_KEY,
+    WCCI_LIMIT_FUNCTIONALITY_BLOCKED_KEY,
 )
 
 from . import parsing
@@ -275,6 +289,16 @@ class StiebelEltronScrapingClient:
         info_system_diagnosis = await self.async_scrape_diagnosis_system()
         result.update(info_system_diagnosis)
 
+        # Optionally attempt to fetch WCCI (Power Influence) configuration
+        # from /?s=4,25 endpoint. This returns JSON data with WCCI settings.
+        try:
+            wcci_data = await self.async_scrape_wcci()
+            result.update(wcci_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            # Keep best-effort: do not make the whole fetch fail if WCCI
+            # is not available or not configured on this device.
+            LOGGER.debug("WCCI data not available or failed to parse")
+
         LOGGER.debug("Scraped data: %s", result)
         return result
 
@@ -400,6 +424,125 @@ class StiebelEltronScrapingClient:
             ) from exception
         else:
             return result
+
+    async def async_scrape_wcci(self) -> Any:
+        """Scrape WCCI (Power Influence) configuration data.
+        
+        This fetches JSON data from the WCCI endpoint which provides:
+        - Input mode (OFF, SG READY, POWER LIMITATION modes)
+        - Input source (MODBUS, KNX, WPM, ISG)
+        - Buffer configuration
+        - Operating mode
+        - User power limit
+        - Load temperatures for heating circuits and DHW
+        
+        Returns a dict with WCCI sensor keys.
+        """
+        # First get session token from the WCCI page
+        from .const import WCCI_PATH
+        page_url = f"http://{self._host}{WCCI_PATH}"
+        
+        try:
+            page_response = await self._api_wrapper(
+                method="GET",
+                url=page_url,
+            )
+            # Extract session token from page HTML
+            soup = bs4.BeautifulSoup(page_response, "html.parser")
+            token_div = soup.find("div", {"class": "sessionToken", "id": "sessionToken"})
+            if not token_div:
+                LOGGER.warning("WCCI: Could not find session token in page")
+                return {}
+            
+            session_token = token_div.get_text(strip=True)
+            LOGGER.debug("WCCI: Found session token: %s", session_token)
+            
+            # Now fetch the JSON endpoint data
+            endpoint_url = f"http://{self._host}{WCCI_ENDPOINT}?sessionToken={session_token}"
+            json_response = await self._api_wrapper(
+                method="GET",
+                url=endpoint_url,
+            )
+            
+            # Parse JSON response
+            import json
+            data = json.loads(json_response)
+            LOGGER.debug("WCCI: Received data: %s", data)
+            
+            result = self._extract_wcci_data(data)
+            
+        except aiohttp.ClientResponseError as exception:
+            msg = f"Failed to connect to WCCI endpoint - {exception}"
+            raise StiebelEltronScrapingClientError(
+                msg,
+            ) from exception
+        except json.JSONDecodeError as exception:
+            msg = f"Failed to parse WCCI JSON response - {exception}"
+            raise StiebelEltronScrapingClientError(
+                msg,
+            ) from exception
+        else:
+            return result
+
+    def _extract_wcci_data(self, data: dict) -> dict:
+        """Extract WCCI configuration values from JSON response.
+        
+        The WCCI endpoint returns data with scaled values:
+        - Temperatures are in tenths of degrees (230 = 23.0°C)
+        - Power limit is in hundredths of kW (420 = 4.20 kW)
+        - Enum values are strings or integers
+        
+        Args:
+            data: JSON response dict from WCCI endpoint
+            
+        Returns:
+            dict: Extracted sensor values with proper scaling
+        """
+        result: dict[str, object] = {}
+        
+        # Input mode (string: "OFF", "SGREADY", "POWERLIMITMODE", etc.)
+        if "inputMode" in data:
+            result[WCCI_INPUT_MODE_KEY] = str(data["inputMode"])
+        
+        # Input source (string: "MODBUS", "KNX", "WPM", "ISG")
+        if "inputSource" in data:
+            result[WCCI_INPUT_SOURCE_KEY] = str(data["inputSource"])
+        
+        # Buffer configuration (string: "NOBUFFER", "BUFFER_WITHOUT_MIXER", etc.)
+        if "buffer" in data:
+            result[WCCI_BUFFER_KEY] = str(data["buffer"])
+        
+        # Operating mode (string: "NO_LIMITATION", etc.)
+        if "operatingMode" in data:
+            result[WCCI_OPERATING_MODE_KEY] = str(data["operatingMode"])
+        
+        # Limit functionality blocked (boolean)
+        if "limitFunctionalityBlocked" in data:
+            result[WCCI_LIMIT_FUNCTIONALITY_BLOCKED_KEY] = bool(data["limitFunctionalityBlocked"])
+        
+        # User power limit (scaled by 100, convert to kW)
+        if "userPowerLimit" in data:
+            raw_value = data["userPowerLimit"]
+            result[WCCI_USER_POWER_LIMIT_KEY] = float(raw_value) / 100.0
+        
+        # Load temperatures (scaled by 10, convert to °C)
+        temp_fields = [
+            ("loadTempRoom_1", WCCI_LOAD_TEMP_ROOM_1_KEY),
+            ("loadTempRoom_2", WCCI_LOAD_TEMP_ROOM_2_KEY),
+            ("loadTempRoom_3", WCCI_LOAD_TEMP_ROOM_3_KEY),
+            ("loadTempRoom_4", WCCI_LOAD_TEMP_ROOM_4_KEY),
+            ("loadTempRoom_5", WCCI_LOAD_TEMP_ROOM_5_KEY),
+            ("loadTempBuffer", WCCI_LOAD_TEMP_BUFFER_KEY),
+            ("loadTempDhw", WCCI_LOAD_TEMP_DHW_KEY),
+        ]
+        
+        for json_key, const_key in temp_fields:
+            if json_key in data:
+                raw_value = data[json_key]
+                result[const_key] = float(raw_value) / 10.0
+        
+        LOGGER.debug("Extracted WCCI data: %s", result)
+        return result
 
     def _extract_start_page(self, response: str) -> dict:
         """Extract Betriebsart from s=0 page.

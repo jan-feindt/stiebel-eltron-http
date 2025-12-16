@@ -1,0 +1,1622 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<head>
+	<title>STIEBEL ELTRON Reglersteuerung</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="content-language" content="de" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+  
+  <link rel="shortcut icon" href="./pics/brlogo.ico">
+  <!-- does not exist link rel="stylesheet" href="./css/netzwerk.css" type="text/css" media="all" /-->
+  <link rel="stylesheet" type="text/css" href="./css/slider/ste_slider.css" />	
+	<!-- Blueprint CSS framework -->
+	<link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print" />	
+	<!--[if lt IE 8]><link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+	
+	<link rel="stylesheet" href="./css/layout.css" type="text/css" media="all" />
+  	
+	<link rel="stylesheet" href="./css/sifr.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="./css/thickbox.css" type="text/css" media="all" />
+	
+	<link rel="stylesheet" type="text/css" href="./css/jquery.jqplot.min.css" />
+	
+	  
+  	
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/thickbox.js"></script>
+	<script type="text/javascript" src="./js/sifr.js"></script>
+	<script type="text/javascript" src="./js/sifr_sw.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+  <script type="text/javascript" src="./js/json2.js"></script>
+  <script type="text/javascript" src="./js/plugins/jquery-ui-1.8.6.custom.min.js"></script>
+    <script type="text/javascript" src="./js/setDNS1.js"></script>
+
+	<!-- [if IE] -->
+	<script language="javascript" type="text/javascript" src="./js/excanvas.min.js"></script>
+	<!-- [endif] -->
+
+	<!-- for dateAxisRenderer.js -->
+	<script language="javascript" type="text/javascript" src="./js/plugins/Date.min.js"></script>
+	<!-- BEGIN: load jqplot -->
+	<script language="javascript" type="text/javascript" src="./js/jquery.jqplot.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.dateAxisRenderer.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.barRenderer.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.categoryAxisRenderer.js"></script>
+	<!-- END: load jqplot -->
+
+
+<style>
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #D0D0D0;
+   border-right-color: #000000;
+   animation: spinner-d3wgkg 1s infinite linear;
+  
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+</style>
+  
+  <!-- BEGIN: load slider -->
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.core.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.widget.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.mouse.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.slider.js"></script>
+	<!-- END: load slider -->
+  
+    
+  <!-- BEGIN: Uhrzeit -->
+  <script language="javascript" type="text/javascript">
+var timestampunterschied = 1765908683 * 1000 - new Date().getTime();
+</script>
+<script src="./js/uhrzeit.js" type="text/javascript" language="javascript"></script>
+  <!-- END:  Uhrzeit -->
+  
+</head>
+<body>
+<div class="sessionToken" id="sessionToken" style="display:none">694060020019a</div><div id="header">
+	<div class="head curdef">
+		<div id="meta">
+			<div id="login">
+      			</div>
+		</div>
+    <div class="eingestelle_sprache"><strong><a href="?s=5,3" style="color:white">SUOMI</a></strong></div>
+    <div id="Uhrzeit"></div>
+		<div class="title">
+      <a href="." onclick="return checkChanges(this);" title="zur Startseite">
+        <img src="./pics/title.png" alt="Servicewelt" />
+		
+      </a>
+          </div>
+		<div class="logo"><a href="." onclick="return checkChanges(this);" title="zur Startseite" class="home_link">&nbsp;</a></div>
+	</div>
+</div>
+
+
+<div class="container" id="page">
+  <div id="main" >
+  <div id="SpacerFirefox"></div>
+    <div id="nav">
+      <div class="clear"></div>
+            <div class="nav left defaultfirst">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link1">
+          <a onclick="return checkChanges(this);" href="?s=0">KÄYNNISTÄ</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link2">
+          <a >INFO</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,0">JÄRJESTELMÄ</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,1">LÄMPÖPUMPPU</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,8">ENERGIATASAPAINO</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,9">licence terms</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,10">KÄYTTÖÄ JA TIETOSUOJAA KOSKEVAT OHJEET</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,11">MANUAL</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link3">
+          <a >DIAGNOOSI</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,0">JÄRJ TILA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,2">LÄMPÖP TILA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,4">LÄMPÖP ANALYYSI</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,6">SIS LASKELMA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,7">JÄRJESTELMÄ</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,9">ILMOITUSLUETTELO</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link4">
+          <a >OHJELMAT</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,0">LÄMMOHJELMA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,2">LÄMMINVESIK OHJ</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,6">HILJAINEN OHJELMA 1</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,7">HILJAINEN OHJELMA 2</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,12">JUHLAOHJELMA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,13">LOMAOHJELMA</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,14">ANTILEGIONELLAOHJ</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link5">
+          <a >ASETUKSET</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,0">AIKA/PÄIVÄMÄÄRÄ</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,1">KESÄAJAN ASET</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,2">LÄMMITYS</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,3">LÄMMINVESI</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,15">ISG</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,25">VAIKUTUS TEHOON</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left defaultlast parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link6">
+          <a >Profiili</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second last">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,0">Verkko</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,1">Turvallisuus</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,2">Laitteiston kuva</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,3">KIELI</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="clear"></div>
+    </div>
+        <div id="sub_nav" class="span-24"><div class="left main sifr span-9" style="width: 100%">VAIKUTUS TEHOON</div>
+<div class="span-15 last">
+</div>
+<div class="clear"></div></div>
+        <form id="werte" action="#" onsubmit="saveValues(this);return false;"><div id="content">
+    <a?php
+// Encoding: ISO 8859-3
+include_once('stablevalues.php'); // Sprache!
+header('Content-Type: text/html; charset=UTF-8');
+?>
+
+
+<!-- TEMPLATE FOR RENDERING -->
+<!-- Backend Error Element--> 
+<div id="backend_error" class="span-24 append-1" style="float:left; display:none;">
+  <div id="container" class="grey round" style="padding: 12px; margin-right: 15px; margin-bottom: 20px">
+    <div id="Infobox" style="float:right;">
+      <img src="./pics/icon_status_warning.gif" style="margin: 4px"><br>
+    </div>
+    <br>
+    <span style="color:#c93426; font-size:14px; font-weight:bold;">
+      EEBus rajapintavirhe    </span>
+  <br>
+  <br>
+  </div>
+</div>
+
+<!-- GENERAL LANGUAGE -->
+<div id="txt_HTML_KETTENTEXT2_TEXT1" style="display:none">Voimassaolevat arvot: Syötä arvo väliltä</div>
+<div id="txt_HTML_KETTENTEXT2_TEXT2" style="display:none">ja</div>
+
+<div id="wcci_site">
+  <!-- HINWEISTEXT -->  
+  <div id="emihinweis" style="margin-top: 60px;">
+    <p>Tehonkulutuksen valvonta</p>
+    <p>Lämpöpumppua voidaan ohjata kahden digitaalisen tulon tai GLT:n (ulkoinen Modbus TCP / KNX) kautta. Tulot mahdollistavat neljä käyttötapaa (2x 1=suljettu ja 2x 0=auki), joissa digitaalinen tulo on ensisijainen GLT:hen nähden.</p>
+    <p>POIS:</p>
+    <p>- Lämpöpumpun tehoon ei vaikuteta ulkopuolelta.</p>
+    <p>SG Ready:</p>
+    <p>- (0-0): Vakiokäyttö  (tila 2)</p>
+    <p>- (0-1): Sammutus, vain jäätymissuoja (tila 1)</p>
+    <p>- (1-0): Lämmityksen, lämpimän käyttöveden ja uima-altaan käynnistyssuositus, joka perustuu lämmönvarastoinnin asetusarvoihin (tila 3)</p>
+    <p>- (1-1): Maksimikäyttö tämänhetkisellä mahdollisella kompressorin teholla ja lämmönvarastoinnin asetusarvoilla (tila 4)</p>
+    <p>PL/LU (Power Limitation / Load Up):</p>
+    <p>- (0-0) Vakiokäyttö</p>
+    <p>- (0-1): Lämmityksen, lämpimän käyttöveden ja uima-altaan käynnistyssuositus, joka perustuu lämmönvarastoinnin asetusarvoihin</p>
+    <p>- (1-0) / (1-1): Tehonrajoitus, järjestelmä käy rajoituksen sisällä tai sammuu kompressorin vähimmäistehon alapuolella  rajoituksella = 0 aina pois päältä</p>
+    <p>PL/FS (Power Limitation / Full Shed):</p>
+    <p>- (0-0) Vakiokäyttö</p>
+    <p>- (1-0): Tehonrajoitus, järjestelmä käy rajoituksen sisällä tai sammuu kompressorin vähimmäistehon alapuolella  rajoituksella = 0 aina pois päältä</p>
+    <p>- (0-1) tai (1-1) - sammutus, vain jäätymissuoja</p>
+    <p></p>
+  </div>
+
+
+  <!-- INPUT MODE-->
+  <div class="calibration round span-24 last" id="cal_input_mode">
+    <div id="txt_WCCI_INPUT_MODE_OPTION_OFF" style="display:none">POIS</div>
+    <div id="txt_WCCI_INPUT_MODE_OPTION_SGREADY" style="display:none">SG READY</div>
+    <div id="txt_WCCI_INPUT_MODE_OPTION_PLLU" style="display:none">POWER LIMITATION / LOAD UP</div>
+    <div id="txt_WCCI_INPUT_MODE_OPTION_PLFS" style="display:none">POWER LIMITATION / FULL SHED</div>
+
+    <div class="span-7 ialigned">
+      <h3 class="title">SYÖTTÖTILA</h3>
+    </div>
+    <div class="values span-7">
+      <div class="dropdown" style="width:18.9em">
+        <input id="WCCI_INPUT_MODE" value="POIS" readonly="readonly" class="dropdown dropdown_text" style="width:13.5em">
+        <img src="../pics/icon_edit_dropdown_close.png" class="dropdown" onClick="closeAllBoxes(); set_input_mode_options();">
+        <div class="black" style="padding-bottom: 15px; padding-top: 15px; display: block;">
+          
+          <div onClick="wcci_set_input_mode('OFF')">
+            <input id="RADIOVAL_WCCI_INPUT_MODE_OFF" type="radio" alt="POIS" name="WCCI_INPUT_MODE_OFF" value="1" checked="checked">
+            <label for="RADIOVAL_WCCI_INPUT_MODE_1">POIS</label>
+            <br>
+          </div>
+    
+          <div onClick="wcci_set_input_mode('SGREADY')">
+            <input id="RADIOVAL_WCCI_INPUT_MODE_SGREADY" type="radio" alt="SG READY" name="WCCI_INPUT_MODE_SGREADY" value="2" checked="unchecked">
+            <label for="RADIOVAL_WCCI_INPUT_MODE_2">SG READY</label>
+            <br>
+          </div>
+    
+          <div onClick="wcci_set_input_mode('PLLU')">
+            <input id="RADIOVAL_WCCI_INPUT_MODE_PLLU" type="radio" alt="POWER LIMITATION / LOAD UP" name="WCCI_INPUT_MODE_PLLU" value="3" checked="unchecked">
+            <label for="RADIOVAL_WCCI_INPUT_MODE_3">POWER LIMITATION / LOAD UP</label>
+            <br>
+          </div>
+    
+          <div onClick="wcci_set_input_mode('PLFS')">
+            <input id="RADIOVAL_WCCI_INPUT_MODE_PLFS" type="radio" alt="POWER LIMITATION / FULL SHED" name="WCCI_INPUT_MODE_PLFS" value="4" checked="unchecked">
+            <label for="RADIOVAL_WCCI_INPUT_MODE_4">POWER LIMITATION / FULL SHED</label>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="values span-1 append-1"></div>
+    <div class="green round-right span-8 last">
+      <!--<p id="WCCI_INPUT_MODE_INFO"></p>-->
+    </div>
+  </div>
+
+  <!-- INPUT SOURCE -->
+  <div class="calibration round span-24 last" id="cal_input_source">
+    <div id="txt_WCCI_INPUT_SOURCE_OPTION_MODBUS" style="display:none">MODBUS</div>
+    <div id="txt_WCCI_INPUT_SOURCE_OPTION_KNX" style="display:none">KNX</div>
+    <div id="txt_WCCI_INPUT_SOURCE_OPTION_WPM" style="display:none">WPM</div>
+    <div id="txt_WCCI_INPUT_SOURCE_OPTION_ISG" style="display:none">ISG</div>
+    <div id="txt_HTML_AUS_TEXT" style="display:none">POIS</div>
+    
+    <div class="span-7 ialigned" id="EEBUS_INPUT_SOURCE_WRAPPER_LABEL">
+      <h3 class="title">SYÖTÖN LÄHDE</h3>
+    </div>
+    <div class="values span-7" id="EEBUS_INPUT_SOURCE_WRAPPER_VALUE">
+      <div class="dropdown" style="width:18.9em">
+        <input id="WCCI_INPUT_SOURCE" value="ISG" readonly="readonly" class="dropdown dropdown_text" style="width:13.5em">
+        <img src="../pics/icon_edit_dropdown_close.png" class="dropdown" onClick="closeAllBoxes(); set_input_source_options();">
+        <div class="black" style="padding-bottom: 15px; padding-top: 15px; display: block;">
+          <div onClick="wcci_set_input_source('MODBUS')" id="opt_input_source_modbus">
+            <input id="RADIOVAL_WCCI_INPUT_SOURCE_MODBUS" type="radio" alt="MODBUS" name="WCCI_INPUT_SOURCE_MODBUS" value="1">
+            <label for="RADIOVAL_WCCI_INPUT_SOURCE_1">MODBUS</label>
+            <br>
+          </div>
+          <div onClick="wcci_set_input_source('KNX')" id="opt_input_source_knx">
+            <input id="RADIOVAL_WCCI_INPUT_SOURCE_KNX" type="radio" alt="KNX" name="WCCI_INPUT_SOURCE_KNX" value="2">
+            <label for="RADIOVAL_WCCI_INPUT_SOURCE_2">KNX</label>
+            <br>
+          </div>
+          <div onClick="wcci_set_input_source('WPM')" id="opt_input_source_wpm">
+            <input id="RADIOVAL_WCCI_INPUT_SOURCE_WPM" type="radio" alt="WPM" name="WCCI_INPUT_SOURCE_WPM" value="3">
+            <label for="RADIOVAL_WCCI_INPUT_SOURCE_3">WPM</label>
+            <br>
+          </div>
+          <div onClick="wcci_set_input_source('ISG')" id="opt_input_source_isg">
+            <input id="RADIOVAL_WCCI_INPUT_SOURCE_ISG" type="radio" alt="ISG" name="WCCI_INPUT_SOURCE_ISG" value="4">
+            <label for="RADIOVAL_WCCI_INPUT_SOURCE_4">ISG</label>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="values span-1 append-1"></div>
+    <div class="green round-right span-8 last">
+      <!--<p id="WCCI_INPUT_SOURCE_INFO"></p>-->
+    </div>
+  </div>
+
+  <!-- BUFFER -->
+  <div class="calibration round span-24 last" id="cal_buffer">
+    <div id="txt_WCCI_BUFFER_OPTION_NOBUFFER" style="display:none">EI PUSKURIA</div>
+    <div id="txt_WCCI_BUFFER_OPTION_BUFFER" style="display:none">PUSKURI ILMAN SEKOITINTA</div>
+    <div id="txt_WCCI_BUFFER_OPTION_BUFFERWITHMIXER" style="display:none">PUSKURI SEKOITTIMELLA</div>
+    <div class="span-7 ialigned" id="EEBUS_BUFFER_WRAPPER_LABEL">
+      <h3 class="title">LÄMMITYSPUSKURI</h3>
+    </div>
+    <div class="values span-7" id="EEBUS_BUFFER_WRAPPER_VALUE">
+      <div class="dropdown" style="width:18.9em">
+        <input id="WCCI_BUFFER_VALUE" value="LOADING" readonly="readonly" class="dropdown dropdown_text" style="width:13.5em">
+        <img src="../pics/icon_edit_dropdown_close.png" class="dropdown" onClick="closeAllBoxes(); set_buffer_options();">
+        <div class="black" style="padding-bottom: 15px; padding-top: 15px; display: block;">
+          <div onClick="wcci_set_buffer('NOBUFFER')">
+            <input id="RADIOVAL_WCCI_BUFFER_NOBUFFER" type="radio" alt="EI PUSKURIA" name="WCCI_BUFFER_NOBUFFER" value="0" checked="checked">
+            <label for="RADIOVAL_WCCI_BUFFER_1">EI PUSKURIA</label>
+            <br>
+          </div>
+          <div onClick="wcci_set_buffer('BUFFERWITHOUTMIXER')">
+            <input id="RADIOVAL_WCCI_BUFFER_BUFFER" type="radio" alt="PUSKURI ILMAN SEKOITINTA" name="WCCI_BUFFER_BUFFER" value="1">
+            <label for="RADIOVAL_WCCI_BUFFER_2">PUSKURI ILMAN SEKOITINTA</label>
+            <br>
+          </div>
+          <div onClick="wcci_set_buffer('BUFFERWITHMIXER')">
+            <input id="RADIOVAL_WCCI_BUFFER_BUFFERWITHMIXER" type="radio" alt="PUSKURI SEKOITTIMELLA" name="WCCI_BUFFER_BUFFERWMIXER" value="2">
+            <label for="RADIOVAL_WCCI_BUFFER_3">PUSKURI SEKOITTIMELLA</label>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="values span-1 append-1"></div>
+    <div class="green round-right span-8 last" id="INFO">
+      <!--<p id="WCCI_BUFFER_INFO"></p>-->
+    </div>
+  </div>
+
+  <!-- OPERATING MODE -->
+  <div class="calibration round span-24 last" id="cal_operating_mode">
+    <div id="txt_WCCI_OPERATING_MODE_LABEL" style="display:none">TÄMÄNHETKINEN TILA</div>
+    <div id="txt_WCCI_OPERATING_MODE_LABEL_ALT" style="display:none">TOIMINTATILA</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_FULLSHED" style="display:none">ESTETTY</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_FULLSHED_ALT" style="display:none">1 (ESTETTY)</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_NORMALOPERATION" style="display:none">NORMAALI KÄYTTÖ</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_NORMALOPERATION_ALT" style="display:none">2 (NORMAALI KÄYTTÖ)</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_LOADUP" style="display:none">LATAUS</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_LOADUP_ALT" style="display:none">3 (LATAUS)</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_MAXPLOADUP_ALT" style="display:none">4 (MAKS. LATAUSTEHO)</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_POWERLIMITATION" style="display:none">TEHONRAJOITUS</div>
+    <div id="txt_WCCI_OPERATING_MODE_OPTION_NOLIMIT" style="display:none">EI RAJAA</div>
+    <div id="txt_WCCI_NOT_ACTIVE_INFO" style="display:none">Ei-aktiivinen</div>
+    <div class="span-7 ialigned">
+      <h3 class="title" id="WCCI_OPERATING_MODE_LABEL">TÄMÄNHETKINEN TILA</h3>
+    </div>
+    <div class="values span-7 ialigned">
+      <h3 class="values" id="WCCI_OPERATING_MODE_VALUE">TÄMÄNHETKINEN TILA</h3>
+    </div>
+    <div class="values span-1 append-1"></div>
+    <div class="green round-right span-8 last">
+      <!--<p id="WCCI_OPERATING_MODE_INFO"></p>-->
+    </div>
+  </div>
+
+  <!-- POWER LIMITATION-->
+  <div class="calibration round span-24 last" id="caluser_power_limit">
+    <div class="span-7 ialigned" id="wcci_power_limitation_label">
+      <h3 class="title">TEHONRAJOITUS</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('user_power_limit','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <!--<a id="editorslower" onmousedown="change('user_power_limit','-',0,1000,'1',true);return false;" href="javascript://" style="clear:left;">-->
+        <a id="editorslower" onmousedown="change_adapter('user_power_limit','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a></a>
+      </div> 
+      <input type="text" tabindex="1" value="" name="user_power_limit" id="user_power_limit" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_POWER_LIMITATION_UNIT">kW</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_POWER_LIMITATION_INFO"></p>
+    </div>
+  </div>
+
+  <!-- LOAD ROOM TEMP 1 -->
+  
+  <div class="calibration round span-24 last" id="calload_temp_room_1">  
+    <div class="span-7 ialigned" id="WCCI_LOAD_ROOM_TEMP_1_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMITYSPIIRI 1 / PUSKURI</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_room_1','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_room_1','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_room_1" id="load_temp_room_1" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_ROOM_TEMP_1_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_ROOM_TEMP_1_INFO"></p>
+    </div>
+  </div>
+
+  <!-- LOAD ROOM TEMP 2 -->
+  <div class="calibration round span-24 last" id="calload_temp_room_2">
+    <div class="span-7 ialigned" id="WCCI_LOAD_ROOM_TEMP_2_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMITYSPIIRI 2</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_room_2','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_room_2','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_room_2" id="load_temp_room_2" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_ROOM_TEMP_2_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_ROOM_TEMP_2_INFO"></p>
+    </div>
+  </div>
+
+    <!-- LOAD ROOM TEMP 3 -->
+    <div class="calibration round span-24 last" id="calload_temp_room_3">
+    <div class="span-7 ialigned" id="WCCI_LOAD_ROOM_TEMP_3_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMITYSPIIRI 3</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_room_3','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_room_3','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_room_3" id="load_temp_room_3" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_ROOM_TEMP_3_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_ROOM_TEMP_3_INFO"></p>
+    </div>
+  </div>
+
+    <!-- LOAD ROOM TEMP 4 -->
+    <div class="calibration round span-24 last" id="calload_temp_room_4">
+    <div class="span-7 ialigned" id="WCCI_LOAD_ROOM_TEMP_4_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMITYSPIIRI 4</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_room_4','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_room_4','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_room_4" id="load_temp_room_4" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_ROOM_TEMP_4_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_ROOM_TEMP_4_INFO"></p>
+    </div>
+  </div>
+
+    <!-- LOAD ROOM TEMP 5 -->
+    <div class="calibration round span-24 last" id="calload_temp_room_5">
+    <div class="span-7 ialigned" id="WCCI_LOAD_ROOM_TEMP_5_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMITYSPIIRI 5</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_room_5','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_room_5','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_room_5" id="load_temp_room_5" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_ROOM_TEMP_5_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_ROOM_TEMP_5_INFO"></p>
+    </div>
+  </div>
+
+
+  <!-- LOAD BUFFER TEMP -->
+  <div class="calibration round span-24 last" id="calload_temp_buffer">
+    <div class="span-7 ialigned" id="WCCI_LOAD_BUFFER_TEMP_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA PUSKURI</h3>
+    </div>
+    <div class="values span-7" >
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_buffer','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_buffer','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+    <input type="text" tabindex="1" value="" name="load_temp_buffer" id="load_temp_buffer" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_BUFFER_TEMP_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_BUFFER_TEMP_INFO"></p>
+    </div>
+  </div>
+
+  <!-- LOAD DHW TEMP -->
+  <div class="calibration round span-24 last" id="calload_temp_dhw">
+    <div class="span-7 ialigned" id="WCCI_LOAD_DHW_TEMP_LABEL">
+      <h3 class="title">LATAUSLÄMPÖTILA LÄMMIN KÄYTTÖVESI</h3>
+    </div>
+    <div class="values span-7">
+      <div class="editors">
+        <a onmousedown="change_adapter('load_temp_dhw','+');return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+        <a id="editorslower" onmousedown="change_adapter('load_temp_dhw','-');return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+      <input type="text" tabindex="1" value="" name="load_temp_dhw" id="load_temp_dhw" class="edit upndown firstElement" style="width:3.6em">
+    </div>
+    <div class="values span-1 append-1" id="WCCI_LOAD_DHW_TEMP_UNIT">&deg;C</div>
+    <div class="green round-right span-8 last">
+      <p id="WCCI_LOAD_DHW_TEMP_INFO"></p>
+    </div>
+  </div>
+  <!-- SAVE BUTTON -->
+  <div class="span-24 last">
+    <div class="span-4 right">
+      <div class="button left" onclick="save_values();">
+        <div class="bg_r">&nbsp;</div>
+        <a>Tallenna</a>
+      </div>  
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<script type="text/javascript"> 
+  var input_mode ="";     // Speichert den aktuellen Status unabh. der Sprache
+  var input_source = "";  // Speichert den aktuellen Status unabh. der Sprache
+  var buffer = "";       // Speichert den aktuellen Status unabh. der Sprache
+  var controllerVariant = -1;
+  var limitFunctionalityBlocked = false;
+  var showDhw = true;    // Speicher f�r ein Layerobjekt das angibt ob DHW vom Wasser unterst�tzt wird
+                        // Wenn kein DHW unterst�tzt, wird 32768 geliefert.
+  var knxActive = -1;   // Speicher ob KNX im System aktiv ist oder nicht
+                        // 0 = KNX nicht aktiv
+                        // 1 = KNX aktiv
+  var showHk1 = true;   // Speicher ob HK3 angezeigt werden soll
+                        // 32768 = Nicht anzeigen ansonsten anzeigen
+  var showHk2 = true;   // Speicher ob HK3 angezeigt werden soll
+                        // 32768 = Nicht anzeigen ansonsten anzeigen
+  var showHk3 = true;   // Speicher ob HK3 angezeigt werden soll
+                        // 32768 = Nicht anzeigen ansonsten anzeigen
+  var showHk4 = true;   // Speicher ob HK4 angezeigt werden soll
+                        // 32768 = Nicht anzeigen ansonsten anzeigen
+  var showHk5 = true;   // Speicher ob HK5 angezeigt werden soll
+                        // 32768 = Nicht anzeigen ansonsten anzeigen
+  var valSettings = new Array();  
+  var jsvalues = new Array();
+
+  $( document ).ready(function() {
+    //console.log("Start loading wcci data");
+		closeAllBoxes();
+		wcci_loadData();
+  });
+  // window.onload = function() {
+  // 	closeAllBoxes();
+	// 	wcci_loadData();
+  // }
+  /**
+   * L�dt die entsprechenden Daten aus dem Backend und schreibt die Daten in 
+   * die notwendigen Felder. Dabei werden:
+   *   * DOM-Elemente ausgeblendet wenn nicht ben�tigt
+   *   * Labels und Werte umgeschrieben 
+   */
+  function wcci_loadData(include_input_mode = true){
+    var seite = window.location.protocol + "//" + window.location.host + "/external_connections/wcci/wcci_endpoint.php";
+    seite = seite + "?sessionToken=" + getSessionToken();
+    //console.log("[wcci_loaDat] Load data from: " + seite);
+    
+
+    
+
+
+
+
+    var promise =	$.ajax({
+      url: seite,
+      dataType: 'json',
+      timeout: 5000,
+      success: function( data ) {
+        console.log("[loadData] Data: "+  JSON.stringify(data));
+        if (include_input_mode == true){
+          wcci_set_input_mode(data['inputMode'], false);
+          //set_info_empty("WCCI_INPUT_MODE_INFO");
+          input_mode = data['inputMode'];
+        }
+        wcci_set_input_source(data['inputSource'], false);
+        //set_info_empty("WCCI_INPUT_SOURCE_INFO");
+        input_source = data['inputSource'];
+        
+        wcci_set_buffer(data['buffer'], false);
+        //set_info_empty("WCCI_BUFFER_INFO");
+        buffer = data['buffer'];
+
+        wcci_set_operating_mode(data['operatingMode'], data['limitFunctionalityBlocked']);
+        //set_info_empty("WCCI_OPERATING_MODE_INFO");
+
+        // set_value("WCCI_POWER_LIMITATION_VALUE", data['userPowerLimit']);
+        //set_value("user_power_limit", data['userPowerLimit']);
+        set_value_type7("user_power_limit", data['userPowerLimit']);
+        set_info_min_max("WCCI_POWER_LIMITATION_INFO", data['userPowerLimit_min'], data['userPowerLimit_max'] / 100, "kW");
+        valSettings['user_power_limit'] = new Array();
+        valSettings['user_power_limit']['type'] = 'double';       
+        valSettings['user_power_limit']['min'] = data['userPowerLimit_min'];
+        valSettings['user_power_limit']['max'] = data['userPowerLimit_max'] / 100;
+        valSettings['user_power_limit']['increment'] = '0.01';
+        jsvalues['user_power_limit'] = new Array();
+        jsvalues['user_power_limit']['id']= 'user_power_limit';
+        jsvalues['user_power_limit']['val']= data['userPowerLimit'] ;
+        // Grenzen brauchen hier keine Skalierung
+        jsvalues['user_power_limit']['min'] = data['userPowerLimit_min'];
+        jsvalues['user_power_limit']['max'] = data['userPowerLimit_max'];
+     
+
+        // set_temp_value("WCCI_LOAD_ROOM_TEMP_VALUE", data['loadTempRoom']);
+        set_temp_value("load_temp_room_1", data['loadTempRoom_1']);
+        set_info_min_max("WCCI_LOAD_ROOM_TEMP_1_INFO", data['loadTempRoom_1_min'], data['loadTempRoom_1_max'], "&deg;C");
+        valSettings['load_temp_room_1'] = new Array();
+        valSettings['load_temp_room_1']['type'] = 'float';    // ehem float   
+        valSettings['load_temp_room_1']['min'] = data['loadTempRoom_1_min'];
+        valSettings['load_temp_room_1']['max'] = data['loadTempRoom_1_max'];
+        valSettings['load_temp_room_1']['increment'] = '0.1';
+        jsvalues['load_temp_room_1'] = new Array();
+        jsvalues['load_temp_room_1']['id']= 'load_temp_room_1';
+        jsvalues['load_temp_room_1']['val']= data['loadTempRoom_1'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_room_1']['min'] = data['loadTempRoom_1_min'] * 10;
+        jsvalues['load_temp_room_1']['max'] = data['loadTempRoom_1_max'] * 10;
+
+
+        set_temp_value("load_temp_room_2", data['loadTempRoom_2']);
+        set_info_min_max("WCCI_LOAD_ROOM_TEMP_2_INFO", data['loadTempRoom_2_min'], data['loadTempRoom_2_max'], "&deg;C");
+        valSettings['load_temp_room_2'] = new Array();
+        valSettings['load_temp_room_2']['type'] = 'float';       
+        valSettings['load_temp_room_2']['min'] = data['loadTempRoom_2_min'];
+        valSettings['load_temp_room_2']['max'] = data['loadTempRoom_2_max'];
+        valSettings['load_temp_room_2']['increment'] = '0.1';
+        jsvalues['load_temp_room_2'] = new Array();
+        jsvalues['load_temp_room_2']['id']= 'load_temp_room_2';
+        jsvalues['load_temp_room_2']['val']= data['loadTempRoom_2'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_room_2']['min'] = data['loadTempRoom_2_min'] * 10;
+        jsvalues['load_temp_room_2']['max'] = data['loadTempRoom_2_max'] * 10;
+
+
+        set_temp_value("load_temp_room_3", data['loadTempRoom_3']);
+        set_info_min_max("WCCI_LOAD_ROOM_TEMP_3_INFO", data['loadTempRoom_3_min'], data['loadTempRoom_3_max'], "&deg;C");
+        valSettings['load_temp_room_3'] = new Array();
+        valSettings['load_temp_room_3']['type'] = 'float';       
+        valSettings['load_temp_room_3']['min'] = data['loadTempRoom_3_min'];
+        valSettings['load_temp_room_3']['max'] = data['loadTempRoom_3_max'];
+        valSettings['load_temp_room_3']['increment'] = '0.1';
+        jsvalues['load_temp_room_3'] = new Array();
+        jsvalues['load_temp_room_3']['id']= 'load_temp_room_3';
+        jsvalues['load_temp_room_3']['val']= data['loadTempRoom_3'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_room_3']['min'] = data['loadTempRoom_3_min'] * 10;
+        jsvalues['load_temp_room_3']['max'] = data['loadTempRoom_3_max'] * 10;
+
+
+        set_temp_value("load_temp_room_4", data['loadTempRoom_4']);
+        set_info_min_max("WCCI_LOAD_ROOM_TEMP_4_INFO", data['loadTempRoom_4_min'], data['loadTempRoom_4_max'], "&deg;C");
+        valSettings['load_temp_room_4'] = new Array();
+        valSettings['load_temp_room_4']['type'] = 'float';       
+        valSettings['load_temp_room_4']['min'] = data['loadTempRoom_4_min'];
+        valSettings['load_temp_room_4']['max'] = data['loadTempRoom_4_max'];
+        valSettings['load_temp_room_4']['increment'] = '0.1';
+        jsvalues['load_temp_room_4'] = new Array();
+        jsvalues['load_temp_room_4']['id']= 'load_temp_room_4';
+        jsvalues['load_temp_room_4']['val']= data['loadTempRoom_4'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_room_4']['min'] = data['loadTempRoom_4_min'] * 10;
+        jsvalues['load_temp_room_4']['max'] = data['loadTempRoom_4_max'] * 10;
+
+
+        set_temp_value("load_temp_room_5", data['loadTempRoom_5']);
+        set_info_min_max("WCCI_LOAD_ROOM_TEMP_5_INFO", data['loadTempRoom_5_min'], data['loadTempRoom_5_max'], "&deg;C");
+        valSettings['load_temp_room_5'] = new Array();
+        valSettings['load_temp_room_5']['type'] = 'float';       
+        valSettings['load_temp_room_5']['min'] = data['loadTempRoom_5_min'];
+        valSettings['load_temp_room_5']['max'] = data['loadTempRoom_5_max'];
+        valSettings['load_temp_room_5']['increment'] = '0.1';
+        jsvalues['load_temp_room_5'] = new Array();
+        jsvalues['load_temp_room_5']['id']= 'load_temp_room_5';
+        jsvalues['load_temp_room_5']['val']= data['loadTempRoom_5'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_room_5']['min'] = data['loadTempRoom_5_min'] * 10;
+        jsvalues['load_temp_room_5']['max'] = data['loadTempRoom_5_max'] * 10;
+
+
+        // set_temp_value("WCCI_LOAD_BUFFER_TEMP_VALUE", data['loadTempBuffer']);
+        set_temp_value("load_temp_buffer", data['loadTempBuffer']);
+        set_info_min_max("WCCI_LOAD_BUFFER_TEMP_INFO", data['loadTempBuffer_min'], data['loadTempBuffer_max'], "&deg;C");
+        valSettings['load_temp_buffer'] = new Array();
+        valSettings['load_temp_buffer']['type'] = 'float';       
+        valSettings['load_temp_buffer']['min'] = data['loadTempBuffer_min'];
+        valSettings['load_temp_buffer']['max'] = data['loadTempBuffer_max'];
+        valSettings['load_temp_buffer']['increment'] = '0.1';
+        jsvalues['load_temp_buffer'] = new Array();
+        jsvalues['load_temp_buffer']['id']= 'load_temp_buffer';
+        jsvalues['load_temp_buffer']['val']= data['loadTempBuffer'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_buffer']['min'] = data['loadTempBuffer_min'] * 10;
+        jsvalues['load_temp_buffer']['max'] = data['loadTempBuffer_max'] * 10;
+
+
+        set_temp_value("load_temp_dhw", data['loadTempDhw']);
+        set_info_min_max("WCCI_LOAD_DHW_TEMP_INFO", data['loadTempDhw_min'], data['loadTempDhw_max'], "&deg;C");
+        valSettings['load_temp_dhw'] = new Array();
+        valSettings['load_temp_dhw']['type'] = 'float';       
+        valSettings['load_temp_dhw']['min'] = data['loadTempDhw_min'];
+        valSettings['load_temp_dhw']['max'] = data['loadTempDhw_max'];
+        valSettings['load_temp_dhw']['increment'] = '0.1';
+        jsvalues['load_temp_dhw'] = new Array();
+        jsvalues['load_temp_dhw']['id']= 'load_temp_dhw';
+        jsvalues['load_temp_dhw']['val']= data['loadTempDhw'];
+        // Werte nur f�r Bereichspr�fung genutzt. Daher Skalierung um 10.
+        jsvalues['load_temp_dhw']['min'] = data['loadTempDhw_min'] * 10;
+        jsvalues['load_temp_dhw']['max'] = data['loadTempDhw_max'] * 10;
+
+
+        // Bereitstellen des Controller-Typs
+        controllerVariant = data['controllerVariant'];
+        
+        console.log( controllerVariant );
+        if( (controllerVariant == 103) || (controllerVariant == 104) ){
+          hide_input_source_option_wpm();
+        }
+        
+        knxActive = data['knxActive'];
+        if (knxActive == 0) {
+          hide_input_source_option_knx();
+        }
+
+        showDhw = false;
+        if ( data['dhwLayer'] == 1) showDhw = true;
+
+        showHk1 = false;
+        if ( data['showHk1'] == 1) showHk1 = true;
+
+        showHk2 = false;
+        if ( data['showHk2'] == 1) showHk2 = true;
+   
+        showHk3 = false;
+        if ( data['showHk3'] == 1) showHk3 = true;
+
+        showHk4 = false;
+        if ( data['showHk4'] == 1) showHk4 = true;
+   
+        showHk5 = false;
+        if ( data['showHk5'] == 1) showHk5 = true;
+
+
+
+        //console.log("[wcci_loaDat] Received data: " + data);
+        set_dynamisation();
+      },
+       error: function( data ) {
+        console.log("[wcci_loaDat] Error loading backend data");
+        console.log(data);
+      }
+    });
+  }
+
+  function set_input_source_options(){
+    console.log("[set_input_source_options] Need to uncheck all...except: " + input_source);
+
+    var radioval_modbus 	= document.getElementById("RADIOVAL_WCCI_INPUT_SOURCE_MODBUS");
+    if( input_source.localeCompare("MODBUS") != 0){
+      console.log("[set_input_source_options] Set modbus unchecked");
+      if(radioval_modbus) radioval_modbus.checked = false;
+    }else{
+      if(radioval_modbus) radioval_modbus.checked = true;
+    }
+    
+    var radioval_knx		= document.getElementById("RADIOVAL_WCCI_INPUT_SOURCE_KNX");
+    if( input_source.localeCompare("KNX") != 0){
+      if(radioval_knx) radioval_knx.checked = false; 
+    }else{
+      if(radioval_knx) radioval_knx.checked = true;
+    }
+
+    var radioval_isg		= document.getElementById("RADIOVAL_WCCI_INPUT_SOURCE_ISG");
+    if( input_source.localeCompare("ISG") != 0){
+      if (radioval_isg) radioval_isg.checked = false;
+    }else{
+      if (radioval_isg) radioval_isg.checked = true;
+    }
+    
+    if (!(controllerVariant == 103) && !(controllerVariant == 104)){
+      var radioval_wpm		= document.getElementById("RADIOVAL_WCCI_INPUT_SOURCE_WPM");
+      if( input_source.localeCompare("WPM") != 0){
+        if (radioval_wpm) radioval_wpm.checked = false;
+      }else{
+        if (radioval_wpm) radioval_wpm.checked = true;
+      }
+    }
+  }
+
+  /**
+   * @brief 	Behandelt das setzen des Wertes f�r das Dropdown Element inputSource
+   * @param 	value - string - 	 Wert der angezeigt werden soll.
+  */
+  function wcci_set_input_source(v, set_values_changed=true){
+    if( v == "ISG"){
+      //console.log("Input Source; Selected ISG");
+      $('#WCCI_INPUT_SOURCE').val( getLangString( 'txt_WCCI_INPUT_SOURCE_OPTION_ISG' ) );
+      // radioval_isg.checked = true;
+      input_source = "ISG";
+
+    } else if( v == "KNX" ){
+      //console.log("Input Source; Selected KNX");
+      $('#WCCI_INPUT_SOURCE').val( getLangString( 'txt_WCCI_INPUT_SOURCE_OPTION_KNX' ) );
+      // radioval_knx.checked = true;
+      input_source = "KNX";
+
+    } else if (v == "WPM"){
+
+      /* 
+        #52532: Es kann der Fehler aufkommen, dass das Ger�t frisch gestartet wird und die Option WPM
+        dann bereits in das Feld geschrieben werden soll. Wenn man in das Feld klickt, dann sieht man die 
+        Option nicht, aber bei einer LWZ k�nnte dennoch der Wert WPM in das Feld geschrieben werden.
+        L�sung wie beim WPM �bernehmen und dort dann AUS reinschreiben. txt_HTML_AUS_TEXT
+      */
+      if ((controllerVariant == 103) || (controllerVariant == 104))
+      {
+        // Nutze AUS Text bei LWZ, da WPM ja nicht m�gl. lt. RR
+        $('#WCCI_INPUT_SOURCE').val( getLangString( 'txt_HTML_AUS_TEXT' ) );
+      }
+      else
+      {
+        $('#WCCI_INPUT_SOURCE').val( getLangString( 'txt_WCCI_INPUT_SOURCE_OPTION_WPM' ) );
+      }
+      input_source = "WPM";
+
+    } else if (v == "MODBUS"){
+      //console.log("Input Source; Selected MODBUS");
+      $('#WCCI_INPUT_SOURCE').val( getLangString( 'txt_WCCI_INPUT_SOURCE_OPTION_MODBUS' ) );
+      // radioval_modbus.checked = true; 	
+      input_source = "MODBUS";
+    
+    } else {
+      $('#WCCI_INPUT_SOURCE').val( "Error" );
+    }
+    closeAllBoxes();
+    if(set_values_changed == true){
+      valueChanged = true;
+    }
+        
+  }
+
+  /**
+   * Entfernt die Auswahloption das die Input-Signale �ber den WPM kommen.
+   */
+  function hide_input_source_option_wpm(){
+    const test = document.getElementById("opt_input_source_wpm");
+    if(test != null){
+      test.remove();
+    }
+  } 
+
+  /**
+   * Entfernt die Auswahloption das die Input-Signale �ber den KNX kommen.
+   */
+  function hide_input_source_option_knx(){
+    const test = document.getElementById("opt_input_source_knx");
+    if(test != null){
+      test.remove();
+    }
+  }
+
+
+  /**
+   * @brief	Setzt einen Wert f�r den der Typ 7 eingerichtet wurde. 
+   * 
+   * @param elementId string	ID des DOM Elements wo der Wert eingetragen werden soll.
+   * @param value int			Integer-Wert der eingetragen werden soll. 
+   * 							Eigentliche Float Temperatur, Skaliert um den Faktor
+   * 							10 Beispiel: 21,4 Grad => 214  	
+   */
+  function set_value_type7(elementId, value){
+    // TODO: Bei sprache Deutsch m�ssen wir den Punkt durch ein Komma ersetzen.
+    var element = document.getElementById(elementId);	
+    var float_temp = round2(value / 100, 2).toFixed(2);
+    var string_temp = float_temp.toString()
+    element.value = string_temp;
+  }
+  function round2(value, precision) {
+      var multiplier = Math.pow(100, precision || 0);
+      return Math.round(value * multiplier) / multiplier;
+  }
+  /**
+   * @brief	Setzt einen Temperatur Wert f�r ein entsprechendes DOM-Element. 
+   * 
+   * @param elementId string	ID des DOM Elements wo der Wert eingetragen werden soll.
+   * @param value int			Integer-Wert der eingetragen werden soll. 
+   * 							Eigentliche Float Temperatur, Skaliert um den Faktor
+   * 							10 Beispiel: 21,4 Grad => 214  	
+   */
+  function set_temp_value(elementId, value){
+    // TODO: Bei sprache Deutsch m�ssen wir den Punkt durch ein Komma ersetzen.
+    var element = document.getElementById(elementId);	
+    var float_temp = round(value / 10, 1).toFixed(1);
+    var string_temp = float_temp.toString()
+    element.value = string_temp;
+  }
+  function round(value, precision) {
+      var multiplier = Math.pow(10, precision || 0);
+      return Math.round(value * multiplier) / multiplier;
+  }
+
+  /**
+   * @brief Setzt die Hinweise auf entsprechede Min- und Max-Werte die f�r 
+   *        ein Objekt gesetzt werden k�nnen. Setzt dabei voraus das es 
+   * 		  zwei Divs gibt die die Texte txt_HTML_KETTENTEXT2_TEXT1 und 
+   *        txt_HTML_KETTENTEXT2_TEXT2 beinhalten. Wir packen nur die Info dazu
+   * 		  Setzt voraus dass es sich um das Element in welches der Text 
+   *        geschrieben wird um ein einfaches p-Element handelt.
+   * @param {string} elementId - 	Div Element in welches der Text geschrieben wird 
+   * @param {integer} min 		Wert der f�r Min-Grenze angewendet wird.
+   * @param {integer} max			Wert der f�r Max-Grenze angewendet wird.
+   * @param {string} unit 		Einheit die angezeigt werden soll.
+   */
+  function set_info_min_max(elementId, min, max, unit){
+    var element = document.getElementById(elementId);
+    var text  = getLangString( 'txt_HTML_KETTENTEXT2_TEXT1' );
+        text += '<br>';
+      text += min + " " + unit + " ";
+      text += getLangString( 'txt_HTML_KETTENTEXT2_TEXT2' ) + " ";
+      text += max + " " + unit;
+    element.innerHTML = text;
+  }
+
+  function set_info_empty(elementId){
+    var element = document.getElementById(elementId);
+    element.innerHTML = "";
+  }
+
+  /**
+   * @brief	Setzt einen direkten Integer Wert f�r ein entsprechendes DOM-Element. 
+   * 
+   * @param elementId string	ID des DOM Elements wo der Wert eingetragen werden soll.
+   * @param value int/string			Integer-Wert der eingetragen werden soll.   	
+   */
+  function set_value(elementId, value){
+    var element = document.getElementById(elementId);
+    var string_val = value.toString()
+    element.value = string_val;
+  }
+
+  /**
+   * @brief   F�r alle Optionspunkte des Inputs Mode, werden deren Auswahlpunkt abgew�hlt.
+   */
+  function set_input_mode_options(){
+    console.log("[set_input_mode_options] Need to uncheck all...except: " + input_mode);
+    var radioval_off = document.getElementById("RADIOVAL_WCCI_INPUT_MODE_OFF");
+    if( input_mode.localeCompare("OFF") != 0){
+      if (radioval_off) radioval_off.checked = false;
+    } else {
+      if (radioval_off) radioval_off.checked = true;
+    }
+
+    var radioval_sgready = document.getElementById("RADIOVAL_WCCI_INPUT_MODE_SGREADY");
+    if( input_mode.localeCompare("SGREADY") != 0){
+      if (radioval_sgready) radioval_sgready.checked = false;
+    } else {
+      if (radioval_sgready) radioval_sgready.checked = true;
+    }
+    
+    var radioval_pllu = document.getElementById("RADIOVAL_WCCI_INPUT_MODE_PLLU");
+    if( input_mode.localeCompare("PLLU") != 0){
+      if (radioval_pllu) radioval_pllu.checked = false;
+    }else{
+      if (radioval_pllu) radioval_pllu.checked = true;
+    }
+
+    var radioval_plfs = document.getElementById("RADIOVAL_WCCI_INPUT_MODE_PLFS");
+    if( input_mode.localeCompare("PLFS") != 0){
+      if (radioval_plfs) radioval_plfs.checked = false;
+    }else{
+      if (radioval_plfs) radioval_plfs.checked = true;
+    }
+  }
+
+  /**
+   * @brief 	Behandelt das setzen des Wertes f�r das Dropdown Element inputMode
+   * @param 	value - string - 	 Wert der angezeigt werden soll.
+   */
+  function wcci_set_input_mode(v, set_values_changed=true){
+    if( v == "OFF"){
+      $('#WCCI_INPUT_MODE').val( getLangString( 'txt_WCCI_INPUT_MODE_OPTION_OFF' ) );
+      input_mode = "OFF";
+    } else if( v == "SGREADY" ){
+      $('#WCCI_INPUT_MODE').val( getLangString( 'txt_WCCI_INPUT_MODE_OPTION_SGREADY' ) );
+      input_mode = "SGREADY";
+    } else if (v == "PLFS"){
+      $('#WCCI_INPUT_MODE').val( getLangString( 'txt_WCCI_INPUT_MODE_OPTION_PLFS' ) );
+      input_mode = "PLFS";
+    } else if (v == "PLLU"){
+      $('#WCCI_INPUT_MODE').val( getLangString( 'txt_WCCI_INPUT_MODE_OPTION_PLLU' ) );
+      input_mode = "PLLU";
+    } else {
+      $('#WCCI_INPUT_MODE').val( "Error" );
+    }
+    closeAllBoxes();
+    wcci_loadData(false);
+    set_dynamisation();
+    if(set_values_changed == true){
+      valueChanged = true;
+    }
+  }
+
+  function set_buffer_options(){
+    console.log("[set_buffer_options] Need to uncheck all...except: " + buffer);
+    
+    var radioval_nobuffer 			 = document.getElementById("RADIOVAL_WCCI_BUFFER_NOBUFFER");
+    if(buffer.localeCompare("NOBUFFER") != 0 ){
+      if (radioval_nobuffer) radioval_nobuffer.checked = false;
+    }else {
+      if (radioval_nobuffer) radioval_nobuffer.checked = true;
+    }
+    
+    var radioval_buffer				   = document.getElementById("RADIOVAL_WCCI_BUFFER_BUFFER");
+    if(buffer.localeCompare("BUFFERWITHOUTMIXER") != 0 ){
+      if (radioval_buffer) radioval_buffer.checked = false;
+    }else{
+      if (radioval_buffer) radioval_buffer.checked = true;
+    }
+    
+    var radioval_bufferwithmixer = document.getElementById("RADIOVAL_WCCI_BUFFER_BUFFERWITHMIXER");
+    if(buffer.localeCompare("BUFFERWITHMIXER") != 0){
+      if (radioval_bufferwithmixer) radioval_bufferwithmixer.checked = false;
+    }else{
+      if (radioval_bufferwithmixer) radioval_bufferwithmixer.checked = true;
+    }
+    
+  }
+
+  /**
+   * @brief 	Behandelt das setzen eines neuen Wertes f�r die Dropdown-Element 
+   * 			des Puffers.	
+   * @param 	value - string - 	 Wert der angezeigt werden soll.
+   */
+  function wcci_set_buffer(v, set_values_changed=true){
+    if (v.localeCompare("NOBUFFER") == 0){
+      $('#WCCI_BUFFER_VALUE').val( getLangString( 'txt_WCCI_BUFFER_OPTION_NOBUFFER' ) );
+      buffer = "NOBUFFER";
+
+    //} else if( v == "BUFFER" ){
+    } else if( v.localeCompare("BUFFERWITHOUTMIXER") == 0 ){
+      $('#WCCI_BUFFER_VALUE').val( getLangString( 'txt_WCCI_BUFFER_OPTION_BUFFER' ) );
+      buffer = "BUFFERWITHOUTMIXER";
+
+    } else if (v.localeCompare("BUFFERWITHMIXER") == 0){
+      $('#WCCI_BUFFER_VALUE').val( getLangString( 'txt_WCCI_BUFFER_OPTION_BUFFERWITHMIXER' ) );
+      buffer = "BUFFERWITHMIXER";
+    } else {
+      $('#WCCI_BUFFER_VALUE').val( "Error" );
+    }
+    closeAllBoxes();
+    set_dynamisation();
+    if(set_values_changed == true){
+      valueChanged = true;
+    }
+  }
+
+  /**
+   * @brief 	Behandelt das setzen des Wertes f�r die aktuelle Funktion die zum
+   * 			WPM gegeben wird. Wird nicht nur abh�ngig des entsprechenden Wertes
+   * 			gesetzt, sondern auch abh�ngig vom Modus (SG-Ready nutzt andere 
+   * 			Text YYYAAAAYYYY).
+   * @param 	v - string - 	 Aktuelle angewendete Funktion.
+   */
+  function wcci_set_operating_mode(requestedLimitation, limitFunctionalityBlocked){
+    if (limitFunctionalityBlocked){
+      $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_NOT_ACTIVE_INFO' ) );
+      return;
+    }
+    if (input_mode == "SGREADY"){
+      // Sonderbehandlung mit alternativen Textes
+      heading = document.getElementById("WCCI_OPERATING_MODE_LABEL");
+      heading.innerHTML = getLangString("txt_WCCI_OPERATING_MODE_LABEL_ALT");
+      //$('#WCCI_OPERATING_MODE_LABEL').innerHTML(getLangString("txt_WCCI_OPERATING_MODE_LABEL_ALT"));
+      if (requestedLimitation == "NO_LIMITATION"){
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_NOLIMIT' ) );
+      } else if (requestedLimitation == "FULL_SHED") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_FULLSHED_ALT' ) );
+      } else if (requestedLimitation == "POWER_LIMITATION") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_POWERLIMITATION' ) );
+      } else if (requestedLimitation == "MAXP_LOAD_UP") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_MAXPLOADUP_ALT' ) );
+      } else if (requestedLimitation == "LOAD_UP") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_LOADUP_ALT' ) );
+      } else {
+        $('#WCCI_OPERATING_MODE_VALUE').text( 'ERROR' );
+      }
+    } else {
+      //console.log("[wcci_setOpeMod] Setting to non SG_Ready config");
+      $('#WCCI_OPERATING_MODE_LABEL').text( getLangString("txt_WCCI_OPERATING_MODE_LABEL") );
+      if (requestedLimitation == "NO_LIMITATION"){
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_NOLIMIT' ) );
+      } else if (requestedLimitation == "FULL_SHED") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_FULLSHED' ) );
+      } else if (requestedLimitation == "POWER_LIMITATION") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_POWERLIMITATION' ) );
+      } else if (requestedLimitation == "MAXP_LOAD_UP") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_MAXPLOADUP' ) );
+      } else if (requestedLimitation == "LOAD_UP") {
+        $('#WCCI_OPERATING_MODE_VALUE').text( getLangString( 'txt_WCCI_OPERATING_MODE_OPTION_LOADUP' ) );
+      } else {
+        $('#WCCI_OPERATING_MODE_VALUE').text( 'ERROR' );
+      }
+    }
+  }
+
+  /**
+   * Adapterfunktion f�r die Funktion change() aus der Scripts.js.
+   * Diese Funktion liest f�r das Objekt (id) noch die Min- und Max-Grenzen und
+   * das entsprechende Inkrement aus. Somit spart man sich das dann im HTML...
+   * Somit spart man sich das im
+   *          id               what  min  max   increment   ???
+   * change('user_power_limit','-'  ,0,   1000, '1',        true) 
+   * 
+   * Die entsprechenden Werte werden beim Laden der Seite gesetzt. 'id' muss mit 
+   * den in valSettings und jsvalues definierten Objekten �bereinstimmen.
+   */
+  function change_adapter(id, what){
+          //Value Direction
+    change( id,   what,     valSettings[id]['min'], valSettings[id]['max'], valSettings[id]['increment'], true);
+  }
+
+  /**
+   * Setzt die entsprechende Dynamisierung der Element auf der Seite.
+   */
+  function set_dynamisation(){
+    div_input_mode = document.getElementById("cal_input_mode");
+    div_input_source = document.getElementById("cal_input_source");
+    div_buffer = document.getElementById("cal_buffer");
+    div_operating_mode = document.getElementById("cal_operating_mode");
+    div_user_power_limit = document.getElementById("caluser_power_limit");
+    div_load_temp_room_1 = document.getElementById("calload_temp_room_1");
+    div_load_temp_room_2 = document.getElementById("calload_temp_room_2");
+    div_load_temp_room_3 = document.getElementById("calload_temp_room_3");
+    div_load_temp_room_4 = document.getElementById("calload_temp_room_4");
+    div_load_temp_room_5 = document.getElementById("calload_temp_room_5");
+    div_load_temp_buffer = document.getElementById("calload_temp_buffer");
+    div_load_temp_dhw = document.getElementById("calload_temp_dhw");
+    
+ 
+        
+    if (input_mode == "OFF") {
+      //console.log("[set_dynamisation] -> OFF");
+      div_input_source.style.display = "none";
+      div_buffer.style.display = "none";
+      div_operating_mode.style.display = "none";
+      div_user_power_limit.style.display = "none";
+      div_load_temp_room_1.style.display = "none";
+      div_load_temp_room_2.style.display = "none";
+      div_load_temp_room_3.style.display = "none";
+      div_load_temp_room_4.style.display = "none";
+      div_load_temp_room_5.style.display = "none";
+      div_load_temp_buffer.style.display = "none";
+      div_load_temp_dhw.style.display = "none";
+
+    } else if (input_mode == "SGREADY") {
+      //console.log("[set_dynamisation] -> SGREADY");
+      div_input_source.style.display = "block";
+      div_buffer.style.display = "block";
+      div_operating_mode.style.display = "block";
+      div_user_power_limit.style.display = "none";
+      
+
+      //div_load_temp_room_1.style.display = "block";
+      //div_load_temp_buffer.style.display = "block";
+      if (showHk2) {
+        div_load_temp_room_2.style.display = "block";
+      }else{
+        div_load_temp_room_2.style.display = "none";
+      }
+      if (showHk3) {
+        div_load_temp_room_3.style.display = "block";
+      }else{
+        div_load_temp_room_3.style.display = "none";
+      }
+      if (showHk4) {
+        div_load_temp_room_4.style.display = "block";
+      } else {
+        div_load_temp_room_4.style.display = "none";
+      }
+      if (showHk5) {
+        div_load_temp_room_5.style.display = "block";
+      } else {
+        div_load_temp_room_5.style.display = "none";
+      }
+
+      if (showDhw){
+        div_load_temp_dhw.style.display = "block";
+      }else{
+        div_load_temp_dhw.style.display = "none";
+      }
+
+      if (buffer.localeCompare("NOBUFFER") == 0) {
+        div_load_temp_room_1.style.display = "block";
+        div_load_temp_buffer.style.display = "none";
+      } else if (buffer.localeCompare("BUFFERWITHOUTMIXER") == 0) {
+        div_load_temp_room_1.style.display = "block";
+        div_load_temp_buffer.style.display = "none";
+      } else if (buffer.localeCompare("BUFFERWITHMIXER") == 0) {
+        div_load_temp_room_1.style.display = "none";
+        div_load_temp_buffer.style.display = "block";
+      } else {
+        console.log("[Dynamisation] Error: Unknown buffer state");
+      }
+
+
+
+    } else if (input_mode == "PLFS") {
+      //console.log("[set_dynamisation] -> PLFS");
+      div_input_source.style.display = "block";
+      div_buffer.style.display = "none";
+      div_operating_mode.style.display = "block";
+      div_user_power_limit.style.display = "block";
+      div_load_temp_room_1.style.display = "none";
+      div_load_temp_room_2.style.display = "none";
+      div_load_temp_room_3.style.display = "none";
+      div_load_temp_room_4.style.display = "none";
+      div_load_temp_room_5.style.display = "none";
+      div_load_temp_buffer.style.display = "none";
+      div_load_temp_dhw.style.display = "none";
+
+    } else if (input_mode == "PLLU") {
+      //console.log("[set_dynamisation] -> PLLU");
+      div_input_source.style.display = "block";
+      div_buffer.style.display = "block";
+      div_operating_mode.style.display = "block";
+      div_user_power_limit.style.display = "block";
+
+      if (showHk2) {
+        div_load_temp_room_2.style.display = "block";
+      }else{
+        div_load_temp_room_2.style.display = "none";
+      }
+      if (showHk3) {
+        div_load_temp_room_3.style.display = "block";
+      }else{
+        div_load_temp_room_3.style.display = "none";
+      }
+      if (showHk4) {
+        div_load_temp_room_4.style.display = "block";
+      } else {
+        div_load_temp_room_4.style.display = "none";
+      }
+      if (showHk5) {
+        div_load_temp_room_5.style.display = "block";
+      } else {
+        div_load_temp_room_5.style.display = "none";
+      }
+      if (showDhw){
+        div_load_temp_dhw.style.display = "block";
+      }else{
+        div_load_temp_dhw.style.display = "none";
+      }
+      
+      if (buffer.localeCompare("NOBUFFER") == 0) {
+        div_load_temp_room_1.style.display = "block";
+        div_load_temp_buffer.style.display = "none";
+      } else if (buffer.localeCompare("BUFFERWITHOUTMIXER") == 0) {
+        div_load_temp_room_1.style.display = "block";
+        div_load_temp_buffer.style.display = "none";
+      } else if (buffer.localeCompare("BUFFERWITHMIXER") == 0) {
+        div_load_temp_room_1.style.display = "none";
+        div_load_temp_buffer.style.display = "block";
+      } else {
+        console.log("[Dynamisation] Error: Unknown buffer state");
+      }
+
+    }
+  }
+
+  function getSessionToken(){
+	/**
+	 * L�dt von der Webseite das Session-Token und gibt dieses als String zur�ck.
+	 * Das Session-Token muss als Authentification bei Backend-Call mitgegeben 
+	 * werden.
+	 * Ist das Token nicht vorhanden wird ein leerer String zur�ck gegeben.
+	 */
+	  if ($( "#sessionToken" ).length){
+		  return $( "#sessionToken" ).text();
+	  } else {
+		  return "";
+  	}
+  }
+
+  /**
+   * Sammelt die entsprechenden Daten wieder ein und sendet diese zum Backend...
+   */
+  function save_values(){
+    let data = {
+      "sessionToken": getSessionToken(),
+      "inputMode": input_mode,
+      "inputSource": input_source,
+      "buffer": buffer,
+      "userPowerLimit": parseInt(getValue("user_power_limit",'') * 100),
+      "loadTempRoom_1": parseInt(parseFloat(getValue("load_temp_room_1",'')) * 10),
+      "loadTempRoom_2": parseInt(parseFloat(getValue("load_temp_room_2",'')) * 10),
+      "loadTempRoom_3": parseInt(parseFloat(getValue("load_temp_room_3",'')) * 10),
+      "loadTempRoom_4": parseInt(parseFloat(getValue("load_temp_room_4",'')) * 10),
+      "loadTempRoom_5": parseInt(parseFloat(getValue("load_temp_room_5",'')) * 10),
+      "loadTempBuffer": parseInt(parseFloat(getValue("load_temp_buffer",'')) * 10),
+      "loadTempDhw": parseInt(parseFloat(getValue("load_temp_dhw",'')) * 10)
+    };
+
+
+    // Validierung der zu sendenden Daten
+    let error = false
+    if (!(jsvalues['user_power_limit']['min'] <= data["userPowerLimit"]) || !(jsvalues['user_power_limit']['max'] >= data["userPowerLimit"])){
+      console.log("[save_values] OOB user_power_limit")
+      error = true;
+    } 
+    if (!(jsvalues['load_temp_room_1']['min'] <= data["loadTempRoom_1"]) || !(jsvalues['load_temp_room_1']['max'] >= data["loadTempRoom_1"])){ 
+      console.log("[save_values] OOB load_temp_room_1:" + jsvalues['load_temp_room_1']['min'] +" <= " + data["loadTempRoom_1"] + "<= " + jsvalues['load_temp_room_1']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_room_2']['min'] <= data["loadTempRoom_2"]) || !(jsvalues['load_temp_room_2']['max'] >= data["loadTempRoom_2"])){ 
+      console.log("[save_values] OOB load_temp_room_2:" + jsvalues['load_temp_room_2']['min'] +" <= " + data["loadTempRoom_2"] + "<= " + jsvalues['load_temp_room_2']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_room_3']['min'] <= data["loadTempRoom_3"]) || !(jsvalues['load_temp_room_3']['max'] >= data["loadTempRoom_3"])){ 
+      console.log("[save_values] OOB load_temp_room_3:" + jsvalues['load_temp_room_3']['min'] +" <= " + data["loadTempRoom_3"] + "<= " + jsvalues['load_temp_room_3']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_room_4']['min'] <= data["loadTempRoom_4"]) || !(jsvalues['load_temp_room_4']['max'] >= data["loadTempRoom_4"])){ 
+      console.log("[save_values] OOB load_temp_room_4:" + jsvalues['load_temp_room_4']['min'] +" <= " + data["loadTempRoom_4"] + "<= " + jsvalues['load_temp_room_4']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_room_5']['min'] <= data["loadTempRoom_5"]) || !(jsvalues['load_temp_room_5']['max'] >= data["loadTempRoom_5"])){ 
+      console.log("[save_values] OOB load_temp_room_5:" + jsvalues['load_temp_room_5']['min'] +" <= " + data["loadTempRoom_5"] + "<= " + jsvalues['load_temp_room_5']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_buffer']['min'] <= data["loadTempBuffer"]) || !(jsvalues['load_temp_buffer']['max'] >= data["loadTempBuffer"])){ 
+      console.log("[save_values] OOB load_temp_buffer:" + jsvalues['load_temp_buffer']['min'] +" <= " + data["loadTempBuffer"] + "<= " + jsvalues['load_temp_buffer']['max'])
+      error = true;
+    }
+    if (!(jsvalues['load_temp_dhw']['min'] <= data["loadTempDhw"]) || !(jsvalues['load_temp_dhw']['max'] >= data["loadTempDhw"])){ 
+      console.log("[save_values] OOB load_temp_dhw:" + jsvalues['load_temp_dhw']['min'] +" <= " + data["loadTempDhw"] + "<= " + jsvalues['load_temp_dhw']['max'])
+      error = true;
+    }
+    if (error){
+      var params = "?msg=";
+      params += "&amp;KeepThis=true&amp;TB_iframe=true&amp;height=140&amp;width=420";
+      var page = "./error.php";
+      tb_show('', page+params);
+      return;
+    }
+    
+    const url = window.location.protocol + "//" + window.location.host + "/external_connections/wcci/wcci_endpoint.php";
+    // Options for the fetch request
+    const options = {
+      method: 'POST', // HTTP method
+      headers: {
+        'Content-Type': 'application/json' // Specify the content type
+      },
+      body: JSON.stringify(data) // Convert the data to a JSON string
+    };
+    // Sending the POST request
+    elem = document.getElementById("backend_error");
+    
+    fetch(url, options).then(response => {
+      if (response.ok) {
+        // Handle successful response
+        elem.style.display = "none";
+        //console.log('[save_values] Success:', response.status); // e.g., 200
+        valueChanged = false;
+        var params = "?msg=";
+        params += "&amp;KeepThis=true&amp;TB_iframe=true&amp;height=140&amp;width=420";
+        var page = "./confirm.php";
+        tb_show('', page+params);
+      } else {
+        elem.style.display = "block";
+        // Handle different HTTP status codes
+        switch (response.status) {              
+          case 400:
+            console.error('[save_values] Bad Request');
+            break;
+          case 401:
+            console.error('[save_values] Unauthorized');
+            break;
+          case 403:
+            console.error('[save_values] Forbidden');
+            break;
+          case 404:
+            console.error('[save_values] Not Found');
+            break;
+          case 500:
+            console.error('[save_values] Internal Server Error');
+            break;
+          default:
+            console.error('[save_values] Unexpected status code:', response.status);
+        }
+      }
+    })
+    .catch(error => console.error('[save_values] Error:', error)); // 
+  }
+</script> 
+
+    </div>  </form></div>
+</div>
+</div>
+</div>
+<div id="footer">
+	<!--[if IE]>
+	<style type="text/css">
+	#footer
+{
+		
+		height:260px;
+}
+	#versionsNummer
+	{
+		position:relative;
+		top:-33px;
+	}
+	</style>
+
+     	<![endif]-->
+	<div class="span-24 last footer_middle curdef">
+	
+		<div class="span-8 prepend-top" style="height:145px">
+					</div>
+	  
+    
+	</div>
+  <div class="links span-23 prepend-top append-1 last footer_middle">
+    <div class="span-17">
+        		<a class="intern" href="?forcepage=dsgvo" onclick="return checkChanges(this);">Tietosuoja</a>
+				
+		<a href="http://www.stiebel-eltron.com/en/info/imprint.html">Impressum</a>
+      &nbsp;
+      <p style="margin-top:8px" class="right" id="versionsNummer">1.4.00.0040</p>
+    </div>
+  	<div class="copyright span-6 last curdef">
+  		&copy; STIEBEL ELTRON 2025  	</div>
+  </div>
+</div>
+</body>
+</html>

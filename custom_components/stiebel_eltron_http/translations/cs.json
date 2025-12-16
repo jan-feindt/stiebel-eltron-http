@@ -187,6 +187,45 @@
             },
             "inverter_current": {
                 "name": "PROUD INVERTORU"
+            },
+            "wcci_input_mode": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+            },
+            "wcci_input_source": {
+                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+            },
+            "wcci_buffer": {
+                "name": "OVLIVNĚNÍ VÝKONU AKUMULAČNÍ ZÁSOBNÍK TOPENÍ"
+            },
+            "wcci_operating_mode": {
+                "name": "OVLIVNĚNÍ VÝKONU AKTUÁLNÍ STAV"
+            },
+            "wcci_user_power_limit": {
+                "name": "OVLIVNĚNÍ VÝKONU OMEZENÍ VÝKONU"
+            },
+            "wcci_load_temp_room_1": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 1 / AK. NÁDRŽ"
+            },
+            "wcci_load_temp_room_2": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 2"
+            },
+            "wcci_load_temp_room_3": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 3"
+            },
+            "wcci_load_temp_room_4": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 4"
+            },
+            "wcci_load_temp_room_5": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 5"
+            },
+            "wcci_load_temp_buffer": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ AK. NÁDRŽ"
+            },
+            "wcci_load_temp_dhw": {
+                "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TEPLÁ VODA"
+            },
+            "wcci_limit_functionality_blocked": {
+                "name": "OVLIVNĚNÍ VÝKONU LIMITIERUNGSFUNKTION BLOCKIERT"
             }
         },
         "binary_sensor": {
