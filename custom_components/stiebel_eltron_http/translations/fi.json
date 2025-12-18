@@ -1,240 +1,285 @@
 {
-    "config": {
-        "step": {
-            "user": {
-                "data": {
-                    "host": "Host"
-                },
-                "data_description": {
-                    "host": "Stiebel Eltron ISG -laitteen isäntänimi tai IP-osoite."
-                }
-            }
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host"
         },
-        "error": {
-            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
-            "unknown": "[%key:common::config_flow::error::unknown%]"
-        },
-        "abort": {
-            "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
-            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
-            "unknown": "[%key:common::config_flow::error::unknown%]"
+        "data_description": {
+          "host": "Stiebel Eltron ISG -laitteen isäntänimi tai IP-osoite."
         }
+      }
     },
-    "title": "Stiebel Eltron ISG",
-    "entity": {
-        "sensor": {
-            "actual_buffer_temperature": {
-                "name": "PUSKURIV TOSILÄMPÖT"
-            },
-            "actual_temperature_hk_1": {
-                "name": "TOSILÄMPÖT HK 1"
-            },
-            "actual_temperature_hk_2": {
-                "name": "TOSILÄMPÖT HK 2"
-            },
-            "compressor_inlet_temperature": {
-                "name": "KOMPRESSORIN TULOLÄMPÖTILA"
-            },
-            "compressor_speed_actual": {
-                "name": "KOMPR TOD. KÄYNTINOP"
-            },
-            "compressor_speed_target": {
-                "name": "OHJEPYÖRNOP KOMPR"
-            },
-            "condenser_temperature": {
-                "name": "KONDENS LÄMPÖT"
-            },
-            "dhw_consumed_today": {
-                "name": "LÄMMINVESI 1-24 h"
-            },
-            "dhw_temperature": {
-                "name": "TOSILÄMPÖT"
-            },
-            "efficiency_dhw_13_24m": {
-                "name": "LÄMMINVESI 13-24 M"
-            },
-            "efficiency_heating_13_24m": {
-                "name": "LÄMMITYS 13-24 M"
-            },
-            "evaporator_inlet_temperature": {
-                "name": "HÖYRYSTIMEN TULOLÄMPÖTILA"
-            },
-            "evaporator_outlet_temperature": {
-                "name": "HÖYRYSTIMEN LÄHTÖLÄMPÖTILA"
-            },
-            "external_actual_temperature": {
-                "name": "TOSILÄMPÖT"
-            },
-            "external_set_temperature": {
-                "name": "OHJELÄMPÖTILA"
-            },
-            "fan_power_relative": {
-                "name": "PUHALTIMEN TEHO SUHTEELLINEN"
-            },
-            "frost_protection_temperature": {
-                "name": "JÄÄTYMISESTO"
-            },
-            "heating_consumed_today": {
-                "name": "LÄMMITYS 1-24 h"
-            },
-            "high_pressure": {
-                "name": "PAINE KORKEAP"
-            },
-            "hot_gas_temperature": {
-                "name": "KUUMAKAASULÄMPÖT"
-            },
-            "inverter_current": {
-                "name": "VIRTA INVERTTERI"
-            },
-            "inverter_power": {
-                "name": "INVERTER POWER"
-            },
-            "inverter_power_input": {
-                "name": "SUORITUSKYKY INVERTTERI"
-            },
-            "inverter_voltage": {
-                "name": "JÄNNITE INVERTTERI"
-            },
-            "lower_limit_hzg": {
-                "name": "KÄYT ALARAJA HZG"
-            },
-            "lower_limit_ww": {
-                "name": "KÄYTÖN ALARAJA WW"
-            },
-            "low_pressure": {
-                "name": "PAINE ALAPAINE"
-            },
-            "oil_sump_temperature": {
-                "name": "ÖLJYKAMMION LÄMPÖT"
-            },
-            "outside_temperature": {
-                "name": "ULKOLÄMPÖTILA"
-            },
-            "return_temperature": {
-                "name": "PALUUVIRT LÄMPÖT"
-            },
-            "set_buffer_temperature": {
-                "name": "PUSKURIV OHJELÄMPÖT"
-            },
-            "set_temperature_hk_1": {
-                "name": "OHJELÄMPÖT HK 1"
-            },
-            "set_temperature_hk_2": {
-                "name": "OHJELÄMPÖT HK 2"
-            },
-            "start_operation_mode": {
-                "name": "Käyttötapa"
-            },
-            "supply_temperature": {
-                "name": "MENOVIRT LÄMPÖT"
-            },
-            "total_dhw_consumed": {
-                "name": "LÄMMINVESI 1-12 M"
-            },
-            "total_heating_consumed": {
-                "name": "LÄMMITYS 1-12 M"
-            },
-            "water_flow": {
-                "name": "WP VEDEN TILAVUUSVIRTA"
-            },
-            "efficiency_heating_today": {
-                "name": "LÄMMITYS 1-24 h"
-            },
-            "efficiency_heating_1_12m": {
-                "name": "LÄMMITYS 1-12 M"
-            },
-            "efficiency_dhw_today": {
-                "name": "LÄMMINVESI 1-24 h"
-            },
-            "efficiency_dhw_1_12m": {
-                "name": "LÄMMINVESI 1-12 M"
-            },
-            "heat_produced_today": {
-                "name": "LÄMMITYS 1-24 h"
-            },
-            "total_heat_produced": {
-                "name": "LÄMMITYS 1-12 M"
-            },
-            "dhw_produced_today": {
-                "name": "LÄMMINVESI 1-24 h"
-            },
-            "total_dhw_produced": {
-                "name": "LÄMMINVESI 1-12 M"
-            },
-            "runtime_vd_defrost": {
-                "name": "VD SULATUS"
-            },
-            "defrost_time": {
-                "name": "SULATUSAIKA"
-            },
-            "runtime_vd_heating": {
-                "name": "VD LÄMM"
-            },
-            "runtime_vd_dhw": {
-                "name": "VD LÄMMINV"
-            },
-            "defrost_starts": {
-                "name": "SUL KÄYNN"
-            },
-            "compressor_starts": {
-                "name": "KOMPRESSORI"
-            },
-            "dhw_set_temperature": {
-                "name": "OHJELÄMPÖTILA"
-            },
-            "dual_mode_temp_hzg": {
-                "name": "KYTKENTÄLÄMPÖT HZG"
-            },
-            "dual_mode_temp_ww": {
-                "name": "KYTKENTÄLÄMPÖT WW"
-            },
-            "wcci_input_mode": {
-                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
-            },
-            "wcci_input_source": {
-                "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
-            },
-            "wcci_buffer": {
-                "name": "VAIKUTUS TEHOON LÄMMITYSPUSKURI"
-            },
-            "wcci_operating_mode": {
-                "name": "VAIKUTUS TEHOON TÄMÄNHETKINEN TILA"
-            },
-            "wcci_user_power_limit": {
-                "name": "VAIKUTUS TEHOON TEHONRAJOITUS"
-            },
-            "wcci_load_temp_room_1": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 1 / PUSKURI"
-            },
-            "wcci_load_temp_room_2": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 2"
-            },
-            "wcci_load_temp_room_3": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 3"
-            },
-            "wcci_load_temp_room_4": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 4"
-            },
-            "wcci_load_temp_room_5": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 5"
-            },
-            "wcci_load_temp_buffer": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA PUSKURI"
-            },
-            "wcci_load_temp_dhw": {
-                "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMIN KÄYTTÖVESI"
-            },
-            "wcci_limit_functionality_blocked": {
-                "name": "VAIKUTUS TEHOON LIMITIERUNGSFUNKTION BLOCKIERT"
-            }
-        },
-        "binary_sensor": {
-            "start_portal_ok": {
-                "name": "Portal Connected"
-            },
-            "start_system_ok": {
-                "name": "System OK"
-            }
-        }
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
     }
+  },
+  "title": "Stiebel Eltron ISG",
+  "entity": {
+    "sensor": {
+      "actual_buffer_temperature": {
+        "name": "PUSKURIV TOSILÄMPÖT"
+      },
+      "actual_temperature_hk_1": {
+        "name": "TOSILÄMPÖT HK 1"
+      },
+      "actual_temperature_hk_2": {
+        "name": "TOSILÄMPÖT HK 2"
+      },
+      "compressor_inlet_temperature": {
+        "name": "KOMPRESSORIN TULOLÄMPÖTILA"
+      },
+      "compressor_speed_actual": {
+        "name": "KOMPR TOD. KÄYNTINOP"
+      },
+      "compressor_speed_target": {
+        "name": "OHJEPYÖRNOP KOMPR"
+      },
+      "condenser_temperature": {
+        "name": "KONDENS LÄMPÖT"
+      },
+      "dhw_consumed_today": {
+        "name": "LÄMMINVESI 1-24 h"
+      },
+      "dhw_temperature": {
+        "name": "TOSILÄMPÖT"
+      },
+      "efficiency_dhw_13_24m": {
+        "name": "LÄMMINVESI 13-24 M"
+      },
+      "efficiency_heating_13_24m": {
+        "name": "LÄMMITYS 13-24 M"
+      },
+      "evaporator_inlet_temperature": {
+        "name": "HÖYRYSTIMEN TULOLÄMPÖTILA"
+      },
+      "evaporator_outlet_temperature": {
+        "name": "HÖYRYSTIMEN LÄHTÖLÄMPÖTILA"
+      },
+      "external_actual_temperature": {
+        "name": "TOSILÄMPÖT"
+      },
+      "external_set_temperature": {
+        "name": "OHJELÄMPÖTILA"
+      },
+      "fan_power_relative": {
+        "name": "PUHALTIMEN TEHO SUHTEELLINEN"
+      },
+      "frost_protection_temperature": {
+        "name": "JÄÄTYMISESTO"
+      },
+      "heating_consumed_today": {
+        "name": "LÄMMITYS 1-24 h"
+      },
+      "high_pressure": {
+        "name": "PAINE KORKEAP"
+      },
+      "hot_gas_temperature": {
+        "name": "KUUMAKAASULÄMPÖT"
+      },
+      "inverter_current": {
+        "name": "VIRTA INVERTTERI"
+      },
+      "inverter_power": {
+        "name": "INVERTER POWER"
+      },
+      "inverter_power_input": {
+        "name": "SUORITUSKYKY INVERTTERI"
+      },
+      "inverter_voltage": {
+        "name": "JÄNNITE INVERTTERI"
+      },
+      "lower_limit_hzg": {
+        "name": "KÄYT ALARAJA HZG"
+      },
+      "lower_limit_ww": {
+        "name": "KÄYTÖN ALARAJA WW"
+      },
+      "low_pressure": {
+        "name": "PAINE ALAPAINE"
+      },
+      "oil_sump_temperature": {
+        "name": "ÖLJYKAMMION LÄMPÖT"
+      },
+      "outside_temperature": {
+        "name": "ULKOLÄMPÖTILA"
+      },
+      "return_temperature": {
+        "name": "PALUUVIRT LÄMPÖT"
+      },
+      "set_buffer_temperature": {
+        "name": "PUSKURIV OHJELÄMPÖT"
+      },
+      "set_temperature_hk_1": {
+        "name": "OHJELÄMPÖT HK 1"
+      },
+      "set_temperature_hk_2": {
+        "name": "OHJELÄMPÖT HK 2"
+      },
+      "start_operation_mode": {
+        "name": "Käyttötapa"
+      },
+      "supply_temperature": {
+        "name": "MENOVIRT LÄMPÖT"
+      },
+      "total_dhw_consumed": {
+        "name": "LÄMMINVESI 1-12 M"
+      },
+      "total_heating_consumed": {
+        "name": "LÄMMITYS 1-12 M"
+      },
+      "water_flow": {
+        "name": "WP VEDEN TILAVUUSVIRTA"
+      },
+      "efficiency_heating_today": {
+        "name": "LÄMMITYS 1-24 h"
+      },
+      "efficiency_heating_1_12m": {
+        "name": "LÄMMITYS 1-12 M"
+      },
+      "efficiency_dhw_today": {
+        "name": "LÄMMINVESI 1-24 h"
+      },
+      "efficiency_dhw_1_12m": {
+        "name": "LÄMMINVESI 1-12 M"
+      },
+      "heat_produced_today": {
+        "name": "LÄMMITYS 1-24 h"
+      },
+      "total_heat_produced": {
+        "name": "LÄMMITYS 1-12 M"
+      },
+      "dhw_produced_today": {
+        "name": "LÄMMINVESI 1-24 h"
+      },
+      "total_dhw_produced": {
+        "name": "LÄMMINVESI 1-12 M"
+      },
+      "runtime_vd_defrost": {
+        "name": "VD SULATUS"
+      },
+      "defrost_time": {
+        "name": "SULATUSAIKA"
+      },
+      "runtime_vd_heating": {
+        "name": "VD LÄMM"
+      },
+      "runtime_vd_dhw": {
+        "name": "VD LÄMMINV"
+      },
+      "defrost_starts": {
+        "name": "SUL KÄYNN"
+      },
+      "compressor_starts": {
+        "name": "KOMPRESSORI"
+      },
+      "dhw_set_temperature": {
+        "name": "OHJELÄMPÖTILA"
+      },
+      "dual_mode_temp_hzg": {
+        "name": "KYTKENTÄLÄMPÖT HZG"
+      },
+      "dual_mode_temp_ww": {
+        "name": "KYTKENTÄLÄMPÖT WW"
+      },
+      "wcci_input_mode": {
+        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+      },
+      "wcci_input_source": {
+        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+      },
+      "wcci_buffer": {
+        "name": "VAIKUTUS TEHOON LÄMMITYSPUSKURI"
+      },
+      "wcci_operating_mode": {
+        "name": "VAIKUTUS TEHOON TÄMÄNHETKINEN TILA"
+      },
+      "wcci_user_power_limit": {
+        "name": "VAIKUTUS TEHOON TEHONRAJOITUS"
+      },
+      "wcci_load_temp_room_1": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 1 / PUSKURI"
+      },
+      "wcci_load_temp_room_2": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 2"
+      },
+      "wcci_load_temp_room_3": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 3"
+      },
+      "wcci_load_temp_room_4": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 4"
+      },
+      "wcci_load_temp_room_5": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 5"
+      },
+      "wcci_load_temp_buffer": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA PUSKURI"
+      },
+      "wcci_load_temp_dhw": {
+        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMIN KÄYTTÖVESI"
+      },
+      "wcci_limit_functionality_blocked": {
+        "name": "VAIKUTUS TEHOON LIMITIERUNGSFUNKTION BLOCKIERT"
+      }
+    },
+    "binary_sensor": {
+      "start_portal_ok": {
+        "name": "Portal Connected"
+      },
+      "start_system_ok": {
+        "name": "System OK"
+      }
+    },
+    "hc1_comfort_temperature": {
+      "name": "LÄM-PIIRI 1 MUKAV-LÄMPÖTILA"
+    },
+    "hc1_eco_temperature": {
+      "name": "LÄM-PIIRI 1 ECO-LÄMPÖTILA"
+    },
+    "hc1_minimum_temperature": {
+      "name": "LÄM-PIIRI 1 MINIMILÄMPÖTILA"
+    },
+    "hc1_heating_curve_rise": {
+      "name": "LÄM-PIIRI 1 LÄMM KÄYRÄN NOUSU"
+    },
+    "hc2_comfort_temperature": {
+      "name": "LÄM-PIIRI 2 MUKAV-LÄMPÖTILA"
+    },
+    "hc2_eco_temperature": {
+      "name": "LÄM-PIIRI 2 ECO-LÄMPÖTILA"
+    },
+    "hc2_minimum_temperature": {
+      "name": "LÄM-PIIRI 2 MINIMILÄMPÖTILA"
+    },
+    "hc2_maximum_temperature": {
+      "name": "LÄM-PIIRI 2 MAX LÄMPÖT"
+    },
+    "hc2_mixer_dynamics": {
+      "name": "LÄM-PIIRI 2 SEKOIT.DYNAM."
+    },
+    "hc2_heating_curve_rise": {
+      "name": "LÄM-PIIRI 2 LÄMM KÄYRÄN NOUSU"
+    },
+    "heating_buffer_operation": {
+      "name": "PERUSASETUS PUSKURIKÄYTTÖ"
+    },
+    "heating_max_return_temp": {
+      "name": "PERUSASETUS MAX PALUUVIRT LÄMPÖT"
+    },
+    "heating_max_flow_temp": {
+      "name": "PERUSASETUS MAX MENOVIRT LÄMPÖT"
+    },
+    "heating_fixed_value_operation": {
+      "name": "PERUSASETUS KIINT LÄM AS KÄYTTÖ"
+    },
+    "heating_frost_protection": {
+      "name": "PERUSASETUS JÄÄTYMISESTO"
+    }
+  }
 }

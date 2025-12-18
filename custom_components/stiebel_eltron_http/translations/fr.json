@@ -1,240 +1,285 @@
 {
-    "config": {
-        "step": {
-            "user": {
-                "data": {
-                    "host": "Host"
-                },
-                "data_description": {
-                    "host": "Le nom d'hôte ou l'adresse IP de votre appareil Stiebel Eltron ISG."
-                }
-            }
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host"
         },
-        "error": {
-            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
-            "unknown": "[%key:common::config_flow::error::unknown%]"
-        },
-        "abort": {
-            "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
-            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
-            "unknown": "[%key:common::config_flow::error::unknown%]"
+        "data_description": {
+          "host": "Le nom d'hôte ou l'adresse IP de votre appareil Stiebel Eltron ISG."
         }
+      }
     },
-    "title": "Stiebel Eltron ISG",
-    "entity": {
-        "sensor": {
-            "actual_buffer_temperature": {
-                "name": "TEMP. REELLE TAMPON"
-            },
-            "actual_temperature_hk_1": {
-                "name": "TEMPERATURE REELLE CC 1"
-            },
-            "actual_temperature_hk_2": {
-                "name": "TEMPERATURE REELLE CC 2"
-            },
-            "compressor_inlet_temperature": {
-                "name": "TEMP. ASPIRATION COMP."
-            },
-            "compressor_speed_actual": {
-                "name": "VIT ROT REEL COMPRESSEUR"
-            },
-            "compressor_speed_target": {
-                "name": "CONSIGNE VITESSE COMP."
-            },
-            "condenser_temperature": {
-                "name": "TEMPERATURE CONDENSEUR"
-            },
-            "dhw_consumed_today": {
-                "name": "EAU CHAUDE SANITAIRE 1-24 h"
-            },
-            "dhw_temperature": {
-                "name": "TEMPERATURE REELLE"
-            },
-            "efficiency_dhw_13_24m": {
-                "name": "EAU CHAUDE SANITAIRE 13-24 M"
-            },
-            "efficiency_heating_13_24m": {
-                "name": "CHAUFFAGE 13-24 M"
-            },
-            "evaporator_inlet_temperature": {
-                "name": "TEMP. ENTRÉE ÉVAPORATEUR"
-            },
-            "evaporator_outlet_temperature": {
-                "name": "TEMP. SORTIE ÉVAPORATEUR"
-            },
-            "external_actual_temperature": {
-                "name": "TEMPERATURE REELLE"
-            },
-            "external_set_temperature": {
-                "name": "TEMPÉRATURE DE CONSIGNE"
-            },
-            "fan_power_relative": {
-                "name": "PUISS. DE VENT. RELATIVE"
-            },
-            "frost_protection_temperature": {
-                "name": "HORS GEL"
-            },
-            "heating_consumed_today": {
-                "name": "CHAUFFAGE 1-24 h"
-            },
-            "high_pressure": {
-                "name": "PRESSION HAUTE PRESSION"
-            },
-            "hot_gas_temperature": {
-                "name": "TEMP. GAZ CHAUDS"
-            },
-            "inverter_power": {
-                "name": "PUISS INVERTER"
-            },
-            "inverter_power_input": {
-                "name": "PUISS. ABSORBÉE INVERTER"
-            },
-            "inverter_voltage": {
-                "name": "TENSION INVERTER"
-            },
-            "lower_limit_hzg": {
-                "name": "LIMITE INF. CHAUFFAGE"
-            },
-            "lower_limit_ww": {
-                "name": "LIMITE INF. ECS"
-            },
-            "low_pressure": {
-                "name": "PRESSION BASSE PRESSION"
-            },
-            "oil_sump_temperature": {
-                "name": "TEMPERATURE CARTER HUILE"
-            },
-            "outside_temperature": {
-                "name": "TEMPERATURE EXTERIEURE"
-            },
-            "return_temperature": {
-                "name": "TEMPERATURE RETOUR"
-            },
-            "set_buffer_temperature": {
-                "name": "CONSIGNE TEMP. TAMPON"
-            },
-            "set_temperature_hk_1": {
-                "name": "CONSIGNE TEMP. CC1"
-            },
-            "set_temperature_hk_2": {
-                "name": "CONSIGNE TEMP. CC2"
-            },
-            "start_operation_mode": {
-                "name": "Mode de fonctionnement"
-            },
-            "supply_temperature": {
-                "name": "TEMPERATURE DEPART"
-            },
-            "total_dhw_consumed": {
-                "name": "EAU CHAUDE SANITAIRE 1-12 M"
-            },
-            "total_heating_consumed": {
-                "name": "CHAUFFAGE 1-12 M"
-            },
-            "water_flow": {
-                "name": "DEBIT EAU PAC"
-            },
-            "efficiency_heating_today": {
-                "name": "CHAUFFAGE 1-24 h"
-            },
-            "efficiency_heating_1_12m": {
-                "name": "CHAUFFAGE 1-12 M"
-            },
-            "efficiency_dhw_today": {
-                "name": "EAU CHAUDE SANITAIRE 1-24 h"
-            },
-            "efficiency_dhw_1_12m": {
-                "name": "EAU CHAUDE SANITAIRE 1-12 M"
-            },
-            "heat_produced_today": {
-                "name": "CHAUFFAGE 1-24 h"
-            },
-            "total_heat_produced": {
-                "name": "CHAUFFAGE 1-12 M"
-            },
-            "dhw_produced_today": {
-                "name": "EAU CHAUDE SANITAIRE 1-24 h"
-            },
-            "total_dhw_produced": {
-                "name": "EAU CHAUDE SANITAIRE 1-12 M"
-            },
-            "dual_mode_temp_hzg": {
-                "name": "TEMP. BIVALENCE CHAUFFAGE"
-            },
-            "dual_mode_temp_ww": {
-                "name": "TEMP. BIVALENCE ECS"
-            },
-            "runtime_vd_heating": {
-                "name": "COMP. CHAUFFAGE"
-            },
-            "runtime_vd_dhw": {
-                "name": "COMP. ECS"
-            },
-            "runtime_vd_defrost": {
-                "name": "COMP. DEGIVRAGE"
-            },
-            "defrost_time": {
-                "name": "DUREE DEGIVRAGE"
-            },
-            "defrost_starts": {
-                "name": "DEMARRAGE DEGIVRAGE"
-            },
-            "compressor_starts": {
-                "name": "COMPRESSEUR"
-            },
-            "dhw_set_temperature": {
-                "name": "TEMPÉRATURE DE CONSIGNE"
-            },
-            "inverter_current": {
-                "name": "INTENSITE INVERTER"
-            },
-            "wcci_input_mode": {
-                "name": "INFLUENCE SUR LA PUISSANCE MODE DE SAISIE"
-            },
-            "wcci_input_source": {
-                "name": "INFLUENCE SUR LA PUISSANCE SOURCE D'ENTRÉE"
-            },
-            "wcci_buffer": {
-                "name": "INFLUENCE SUR LA PUISSANCE BALLON TAMPON CHAUFFAGE"
-            },
-            "wcci_operating_mode": {
-                "name": "INFLUENCE SUR LA PUISSANCE ÉTAT ACTUEL"
-            },
-            "wcci_user_power_limit": {
-                "name": "INFLUENCE SUR LA PUISSANCE LIMITATION DE PUISSANCE"
-            },
-            "wcci_load_temp_room_1": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 1 / TAMPON"
-            },
-            "wcci_load_temp_room_2": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 2"
-            },
-            "wcci_load_temp_room_3": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 3"
-            },
-            "wcci_load_temp_room_4": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 4"
-            },
-            "wcci_load_temp_room_5": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 5"
-            },
-            "wcci_load_temp_buffer": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE TAMPON"
-            },
-            "wcci_load_temp_dhw": {
-                "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE ECS"
-            },
-            "wcci_limit_functionality_blocked": {
-                "name": "INFLUENCE SUR LA PUISSANCE FONCTIONNALITÉ DE LIMITATION BLOQUÉE"
-            }
-        },
-        "binary_sensor": {
-            "start_portal_ok": {
-                "name": "Portal Connected"
-            },
-            "start_system_ok": {
-                "name": "System OK"
-            }
-        }
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
     }
+  },
+  "title": "Stiebel Eltron ISG",
+  "entity": {
+    "sensor": {
+      "actual_buffer_temperature": {
+        "name": "TEMP. REELLE TAMPON"
+      },
+      "actual_temperature_hk_1": {
+        "name": "TEMPERATURE REELLE CC 1"
+      },
+      "actual_temperature_hk_2": {
+        "name": "TEMPERATURE REELLE CC 2"
+      },
+      "compressor_inlet_temperature": {
+        "name": "TEMP. ASPIRATION COMP."
+      },
+      "compressor_speed_actual": {
+        "name": "VIT ROT REEL COMPRESSEUR"
+      },
+      "compressor_speed_target": {
+        "name": "CONSIGNE VITESSE COMP."
+      },
+      "condenser_temperature": {
+        "name": "TEMPERATURE CONDENSEUR"
+      },
+      "dhw_consumed_today": {
+        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+      },
+      "dhw_temperature": {
+        "name": "TEMPERATURE REELLE"
+      },
+      "efficiency_dhw_13_24m": {
+        "name": "EAU CHAUDE SANITAIRE 13-24 M"
+      },
+      "efficiency_heating_13_24m": {
+        "name": "CHAUFFAGE 13-24 M"
+      },
+      "evaporator_inlet_temperature": {
+        "name": "TEMP. ENTRÉE ÉVAPORATEUR"
+      },
+      "evaporator_outlet_temperature": {
+        "name": "TEMP. SORTIE ÉVAPORATEUR"
+      },
+      "external_actual_temperature": {
+        "name": "TEMPERATURE REELLE"
+      },
+      "external_set_temperature": {
+        "name": "TEMPÉRATURE DE CONSIGNE"
+      },
+      "fan_power_relative": {
+        "name": "PUISS. DE VENT. RELATIVE"
+      },
+      "frost_protection_temperature": {
+        "name": "HORS GEL"
+      },
+      "heating_consumed_today": {
+        "name": "CHAUFFAGE 1-24 h"
+      },
+      "high_pressure": {
+        "name": "PRESSION HAUTE PRESSION"
+      },
+      "hot_gas_temperature": {
+        "name": "TEMP. GAZ CHAUDS"
+      },
+      "inverter_power": {
+        "name": "PUISS INVERTER"
+      },
+      "inverter_power_input": {
+        "name": "PUISS. ABSORBÉE INVERTER"
+      },
+      "inverter_voltage": {
+        "name": "TENSION INVERTER"
+      },
+      "lower_limit_hzg": {
+        "name": "LIMITE INF. CHAUFFAGE"
+      },
+      "lower_limit_ww": {
+        "name": "LIMITE INF. ECS"
+      },
+      "low_pressure": {
+        "name": "PRESSION BASSE PRESSION"
+      },
+      "oil_sump_temperature": {
+        "name": "TEMPERATURE CARTER HUILE"
+      },
+      "outside_temperature": {
+        "name": "TEMPERATURE EXTERIEURE"
+      },
+      "return_temperature": {
+        "name": "TEMPERATURE RETOUR"
+      },
+      "set_buffer_temperature": {
+        "name": "CONSIGNE TEMP. TAMPON"
+      },
+      "set_temperature_hk_1": {
+        "name": "CONSIGNE TEMP. CC1"
+      },
+      "set_temperature_hk_2": {
+        "name": "CONSIGNE TEMP. CC2"
+      },
+      "start_operation_mode": {
+        "name": "Mode de fonctionnement"
+      },
+      "supply_temperature": {
+        "name": "TEMPERATURE DEPART"
+      },
+      "total_dhw_consumed": {
+        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+      },
+      "total_heating_consumed": {
+        "name": "CHAUFFAGE 1-12 M"
+      },
+      "water_flow": {
+        "name": "DEBIT EAU PAC"
+      },
+      "efficiency_heating_today": {
+        "name": "CHAUFFAGE 1-24 h"
+      },
+      "efficiency_heating_1_12m": {
+        "name": "CHAUFFAGE 1-12 M"
+      },
+      "efficiency_dhw_today": {
+        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+      },
+      "efficiency_dhw_1_12m": {
+        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+      },
+      "heat_produced_today": {
+        "name": "CHAUFFAGE 1-24 h"
+      },
+      "total_heat_produced": {
+        "name": "CHAUFFAGE 1-12 M"
+      },
+      "dhw_produced_today": {
+        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+      },
+      "total_dhw_produced": {
+        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+      },
+      "dual_mode_temp_hzg": {
+        "name": "TEMP. BIVALENCE CHAUFFAGE"
+      },
+      "dual_mode_temp_ww": {
+        "name": "TEMP. BIVALENCE ECS"
+      },
+      "runtime_vd_heating": {
+        "name": "COMP. CHAUFFAGE"
+      },
+      "runtime_vd_dhw": {
+        "name": "COMP. ECS"
+      },
+      "runtime_vd_defrost": {
+        "name": "COMP. DEGIVRAGE"
+      },
+      "defrost_time": {
+        "name": "DUREE DEGIVRAGE"
+      },
+      "defrost_starts": {
+        "name": "DEMARRAGE DEGIVRAGE"
+      },
+      "compressor_starts": {
+        "name": "COMPRESSEUR"
+      },
+      "dhw_set_temperature": {
+        "name": "TEMPÉRATURE DE CONSIGNE"
+      },
+      "inverter_current": {
+        "name": "INTENSITE INVERTER"
+      },
+      "wcci_input_mode": {
+        "name": "INFLUENCE SUR LA PUISSANCE MODE DE SAISIE"
+      },
+      "wcci_input_source": {
+        "name": "INFLUENCE SUR LA PUISSANCE SOURCE D'ENTRÉE"
+      },
+      "wcci_buffer": {
+        "name": "INFLUENCE SUR LA PUISSANCE BALLON TAMPON CHAUFFAGE"
+      },
+      "wcci_operating_mode": {
+        "name": "INFLUENCE SUR LA PUISSANCE ÉTAT ACTUEL"
+      },
+      "wcci_user_power_limit": {
+        "name": "INFLUENCE SUR LA PUISSANCE LIMITATION DE PUISSANCE"
+      },
+      "wcci_load_temp_room_1": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 1 / TAMPON"
+      },
+      "wcci_load_temp_room_2": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 2"
+      },
+      "wcci_load_temp_room_3": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 3"
+      },
+      "wcci_load_temp_room_4": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 4"
+      },
+      "wcci_load_temp_room_5": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 5"
+      },
+      "wcci_load_temp_buffer": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE TAMPON"
+      },
+      "wcci_load_temp_dhw": {
+        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE ECS"
+      },
+      "wcci_limit_functionality_blocked": {
+        "name": "INFLUENCE SUR LA PUISSANCE FONCTIONNALITÉ DE LIMITATION BLOQUÉE"
+      }
+    },
+    "binary_sensor": {
+      "start_portal_ok": {
+        "name": "Portal Connected"
+      },
+      "start_system_ok": {
+        "name": "System OK"
+      }
+    },
+    "hc1_comfort_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE CONFORT"
+    },
+    "hc1_eco_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE ÉCO"
+    },
+    "hc1_minimum_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE MINIMALE"
+    },
+    "hc1_heating_curve_rise": {
+      "name": "CIRCUIT CHAUFFAGE 1 PENTE COURBE DE CHAUFFE"
+    },
+    "hc2_comfort_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE CONFORT"
+    },
+    "hc2_eco_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE ÉCO"
+    },
+    "hc2_minimum_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE MINIMALE"
+    },
+    "hc2_maximum_temperature": {
+      "name": "CIRCUIT CHAUFFAGE 2 TEMPERATURE MAX."
+    },
+    "hc2_mixer_dynamics": {
+      "name": "CIRCUIT CHAUFFAGE 2 DYNAMIQUE VANNE MÉLANG."
+    },
+    "hc2_heating_curve_rise": {
+      "name": "CIRCUIT CHAUFFAGE 2 PENTE COURBE DE CHAUFFE"
+    },
+    "heating_buffer_operation": {
+      "name": "RÉGLAGE DE BASE MODE BALLON TAMPON"
+    },
+    "heating_max_return_temp": {
+      "name": "RÉGLAGE DE BASE TEMP.  MAX. RETOUR"
+    },
+    "heating_max_flow_temp": {
+      "name": "RÉGLAGE DE BASE TEMP. MAX. DEPART"
+    },
+    "heating_fixed_value_operation": {
+      "name": "RÉGLAGE DE BASE MODE CONSIGNE FIXE"
+    },
+    "heating_frost_protection": {
+      "name": "RÉGLAGE DE BASE HORS GEL"
+    }
+  }
 }
