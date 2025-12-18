@@ -144,6 +144,36 @@ def test_all_canonical_keys_covered_by_testdata():
         "external_actual_temperature",  # Not all systems have external heat sources
         "external_set_temperature",
         "dhw_set_temperature",  # Not all systems have DHW set temperature sensor
+        # Heating configuration keys (only in s=4,2,X pages, not main snapshots)
+        "hc1_comfort_temperature",
+        "hc1_eco_temperature",
+        "hc1_minimum_temperature",
+        "hc1_heating_curve_rise",
+        "hc2_comfort_temperature",
+        "hc2_eco_temperature",
+        "hc2_minimum_temperature",
+        "hc2_maximum_temperature",
+        "hc2_mixer_dynamics",
+        "hc2_heating_curve_rise",
+        "heating_buffer_operation",
+        "heating_max_return_temp",
+        "heating_max_flow_temp",
+        "heating_fixed_value_operation",
+        "heating_frost_protection",
+        # WCCI keys (only in s=4,25 page, not main snapshots)
+        "wcci_buffer",
+        "wcci_input_mode",
+        "wcci_input_source",
+        "wcci_limit_functionality_blocked",
+        "wcci_load_temp_buffer",
+        "wcci_load_temp_dhw",
+        "wcci_load_temp_room_1",
+        "wcci_load_temp_room_2",
+        "wcci_load_temp_room_3",
+        "wcci_load_temp_room_4",
+        "wcci_load_temp_room_5",
+        "wcci_operating_mode",
+        "wcci_user_power_limit",
     }
     uncovered = [k for k in uncovered if k not in ALLOWED_MISSING]
 

@@ -34,6 +34,9 @@ DIAGNOSIS_SYSTEM_PATH = "/?s=2,7"
 PROFILE_NETWORK_PATH = "/?s=5,0"
 WCCI_PATH = "/?s=4,25"
 WCCI_ENDPOINT = "/external_connections/wcci/wcci_endpoint.php"
+HEATING_HC1_PATH = "/?s=4,2,0"
+HEATING_HC2_PATH = "/?s=4,2,1"
+HEATING_BASIC_PATH = "/?s=4,2,2"
 
 # Sensor keys
 ROOM_TEMPERATURE_KEY = "room_temperature"
@@ -135,3 +138,24 @@ WCCI_LOAD_TEMP_ROOM_5_KEY = "wcci_load_temp_room_5"
 WCCI_LOAD_TEMP_BUFFER_KEY = "wcci_load_temp_buffer"
 WCCI_LOAD_TEMP_DHW_KEY = "wcci_load_temp_dhw"
 WCCI_LIMIT_FUNCTIONALITY_BLOCKED_KEY = "wcci_limit_functionality_blocked"
+
+# Heating Configuration - Circuit 1 (s=4,2,0)
+HC1_COMFORT_TEMPERATURE_KEY = "hc1_comfort_temperature"
+HC1_ECO_TEMPERATURE_KEY = "hc1_eco_temperature"
+HC1_MINIMUM_TEMPERATURE_KEY = "hc1_minimum_temperature"
+HC1_HEATING_CURVE_RISE_KEY = "hc1_heating_curve_rise"
+
+# Heating Configuration - Circuit 2 (s=4,2,1)
+HC2_COMFORT_TEMPERATURE_KEY = "hc2_comfort_temperature"
+HC2_ECO_TEMPERATURE_KEY = "hc2_eco_temperature"
+HC2_MINIMUM_TEMPERATURE_KEY = "hc2_minimum_temperature"
+HC2_MAXIMUM_TEMPERATURE_KEY = "hc2_maximum_temperature"
+HC2_MIXER_DYNAMICS_KEY = "hc2_mixer_dynamics"
+HC2_HEATING_CURVE_RISE_KEY = "hc2_heating_curve_rise"
+
+# Heating Configuration - Basic Settings (s=4,2,2)
+HEATING_BUFFER_OPERATION_KEY = "heating_buffer_operation"
+HEATING_MAX_RETURN_TEMP_KEY = "heating_max_return_temp"
+HEATING_MAX_FLOW_TEMP_KEY = "heating_max_flow_temp"
+HEATING_FIXED_VALUE_OP_KEY = "heating_fixed_value_operation"
+HEATING_FROST_PROTECTION_KEY = "heating_frost_protection"

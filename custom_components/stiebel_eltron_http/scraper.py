@@ -299,6 +299,26 @@ class StiebelEltronScrapingClient:
             # is not available or not configured on this device.
             LOGGER.debug("WCCI data not available or failed to parse")
 
+        # Optionally attempt to fetch heating configuration pages
+        # These provide read-only configuration values for heating circuits
+        try:
+            hc1_data = await self.async_scrape_heating_hc1()
+            result.update(hc1_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating Circuit 1 config page not available or failed to parse")
+
+        try:
+            hc2_data = await self.async_scrape_heating_hc2()
+            result.update(hc2_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating Circuit 2 config page not available or failed to parse")
+
+        try:
+            basic_data = await self.async_scrape_heating_basic()
+            result.update(basic_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating basic settings page not available or failed to parse")
+
         LOGGER.debug("Scraped data: %s", result)
         return result
 
@@ -543,6 +563,296 @@ class StiebelEltronScrapingClient:
         
         LOGGER.debug("Extracted WCCI data: %s", result)
         return result
+
+    async def async_scrape_heating_hc1(self) -> Any:
+        """Scrape Heating Circuit 1 configuration data.
+        
+        This fetches configuration values from the Heating Circuit 1 page (s=4,2,0):
+        - Comfort temperature
+        - Eco temperature
+        - Minimum temperature (optional)
+        - Heating curve rise
+        
+        Returns a dict with HC1 sensor keys.
+        """
+        from .const import HEATING_HC1_PATH
+        return await self._scrape_heating_config_page(HEATING_HC1_PATH, "HC1")
+
+    async def async_scrape_heating_hc2(self) -> Any:
+        """Scrape Heating Circuit 2 configuration data.
+        
+        This fetches configuration values from the Heating Circuit 2 page (s=4,2,1):
+        - Comfort temperature
+        - Eco temperature
+        - Minimum temperature (optional)
+        - Maximum temperature
+        - Mixer dynamics
+        - Heating curve rise
+        
+        Returns a dict with HC2 sensor keys.
+        """
+        from .const import HEATING_HC2_PATH
+        return await self._scrape_heating_config_page(HEATING_HC2_PATH, "HC2")
+
+    async def async_scrape_heating_basic(self) -> Any:
+        """Scrape Heating Basic Settings configuration data.
+        
+        This fetches configuration values from the Basic Settings page (s=4,2,2):
+        - Buffer operation
+        - Maximum return temperature
+        - Maximum flow temperature
+        - Fixed value operation (optional)
+        - Frost protection temperature
+        
+        Returns a dict with basic heating sensor keys.
+        """
+        from .const import HEATING_BASIC_PATH
+        return await self._scrape_heating_config_page(HEATING_BASIC_PATH, "BASIC")
+
+    async def _scrape_heating_config_page(self, path: str, circuit: str) -> dict:
+        """Generic method to scrape heating configuration pages.
+        
+        The ISG heating pages embed configuration values in JavaScript:
+        - jsvalues array contains the actual values
+        - valSettings array contains metadata (type, min, max)
+        
+        Args:
+            path: URL path to scrape (e.g., "/?s=4,2,0")
+            circuit: Circuit identifier for logging ("HC1", "HC2", "BASIC")
+            
+        Returns:
+            dict: Extracted configuration values
+        """
+        page_url = f"http://{self._host}{path}"
+        
+        try:
+            page_response = await self._api_wrapper(
+                method="GET",
+                url=page_url,
+            )
+            
+            result = self._extract_heating_config(page_response, circuit)
+            
+        except aiohttp.ClientResponseError as exception:
+            msg = f"Failed to connect to {circuit} heating config page - {exception}"
+            raise StiebelEltronScrapingClientError(
+                msg,
+            ) from exception
+        else:
+            return result
+
+    def _extract_heating_config(self, html: str, circuit: str) -> dict:
+        """Extract heating configuration values from HTML page.
+        
+        The configuration values are embedded in JavaScript:
+        jsvalues['10976']['val']='22,0';
+        valSettings['val10976']['type'] = 'float';
+        
+        Args:
+            html: HTML page content
+            circuit: Circuit identifier ("HC1", "HC2", "BASIC")
+            
+        Returns:
+            dict: Extracted configuration values with proper types
+        """
+        result: dict[str, object] = {}
+        
+        # Parse the HTML to extract JavaScript values
+        soup = bs4.BeautifulSoup(html, "html.parser")
+        
+        # Find all script tags and extract jsvalues
+        import re
+        
+        # Pattern to match: jsvalues['123']['val']='value';
+        val_pattern = re.compile(r"jsvalues\['(\d+)'\]\['val'\]='([^']+)';")
+        # Pattern to match: valSettings['val123']['type'] = 'float';
+        type_pattern = re.compile(r"valSettings\['val(\d+)'\]\['type'\]\s*=\s*'(\w+)';")
+        
+        # Extract all values and their types
+        val_dict = {}
+        type_dict = {}
+        
+        for script in soup.find_all("script"):
+            if script.string:
+                # Extract values
+                for match in val_pattern.finditer(script.string):
+                    val_id = match.group(1)
+                    val_str = match.group(2)
+                    val_dict[val_id] = val_str
+                
+                # Extract types
+                for match in type_pattern.finditer(script.string):
+                    val_id = match.group(1)
+                    val_type = match.group(2)
+                    type_dict[val_id] = val_type
+        
+        LOGGER.debug("%s: Extracted values: %s", circuit, val_dict)
+        LOGGER.debug("%s: Extracted types: %s", circuit, type_dict)
+        
+        # Map val IDs to sensor keys based on circuit
+        if circuit == "HC1":
+            result = self._map_hc1_values(val_dict, type_dict)
+        elif circuit == "HC2":
+            result = self._map_hc2_values(val_dict, type_dict)
+        elif circuit == "BASIC":
+            result = self._map_basic_heating_values(val_dict, type_dict)
+        
+        return result
+
+    def _map_hc1_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map HC1 val IDs to sensor keys."""
+        from .const import (
+            HC1_COMFORT_TEMPERATURE_KEY,
+            HC1_ECO_TEMPERATURE_KEY,
+            HC1_MINIMUM_TEMPERATURE_KEY,
+            HC1_HEATING_CURVE_RISE_KEY,
+        )
+        
+        result = {}
+        
+        # val10976 = Comfort Temperature
+        if "10976" in val_dict:
+            result[HC1_COMFORT_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["10976"], type_dict.get("10976", "float")
+            )
+        
+        # val10977 = Eco Temperature
+        if "10977" in val_dict:
+            result[HC1_ECO_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["10977"], type_dict.get("10977", "float")
+            )
+        
+        # val486 = Minimum Temperature (OFF = 36864)
+        if "486" in val_dict:
+            raw_val = val_dict["486"]
+            if raw_val != "36864":  # Not OFF
+                result[HC1_MINIMUM_TEMPERATURE_KEY] = self._parse_value(
+                    raw_val, type_dict.get("486", "float")
+                )
+        
+        # val25 = Heating Curve Rise
+        if "25" in val_dict:
+            result[HC1_HEATING_CURVE_RISE_KEY] = self._parse_value(
+                val_dict["25"], type_dict.get("25", "double")
+            )
+        
+        return result
+
+    def _map_hc2_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map HC2 val IDs to sensor keys."""
+        from .const import (
+            HC2_COMFORT_TEMPERATURE_KEY,
+            HC2_ECO_TEMPERATURE_KEY,
+            HC2_MINIMUM_TEMPERATURE_KEY,
+            HC2_MAXIMUM_TEMPERATURE_KEY,
+            HC2_MIXER_DYNAMICS_KEY,
+            HC2_HEATING_CURVE_RISE_KEY,
+        )
+        
+        result = {}
+        
+        # val10980 = Comfort Temperature
+        if "10980" in val_dict:
+            result[HC2_COMFORT_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["10980"], type_dict.get("10980", "float")
+            )
+        
+        # val10981 = Eco Temperature
+        if "10981" in val_dict:
+            result[HC2_ECO_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["10981"], type_dict.get("10981", "float")
+            )
+        
+        # val487 = Minimum Temperature (OFF = 36864)
+        if "487" in val_dict:
+            raw_val = val_dict["487"]
+            if raw_val != "36864":  # Not OFF
+                result[HC2_MINIMUM_TEMPERATURE_KEY] = self._parse_value(
+                    raw_val, type_dict.get("487", "float")
+                )
+        
+        # val10982 = Maximum Temperature
+        if "10982" in val_dict:
+            result[HC2_MAXIMUM_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["10982"], type_dict.get("10982", "float")
+            )
+        
+        # val10983 = Mixer Dynamics
+        if "10983" in val_dict:
+            result[HC2_MIXER_DYNAMICS_KEY] = self._parse_value(
+                val_dict["10983"], type_dict.get("10983", "int")
+            )
+        
+        # val26 = Heating Curve Rise
+        if "26" in val_dict:
+            result[HC2_HEATING_CURVE_RISE_KEY] = self._parse_value(
+                val_dict["26"], type_dict.get("26", "double")
+            )
+        
+        return result
+
+    def _map_basic_heating_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map basic heating settings val IDs to sensor keys."""
+        from .const import (
+            HEATING_BUFFER_OPERATION_KEY,
+            HEATING_MAX_RETURN_TEMP_KEY,
+            HEATING_MAX_FLOW_TEMP_KEY,
+            HEATING_FIXED_VALUE_OP_KEY,
+            HEATING_FROST_PROTECTION_KEY,
+        )
+        
+        result = {}
+        
+        # val450 = Buffer Operation (0=OFF, 1=ON)
+        if "450" in val_dict:
+            raw_val = val_dict["450"]
+            result[HEATING_BUFFER_OPERATION_KEY] = raw_val == "1"
+        
+        # val11010 = Maximum Return Temperature
+        if "11010" in val_dict:
+            result[HEATING_MAX_RETURN_TEMP_KEY] = self._parse_value(
+                val_dict["11010"], type_dict.get("11010", "float")
+            )
+        
+        # val38 = Maximum Flow Temperature
+        if "38" in val_dict:
+            result[HEATING_MAX_FLOW_TEMP_KEY] = self._parse_value(
+                val_dict["38"], type_dict.get("38", "float")
+            )
+        
+        # val35 = Fixed Value Operation (OFF = 36864)
+        if "35" in val_dict:
+            raw_val = val_dict["35"]
+            if raw_val != "36864":  # Not OFF
+                result[HEATING_FIXED_VALUE_OP_KEY] = self._parse_value(
+                    raw_val, type_dict.get("35", "float")
+                )
+        
+        # val45 = Frost Protection Temperature
+        if "45" in val_dict:
+            result[HEATING_FROST_PROTECTION_KEY] = self._parse_value(
+                val_dict["45"], type_dict.get("45", "float")
+            )
+        
+        return result
+
+    def _parse_value(self, value_str: str, value_type: str) -> float | int:
+        """Parse a value string based on its type.
+        
+        Args:
+            value_str: String value (e.g., "22,0" or "1,10")
+            value_type: Type indicator ("int", "float", "double")
+            
+        Returns:
+            Parsed numeric value
+        """
+        # Replace German decimal comma with period
+        value_str = value_str.replace(",", ".")
+        
+        if value_type == "int":
+            return int(float(value_str))
+        else:  # float or double
+            return float(value_str)
 
     def _extract_start_page(self, response: str) -> dict:
         """Extract Betriebsart from s=0 page.
