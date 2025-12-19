@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "LÄMMÖNTUOTTAJA ULK KÄYT ALARAJA HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "LÄMMINV LÄMPÖT MUKAV-LÄMPÖTILA"
+    },
+    "dhw_eco_temperature": {
+      "name": "LÄMMINV LÄMPÖT ECO-LÄMPÖTILA"
+    },
+    "dhw_mode": {
+      "name": "PERUSASETUS LÄMMINVESIK"
+    },
+    "dhw_hysteresis": {
+      "name": "PERUSASETUS LÄMMINVESIK HYSTER"
+    },
+    "dhw_stages": {
+      "name": "PERUSASETUS LÄMMINVESIK AST"
+    },
+    "dhw_learning_function": {
+      "name": "WW OPPIMISTOIM WW OPPIMISTOIM"
+    },
+    "dhw_combi_cylinder": {
+      "name": "YHDISTELMÄVAR YHDISTELMÄVAR"
+    },
+    "dhw_output_summer": {
+      "name": "WW TEHO WP WW TEHO KESÄ"
+    },
+    "dhw_output_winter": {
+      "name": "WW TEHO WP WW TEHO TALVI"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTILEGIONELLAKÄSITT ANTILEGIONELLAKÄSITT"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTILEGIONELLAKÄSITT OHJELÄMPÖTILA"
+    },
+    "dhw_external_source": {
+      "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "LÄMMÖNTUOTTAJA ULK KÄYTÖN ALARAJA WW"
+    },
+    "dhw_external_pwm": {
+      "name": "LÄMMÖNTUOTTAJA ULK WW-PWM"
     }
   }
 }

@@ -109,6 +109,22 @@ from .const import (
     HEATING_EXTERNAL_BLOCKING_TIME_KEY,
     HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
     HEATING_EXTERNAL_LOWER_LIMIT_KEY,
+    DHW_COMFORT_TEMPERATURE_KEY,
+    DHW_ECO_TEMPERATURE_KEY,
+    DHW_MODE_KEY,
+    DHW_HYSTERESIS_KEY,
+    DHW_STAGES_KEY,
+    DHW_LEARNING_FUNCTION_KEY,
+    DHW_COMBI_CYLINDER_KEY,
+    DHW_OUTPUT_SUMMER_KEY,
+    DHW_OUTPUT_WINTER_KEY,
+    DHW_MAX_FLOW_TEMP_KEY,
+    DHW_PASTEURISATION_KEY,
+    DHW_PASTEURISATION_TEMP_KEY,
+    DHW_EXTERNAL_SOURCE_KEY,
+    DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
+    DHW_EXTERNAL_LOWER_LIMIT_KEY,
+    DHW_EXTERNAL_PWM_KEY,
 )
 from .entity import StiebelEltronHttpEntity
 
@@ -912,6 +928,144 @@ ENTITY_DESCRIPTIONS = (
         state_class=SensorStateClass.MEASUREMENT,
         icon="mdi:thermometer-low",
     ),
+    # Hot Water (DHW) Configuration Sensors
+    # Temperatures (s=4,3,0)
+    SensorEntityDescription(
+        key=DHW_COMFORT_TEMPERATURE_KEY,
+        name="DHW comfort temperature",
+        translation_key=DHW_COMFORT_TEMPERATURE_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:water-thermometer",
+    ),
+    SensorEntityDescription(
+        key=DHW_ECO_TEMPERATURE_KEY,
+        name="DHW eco temperature",
+        translation_key=DHW_ECO_TEMPERATURE_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:water-thermometer-outline",
+    ),
+    # Standard Setting (s=4,3,1)
+    SensorEntityDescription(
+        key=DHW_MODE_KEY,
+        name="DHW mode",
+        translation_key=DHW_MODE_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:water-boiler",
+    ),
+    SensorEntityDescription(
+        key=DHW_HYSTERESIS_KEY,
+        name="DHW hysteresis",
+        translation_key=DHW_HYSTERESIS_KEY,
+        native_unit_of_measurement=UnitOfTemperature.KELVIN,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:temperature-celsius",
+    ),
+    SensorEntityDescription(
+        key=DHW_STAGES_KEY,
+        name="DHW stages",
+        translation_key=DHW_STAGES_KEY,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:stairs",
+    ),
+    # Learning Function (s=4,3,2)
+    SensorEntityDescription(
+        key=DHW_LEARNING_FUNCTION_KEY,
+        name="DHW learning function",
+        translation_key=DHW_LEARNING_FUNCTION_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:brain",
+    ),
+    # Combi Cylinder (s=4,3,3)
+    SensorEntityDescription(
+        key=DHW_COMBI_CYLINDER_KEY,
+        name="DHW combi cylinder",
+        translation_key=DHW_COMBI_CYLINDER_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:storage-tank",
+    ),
+    # Output (s=4,3,4)
+    SensorEntityDescription(
+        key=DHW_OUTPUT_SUMMER_KEY,
+        name="DHW output summer",
+        translation_key=DHW_OUTPUT_SUMMER_KEY,
+        native_unit_of_measurement="%",
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:weather-sunny",
+    ),
+    SensorEntityDescription(
+        key=DHW_OUTPUT_WINTER_KEY,
+        name="DHW output winter",
+        translation_key=DHW_OUTPUT_WINTER_KEY,
+        native_unit_of_measurement="%",
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:weather-snowy",
+    ),
+    # Maximum Flow Temperature (s=4,3,5)
+    SensorEntityDescription(
+        key=DHW_MAX_FLOW_TEMP_KEY,
+        name="DHW max flow temperature",
+        translation_key=DHW_MAX_FLOW_TEMP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-high",
+    ),
+    # Pasteurisation (s=4,3,6)
+    SensorEntityDescription(
+        key=DHW_PASTEURISATION_KEY,
+        name="DHW pasteurisation",
+        translation_key=DHW_PASTEURISATION_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:bacteria",
+    ),
+    SensorEntityDescription(
+        key=DHW_PASTEURISATION_TEMP_KEY,
+        name="DHW pasteurisation temperature",
+        translation_key=DHW_PASTEURISATION_TEMP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:water-thermometer",
+    ),
+    # External Heat Source (s=4,3,7)
+    SensorEntityDescription(
+        key=DHW_EXTERNAL_SOURCE_KEY,
+        name="DHW external source",
+        translation_key=DHW_EXTERNAL_SOURCE_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:heating-coil",
+    ),
+    SensorEntityDescription(
+        key=DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
+        name="DHW external dual mode temperature",
+        translation_key=DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer",
+    ),
+    SensorEntityDescription(
+        key=DHW_EXTERNAL_LOWER_LIMIT_KEY,
+        name="DHW external lower limit",
+        translation_key=DHW_EXTERNAL_LOWER_LIMIT_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-low",
+    ),
+    SensorEntityDescription(
+        key=DHW_EXTERNAL_PWM_KEY,
+        name="DHW external PWM",
+        translation_key=DHW_EXTERNAL_PWM_KEY,
+        native_unit_of_measurement="%",
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:pulse",
+    ),
 )
 
 
@@ -982,6 +1136,23 @@ async def async_setup_entry(
             HEATING_EXTERNAL_BLOCKING_TIME_KEY,
             HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
             HEATING_EXTERNAL_LOWER_LIMIT_KEY,
+            # DHW configuration sensors are optional (only when page is scraped)
+            DHW_COMFORT_TEMPERATURE_KEY,
+            DHW_ECO_TEMPERATURE_KEY,
+            DHW_MODE_KEY,
+            DHW_HYSTERESIS_KEY,
+            DHW_STAGES_KEY,
+            DHW_LEARNING_FUNCTION_KEY,
+            DHW_COMBI_CYLINDER_KEY,
+            DHW_OUTPUT_SUMMER_KEY,
+            DHW_OUTPUT_WINTER_KEY,
+            DHW_MAX_FLOW_TEMP_KEY,
+            DHW_PASTEURISATION_KEY,
+            DHW_PASTEURISATION_TEMP_KEY,
+            DHW_EXTERNAL_SOURCE_KEY,
+            DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
+            DHW_EXTERNAL_LOWER_LIMIT_KEY,
+            DHW_EXTERNAL_PWM_KEY,
         }
         if key in optional_keys:
             if key not in data or data.get(key) is None:

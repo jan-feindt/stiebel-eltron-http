@@ -337,6 +337,54 @@ class StiebelEltronScrapingClient:
         except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
             LOGGER.debug("Heating external heat source page not available or failed to parse")
 
+        try:
+            dhw_temps_data = await self.async_scrape_dhw_temperatures()
+            result.update(dhw_temps_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW temperatures page not available or failed to parse")
+
+        try:
+            dhw_standard_data = await self.async_scrape_dhw_standard()
+            result.update(dhw_standard_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW standard settings page not available or failed to parse")
+
+        try:
+            dhw_learning_data = await self.async_scrape_dhw_learning()
+            result.update(dhw_learning_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW learning function page not available or failed to parse")
+
+        try:
+            dhw_combi_data = await self.async_scrape_dhw_combi_cylinder()
+            result.update(dhw_combi_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW combi cylinder page not available or failed to parse")
+
+        try:
+            dhw_output_data = await self.async_scrape_dhw_output()
+            result.update(dhw_output_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW output page not available or failed to parse")
+
+        try:
+            dhw_max_flow_data = await self.async_scrape_dhw_max_flow_temp()
+            result.update(dhw_max_flow_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW max flow temp page not available or failed to parse")
+
+        try:
+            dhw_pasteur_data = await self.async_scrape_dhw_pasteurisation()
+            result.update(dhw_pasteur_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW pasteurisation page not available or failed to parse")
+
+        try:
+            dhw_external_data = await self.async_scrape_dhw_external()
+            result.update(dhw_external_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("DHW external heat source page not available or failed to parse")
+
         LOGGER.debug("Scraped data: %s", result)
         return result
 
@@ -666,6 +714,102 @@ class StiebelEltronScrapingClient:
         from .const import HEATING_EXTERNAL_PATH
         return await self._scrape_heating_config_page(HEATING_EXTERNAL_PATH, "EXTERNAL")
 
+    async def async_scrape_dhw_temperatures(self) -> Any:
+        """Scrape DHW Temperatures configuration data.
+        
+        This fetches configuration values from the DHW Temperatures page (s=4,3,0):
+        - Comfort temperature
+        - Eco temperature
+        
+        Returns a dict with DHW temperature sensor keys.
+        """
+        from .const import DHW_TEMPERATURES_PATH
+        return await self._scrape_heating_config_page(DHW_TEMPERATURES_PATH, "DHW_TEMPS")
+
+    async def async_scrape_dhw_standard(self) -> Any:
+        """Scrape DHW Standard Setting configuration data.
+        
+        This fetches configuration values from the DHW Standard page (s=4,3,1):
+        - DHW mode
+        - DHW hysteresis
+        - DHW stages
+        
+        Returns a dict with DHW standard setting sensor keys.
+        """
+        from .const import DHW_STANDARD_PATH
+        return await self._scrape_heating_config_page(DHW_STANDARD_PATH, "DHW_STANDARD")
+
+    async def async_scrape_dhw_learning(self) -> Any:
+        """Scrape DHW Learning Function configuration data.
+        
+        This fetches configuration values from the DHW Learning page (s=4,3,2):
+        - Learning function ON/OFF
+        
+        Returns a dict with DHW learning sensor key.
+        """
+        from .const import DHW_LEARNING_PATH
+        return await self._scrape_heating_config_page(DHW_LEARNING_PATH, "DHW_LEARNING")
+
+    async def async_scrape_dhw_combi_cylinder(self) -> Any:
+        """Scrape DHW Combi Cylinder configuration data.
+        
+        This fetches configuration values from the DHW Combi Cylinder page (s=4,3,3):
+        - Combi cylinder ON/OFF
+        
+        Returns a dict with DHW combi cylinder sensor key.
+        """
+        from .const import DHW_COMBI_CYLINDER_PATH
+        return await self._scrape_heating_config_page(DHW_COMBI_CYLINDER_PATH, "DHW_COMBI")
+
+    async def async_scrape_dhw_output(self) -> Any:
+        """Scrape DHW Output configuration data.
+        
+        This fetches configuration values from the DHW Output page (s=4,3,4):
+        - WW output summer
+        - WW output winter
+        
+        Returns a dict with DHW output sensor keys.
+        """
+        from .const import DHW_OUTPUT_PATH
+        return await self._scrape_heating_config_page(DHW_OUTPUT_PATH, "DHW_OUTPUT")
+
+    async def async_scrape_dhw_max_flow_temp(self) -> Any:
+        """Scrape DHW Maximum Flow Temperature configuration data.
+        
+        This fetches configuration values from the DHW Max Flow Temp page (s=4,3,5):
+        - Maximum flow temperature
+        
+        Returns a dict with DHW max flow temp sensor key.
+        """
+        from .const import DHW_MAX_FLOW_TEMP_PATH
+        return await self._scrape_heating_config_page(DHW_MAX_FLOW_TEMP_PATH, "DHW_MAX_FLOW")
+
+    async def async_scrape_dhw_pasteurisation(self) -> Any:
+        """Scrape DHW Pasteurisation configuration data.
+        
+        This fetches configuration values from the DHW Pasteurisation page (s=4,3,6):
+        - Pasteurisation ON/OFF
+        - Set temperature
+        
+        Returns a dict with DHW pasteurisation sensor keys.
+        """
+        from .const import DHW_PASTEURISATION_PATH
+        return await self._scrape_heating_config_page(DHW_PASTEURISATION_PATH, "DHW_PASTEUR")
+
+    async def async_scrape_dhw_external(self) -> Any:
+        """Scrape DHW External Heat Source configuration data.
+        
+        This fetches configuration values from the DHW External page (s=4,3,7):
+        - External heat source mode
+        - Dual mode temperature
+        - Lower application limit (optional)
+        - WW PWM (optional)
+        
+        Returns a dict with DHW external sensor keys.
+        """
+        from .const import DHW_EXTERNAL_PATH
+        return await self._scrape_heating_config_page(DHW_EXTERNAL_PATH, "DHW_EXTERNAL")
+
     async def _scrape_heating_config_page(self, path: str, circuit: str) -> dict:
         """Generic method to scrape heating configuration pages.
         
@@ -772,6 +916,22 @@ class StiebelEltronScrapingClient:
             result = self._map_pump_cycles_values(val_dict, type_dict)
         elif circuit == "EXTERNAL":
             result = self._map_external_values(val_dict, type_dict)
+        elif circuit == "DHW_TEMPS":
+            result = self._map_dhw_temperatures_values(val_dict, type_dict)
+        elif circuit == "DHW_STANDARD":
+            result = self._map_dhw_standard_values(val_dict, type_dict)
+        elif circuit == "DHW_LEARNING":
+            result = self._map_dhw_learning_values(val_dict, type_dict)
+        elif circuit == "DHW_COMBI":
+            result = self._map_dhw_combi_values(val_dict, type_dict)
+        elif circuit == "DHW_OUTPUT":
+            result = self._map_dhw_output_values(val_dict, type_dict)
+        elif circuit == "DHW_MAX_FLOW":
+            result = self._map_dhw_max_flow_values(val_dict, type_dict)
+        elif circuit == "DHW_PASTEUR":
+            result = self._map_dhw_pasteurisation_values(val_dict, type_dict)
+        elif circuit == "DHW_EXTERNAL":
+            result = self._map_dhw_external_values(val_dict, type_dict)
         
         return result
 
@@ -1003,6 +1163,194 @@ class StiebelEltronScrapingClient:
             if raw_val != "36864":  # Not OFF
                 result[HEATING_EXTERNAL_LOWER_LIMIT_KEY] = self._parse_value(
                     raw_val, type_dict.get("43", "float")
+                )
+        
+        return result
+
+    def _map_dhw_temperatures_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW temperatures val IDs to sensor keys."""
+        from .const import (
+            DHW_COMFORT_TEMPERATURE_KEY,
+            DHW_ECO_TEMPERATURE_KEY,
+        )
+        
+        result = {}
+        
+        # val11018 = Comfort Temperature
+        if "11018" in val_dict:
+            result[DHW_COMFORT_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["11018"], type_dict.get("11018", "float")
+            )
+        
+        # val11019 = Eco Temperature
+        if "11019" in val_dict:
+            result[DHW_ECO_TEMPERATURE_KEY] = self._parse_value(
+                val_dict["11019"], type_dict.get("11019", "float")
+            )
+        
+        return result
+
+    def _map_dhw_standard_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW standard setting val IDs to sensor keys."""
+        from .const import (
+            DHW_MODE_KEY,
+            DHW_HYSTERESIS_KEY,
+            DHW_STAGES_KEY,
+        )
+        
+        result = {}
+        
+        # val375 = DHW Mode (0=PRIORITY, 1=PARALLEL, 2=PARTIAL PRIORITY)
+        if "375" in val_dict:
+            raw_val = val_dict["375"]
+            mode_map = {
+                "0": "PRIORITY OPERATION",
+                "1": "PARALLEL OPERATION",
+                "2": "PARTIAL PRIORITY",
+            }
+            result[DHW_MODE_KEY] = mode_map.get(raw_val, raw_val)
+        
+        # val120 = DHW Hysteresis
+        if "120" in val_dict:
+            result[DHW_HYSTERESIS_KEY] = self._parse_value(
+                val_dict["120"], type_dict.get("120", "float")
+            )
+        
+        # val399 = DHW Stages
+        if "399" in val_dict:
+            result[DHW_STAGES_KEY] = self._parse_value(
+                val_dict["399"], type_dict.get("399", "int")
+            )
+        
+        return result
+
+    def _map_dhw_learning_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW learning function val IDs to sensor keys."""
+        from .const import DHW_LEARNING_FUNCTION_KEY
+        
+        result = {}
+        
+        # val123 = WW Learning Function (0=OFF, 1=ON)
+        if "123" in val_dict:
+            raw_val = val_dict["123"]
+            result[DHW_LEARNING_FUNCTION_KEY] = raw_val == "1"
+        
+        return result
+
+    def _map_dhw_combi_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW combi cylinder val IDs to sensor keys."""
+        from .const import DHW_COMBI_CYLINDER_KEY
+        
+        result = {}
+        
+        # val454 = Combi Cylinder (0=OFF, 1=ON)
+        if "454" in val_dict:
+            raw_val = val_dict["454"]
+            result[DHW_COMBI_CYLINDER_KEY] = raw_val == "1"
+        
+        return result
+
+    def _map_dhw_output_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW output val IDs to sensor keys."""
+        from .const import (
+            DHW_OUTPUT_SUMMER_KEY,
+            DHW_OUTPUT_WINTER_KEY,
+        )
+        
+        result = {}
+        
+        # val1126 = WW Output Summer
+        if "1126" in val_dict:
+            result[DHW_OUTPUT_SUMMER_KEY] = self._parse_value(
+                val_dict["1126"], type_dict.get("1126", "int")
+            )
+        
+        # val1127 = WW Output Winter
+        if "1127" in val_dict:
+            result[DHW_OUTPUT_WINTER_KEY] = self._parse_value(
+                val_dict["1127"], type_dict.get("1127", "int")
+            )
+        
+        return result
+
+    def _map_dhw_max_flow_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW maximum flow temperature val IDs to sensor keys."""
+        from .const import DHW_MAX_FLOW_TEMP_KEY
+        
+        result = {}
+        
+        # val372 = Maximum Flow Temperature
+        if "372" in val_dict:
+            result[DHW_MAX_FLOW_TEMP_KEY] = self._parse_value(
+                val_dict["372"], type_dict.get("372", "float")
+            )
+        
+        return result
+
+    def _map_dhw_pasteurisation_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW pasteurisation val IDs to sensor keys."""
+        from .const import (
+            DHW_PASTEURISATION_KEY,
+            DHW_PASTEURISATION_TEMP_KEY,
+        )
+        
+        result = {}
+        
+        # val122 = Pasteurisation (0=OFF, 1=ON)
+        if "122" in val_dict:
+            raw_val = val_dict["122"]
+            result[DHW_PASTEURISATION_KEY] = raw_val == "1"
+        
+        # val11033 = Set Temperature
+        if "11033" in val_dict:
+            result[DHW_PASTEURISATION_TEMP_KEY] = self._parse_value(
+                val_dict["11033"], type_dict.get("11033", "float")
+            )
+        
+        return result
+
+    def _map_dhw_external_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map DHW external heat source val IDs to sensor keys."""
+        from .const import (
+            DHW_EXTERNAL_SOURCE_KEY,
+            DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
+            DHW_EXTERNAL_LOWER_LIMIT_KEY,
+            DHW_EXTERNAL_PWM_KEY,
+        )
+        
+        result = {}
+        
+        # val369 = External Heat Source (0=OFF, 1=SUPPORTED, 2=INDEPENDENT, 3=ALONE)
+        if "369" in val_dict:
+            raw_val = val_dict["369"]
+            source_map = {
+                "0": "OFF",
+                "1": "SUPPORTED",
+                "2": "INDEPENDENT",
+                "3": "ALONE",
+            }
+            result[DHW_EXTERNAL_SOURCE_KEY] = source_map.get(raw_val, raw_val)
+        
+        # val42 = Dual Mode Temp WW
+        if "42" in val_dict:
+            result[DHW_EXTERNAL_DUAL_MODE_TEMP_KEY] = self._parse_value(
+                val_dict["42"], type_dict.get("42", "float")
+            )
+        
+        # val44 = Lower App Limit WW (OFF = 36864)
+        if "44" in val_dict:
+            raw_val = val_dict["44"]
+            if raw_val != "36864":  # Not OFF
+                result[DHW_EXTERNAL_LOWER_LIMIT_KEY] = self._parse_value(
+                    raw_val, type_dict.get("44", "float")
+                )
+        
+        # val455 = WW PWM (OFF = 36864)
+        if "455" in val_dict:
+            raw_val = val_dict["455"]
+            if raw_val != "36864":  # Not OFF
+                result[DHW_EXTERNAL_PWM_KEY] = self._parse_value(
+                    raw_val, type_dict.get("455", "int")
                 )
         
         return result

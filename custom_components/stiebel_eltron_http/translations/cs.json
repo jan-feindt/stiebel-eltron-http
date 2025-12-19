@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "TEPLOTY TEPLE VODY KOMFORTNI TEPLOTA"
+    },
+    "dhw_eco_temperature": {
+      "name": "TEPLOTY TEPLE VODY EKO TEPLOTA"
+    },
+    "dhw_mode": {
+      "name": "ZÁKLADNÍ NASTAVENÍ REZIM OHREVU TUV"
+    },
+    "dhw_hysteresis": {
+      "name": "ZÁKLADNÍ NASTAVENÍ HYSTEREZE TEPLE VODY"
+    },
+    "dhw_stages": {
+      "name": "ZÁKLADNÍ NASTAVENÍ STUPEN TEPLE VODY"
+    },
+    "dhw_learning_function": {
+      "name": "UCICI PROGR TUV UCICI PROGR TUV"
+    },
+    "dhw_combi_cylinder": {
+      "name": "KOMBINOVANY ZASOBNIK KOMBINOVANY ZASOBNIK"
+    },
+    "dhw_output_summer": {
+      "name": "VYKON TUV TC VYKON TUV LETO"
+    },
+    "dhw_output_winter": {
+      "name": "VYKON TUV TC VYKON TUV ZIMA"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAX VSTUP TEPL TOP VODY MAX VSTUP TEPL TOP VODY"
+    },
+    "dhw_pasteurisation": {
+      "name": "TEPELNA DEZINFEKCE TEPELNA DEZINFEKCE"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "TEPELNA DEZINFEKCE POŽADOVANÁ TEPLOTA"
+    },
+    "dhw_external_source": {
+      "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "ZDROJ TEPLA EXTERNI BIVALENT TEPL TEPLA VODA"
+    },
+    "dhw_external_lower_limit": {
+      "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI TUV"
+    },
+    "dhw_external_pwm": {
+      "name": "ZDROJ TEPLA EXTERNI TUV-PWM"
     }
   }
 }

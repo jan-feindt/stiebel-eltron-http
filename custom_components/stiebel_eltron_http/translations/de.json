@@ -313,6 +313,54 @@
     },
     "heating_external_lower_limit": {
       "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "WARMWASSERTEMPERATUREN KOMFORT TEMPERATUR"
+    },
+    "dhw_eco_temperature": {
+      "name": "WARMWASSERTEMPERATUREN ECO TEMPERATUR"
+    },
+    "dhw_mode": {
+      "name": "GRUNDEINSTELLUNG WARMWASSERBETRIEB"
+    },
+    "dhw_hysteresis": {
+      "name": "GRUNDEINSTELLUNG WARMWASSERHYSTERESE"
+    },
+    "dhw_stages": {
+      "name": "GRUNDEINSTELLUNG WARMWASSERSTUFEN"
+    },
+    "dhw_learning_function": {
+      "name": "WW LERNFUNKTION WW LERNFUNKTION"
+    },
+    "dhw_combi_cylinder": {
+      "name": "KOMBISPEICHER KOMBISPEICHER"
+    },
+    "dhw_output_summer": {
+      "name": "WW LEISTUNG WP WW LEISTUNG SOMMER"
+    },
+    "dhw_output_winter": {
+      "name": "WW LEISTUNG WP WW LEISTUNG WINTER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAXIMALE VORLAUFTEMP MAXIMALE VORLAUFTEMP"
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTILEGIONELLENBEHANDLUNG ANTILEGIONELLENBEHANDLUNG"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTILEGIONELLENBEHANDLUNG SOLLTEMPERATUR"
+    },
+    "dhw_external_source": {
+      "name": "WÄRMEERZEUGER EXTERN WÄRMEERZEUGER EXTERN"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "WÄRMEERZEUGER EXTERN BIVALENZTEMPERATUR WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE WW"
+    },
+    "dhw_external_pwm": {
+      "name": "WÄRMEERZEUGER EXTERN WW-PWM"
     }
   }
 }

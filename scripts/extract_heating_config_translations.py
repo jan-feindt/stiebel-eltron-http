@@ -23,6 +23,14 @@ PAGES = {
     "_s_4_2_3": "SOMMERBETRIEB",  # Summer Mode
     "_s_4_2_4": "PUMPENZYKLEN",  # Pump Cycles
     "_s_4_2_5": "EXTERNE WÄRMEQUELLE",  # External Heat Source
+    "_s_4_3_0": "WARMWASSER-TEMPERATUR",  # DHW Temperatures
+    "_s_4_3_1": "WARMWASSER",  # DHW Standard Setting
+    "_s_4_3_2": "WW-LERNFUNKTION",  # DHW Learning Function
+    "_s_4_3_3": "KOMBISPEICHER",  # DHW Combi Cylinder
+    "_s_4_3_4": "WW-LEISTUNG WP",  # DHW Output
+    "_s_4_3_5": "MAX VORLAUFTEMPERATUR",  # DHW Max Flow Temp
+    "_s_4_3_6": "PASTEURISIERUNG",  # DHW Pasteurisation
+    "_s_4_3_7": "WÄRMEERZEUGER EXTERN",  # DHW External Heat Source
 }
 
 # Sensor key mappings
@@ -62,6 +70,38 @@ SENSOR_MAPPINGS = {
         "val374": "heating_external_blocking_time",
         "val41": "heating_external_dual_mode_temp",
         "val43": "heating_external_lower_limit",
+    },
+    "_s_4_3_0": {
+        "val11018": "dhw_comfort_temperature",
+        "val11019": "dhw_eco_temperature",
+    },
+    "_s_4_3_1": {
+        "val375": "dhw_mode",
+        "val120": "dhw_hysteresis",
+        "val399": "dhw_stages",
+    },
+    "_s_4_3_2": {
+        "val123": "dhw_learning_function",
+    },
+    "_s_4_3_3": {
+        "val454": "dhw_combi_cylinder",
+    },
+    "_s_4_3_4": {
+        "val1126": "dhw_output_summer",
+        "val1127": "dhw_output_winter",
+    },
+    "_s_4_3_5": {
+        "val372": "dhw_max_flow_temp",
+    },
+    "_s_4_3_6": {
+        "val122": "dhw_pasteurisation",
+        "val11033": "dhw_pasteurisation_temp",
+    },
+    "_s_4_3_7": {
+        "val369": "dhw_external_source",
+        "val42": "dhw_external_dual_mode_temp",
+        "val44": "dhw_external_lower_limit",
+        "val455": "dhw_external_pwm",
     },
 }
 

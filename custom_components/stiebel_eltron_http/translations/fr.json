@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "GENERATEUR CHAL. EXTERNE LIMITE INF. CHAUFFAGE"
+    },
+    "dhw_comfort_temperature": {
+      "name": "TEMPERATURES ECS TEMPÉRATURE CONFORT"
+    },
+    "dhw_eco_temperature": {
+      "name": "TEMPERATURES ECS TEMPÉRATURE ÉCO"
+    },
+    "dhw_mode": {
+      "name": "RÉGLAGE DE BASE MODE ECS"
+    },
+    "dhw_hysteresis": {
+      "name": "RÉGLAGE DE BASE HYSTERESIS ECS"
+    },
+    "dhw_stages": {
+      "name": "RÉGLAGE DE BASE NIVEAUX ECS"
+    },
+    "dhw_learning_function": {
+      "name": "APPRENTISSAGE ECS APPRENTISSAGE ECS"
+    },
+    "dhw_combi_cylinder": {
+      "name": "BALLON COMBINE BALLON COMBINE"
+    },
+    "dhw_output_summer": {
+      "name": "PUISSANCE ECS PAC PUISSANCE ECS ÉTÉ"
+    },
+    "dhw_output_winter": {
+      "name": "PUISSANCE ECS PAC PUISSANCE ECS HIVER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "TEMP. MAX. DEPART TEMP. MAX. DEPART"
+    },
+    "dhw_pasteurisation": {
+      "name": "TRAITEMENT ANTI-LEGIONEL. TRAITEMENT ANTI-LEGIONEL."
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "TRAITEMENT ANTI-LEGIONEL. TEMPÉRATURE DE CONSIGNE"
+    },
+    "dhw_external_source": {
+      "name": "GENERATEUR CHAL. EXTERNE GENERATEUR CHAL. EXTERNE"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "GENERATEUR CHAL. EXTERNE TEMP. BIVALENCE ECS"
+    },
+    "dhw_external_lower_limit": {
+      "name": "GENERATEUR CHAL. EXTERNE LIMITE INF. ECS"
+    },
+    "dhw_external_pwm": {
+      "name": "GENERATEUR CHAL. EXTERNE ECS-PWM"
     }
   }
 }

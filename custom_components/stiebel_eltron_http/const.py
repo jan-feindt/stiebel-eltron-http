@@ -174,3 +174,36 @@ HEATING_EXTERNAL_CURVE_GAP_KEY = "heating_external_curve_gap"
 HEATING_EXTERNAL_BLOCKING_TIME_KEY = "heating_external_blocking_time"
 HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY = "heating_external_dual_mode_temp"
 HEATING_EXTERNAL_LOWER_LIMIT_KEY = "heating_external_lower_limit"
+
+# Hot Water (DHW) Configuration Keys (s=4,3,X)
+# Temperatures (s=4,3,0)
+DHW_COMFORT_TEMPERATURE_KEY = "dhw_comfort_temperature"
+DHW_ECO_TEMPERATURE_KEY = "dhw_eco_temperature"
+
+# Standard Setting (s=4,3,1)
+DHW_MODE_KEY = "dhw_mode"
+DHW_HYSTERESIS_KEY = "dhw_hysteresis"
+DHW_STAGES_KEY = "dhw_stages"
+
+# Learning Function (s=4,3,2)
+DHW_LEARNING_FUNCTION_KEY = "dhw_learning_function"
+
+# Combi Cylinder (s=4,3,3)
+DHW_COMBI_CYLINDER_KEY = "dhw_combi_cylinder"
+
+# Output (s=4,3,4)
+DHW_OUTPUT_SUMMER_KEY = "dhw_output_summer"
+DHW_OUTPUT_WINTER_KEY = "dhw_output_winter"
+
+# Maximum Flow Temperature (s=4,3,5)
+DHW_MAX_FLOW_TEMP_KEY = "dhw_max_flow_temp"
+
+# Pasteurisation (s=4,3,6)
+DHW_PASTEURISATION_KEY = "dhw_pasteurisation"
+DHW_PASTEURISATION_TEMP_KEY = "dhw_pasteurisation_temp"
+
+# External Heat Source (s=4,3,7)
+DHW_EXTERNAL_SOURCE_KEY = "dhw_external_source"
+DHW_EXTERNAL_DUAL_MODE_TEMP_KEY = "dhw_external_dual_mode_temp"
+DHW_EXTERNAL_LOWER_LIMIT_KEY = "dhw_external_lower_limit"
+DHW_EXTERNAL_PWM_KEY = "dhw_external_pwm"

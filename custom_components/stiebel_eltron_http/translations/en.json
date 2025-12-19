@@ -313,6 +313,54 @@
     },
     "heating_external_lower_limit": {
       "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "DHW TEMPERATURES COMFORT TEMPERATURE"
+    },
+    "dhw_eco_temperature": {
+      "name": "DHW TEMPERATURES ECO TEMPERATURE"
+    },
+    "dhw_mode": {
+      "name": "STANDARD SETTING DHW MODE"
+    },
+    "dhw_hysteresis": {
+      "name": "STANDARD SETTING DHW HYSTERESIS"
+    },
+    "dhw_stages": {
+      "name": "STANDARD SETTING DHW STAGES"
+    },
+    "dhw_learning_function": {
+      "name": "WW LEARNING FUNCTION WW LEARNING FUNCTION"
+    },
+    "dhw_combi_cylinder": {
+      "name": "COMBI CYLINDER COMBI CYLINDER"
+    },
+    "dhw_output_summer": {
+      "name": "WW OUTPUT WP WW OUTPUT SUMMER"
+    },
+    "dhw_output_winter": {
+      "name": "WW OUTPUT WP WW OUTPUT WINTER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAXIMUM FLOW TEMPERATURE MAXIMUM FLOW TEMPERATURE"
+    },
+    "dhw_pasteurisation": {
+      "name": "PASTEURISATION PASTEURISATION"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "PASTEURISATION SET TEMPERATURE"
+    },
+    "dhw_external_source": {
+      "name": "EXTERNAL HEAT SOURCE EXTERNAL HEAT SOURCE"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT WW"
+    },
+    "dhw_external_pwm": {
+      "name": "EXTERNAL HEAT SOURCE WW PWM"
     }
   }
 }

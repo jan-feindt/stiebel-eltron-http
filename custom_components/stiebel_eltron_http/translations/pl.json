@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "TEMPERATURY CWU TEMPERATURA KOMFORTOWA"
+    },
+    "dhw_eco_temperature": {
+      "name": "TEMPERATURY CWU TEMPERATURA ECO"
+    },
+    "dhw_mode": {
+      "name": "NASTAWA PODSTAWOWA TRYB CWU"
+    },
+    "dhw_hysteresis": {
+      "name": "NASTAWA PODSTAWOWA HISTEREZA CWU"
+    },
+    "dhw_stages": {
+      "name": "NASTAWA PODSTAWOWA STOPNIE CWU"
+    },
+    "dhw_learning_function": {
+      "name": "WW FUNKCJA NAUKI PROGR WW FUNKCJA NAUKI PROGR"
+    },
+    "dhw_combi_cylinder": {
+      "name": "ZASOBNIK KOMBINOWANY ZASOBNIK KOMBINOWANY"
+    },
+    "dhw_output_summer": {
+      "name": "WW MOC WP WW MOC LATO"
+    },
+    "dhw_output_winter": {
+      "name": "WW MOC WP WW MOC ZIMA"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAKS TEMP ZASILANIA MAKS TEMP ZASILANIA"
+    },
+    "dhw_pasteurisation": {
+      "name": "FUNKCJA ANTYLEGIONELLI FUNKCJA ANTYLEGIONELLI"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "FUNKCJA ANTYLEGIONELLI TEMPERATURA ZADANA"
+    },
+    "dhw_external_source": {
+      "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. WW"
+    },
+    "dhw_external_pwm": {
+      "name": "ZEWN. WYTWORNICA CIEPLA WW-PWM"
     }
   }
 }

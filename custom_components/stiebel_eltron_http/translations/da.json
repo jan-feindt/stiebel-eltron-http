@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "VARMEGENERATOR EKSTERN LAV ANVEND.GRÆNSE HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "VARMTVANDSTEMPERATURER KOMFORT-TEMPERATUR"
+    },
+    "dhw_eco_temperature": {
+      "name": "VARMTVANDSTEMPERATURER ECO-TEMPERATUR"
+    },
+    "dhw_mode": {
+      "name": "GRUNDINDSTILLING VARMTVANDSDRIFT"
+    },
+    "dhw_hysteresis": {
+      "name": "GRUNDINDSTILLING VARMTVANDS-HYSTERESE"
+    },
+    "dhw_stages": {
+      "name": "GRUNDINDSTILLING VARMTVANDSTRIN"
+    },
+    "dhw_learning_function": {
+      "name": "WW INDLÆRINGSFUNKTION WW INDLÆRINGSFUNKTION"
+    },
+    "dhw_combi_cylinder": {
+      "name": "KOMBIBEHOLDER KOMBIBEHOLDER"
+    },
+    "dhw_output_summer": {
+      "name": "WW EFFEKT WP WW EFFEKT SOMMER"
+    },
+    "dhw_output_winter": {
+      "name": "WW EFFEKT WP WW EFFEKT VINTER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAX FREMLØBSTEMP MAX FREMLØBSTEMP"
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTI-LEGIONELLA ANTI-LEGIONELLA"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTI-LEGIONELLA NOM. TEMPERATUR"
+    },
+    "dhw_external_source": {
+      "name": "VARMEGENERATOR EKSTERN VARMEGENERATOR EKSTERN"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "VARMEGENERATOR EKSTERN BIVALENSTEMPERATUR WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "VARMEGENERATOR EKSTERN LAV ANVEND.GRÆNSE WW"
+    },
+    "dhw_external_pwm": {
+      "name": "VARMEGENERATOR EKSTERN WW-PWM"
     }
   }
 }

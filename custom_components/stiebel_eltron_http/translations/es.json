@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA CONFORT"
+    },
+    "dhw_eco_temperature": {
+      "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA ECO"
+    },
+    "dhw_mode": {
+      "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE"
+    },
+    "dhw_hysteresis": {
+      "name": "AJUSTE ESTÁNDAR HISTÉRESIS AGUA CALIENTE"
+    },
+    "dhw_stages": {
+      "name": "AJUSTE ESTÁNDAR NIVELES DE AGUA CALIENTE"
+    },
+    "dhw_learning_function": {
+      "name": "WW FUNCIÓN APRENDIZAJE WW FUNCIÓN APRENDIZAJE"
+    },
+    "dhw_combi_cylinder": {
+      "name": "ACUMULADOR COMBINADO ACUMULADOR COMBINADO"
+    },
+    "dhw_output_summer": {
+      "name": "WW REND. WP WW REND. VERANO"
+    },
+    "dhw_output_winter": {
+      "name": "WW REND. WP WW REND. INVIERNO"
+    },
+    "dhw_max_flow_temp": {
+      "name": "TEMP. MÁX. IMPULSIÓN TEMP. MÁX. IMPULSIÓN"
+    },
+    "dhw_pasteurisation": {
+      "name": "TRATAMIENTO ANTILEGIONELA TRATAMIENTO ANTILEGIONELA"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "TRATAMIENTO ANTILEGIONELA TEMPERATURA DE REFERENCIA"
+    },
+    "dhw_external_source": {
+      "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. WW"
+    },
+    "dhw_external_pwm": {
+      "name": "GENERADOR CALOR EXTERNO WW-PWM"
     }
   }
 }

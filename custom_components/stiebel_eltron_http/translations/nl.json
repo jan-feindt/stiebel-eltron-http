@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "WARMWATERTEMPERATUREN COMFORT TEMPERATUUR"
+    },
+    "dhw_eco_temperature": {
+      "name": "WARMWATERTEMPERATUREN ECO TEMPERATUUR"
+    },
+    "dhw_mode": {
+      "name": "BASISINSTELLING WARMWATERBEDRIJF"
+    },
+    "dhw_hysteresis": {
+      "name": "BASISINSTELLING WARMWATERHYSTERESIS"
+    },
+    "dhw_stages": {
+      "name": "BASISINSTELLING WARMWATERTRAPPEN"
+    },
+    "dhw_learning_function": {
+      "name": "WW ZELFLEERFUNCTIE WW ZELFLEERFUNCTIE"
+    },
+    "dhw_combi_cylinder": {
+      "name": "COMBI-BOILER COMBI-BOILER"
+    },
+    "dhw_output_summer": {
+      "name": "WW VERMOGEN WP WW VERMOGEN ZOMER"
+    },
+    "dhw_output_winter": {
+      "name": "WW VERMOGEN WP WW VERMOGEN WINTER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTILEGIONELLABEHANDELING ANTILEGIONELLABEHANDELING"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTILEGIONELLABEHANDELING NOMINALE TEMPERATUUR"
+    },
+    "dhw_external_source": {
+      "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED WW"
+    },
+    "dhw_external_pwm": {
+      "name": "WARMTEOPWEKKER EXTERN WW-PWM"
     }
   }
 }

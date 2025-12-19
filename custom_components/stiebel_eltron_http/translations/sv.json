@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "VARMVATTENTEMPERATURER KOMFORTTEMPERATUR"
+    },
+    "dhw_eco_temperature": {
+      "name": "VARMVATTENTEMPERATURER ECO-TEMPERATUR"
+    },
+    "dhw_mode": {
+      "name": "GRUNDINSTÄLLNING VARMVATTENDRIFT"
+    },
+    "dhw_hysteresis": {
+      "name": "GRUNDINSTÄLLNING VARMVATTENHYSTERES"
+    },
+    "dhw_stages": {
+      "name": "GRUNDINSTÄLLNING VARMVATTENNIVÅER"
+    },
+    "dhw_learning_function": {
+      "name": "WW INLÄRNINGSFUNKTION WW INLÄRNINGSFUNKTION"
+    },
+    "dhw_combi_cylinder": {
+      "name": "KOMBIACKUMULATOR KOMBIACKUMULATOR"
+    },
+    "dhw_output_summer": {
+      "name": "WW EFFEKT WP WW EFFEKT SOMMAR"
+    },
+    "dhw_output_winter": {
+      "name": "WW EFFEKT WP WW EFFEKT VINTER"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAX FRAMLEDNINGSTEMP MAX FRAMLEDNINGSTEMP"
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTILEGIONELLABEHANDLING ANTILEGIONELLABEHANDLING"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTILEGIONELLABEHANDLING BÖRTEMPERATUR"
+    },
+    "dhw_external_source": {
+      "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS WW"
+    },
+    "dhw_external_pwm": {
+      "name": "VÄRMEGENERATOR EXTERN WW-PWM"
     }
   }
 }

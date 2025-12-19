@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "MELEGVÍZ-HÕMÉRSÉKLETEK KOMFORTHÕMÉRSÉKLET"
+    },
+    "dhw_eco_temperature": {
+      "name": "MELEGVÍZ-HÕMÉRSÉKLETEK ECO HÕMÉRSÉKLET"
+    },
+    "dhw_mode": {
+      "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD"
+    },
+    "dhw_hysteresis": {
+      "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-HISZTERÉZIS"
+    },
+    "dhw_stages": {
+      "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-FOKOZATOK"
+    },
+    "dhw_learning_function": {
+      "name": "WW TANULÁSI FUNKCIÓ WW TANULÁSI FUNKCIÓ"
+    },
+    "dhw_combi_cylinder": {
+      "name": "KOMBI MELEGVÍZTÁROLÓ KOMBI MELEGVÍZTÁROLÓ"
+    },
+    "dhw_output_summer": {
+      "name": "WW TELJ. WP WW TELJESÍTMÉNY NYÁRON"
+    },
+    "dhw_output_winter": {
+      "name": "WW TELJ. WP WW TELJESÍTMÉNY TÉLEN"
+    },
+    "dhw_max_flow_temp": {
+      "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."
+    },
+    "dhw_pasteurisation": {
+      "name": "ANTILEGIONELLA-KEZELÉS ANTILEGIONELLA-KEZELÉS"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "ANTILEGIONELLA-KEZELÉS NÉVL. HŐMÉRS."
+    },
+    "dhw_external_source": {
+      "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR WW"
+    },
+    "dhw_external_pwm": {
+      "name": "KÜLSÕ HÕGENERÁTOR WW-PWM"
     }
   }
 }

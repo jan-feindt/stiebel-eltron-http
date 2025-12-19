@@ -307,6 +307,54 @@
     },
     "heating_external_lower_limit": {
       "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF HZG"
+    },
+    "dhw_comfort_temperature": {
+      "name": "TEMPERATURE ACQUA CALDA TEMPERATURA COMFORT"
+    },
+    "dhw_eco_temperature": {
+      "name": "TEMPERATURE ACQUA CALDA TEMPERATURA ECO"
+    },
+    "dhw_mode": {
+      "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA"
+    },
+    "dhw_hysteresis": {
+      "name": "IMPOSTAZIONE STANDARD ISTERESI ACQUA CALDA"
+    },
+    "dhw_stages": {
+      "name": "IMPOSTAZIONE STANDARD STADI ACQUA CALDA"
+    },
+    "dhw_learning_function": {
+      "name": "FUNZ APPRENDIMENTO WW FUNZ APPRENDIMENTO WW"
+    },
+    "dhw_combi_cylinder": {
+      "name": "SERBATOIO COMBI SERBATOIO COMBI"
+    },
+    "dhw_output_summer": {
+      "name": "RENDIM WW WP RENDIM WW ESTATE"
+    },
+    "dhw_output_winter": {
+      "name": "RENDIM WW WP RENDIM WW INVERNO"
+    },
+    "dhw_max_flow_temp": {
+      "name": "TEMP MAX MANDATA TEMP MAX MANDATA"
+    },
+    "dhw_pasteurisation": {
+      "name": "TRATTAM. ANTILEGIONELLA TRATTAM. ANTILEGIONELLA"
+    },
+    "dhw_pasteurisation_temp": {
+      "name": "TRATTAM. ANTILEGIONELLA TEMPERATURA NOMINALE"
+    },
+    "dhw_external_source": {
+      "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+    },
+    "dhw_external_dual_mode_temp": {
+      "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA WW"
+    },
+    "dhw_external_lower_limit": {
+      "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF WW"
+    },
+    "dhw_external_pwm": {
+      "name": "GENERATORE DI CALORE EST WW-PWM"
     }
   }
 }
