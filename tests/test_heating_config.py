@@ -19,6 +19,15 @@ from custom_components.stiebel_eltron_http.const import (
     HEATING_MAX_FLOW_TEMP_KEY,
     HEATING_FIXED_VALUE_OP_KEY,
     HEATING_FROST_PROTECTION_KEY,
+    HEATING_SUMMER_MODE_KEY,
+    HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+    HEATING_SUMMER_HEAT_BUFFER_KEY,
+    HEATING_PUMP_CYCLES_KEY,
+    HEATING_EXTERNAL_SOURCE_KEY,
+    HEATING_EXTERNAL_CURVE_GAP_KEY,
+    HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+    HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+    HEATING_EXTERNAL_LOWER_LIMIT_KEY,
 )
 
 
@@ -134,6 +143,102 @@ def test_extract_heating_basic_config():
     
     assert HEATING_FROST_PROTECTION_KEY in result
     assert result[HEATING_FROST_PROTECTION_KEY] == 4.0
+
+
+def test_extract_heating_summer_config():
+    """Test extraction of Summer Mode configuration from HTML page."""
+    client = StiebelEltronScrapingClient(
+        host="test.local",
+        session=None,
+        language="en",
+    )
+    
+    # Load test file
+    testdata_dir = os.path.join(os.getcwd(), "scripts", "testdata")
+    html_file = os.path.join(testdata_dir, "_s_4_2_3_en.html")
+    
+    if not os.path.exists(html_file):
+        pytest.skip(f"Test file not found: {html_file}")
+    
+    with open(html_file, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    
+    # Extract configuration
+    result = client._extract_heating_config(html_content, "SUMMER")
+    
+    # Verify extracted values
+    assert HEATING_SUMMER_MODE_KEY in result
+    assert result[HEATING_SUMMER_MODE_KEY] == True  # ON
+    
+    assert HEATING_SUMMER_OUTSIDE_TEMP_KEY in result
+    assert result[HEATING_SUMMER_OUTSIDE_TEMP_KEY] == 20.0
+    
+    assert HEATING_SUMMER_HEAT_BUFFER_KEY in result
+    assert result[HEATING_SUMMER_HEAT_BUFFER_KEY] == 1
+
+
+def test_extract_heating_pump_cycles_config():
+    """Test extraction of Pump Cycles configuration from HTML page."""
+    client = StiebelEltronScrapingClient(
+        host="test.local",
+        session=None,
+        language="en",
+    )
+    
+    # Load test file
+    testdata_dir = os.path.join(os.getcwd(), "scripts", "testdata")
+    html_file = os.path.join(testdata_dir, "_s_4_2_4_en.html")
+    
+    if not os.path.exists(html_file):
+        pytest.skip(f"Test file not found: {html_file}")
+    
+    with open(html_file, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    
+    # Extract configuration
+    result = client._extract_heating_config(html_content, "PUMP_CYCLES")
+    
+    # Verify extracted values
+    assert HEATING_PUMP_CYCLES_KEY in result
+    assert result[HEATING_PUMP_CYCLES_KEY] == False  # OFF
+
+
+def test_extract_heating_external_config():
+    """Test extraction of External Heat Source configuration from HTML page."""
+    client = StiebelEltronScrapingClient(
+        host="test.local",
+        session=None,
+        language="en",
+    )
+    
+    # Load test file
+    testdata_dir = os.path.join(os.getcwd(), "scripts", "testdata")
+    html_file = os.path.join(testdata_dir, "_s_4_2_5_en.html")
+    
+    if not os.path.exists(html_file):
+        pytest.skip(f"Test file not found: {html_file}")
+    
+    with open(html_file, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    
+    # Extract configuration
+    result = client._extract_heating_config(html_content, "EXTERNAL")
+    
+    # Verify extracted values
+    assert HEATING_EXTERNAL_SOURCE_KEY in result
+    assert result[HEATING_EXTERNAL_SOURCE_KEY] == "THREADED IMMERSION HEATER"
+    
+    assert HEATING_EXTERNAL_CURVE_GAP_KEY in result
+    assert result[HEATING_EXTERNAL_CURVE_GAP_KEY] == 3.0
+    
+    assert HEATING_EXTERNAL_BLOCKING_TIME_KEY in result
+    assert result[HEATING_EXTERNAL_BLOCKING_TIME_KEY] == 0
+    
+    assert HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY in result
+    assert result[HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY] == -20.0
+    
+    # Lower limit is OFF (36864), should not be in result
+    assert HEATING_EXTERNAL_LOWER_LIMIT_KEY not in result
 
 
 def test_parse_value_types():

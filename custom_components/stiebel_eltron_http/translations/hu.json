@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "ALAPBEÁLLÍTÁS FAGYVÉDELEM"
+    },
+    "heating_summer_mode": {
+      "name": "NYÁRI ÜZEM NYÁRI ÜZEM"
+    },
+    "heating_summer_outside_temp": {
+      "name": "NYÁRI ÜZEM KÜLSÕ HÕMÉRSÉKLET"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "NYÁRI ÜZEM ÉPÜLETCSILLAPÍTÁS"
+    },
+    "heating_pump_cycles": {
+      "name": "SZIV CIKLUS SZIV CIKLUS"
+    },
+    "heating_external_source": {
+      "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+    },
+    "heating_external_curve_gap": {
+      "name": "KÜLSÕ HÕGENERÁTOR FÛT. JELLEGGÖRBE TÁVOLS."
+    },
+    "heating_external_blocking_time": {
+      "name": "KÜLSÕ HÕGENERÁTOR EVU ZÁROLÁSI IDÕ"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR HZG"
     }
   }
 }

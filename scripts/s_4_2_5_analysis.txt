@@ -1,0 +1,267 @@
+﻿
+============================================================
+Language: DE
+============================================================
+
+W─RMEERZEUGER EXTERN
+  Type: dropdown
+  Value: EINSCHRAUBHEIZKÍRPER
+  Options (5):
+    [0] AUS
+    [1] EINSCHRAUBHEIZKÍRPER [CURRENT]
+    [2] KESSEL
+    [3] HZG-PWM
+    [4] HZG 0 - 10V
+
+ABSTAND HEIZKURVE
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+SPERRZEIT EVU
+  Type: int
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+BIVALENZTEMPERATUR HZG
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+  Field ID: 41
+
+UNTERE EINSATZGRENZE HZG
+  Type: dropdown
+  Value: AUS
+  Options (2):
+    [0] AUS [CURRENT]
+    [1] EIN
+
+============================================================
+Language: EN
+============================================================
+
+EXTERNAL HEAT SOURCE
+  Type: dropdown
+  Value: THREADED IMMERSION HEATER
+  Options (5):
+    [0] OFF
+    [1] THREADED IMMERSION HEATER [CURRENT]
+    [2] BOILER
+    [3] HZG PWM
+    [4] HEATING 0 - 10 V
+
+HEATING CURVE GAP
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+BLOCKING TIME EVU
+  Type: int
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+DUAL MODE TEMP HZG
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+  Field ID: 41
+
+LOWER APP LIMIT HZG
+  Type: dropdown
+  Value: OFF
+  Options (2):
+    [0] OFF [CURRENT]
+    [1] ON
+
+============================================================
+Language: FR
+============================================================
+
+GENERATEUR CHAL. EXTERNE
+  Type: dropdown
+  Value: CORPS DE CHAUF. A VISSSER
+  Options (5):
+    [0] OFF
+    [1] CORPS DE CHAUF. A VISSSER [CURRENT]
+    [2] CHAUDIERE
+    [3] CHAUFFAGE-PWM
+    [4] CHAUFFAGE 0 - 10 V
+
+ECART COURBE DE CHAUFFE
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+INTERDICTION TARIFAIRE
+  Type: int
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+TEMP. BIVALENCE CHAUFFAGE
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+  Field ID: 41
+
+LIMITE INF. CHAUFFAGE
+  Type: dropdown
+  Value: OFF
+  Options (2):
+    [0] OFF [CURRENT]
+    [1] ON
+
+============================================================
+Language: NL
+============================================================
+
+WARMTEOPWEKKER EXTERN
+  Type: dropdown
+  Value: INSCHROEF-VERW ELEMENT
+  Options (5):
+    [0] UIT
+    [1] INSCHROEF-VERW ELEMENT [CURRENT]
+    [2] KETEL
+    [3] HZG-PWM
+    [4] VERW 0 - 10 V
+
+AFSTAND VERWARMINGSCURVE
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+SPERTIJD EVU
+  Type: int
+python : Traceback (most recent call last):
+In Zeile:1 Zeichen:1
++ python scripts/analyze_s_4_2_5.py 2>&1 | Out-File -Encoding UTF8 scri ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteExcep 
+   tion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+BIVALENTIETEMPERATUUR HZG
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+  Field ID: 41
+
+OND WERKINGSGEBIED HZG
+  Type: dropdown
+  Value: UIT
+  Options (2):
+    [0] UIT [CURRENT]
+    [1] AAN
+
+============================================================
+Language: IT
+============================================================
+
+GENERATORE DI CALORE EST
+  Type: dropdown
+  Value: SCAMBIATORE FILETTATO
+  Options (5):
+    [0] OFF
+    [1] SCAMBIATORE FILETTATO [CURRENT]
+    [2] CALDAIA
+    [3] HZG-PWM
+    [4] RISCALDAMENTO 0 - 10 V
+  File "C:\GitHub\stiebel-eltron-http\scripts\analyze_s_4_2_5.py", line 140, in <module>
+    main()
+
+DISTANZA CURVA CALOR
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+TEMPO BLOCCO POTENZA
+  Type: int
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+TEMP DI BIVALENZA HZG
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+    ~~~~^^
+  File "C:\GitHub\stiebel-eltron-http\scripts\analyze_s_4_2_5.py", line 109, in main
+    print(f"    [{opt['value']}] {opt['text']}{checked}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0
+\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u015a' in position 11: character maps to 
+<undefined>
+  Field ID: 41
+
+LIMITE OPERATIVO INF HZG
+  Type: dropdown
+  Value: OFF
+  Options (2):
+    [0] OFF [CURRENT]
+    [1] ON
+
+============================================================
+Language: SV
+============================================================
+
+V─RMEGENERATOR EXTERN
+  Type: dropdown
+  Value: G─NGAD V─RMEPATRON
+  Options (5):
+    [0] OFF
+    [1] G─NGAD V─RMEPATRON [CURRENT]
+    [2] PANNA
+    [3] HZG-PWM
+    [4] HZG 0û10 V (UPPV─RMNING)
+
+AVST┼ND V─RMEKURVA
+  Type: float
+  Value: 3,0
+  Range: 1 - 15 K
+  Field ID: 119
+
+SP─RRTID EVU
+  Type: int
+  Value: 0
+  Range: 0 - 10 h
+  Field ID: 374
+
+BIVALENSTEMPERATUR HZG
+  Type: float
+  Value: -20,0
+  Range: -25 - 40 ░C
+  Field ID: 41
+
+UNDRE ANV─ND.GR─NS HZG
+  Type: dropdown
+  Value: OFF
+  Options (2):
+    [0] OFF [CURRENT]
+    [1] ON
+
+============================================================
+Language: PL
+============================================================
+
+ZEWN. WYTWORNICA CIEPLA
+  Type: dropdown
+  Value: GRZALKA WKRECANA
+  Options (5):
+    [0] WYL
+    [1] GRZALKA WKRECANA [CURRENT]
+    [2] KOCIOL
+    [3] HZG-PWM

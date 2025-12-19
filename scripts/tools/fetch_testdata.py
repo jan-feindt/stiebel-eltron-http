@@ -70,14 +70,20 @@ def sanitize_filename(path: str) -> str:
     return f"{name}.html"
 
 
-def fetch_text(url: str, timeout: int = 20, retries: int = 3, retry_delay: float = 2.0) -> str | None:
+def fetch_text(url: str, timeout: int = 20, retries: int = 5, retry_delay: float = 3.0) -> str | None:
     """Fetch the text content from a URL with retry logic."""
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "stiebel-test-fetch/1.0"})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                # ISG pages use UTF-8 encoding
-                return resp.read().decode('utf-8')
+                # Get raw bytes first
+                raw_bytes = resp.read()
+                # Try UTF-8 first, fall back to latin-1 if that fails
+                try:
+                    return raw_bytes.decode('utf-8')
+                except UnicodeDecodeError:
+                    print(f"  Warning: UTF-8 decode failed for {url}, trying latin-1...")
+                    return raw_bytes.decode('latin-1')
         except urllib.error.URLError as exc:
             if attempt < retries - 1:
                 print(f"  Attempt {attempt + 1}/{retries} failed for {url}: {exc.reason}, retrying in {retry_delay}s...")

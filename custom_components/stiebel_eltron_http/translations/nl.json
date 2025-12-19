@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "BASISINSTELLING VORSTBESCHERMING"
+    },
+    "heating_summer_mode": {
+      "name": "ZOMERBEDRIJF ZOMERBEDRIJF"
+    },
+    "heating_summer_outside_temp": {
+      "name": "ZOMERBEDRIJF BUITENTEMPERATUUR"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "ZOMERBEDRIJF GEBOUWDEMPING"
+    },
+    "heating_pump_cycles": {
+      "name": "POMPCYCLI POMPCYCLI"
+    },
+    "heating_external_source": {
+      "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+    },
+    "heating_external_curve_gap": {
+      "name": "WARMTEOPWEKKER EXTERN AFSTAND VERWARMINGSCURVE"
+    },
+    "heating_external_blocking_time": {
+      "name": "WARMTEOPWEKKER EXTERN SPERTIJD EVU"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED HZG"
     }
   }
 }

@@ -319,6 +319,24 @@ class StiebelEltronScrapingClient:
         except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
             LOGGER.debug("Heating basic settings page not available or failed to parse")
 
+        try:
+            summer_data = await self.async_scrape_heating_summer()
+            result.update(summer_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating summer mode page not available or failed to parse")
+
+        try:
+            pump_cycles_data = await self.async_scrape_heating_pump_cycles()
+            result.update(pump_cycles_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating pump cycles page not available or failed to parse")
+
+        try:
+            external_data = await self.async_scrape_heating_external()
+            result.update(external_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("Heating external heat source page not available or failed to parse")
+
         LOGGER.debug("Scraped data: %s", result)
         return result
 
@@ -609,6 +627,45 @@ class StiebelEltronScrapingClient:
         from .const import HEATING_BASIC_PATH
         return await self._scrape_heating_config_page(HEATING_BASIC_PATH, "BASIC")
 
+    async def async_scrape_heating_summer(self) -> Any:
+        """Scrape Heating Summer Mode configuration data.
+        
+        This fetches configuration values from the Summer Mode page (s=4,2,3):
+        - Summer mode (ON/OFF)
+        - Outside temperature threshold
+        - Building heat buffer
+        
+        Returns a dict with summer mode sensor keys.
+        """
+        from .const import HEATING_SUMMER_PATH
+        return await self._scrape_heating_config_page(HEATING_SUMMER_PATH, "SUMMER")
+
+    async def async_scrape_heating_pump_cycles(self) -> Any:
+        """Scrape Heating Pump Cycles configuration data.
+        
+        This fetches configuration values from the Pump Cycles page (s=4,2,4):
+        - Pump cycles (ON/OFF)
+        
+        Returns a dict with pump cycles sensor key.
+        """
+        from .const import HEATING_PUMP_CYCLES_PATH
+        return await self._scrape_heating_config_page(HEATING_PUMP_CYCLES_PATH, "PUMP_CYCLES")
+
+    async def async_scrape_heating_external(self) -> Any:
+        """Scrape Heating External Heat Source configuration data.
+        
+        This fetches configuration values from the External Heat Source page (s=4,2,5):
+        - External heat source type
+        - Heating curve gap
+        - Blocking time EVU
+        - Dual mode temperature
+        - Lower application limit (optional)
+        
+        Returns a dict with external heat source sensor keys.
+        """
+        from .const import HEATING_EXTERNAL_PATH
+        return await self._scrape_heating_config_page(HEATING_EXTERNAL_PATH, "EXTERNAL")
+
     async def _scrape_heating_config_page(self, path: str, circuit: str) -> dict:
         """Generic method to scrape heating configuration pages.
         
@@ -686,6 +743,19 @@ class StiebelEltronScrapingClient:
                     val_type = match.group(2)
                     type_dict[val_id] = val_type
         
+        # Also extract checked radio buttons for fields without jsvalues
+        # Pattern: <input ... checked="checked" ... name="val103" ... value="1"/>
+        radio_inputs = soup.find_all("input", {"type": "radio", "checked": "checked"})
+        for radio_input in radio_inputs:
+            name = radio_input.get("name", "")
+            if name.startswith("val"):
+                val_id = name[3:]  # Remove "val" prefix
+                value = radio_input.get("value", "")
+                # Only add if not already in val_dict (jsvalues take precedence)
+                if val_id not in val_dict and value:
+                    val_dict[val_id] = value
+                    type_dict[val_id] = "radio"
+        
         LOGGER.debug("%s: Extracted values: %s", circuit, val_dict)
         LOGGER.debug("%s: Extracted types: %s", circuit, type_dict)
         
@@ -696,6 +766,12 @@ class StiebelEltronScrapingClient:
             result = self._map_hc2_values(val_dict, type_dict)
         elif circuit == "BASIC":
             result = self._map_basic_heating_values(val_dict, type_dict)
+        elif circuit == "SUMMER":
+            result = self._map_summer_values(val_dict, type_dict)
+        elif circuit == "PUMP_CYCLES":
+            result = self._map_pump_cycles_values(val_dict, type_dict)
+        elif circuit == "EXTERNAL":
+            result = self._map_external_values(val_dict, type_dict)
         
         return result
 
@@ -833,6 +909,101 @@ class StiebelEltronScrapingClient:
             result[HEATING_FROST_PROTECTION_KEY] = self._parse_value(
                 val_dict["45"], type_dict.get("45", "float")
             )
+        
+        return result
+
+    def _map_summer_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map summer mode val IDs to sensor keys."""
+        from .const import (
+            HEATING_SUMMER_MODE_KEY,
+            HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+            HEATING_SUMMER_HEAT_BUFFER_KEY,
+        )
+        
+        result = {}
+        
+        # val103 = Summer Mode (0=OFF, 1=ON)
+        if "103" in val_dict:
+            raw_val = val_dict["103"]
+            result[HEATING_SUMMER_MODE_KEY] = raw_val == "1"
+        
+        # val105 = Outside Temperature
+        if "105" in val_dict:
+            result[HEATING_SUMMER_OUTSIDE_TEMP_KEY] = self._parse_value(
+                val_dict["105"], type_dict.get("105", "float")
+            )
+        
+        # val104 = Building Heat Buffer
+        if "104" in val_dict:
+            result[HEATING_SUMMER_HEAT_BUFFER_KEY] = self._parse_value(
+                val_dict["104"], type_dict.get("104", "int")
+            )
+        
+        return result
+
+    def _map_pump_cycles_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map pump cycles val IDs to sensor keys."""
+        from .const import HEATING_PUMP_CYCLES_KEY
+        
+        result = {}
+        
+        # val106 = Pump Cycles (0=OFF, 1=ON)
+        if "106" in val_dict:
+            raw_val = val_dict["106"]
+            result[HEATING_PUMP_CYCLES_KEY] = raw_val == "1"
+        
+        return result
+
+    def _map_external_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map external heat source val IDs to sensor keys."""
+        from .const import (
+            HEATING_EXTERNAL_SOURCE_KEY,
+            HEATING_EXTERNAL_CURVE_GAP_KEY,
+            HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+            HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+            HEATING_EXTERNAL_LOWER_LIMIT_KEY,
+        )
+        
+        result = {}
+        
+        # val342 = External Heat Source (0-4: OFF/THREADED/BOILER/PWM/0-10V)
+        if "342" in val_dict:
+            raw_val = val_dict["342"]
+            # Map radio button index to descriptive text
+            source_map = {
+                "0": "OFF",
+                "1": "THREADED IMMERSION HEATER",
+                "2": "BOILER",
+                "3": "HZG PWM",
+                "4": "HEATING 0-10V",
+            }
+            result[HEATING_EXTERNAL_SOURCE_KEY] = source_map.get(raw_val, raw_val)
+        
+        # val119 = Heating Curve Gap
+        if "119" in val_dict:
+            result[HEATING_EXTERNAL_CURVE_GAP_KEY] = self._parse_value(
+                val_dict["119"], type_dict.get("119", "float")
+            )
+        
+        # val374 = Blocking Time EVU
+        if "374" in val_dict:
+            result[HEATING_EXTERNAL_BLOCKING_TIME_KEY] = self._parse_value(
+                val_dict["374"], type_dict.get("374", "int")
+            )
+        
+        # val41 = Dual Mode Temperature HZG
+        if "41" in val_dict:
+            result[HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY] = self._parse_value(
+                val_dict["41"], type_dict.get("41", "float")
+            )
+        
+        # val43 = Lower Application Limit HZG (OFF = 36864)
+        if "43" in val_dict:
+            raw_val = val_dict["43"]
+            if raw_val != "36864":  # Not OFF
+                result[HEATING_EXTERNAL_LOWER_LIMIT_KEY] = self._parse_value(
+                    raw_val, type_dict.get("43", "float")
+                )
         
         return result
 

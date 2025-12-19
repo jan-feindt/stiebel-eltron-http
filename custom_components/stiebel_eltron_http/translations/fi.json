@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "PERUSASETUS JÄÄTYMISESTO"
+    },
+    "heating_summer_mode": {
+      "name": "KESÄKÄYTTÖ KESÄKÄYTTÖ"
+    },
+    "heating_summer_outside_temp": {
+      "name": "KESÄKÄYTTÖ ULKOLÄMPÖTILA"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "KESÄKÄYTTÖ RAKENNUSVAIMENNUS"
+    },
+    "heating_pump_cycles": {
+      "name": "PUMPPUJAKSOT PUMPPUJAKSOT"
+    },
+    "heating_external_source": {
+      "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+    },
+    "heating_external_curve_gap": {
+      "name": "LÄMMÖNTUOTTAJA ULK LÄMMITYSKÄYRÄN VÄLI"
+    },
+    "heating_external_blocking_time": {
+      "name": "LÄMMÖNTUOTTAJA ULK SÄHKÖNJAK KESK"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "LÄMMÖNTUOTTAJA ULK KÄYT ALARAJA HZG"
     }
   }
 }

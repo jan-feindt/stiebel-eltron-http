@@ -1,0 +1,650 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<head>
+	<title>STIEBEL ELTRON Reglersteuerung</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="content-language" content="de" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+  
+  <link rel="shortcut icon" href="./pics/brlogo.ico">
+  <!-- does not exist link rel="stylesheet" href="./css/netzwerk.css" type="text/css" media="all" /-->
+  <link rel="stylesheet" type="text/css" href="./css/slider/ste_slider.css" />	
+	<!-- Blueprint CSS framework -->
+	<link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print" />	
+	<!--[if lt IE 8]><link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+	
+	<link rel="stylesheet" href="./css/layout.css" type="text/css" media="all" />
+  	
+	<link rel="stylesheet" href="./css/sifr.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="./css/thickbox.css" type="text/css" media="all" />
+	
+	<link rel="stylesheet" type="text/css" href="./css/jquery.jqplot.min.css" />
+	
+	  
+  	
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/thickbox.js"></script>
+	<script type="text/javascript" src="./js/sifr.js"></script>
+	<script type="text/javascript" src="./js/sifr_sw.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+  <script type="text/javascript" src="./js/json2.js"></script>
+  <script type="text/javascript" src="./js/plugins/jquery-ui-1.8.6.custom.min.js"></script>
+    <script type="text/javascript" src="./js/setDNS1.js"></script>
+
+	<!-- [if IE] -->
+	<script language="javascript" type="text/javascript" src="./js/excanvas.min.js"></script>
+	<!-- [endif] -->
+
+	<!-- for dateAxisRenderer.js -->
+	<script language="javascript" type="text/javascript" src="./js/plugins/Date.min.js"></script>
+	<!-- BEGIN: load jqplot -->
+	<script language="javascript" type="text/javascript" src="./js/jquery.jqplot.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.dateAxisRenderer.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.barRenderer.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/jqplot.categoryAxisRenderer.js"></script>
+	<!-- END: load jqplot -->
+
+
+<style>
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #D0D0D0;
+   border-right-color: #000000;
+   animation: spinner-d3wgkg 1s infinite linear;
+  
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+</style>
+  
+  <!-- BEGIN: load slider -->
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.core.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.widget.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.mouse.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/plugins/slider/jquery.ui.slider.js"></script>
+	<!-- END: load slider -->
+  
+    
+  <!-- BEGIN: Uhrzeit -->
+  <script language="javascript" type="text/javascript">
+var timestampunterschied = 1765820399 * 1000 - new Date().getTime();
+</script>
+<script src="./js/uhrzeit.js" type="text/javascript" language="javascript"></script>
+  <!-- END:  Uhrzeit -->
+  
+</head>
+<body>
+<div class="sessionToken" id="sessionToken" style="display:none">694047f18a225</div><div id="header">
+	<div class="head curdef">
+		<div id="meta">
+			<div id="login">
+      			</div>
+		</div>
+    <div class="eingestelle_sprache"><strong><a href="?s=5,3" style="color:white">DEUTSCH</a></strong></div>
+    <div id="Uhrzeit"></div>
+		<div class="title">
+      <a href="." onclick="return checkChanges(this);" title="zur Startseite">
+        <img src="./pics/title.png" alt="Servicewelt" />
+		
+      </a>
+          </div>
+		<div class="logo"><a href="." onclick="return checkChanges(this);" title="zur Startseite" class="home_link">&nbsp;</a></div>
+	</div>
+</div>
+
+
+<div class="container" id="page">
+  <div id="main" >
+  <div id="SpacerFirefox"></div>
+    <div id="nav">
+      <div class="clear"></div>
+            <div class="nav left defaultfirst">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link1">
+          <a onclick="return checkChanges(this);" href="?s=0">START</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link2">
+          <a >INFO</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,0">ANLAGE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,1">WÄRMEPUMPE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,8">ENERGIEBILANZ</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,9">Lizenzbestimmungen</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,10">NUTZUNGS- UND DATENSCHUTZRICHTLINIE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=1,11">HANDBUCH</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link3">
+          <a >DIAGNOSE</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,0">STATUS ANLAGE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,2">STATUS WÄRMEPUMPE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,4">ANALYSE WÄRMEPUMPE</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,6">INTERNE BERECHNUNG</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,7">SYSTEM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=2,9">MELDUNGSLISTE</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link4">
+          <a >PROGRAMME</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,0">HEIZPROGRAMM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,2">WARMWASSERPROGRAMM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,6">SILENTPROGRAMM 1</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,7">SILENTPROGRAMM 2</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,12">PARTYPROGRAMM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,13">FERIENPROGRAMM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=3,14">ANTILEGIONELLENPROGRAMM</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left default parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link5">
+          <a >EINSTELLUNGEN</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second ">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,0">ZEIT / DATUM</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,1">SOMMERZEIT EINSTELLEN</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,2">HEIZEN</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,3">WARMWASSER</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,15">ISG</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=4,25">LEISTUNGSBEEINFLUSSUNG</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="nav left defaultlast parent">
+        <div class="l left">&nbsp;</div>
+        <div class="c left link6">
+          <a >Profil</a>
+        </div>
+        <div class="r left">&nbsp;</div>
+        <div class="clear"></div>
+                <div class="second">
+          <ul class="second last">
+                        <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,0">Netzwerk</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,1">Sicherheit</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,2">Anlagenbild</a>
+    			    
+            </li>
+                      <li>
+			  <a onclick="return checkChanges(this);" href="?s=5,3">SPRACHE</a>
+    			    
+            </li>
+                    </ul>
+        </div>
+              </div>
+            <div class="clear"></div>
+    </div>
+        <div id="sub_nav" class="span-24"><div class="left main sifr span-9" style="width: 45%">HEIZEN</div>
+<div class="span-15 last">
+  <div class="nav default right" style="text-align:center;padding:0;" id="subsubnavicon">
+    <a style="background-image:none;"><img src="pics/sub_nav_default_bg_bot_2.gif"></a>
+    <div id="subsubnav" class="right" style="position:absolute; left:0px; background: url('pics/sub_sub_nav_bg_left.gif') repeat-y scroll 0pt 0pt white; z-index:99; display:none;margin-left:-5px;margin-top;2px">
+          <div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+        <div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+          <img src="pics/sub_sub_nav_underline_r.gif" class="right">
+          <img src="pics/sub_sub_nav_underline_l.gif" class="left">
+        </div>
+        <a class="left" style="white-space:nowrap" href="?s=4,2,0" onclick="return checkChanges(this);">HEIZKREIS 1</a>
+      </div>
+          <div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+        <div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+          <img src="pics/sub_sub_nav_underline_r.gif" class="right">
+          <img src="pics/sub_sub_nav_underline_l.gif" class="left">
+        </div>
+        <a class="left" style="white-space:nowrap" href="?s=4,2,1" onclick="return checkChanges(this);">HEIZKREIS 2</a>
+      </div>
+          <div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+        <div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+          <img src="pics/sub_sub_nav_underline_r.gif" class="right">
+          <img src="pics/sub_sub_nav_underline_l.gif" class="left">
+        </div>
+        <a class="left" style="white-space:nowrap" href="?s=4,2,2" onclick="return checkChanges(this);">GRUNDEINSTELLUNG</a>
+      </div>
+          <div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+        <div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+          <img src="pics/sub_sub_nav_underline_r.gif" class="right">
+          <img src="pics/sub_sub_nav_underline_l.gif" class="left">
+        </div>
+        <a class="left" style="white-space:nowrap" href="?s=4,2,3" onclick="return checkChanges(this);">SOMMERBETRIEB</a>
+      </div>
+          <div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+        <div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+          <img src="pics/sub_sub_nav_underline_r.gif" class="right">
+          <img src="pics/sub_sub_nav_underline_l.gif" class="left">
+        </div>
+        <a class="left" style="white-space:nowrap" href="?s=4,2,4" onclick="return checkChanges(this);">PUMPENZYKLEN</a>
+      </div>
+          <div class="right" style="height: 7px; width: 100%; background-image: url('pics/sub_sub_nav_bg_bot.gif');">
+        <img src="pics/sub_sub_nav_bg_round_top_right.gif" class="left">
+      </div>
+    </div>
+  </div>
+  <div class="nav active right">
+    <div class="l"></div>
+    <div class="c">
+      <a id="subnavactivename"></a>
+    </div>
+    <div class="r"></div>
+    <div class="clear"></div>
+  </div>
+  <script type="text/javascript">
+    $("#subnavactivename").html('WÄRMEERZEUGER EXTERN');
+    $("#subsubnavicon").css( 'width', function(){ 
+      return parseInt( $("#subsubnav").css('width')); 
+    }).click(function(e){
+      $("#subsubnav").slideToggle('fast');
+      e.stopPropagation();
+    });
+    $("#subsubnav").click(function(e){
+      e.stopPropagation();
+    });
+    $('body').bind('click', function(e) {
+      $("#subsubnav").slideUp('fast');
+    });
+  </script>
+</div>
+<div class="clear"></div></div>
+        <form id="werte" action="#" onsubmit="saveValues(this);return false;"><div id="content">
+    <script type="text/javascript">
+  var valSettings = new Array();
+  var jsvalues = new Array();
+  var jsobj;
+</script>
+<div class="focusguard" id="focusguard-1" tabindex="0"></div>
+ 
+
+<div class="calibration round span-24 last" id="calval342">
+  <div class="span-7 ialigned">
+    <h3 class="title">WÄRMEERZEUGER EXTERN</h3>
+  </div>
+  <div class="values span-7">
+    <div class="dropdown" style="width:18.9em">	<!-- Chrome-Bug: div zu schmal, daher feste Breite. Sorgt ausserdem fuer Platz fuer Radio-Buttons in div.black -->
+      <input id="aval342" value="EINSCHRAUBHEIZKÖRPER" readonly="readonly" class="dropdown dropdown_text" style="width:13.5em">
+      <img src="./pics/icon_edit_dropdown.png" class="dropdown">
+      <div class="black" style="padding-bottom:15px;padding-top:15px">
+                  <input id="radioval3420" type="radio" alt="AUS" name="val342" value="0">
+          <label for="radioval3420">AUS</label>
+          <br>
+                  <input id="radioval3421" type="radio" alt="EINSCHRAUBHEIZKÖRPER" name="val342" value="1" checked="checked">
+          <label for="radioval3421">EINSCHRAUBHEIZKÖRPER</label>
+          <br>
+                  <input id="radioval3422" type="radio" alt="KESSEL" name="val342" value="2">
+          <label for="radioval3422">KESSEL</label>
+          <br>
+                  <input id="radioval3423" type="radio" alt="HZG-PWM" name="val342" value="3">
+          <label for="radioval3423">HZG-PWM</label>
+          <br>
+                  <input id="radioval3424" type="radio" alt="HZG 0 - 10V" name="val342" value="4">
+          <label for="radioval3424">HZG 0 - 10V</label>
+          <br>
+              </div>
+    </div>
+    
+    <script language="javascript" type="text/javascript">
+    $(":input[name=val342]").click( function() {
+    if ($("input[name=val342]:checked").val()==$(this).val()) {
+      $("#val342").val($(this).val());
+      $("#aval342").val(this.alt);
+      valueChanged = true;
+      closeAllBoxes();
+    }});
+    </script>
+
+  </div>
+  <div class="values span-1 append-1"></div>
+  <div class="green round-right span-8 last">
+    <p>Optionale Auswahl</p>
+  </div>
+  </div>  <div class="calibration round span-24 last" id="calval119">
+  <div class="span-7 ialigned">
+    <h3 class="title">ABSTAND HEIZKURVE</h3>
+  </div>
+  <div class="values span-7">
+    <div class="editors">
+      <a onmousedown="change('val119','+',1,15,'0.1',true);return false;" href="javascript://">
+        <img src="./pics/button_higher.png">
+      </a>
+      <a id="editorslower" onmousedown="change('val119','-',1,15,'0.1',true);return false;" href="javascript://" style="clear:left;">
+        <img src="./pics/button_lower.png">
+      </a>
+    </div> 
+    <input type="text" tabindex="1" value="" name="val119" id="val119" class="edit upndown firstElement" style="width:3.6em">
+	
+    <script language="javascript" type="text/javascript">
+      valSettings['val119'] = new Array();
+      valSettings['val119']['type'] = 'float';       valSettings['val119']['min'] = '1';
+      valSettings['val119']['max'] = '15';
+      
+            
+      jsvalues['119'] = new Array();
+      jsvalues['119']['id']='val119';
+      jsvalues['119']['val']='3,0';
+    </script>
+   </div>
+  <div class="values span-1 append-1">K</div>
+  <div class="green round-right span-8 last">
+    <p>Gültige Werte: Eingabe zwischen<br />1 K und 15 K</p>
+  </div>
+  </div>  <div class="calibration round span-24 last" id="calval374">
+  <div class="span-7 ialigned">
+    <h3 class="title">SPERRZEIT EVU</h3>
+  </div>
+  <div class="values span-7">
+    <div class="editors">
+      <a onmousedown="change('val374','+',0,10,'1',true);return false;" href="javascript://">
+        <img src="./pics/button_higher.png">
+      </a>
+      <a id="editorslower" onmousedown="change('val374','-',0,10,'1',true);return false;" href="javascript://" style="clear:left;">
+        <img src="./pics/button_lower.png">
+      </a>
+    </div> 
+    <input type="text" tabindex="3" value="" name="val374" id="val374" class="edit upndown" style="width:3.6em">
+	
+    <script language="javascript" type="text/javascript">
+      valSettings['val374'] = new Array();
+      valSettings['val374']['type'] = 'int';       valSettings['val374']['min'] = '0';
+      valSettings['val374']['max'] = '10';
+      
+            
+      jsvalues['374'] = new Array();
+      jsvalues['374']['id']='val374';
+      jsvalues['374']['val']='0';
+    </script>
+   </div>
+  <div class="values span-1 append-1">h</div>
+  <div class="green round-right span-8 last">
+    <p>Gültige Werte: Eingabe zwischen<br />0 h und 10 h</p>
+  </div>
+  </div>  <div class="calibration round span-24 last" id="calval41">
+  <div class="span-7 ialigned">
+    <h3 class="title">BIVALENZTEMPERATUR HZG</h3>
+  </div>
+  <div class="values span-7">
+    <div class="editors">
+      <a onmousedown="change('val41','+',-25,40,'0.5',true);return false;" href="javascript://">
+        <img src="./pics/button_higher.png">
+      </a>
+      <a id="editorslower" onmousedown="change('val41','-',-25,40,'0.5',true);return false;" href="javascript://" style="clear:left;">
+        <img src="./pics/button_lower.png">
+      </a>
+    </div> 
+    <input type="text" tabindex="4" value="" name="val41" id="val41" class="edit upndown" style="width:3.6em">
+	
+    <script language="javascript" type="text/javascript">
+      valSettings['val41'] = new Array();
+      valSettings['val41']['type'] = 'float';       valSettings['val41']['min'] = '-25';
+      valSettings['val41']['max'] = '40';
+      
+            
+      jsvalues['41'] = new Array();
+      jsvalues['41']['id']='val41';
+      jsvalues['41']['val']='-20,0';
+    </script>
+   </div>
+  <div class="values span-1 append-1">°C</div>
+  <div class="green round-right span-8 last">
+    <p>Gültige Werte: Eingabe zwischen<br />-25 °C und 40 °C</p>
+  </div>
+  </div>  
+<div class="calibration round span-24 last" id="calval43">
+  <div class="span-7 ialigned">
+    <h3 class="title">UNTERE EINSATZGRENZE HZG</h3>
+  </div>
+  <div class="values span-7">
+    <div class="right" style="height:64px;width:100%">
+      <div class="dropdown" style="width:7.56em">
+        <input id="aval43" value="AUS" readonly="readonly" class="dropdown dropdown_wert" style="width:3.6em">
+        <img src="./pics/icon_edit_dropdown.png" class="dropdown">
+        <div class="black" style="padding-bottom:15px;padding-top:15px">
+          <input id="radioval430" type="radio" alt="AUS" onclick="pre7off(43);" value="0" checked="checked">
+          <label for="radioval430">AUS</label>
+          <br />
+          <input id="radioval431" type="radio" alt="EIN" onclick="pre7on(43);" value="1" >
+          <label for="radioval431">EIN</label>
+        </div>
+      </div>
+    </div>
+    <div id="chval43" style="margin-top:-30px;">
+      <div class="editors">
+        <a onmousedown="change('val43','+',-25,-20,'0.5',true);return false;" href="javascript://">
+          <img src="./pics/button_higher.png">
+        </a>
+	
+        <a onmousedown="change('val43','-',-25,-20,'0.5',true);return false;" href="javascript://" style="clear:left;">
+          <img src="./pics/button_lower.png">
+        </a>
+      </div>
+      <input type="text" tabindex="5" name="val43" id="val43" class="edit upndown" style="width:3.6em">
+    </div>
+  </div>
+  <div class="values span-1 append-1"><br><div id="valueunit43">°C</div></div>
+  <div class="green round-right span-8 last" style="height:140px">
+    <p>Gültige Werte: Eingabe zwischen<br />-25 °C und -20 °C</p>
+  </div>
+  
+  <script language="javascript" type="text/javascript">
+    valSettings['val43'] = new Array();
+    valSettings['val43']['type'] = 'float';     valSettings['val43']['min'] = '-25';
+    valSettings['val43']['max'] = '-20';
+    jsvalues[43] = new Array();
+    jsvalues[43]['id']='val43';
+    jsvalues[43]['val']='36864';
+    //alert(36864);
+    pre7off(43,true);
+  </script>
+</div>
+<div class="focusguard" id="focusguard-2" tabindex="8"></div>
+<div class="span-24 last">
+  <div class="span-4 right">
+    <div class="button left"  onclick="document.forms['werte'].onsubmit();"><div class="bg_r">&nbsp;</div><a>Speichern</a></div>  </div>
+</div>
+<div class="span-24 last"><p></p></div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+  $('#focusguard-1').focus( function() {
+	// "last" focus guard got focus: set focus to the first field
+	$('.lastElement').focus();
+	$('.lastElement').select();
+	
+  });
+
+  $('#focusguard-2').focus( function() {
+   // "first" focus guard got focus: set focus to the last field
+   $('.firstElement').focus();
+   $('.firstElement').select();
+  });
+}); 
+</script>
+
+    </div>  </form></div>
+</div>
+</div>
+</div>
+<div id="footer">
+	<!--[if IE]>
+	<style type="text/css">
+	#footer
+{
+		
+		height:260px;
+}
+	#versionsNummer
+	{
+		position:relative;
+		top:-33px;
+	}
+	</style>
+
+     	<![endif]-->
+	<div class="span-24 last footer_middle curdef">
+	
+		<div class="span-8 prepend-top" style="height:145px">
+						<div class="span-3">
+			
+				<img src="./pics/ste_footer_website.png" />
+			</div>
+			<div class="span-5 last">
+				<p>
+				
+          					Weitere Informationen zu unserem Produktprogramm und aktuelle Serviceangebote finden Sie unter					<a href="http://www.stiebel-eltron.de" target="_blank" class="extern">www.stiebel-eltron.de</a>
+				</p>
+			</div>
+					</div>
+	  
+    		<div class="bordered span-1"></div>
+		<div class="span-6 prepend-top">
+			<div class="span-2">
+			  <img src="./pics/footer_tel.png" />
+			</div>
+			<div class="span-4 last">
+				<p>
+					Unsere Service-Hotline erreichen Sie unter<br /><span class="big">05531 702-111</span>
+				</p>
+			</div>
+	  </div>
+    		<div class="bordered span-1"></div>
+		<div class="span-7 prepend-top last">
+			<p>
+				Das Neueste rund um die Servicewelt				<br /><a href="https://www.stiebel-eltron.de/de/home/service/smart-home/servicewelt.html" target="_blank" class="extern">servicewelt</a>
+			</p>
+	  </div>
+    
+	</div>
+  <div class="links span-23 prepend-top append-1 last footer_middle">
+    <div class="span-17">
+        		<a class="intern" href="?forcepage=dsgvo" onclick="return checkChanges(this);">Datenschutz</a>
+				
+		<a href="http://www.stiebel-eltron.de/de/info/impressum.html">Impressum</a>
+      &nbsp;
+      <p style="margin-top:8px" class="right" id="versionsNummer">1.4.00.0040</p>
+    </div>
+  	<div class="copyright span-6 last curdef">
+  		&copy; STIEBEL ELTRON 2025  	</div>
+  </div>
+</div>
+</body>
+</html>
+

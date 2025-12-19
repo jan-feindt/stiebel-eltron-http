@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "AJUSTE ESTÁNDAR PROTEC. ANTICONG."
+    },
+    "heating_summer_mode": {
+      "name": "OPERACIÓN VERANO OPERACIÓN VERANO"
+    },
+    "heating_summer_outside_temp": {
+      "name": "OPERACIÓN VERANO TEMPERATURA EXTERIOR"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "OPERACIÓN VERANO AISLAMIENTO DEL EDIFICIO"
+    },
+    "heating_pump_cycles": {
+      "name": "CICLOS BOMBA CICLOS BOMBA"
+    },
+    "heating_external_source": {
+      "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+    },
+    "heating_external_curve_gap": {
+      "name": "GENERADOR CALOR EXTERNO DISTANCIA CURVA CAL."
+    },
+    "heating_external_blocking_time": {
+      "name": "GENERADOR CALOR EXTERNO T. BLO. DEF. COMP. ELÉC."
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. HZG"
     }
   }
 }

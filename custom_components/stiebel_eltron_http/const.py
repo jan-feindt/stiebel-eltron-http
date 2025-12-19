@@ -159,3 +159,18 @@ HEATING_MAX_RETURN_TEMP_KEY = "heating_max_return_temp"
 HEATING_MAX_FLOW_TEMP_KEY = "heating_max_flow_temp"
 HEATING_FIXED_VALUE_OP_KEY = "heating_fixed_value_operation"
 HEATING_FROST_PROTECTION_KEY = "heating_frost_protection"
+
+# Summer Mode configuration keys
+HEATING_SUMMER_MODE_KEY = "heating_summer_mode"
+HEATING_SUMMER_OUTSIDE_TEMP_KEY = "heating_summer_outside_temp"
+HEATING_SUMMER_HEAT_BUFFER_KEY = "heating_summer_heat_buffer"
+
+# Pump Cycles configuration key
+HEATING_PUMP_CYCLES_KEY = "heating_pump_cycles"
+
+# External Heat Source configuration keys
+HEATING_EXTERNAL_SOURCE_KEY = "heating_external_source"
+HEATING_EXTERNAL_CURVE_GAP_KEY = "heating_external_curve_gap"
+HEATING_EXTERNAL_BLOCKING_TIME_KEY = "heating_external_blocking_time"
+HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY = "heating_external_dual_mode_temp"
+HEATING_EXTERNAL_LOWER_LIMIT_KEY = "heating_external_lower_limit"

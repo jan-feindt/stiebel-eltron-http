@@ -100,6 +100,15 @@ from .const import (
     HEATING_MAX_FLOW_TEMP_KEY,
     HEATING_FIXED_VALUE_OP_KEY,
     HEATING_FROST_PROTECTION_KEY,
+    HEATING_SUMMER_MODE_KEY,
+    HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+    HEATING_SUMMER_HEAT_BUFFER_KEY,
+    HEATING_PUMP_CYCLES_KEY,
+    HEATING_EXTERNAL_SOURCE_KEY,
+    HEATING_EXTERNAL_CURVE_GAP_KEY,
+    HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+    HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+    HEATING_EXTERNAL_LOWER_LIMIT_KEY,
 )
 from .entity import StiebelEltronHttpEntity
 
@@ -827,6 +836,82 @@ ENTITY_DESCRIPTIONS = (
         state_class=SensorStateClass.MEASUREMENT,
         icon="mdi:snowflake-alert",
     ),
+    # Summer Mode (s=4,2,3)
+    SensorEntityDescription(
+        key=HEATING_SUMMER_MODE_KEY,
+        name="Heating summer mode",
+        translation_key=HEATING_SUMMER_MODE_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:weather-sunny",
+    ),
+    SensorEntityDescription(
+        key=HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+        name="Heating summer outside temperature",
+        translation_key=HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer",
+    ),
+    SensorEntityDescription(
+        key=HEATING_SUMMER_HEAT_BUFFER_KEY,
+        name="Heating summer heat buffer",
+        translation_key=HEATING_SUMMER_HEAT_BUFFER_KEY,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:timer",
+    ),
+    # Pump Cycles (s=4,2,4)
+    SensorEntityDescription(
+        key=HEATING_PUMP_CYCLES_KEY,
+        name="Heating pump cycles",
+        translation_key=HEATING_PUMP_CYCLES_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:pump",
+    ),
+    # External Heat Source (s=4,2,5)
+    SensorEntityDescription(
+        key=HEATING_EXTERNAL_SOURCE_KEY,
+        name="Heating external source",
+        translation_key=HEATING_EXTERNAL_SOURCE_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        icon="mdi:heating-coil",
+    ),
+    SensorEntityDescription(
+        key=HEATING_EXTERNAL_CURVE_GAP_KEY,
+        name="Heating external curve gap",
+        translation_key=HEATING_EXTERNAL_CURVE_GAP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.KELVIN,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:chart-bell-curve",
+    ),
+    SensorEntityDescription(
+        key=HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+        name="Heating external blocking time",
+        translation_key=HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+        native_unit_of_measurement=UnitOfTime.HOURS,
+        device_class=SensorDeviceClass.DURATION,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:timer-lock",
+    ),
+    SensorEntityDescription(
+        key=HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+        name="Heating external dual mode temperature",
+        translation_key=HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer",
+    ),
+    SensorEntityDescription(
+        key=HEATING_EXTERNAL_LOWER_LIMIT_KEY,
+        name="Heating external lower limit",
+        translation_key=HEATING_EXTERNAL_LOWER_LIMIT_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-low",
+    ),
 )
 
 
@@ -888,6 +973,15 @@ async def async_setup_entry(
             HEATING_MAX_FLOW_TEMP_KEY,
             HEATING_FIXED_VALUE_OP_KEY,
             HEATING_FROST_PROTECTION_KEY,
+            HEATING_SUMMER_MODE_KEY,
+            HEATING_SUMMER_OUTSIDE_TEMP_KEY,
+            HEATING_SUMMER_HEAT_BUFFER_KEY,
+            HEATING_PUMP_CYCLES_KEY,
+            HEATING_EXTERNAL_SOURCE_KEY,
+            HEATING_EXTERNAL_CURVE_GAP_KEY,
+            HEATING_EXTERNAL_BLOCKING_TIME_KEY,
+            HEATING_EXTERNAL_DUAL_MODE_TEMP_KEY,
+            HEATING_EXTERNAL_LOWER_LIMIT_KEY,
         }
         if key in optional_keys:
             if key not in data or data.get(key) is None:

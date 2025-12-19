@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "ZÁKLADNÍ NASTAVENÍ PROTIZAMRAZ"
+    },
+    "heating_summer_mode": {
+      "name": "TEPL LETO PREP TEPL LETO PREP"
+    },
+    "heating_summer_outside_temp": {
+      "name": "TEPL LETO PREP VENKOVNI TEPLOTA"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "TEPL LETO PREP VYSOUSENI BUDOVY"
+    },
+    "heating_pump_cycles": {
+      "name": "CYKLY CERPADLA CYKLY CERPADLA"
+    },
+    "heating_external_source": {
+      "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+    },
+    "heating_external_curve_gap": {
+      "name": "ZDROJ TEPLA EXTERNI ODSTUP KRIVEK"
+    },
+    "heating_external_blocking_time": {
+      "name": "ZDROJ TEPLA EXTERNI CASOVE BLOKOVANI EL ROZV"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "ZDROJ TEPLA EXTERNI BIVALENTNI TEPLOTA TOPENI"
+    },
+    "heating_external_lower_limit": {
+      "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI HZG"
     }
   }
 }

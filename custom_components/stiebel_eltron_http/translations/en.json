@@ -286,6 +286,33 @@
     },
     "heating_frost_protection": {
       "name": "STANDARD SETTING FROST PROTECTION"
+    },
+    "heating_summer_mode": {
+      "name": "SUMMER MODE SUMMER MODE"
+    },
+    "heating_summer_outside_temp": {
+      "name": "SUMMER MODE OUTSIDE TEMPERATURE"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "SUMMER MODE BUILDING HEAT BUFFER"
+    },
+    "heating_pump_cycles": {
+      "name": "PUMP CYCLES PUMP CYCLES"
+    },
+    "heating_external_source": {
+      "name": "EXTERNAL HEAT SOURCE EXTERNAL HEAT SOURCE"
+    },
+    "heating_external_curve_gap": {
+      "name": "EXTERNAL HEAT SOURCE HEATING CURVE GAP"
+    },
+    "heating_external_blocking_time": {
+      "name": "EXTERNAL HEAT SOURCE BLOCKING TIME EVU"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT HZG"
     }
   }
 }

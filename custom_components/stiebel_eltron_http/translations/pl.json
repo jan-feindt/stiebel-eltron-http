@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "NASTAWA PODSTAWOWA ANTYZAMARZANIE"
+    },
+    "heating_summer_mode": {
+      "name": "TRYB LETNI TRYB LETNI"
+    },
+    "heating_summer_outside_temp": {
+      "name": "TRYB LETNI TEMP ZEWNETRZNA"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "TRYB LETNI TLUMIENIE BUDYNKU"
+    },
+    "heating_pump_cycles": {
+      "name": "CYKLE POMPY CYKLE POMPY"
+    },
+    "heating_external_source": {
+      "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+    },
+    "heating_external_curve_gap": {
+      "name": "ZEWN. WYTWORNICA CIEPLA ODL KRZYWEJ GRZEWCZEJ"
+    },
+    "heating_external_blocking_time": {
+      "name": "ZEWN. WYTWORNICA CIEPLA CZAS BLOKADY ZAK ENERGET"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. HZG"
     }
   }
 }

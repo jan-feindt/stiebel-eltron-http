@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "GRUNDINSTÄLLNING FROSTKYDD"
+    },
+    "heating_summer_mode": {
+      "name": "SOMMARDRIFT SOMMARDRIFT"
+    },
+    "heating_summer_outside_temp": {
+      "name": "SOMMARDRIFT UTETEMPERATUR"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "SOMMARDRIFT BYGGNADSISOLERING"
+    },
+    "heating_pump_cycles": {
+      "name": "PUMPCYKLER PUMPCYKLER"
+    },
+    "heating_external_source": {
+      "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
+    },
+    "heating_external_curve_gap": {
+      "name": "VÄRMEGENERATOR EXTERN AVSTÅND VÄRMEKURVA"
+    },
+    "heating_external_blocking_time": {
+      "name": "VÄRMEGENERATOR EXTERN SPÄRRTID EVU"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS HZG"
     }
   }
 }

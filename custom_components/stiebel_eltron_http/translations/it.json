@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "IMPOSTAZIONE STANDARD PROTEZ ANTIGELO"
+    },
+    "heating_summer_mode": {
+      "name": "USO ESTIVO USO ESTIVO"
+    },
+    "heating_summer_outside_temp": {
+      "name": "USO ESTIVO TEMPERATURA ESTERNA"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "USO ESTIVO ATTENUAZIONE EDIFICIO"
+    },
+    "heating_pump_cycles": {
+      "name": "CICLI POMPA CICLI POMPA"
+    },
+    "heating_external_source": {
+      "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+    },
+    "heating_external_curve_gap": {
+      "name": "GENERATORE DI CALORE EST DISTANZA CURVA CALOR"
+    },
+    "heating_external_blocking_time": {
+      "name": "GENERATORE DI CALORE EST TEMPO BLOCCO POTENZA"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA HZG"
+    },
+    "heating_external_lower_limit": {
+      "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF HZG"
     }
   }
 }

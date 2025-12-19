@@ -280,6 +280,33 @@
     },
     "heating_frost_protection": {
       "name": "RÉGLAGE DE BASE HORS GEL"
+    },
+    "heating_summer_mode": {
+      "name": "MODE ETE MODE ETE"
+    },
+    "heating_summer_outside_temp": {
+      "name": "MODE ETE TEMPERATURE EXTERIEURE"
+    },
+    "heating_summer_heat_buffer": {
+      "name": "MODE ETE ISOLATION BATIMENT"
+    },
+    "heating_pump_cycles": {
+      "name": "CYCLES POMPES CYCLES POMPES"
+    },
+    "heating_external_source": {
+      "name": "GENERATEUR CHAL. EXTERNE GENERATEUR CHAL. EXTERNE"
+    },
+    "heating_external_curve_gap": {
+      "name": "GENERATEUR CHAL. EXTERNE ECART COURBE DE CHAUFFE"
+    },
+    "heating_external_blocking_time": {
+      "name": "GENERATEUR CHAL. EXTERNE INTERDICTION TARIFAIRE"
+    },
+    "heating_external_dual_mode_temp": {
+      "name": "GENERATEUR CHAL. EXTERNE TEMP. BIVALENCE CHAUFFAGE"
+    },
+    "heating_external_lower_limit": {
+      "name": "GENERATEUR CHAL. EXTERNE LIMITE INF. CHAUFFAGE"
     }
   }
 }

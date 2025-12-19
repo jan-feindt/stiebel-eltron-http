@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>STIEBEL ELTRON Reglersteuerung</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="no" http-equiv="imagetoolbar"/>
+<meta content="de" name="content-language"/>
+<meta content="noindex,nofollow" name="robots"/>
+<meta content="" name="keywords"/>
+<meta content="" name="description"/>
+<link href="./pics/brlogo.ico" rel="shortcut icon"/>
+<!-- does not exist link rel="stylesheet" href="./css/netzwerk.css" type="text/css" media="all" /-->
+<link href="./css/slider/ste_slider.css" rel="stylesheet" type="text/css">
+<!-- Blueprint CSS framework -->
+<link href="./css/blueprint/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="./css/blueprint/print.css" media="print" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 8]><link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<link href="./css/layout.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="./css/sifr.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="./css/thickbox.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="./css/jquery.jqplot.min.css" rel="stylesheet" type="text/css"/>
+<script src="./js/jquery.min.js" type="text/javascript"></script>
+<script src="./js/thickbox.js" type="text/javascript"></script>
+<script src="./js/sifr.js" type="text/javascript"></script>
+<script src="./js/sifr_sw.js" type="text/javascript"></script>
+<script src="./js/scripts.js" type="text/javascript"></script>
+<script src="./js/json2.js" type="text/javascript"></script>
+<script src="./js/plugins/jquery-ui-1.8.6.custom.min.js" type="text/javascript"></script>
+<script src="./js/setDNS1.js" type="text/javascript"></script>
+<!-- [if IE] -->
+<script language="javascript" src="./js/excanvas.min.js" type="text/javascript"></script>
+<!-- [endif] -->
+<!-- for dateAxisRenderer.js -->
+<script language="javascript" src="./js/plugins/Date.min.js" type="text/javascript"></script>
+<!-- BEGIN: load jqplot -->
+<script language="javascript" src="./js/jquery.jqplot.min.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/jqplot.dateAxisRenderer.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/jqplot.barRenderer.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/jqplot.categoryAxisRenderer.js" type="text/javascript"></script>
+<!-- END: load jqplot -->
+<style>
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #D0D0D0;
+   border-right-color: #000000;
+   animation: spinner-d3wgkg 1s infinite linear;
+  
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+</style>
+<!-- BEGIN: load slider -->
+<script language="javascript" src="./js/plugins/slider/jquery.ui.core.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/slider/jquery.ui.widget.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/slider/jquery.ui.mouse.js" type="text/javascript"></script>
+<script language="javascript" src="./js/plugins/slider/jquery.ui.slider.js" type="text/javascript"></script>
+<!-- END: load slider -->
+<!-- BEGIN: Uhrzeit -->
+<script language="javascript" type="text/javascript">
+var timestampunterschied = 1765808397 * 1000 - new Date().getTime();
+</script>
+<script language="javascript" src="./js/uhrzeit.js" type="text/javascript"></script>
+<!-- END:  Uhrzeit -->
+</link></head>
+<body>
+<div class="sessionToken" id="sessionToken" style="display:none">6940190fa08f8</div><div id="header">
+<div class="head curdef">
+<div id="meta">
+<div id="login">
+</div>
+</div>
+<div class="eingestelle_sprache"><strong><a href="?s=5,3" style="color:white">NEDERLANDS</a></strong></div>
+<div id="Uhrzeit"></div>
+<div class="title">
+<a href="." onclick="return checkChanges(this);" title="zur Startseite">
+<img alt="Servicewelt" src="./pics/title.png"/>
+</a>
+</div>
+<div class="logo"><a class="home_link" href="." onclick="return checkChanges(this);" title="zur Startseite"> </a></div>
+</div>
+</div>
+<div class="container" id="page">
+<div id="main">
+<div id="SpacerFirefox"></div>
+<div id="nav">
+<div class="clear"></div>
+<div class="nav left defaultfirst">
+<div class="l left"> </div>
+<div class="c left link1">
+<a href="?s=0" onclick="return checkChanges(this);">START</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+</div>
+<div class="nav left default parent">
+<div class="l left"> </div>
+<div class="c left link2">
+<a>INFO</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+<div class="second">
+<ul class="second">
+<li>
+<a href="?s=1,0" onclick="return checkChanges(this);">WARMTEPOMP SYSTEEM</a>
+</li>
+<li>
+<a href="?s=1,1" onclick="return checkChanges(this);">WARMTEPOMP</a>
+</li>
+<li>
+<a href="?s=1,8" onclick="return checkChanges(this);">ENERGIEBALANS</a>
+</li>
+<li>
+<a href="?s=1,9" onclick="return checkChanges(this);">licence terms</a>
+</li>
+<li>
+<a href="?s=1,10" onclick="return checkChanges(this);">GEBRUIKS- EN GEGEVENSBESCHERMINGSRICHTLIJN</a>
+</li>
+<li>
+<a href="?s=1,11" onclick="return checkChanges(this);">MANUAL</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav left default parent">
+<div class="l left"> </div>
+<div class="c left link3">
+<a>DIAGNOSE</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+<div class="second">
+<ul class="second">
+<li>
+<a href="?s=2,0" onclick="return checkChanges(this);">STATUS INSTALLATIE</a>
+</li>
+<li>
+<a href="?s=2,2" onclick="return checkChanges(this);">STATUS WARMTEPOMP</a>
+</li>
+<li>
+<a href="?s=2,4" onclick="return checkChanges(this);">ANALYSE WARMTEPOMP</a>
+</li>
+<li>
+<a href="?s=2,6" onclick="return checkChanges(this);">INTERNE BEREKENING</a>
+</li>
+<li>
+<a href="?s=2,7" onclick="return checkChanges(this);">SYSTEEM</a>
+</li>
+<li>
+<a href="?s=2,9" onclick="return checkChanges(this);">MELDINGENLIJST</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav left default parent">
+<div class="l left"> </div>
+<div class="c left link4">
+<a>PROGRAMMA'S</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+<div class="second">
+<ul class="second">
+<li>
+<a href="?s=3,0" onclick="return checkChanges(this);">VERWARMINGSPROGRAMMA</a>
+</li>
+<li>
+<a href="?s=3,2" onclick="return checkChanges(this);">WARMWATERPROGRAMMA</a>
+</li>
+<li>
+<a href="?s=3,6" onclick="return checkChanges(this);">STIL PROGRAMMA 1</a>
+</li>
+<li>
+<a href="?s=3,7" onclick="return checkChanges(this);">STIL PROGRAMMA 2</a>
+</li>
+<li>
+<a href="?s=3,12" onclick="return checkChanges(this);">PARTYPROGRAMMA</a>
+</li>
+<li>
+<a href="?s=3,13" onclick="return checkChanges(this);">VAKANTIEPROGRAMMA</a>
+</li>
+<li>
+<a href="?s=3,14" onclick="return checkChanges(this);">ANTILEGIONELLAPROGRAMMA</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav left default parent">
+<div class="l left"> </div>
+<div class="c left link5">
+<a>INSTELLINGEN</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+<div class="second">
+<ul class="second">
+<li>
+<a href="?s=4,0" onclick="return checkChanges(this);">TIJD/DATUM</a>
+</li>
+<li>
+<a href="?s=4,1" onclick="return checkChanges(this);">ZOMERTIJD INSTELLEN</a>
+</li>
+<li>
+<a href="?s=4,2" onclick="return checkChanges(this);">VERWARMEN</a>
+</li>
+<li>
+<a href="?s=4,3" onclick="return checkChanges(this);">WARM WATER</a>
+</li>
+<li>
+<a href="?s=4,15" onclick="return checkChanges(this);">ISG</a>
+</li>
+<li>
+<a href="?s=4,25" onclick="return checkChanges(this);">VERMOGENSBEÏNLVOEDING</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav left defaultlast parent">
+<div class="l left"> </div>
+<div class="c left link6">
+<a>Profiel</a>
+</div>
+<div class="r left"> </div>
+<div class="clear"></div>
+<div class="second">
+<ul class="second last">
+<li>
+<a href="?s=5,0" onclick="return checkChanges(this);">Netwerk</a>
+</li>
+<li>
+<a href="?s=5,1" onclick="return checkChanges(this);">Veiligheid</a>
+</li>
+<li>
+<a href="?s=5,2" onclick="return checkChanges(this);">Installatiebeeld</a>
+</li>
+<li>
+<a href="?s=5,3" onclick="return checkChanges(this);">TAAL</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="span-24" id="sub_nav"><div class="left main sifr span-9" style="width: 45%">VERWARMEN</div>
+<div class="span-15 last">
+<div class="nav default right" id="subsubnavicon" style="text-align:center;padding:0;">
+<a style="background-image:none;"><img src="pics/sub_nav_default_bg_bot_2.gif"/></a>
+<div class="right" id="subsubnav" style="position:absolute; left:0px; background: url('pics/sub_sub_nav_bg_left.gif') repeat-y scroll 0pt 0pt white; z-index:99; display:none;margin-left:-5px;margin-top;2px">
+<div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+<div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+<img class="right" src="pics/sub_sub_nav_underline_r.gif"/>
+<img class="left" src="pics/sub_sub_nav_underline_l.gif"/>
+</div>
+<a class="left" href="?s=4,2,0" onclick="return checkChanges(this);" style="white-space:nowrap">VERWARMINGSCIRCUIT 1</a>
+</div>
+<div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+<div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+<img class="right" src="pics/sub_sub_nav_underline_r.gif"/>
+<img class="left" src="pics/sub_sub_nav_underline_l.gif"/>
+</div>
+<a class="left" href="?s=4,2,2" onclick="return checkChanges(this);" style="white-space:nowrap">BASISINSTELLING</a>
+</div>
+<div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+<div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+<img class="right" src="pics/sub_sub_nav_underline_r.gif"/>
+<img class="left" src="pics/sub_sub_nav_underline_l.gif"/>
+</div>
+<a class="left" href="?s=4,2,3" onclick="return checkChanges(this);" style="white-space:nowrap">ZOMERBEDRIJF</a>
+</div>
+<div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+<div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+<img class="right" src="pics/sub_sub_nav_underline_r.gif"/>
+<img class="left" src="pics/sub_sub_nav_underline_l.gif"/>
+</div>
+<a class="left" href="?s=4,2,4" onclick="return checkChanges(this);" style="white-space:nowrap">POMPCYCLI</a>
+</div>
+<div class="nav default right" style="padding-right:25px;padding-bottom:5px;width:100%;float:left">
+<div style="margin:auto;width:80%;background-color:#bbbdbe;height:1px;line-height:1px">
+<img class="right" src="pics/sub_sub_nav_underline_r.gif"/>
+<img class="left" src="pics/sub_sub_nav_underline_l.gif"/>
+</div>
+<a class="left" href="?s=4,2,5" onclick="return checkChanges(this);" style="white-space:nowrap">WARMTEOPWEKKER EXTERN</a>
+</div>
+<div class="right" style="height: 7px; width: 100%; background-image: url('pics/sub_sub_nav_bg_bot.gif');">
+<img class="left" src="pics/sub_sub_nav_bg_round_top_right.gif"/>
+</div>
+</div>
+</div>
+<div class="nav active right">
+<div class="l"></div>
+<div class="c">
+<a id="subnavactivename"></a>
+</div>
+<div class="r"></div>
+<div class="clear"></div>
+</div>
+<script type="text/javascript">
+    $("#subnavactivename").html('VERWARMINGSCIRCUIT 2');
+    $("#subsubnavicon").css( 'width', function(){ 
+      return parseInt( $("#subsubnav").css('width')); 
+    }).click(function(e){
+      $("#subsubnav").slideToggle('fast');
+      e.stopPropagation();
+    });
+    $("#subsubnav").click(function(e){
+      e.stopPropagation();
+    });
+    $('body').bind('click', function(e) {
+      $("#subsubnav").slideUp('fast');
+    });
+  </script>
+</div>
+<div class="clear"></div></div>
+<form action="#" id="werte" onsubmit="saveValues(this);return false;"><div id="content">
+<script type="text/javascript">
+  var valSettings = new Array();
+  var jsvalues = new Array();
+  var jsobj;
+</script>
+<div class="focusguard" id="focusguard-1" tabindex="0"></div>
+<div class="calibration round span-24 last" id="calval10980">
+<div class="span-7 ialigned">
+<h3 class="title">COMFORT TEMPERATUUR</h3>
+</div>
+<div class="values span-7">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val10980','+',5,30,'0.1',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" id="editorslower" onmousedown="change('val10980','-',5,30,'0.1',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown firstElement" id="val10980" name="val10980" style="width:3.6em" tabindex="1" type="text" value=""/>
+<script language="javascript" type="text/javascript">
+      valSettings['val10980'] = new Array();
+      valSettings['val10980']['type'] = 'float';       valSettings['val10980']['min'] = '5';
+      valSettings['val10980']['max'] = '30';
+      
+            
+      jsvalues['10980'] = new Array();
+      jsvalues['10980']['id']='val10980';
+      jsvalues['10980']['val']='23,0';
+    </script>
+</div>
+<div class="values span-1 append-1">°C</div>
+<div class="green round-right span-8 last">
+<p>Geldige waarden: Invoer tussen<br/>5 °C en 30 °C</p>
+</div>
+</div> <div class="calibration round span-24 last" id="calval10981">
+<div class="span-7 ialigned">
+<h3 class="title">ECO TEMPERATUUR</h3>
+</div>
+<div class="values span-7">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val10981','+',5,30,'0.1',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" id="editorslower" onmousedown="change('val10981','-',5,30,'0.1',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown" id="val10981" name="val10981" style="width:3.6em" tabindex="2" type="text" value=""/>
+<script language="javascript" type="text/javascript">
+      valSettings['val10981'] = new Array();
+      valSettings['val10981']['type'] = 'float';       valSettings['val10981']['min'] = '5';
+      valSettings['val10981']['max'] = '30';
+      
+            
+      jsvalues['10981'] = new Array();
+      jsvalues['10981']['id']='val10981';
+      jsvalues['10981']['val']='20,0';
+    </script>
+</div>
+<div class="values span-1 append-1">°C</div>
+<div class="green round-right span-8 last">
+<p>Geldige waarden: Invoer tussen<br/>5 °C en 30 °C</p>
+</div>
+</div>
+<div class="calibration round span-24 last" id="calval487">
+<div class="span-7 ialigned">
+<h3 class="title">MINIMUMTEMPERATUUR</h3>
+</div>
+<div class="values span-7">
+<div class="right" style="height:64px;width:100%">
+<div class="dropdown" style="width:7.56em">
+<input class="dropdown dropdown_wert" id="aval487" readonly="readonly" style="width:3.6em" value="UIT"/>
+<img class="dropdown" src="./pics/icon_edit_dropdown.png"/>
+<div class="black" style="padding-bottom:15px;padding-top:15px">
+<input alt="UIT" checked="checked" id="radioval4870" onclick="pre7off(487);" type="radio" value="0"/>
+<label for="radioval4870">UIT</label>
+<br/>
+<input alt="AAN" id="radioval4871" onclick="pre7on(487);" type="radio" value="1"/>
+<label for="radioval4871">AAN</label>
+</div>
+</div>
+</div>
+<div id="chval487" style="margin-top:-30px;">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val487','+',10,30,'0.5',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" onmousedown="change('val487','-',10,30,'0.5',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown" id="val487" name="val487" style="width:3.6em" tabindex="3" type="text"/>
+</div>
+</div>
+<div class="values span-1 append-1"><br/><div id="valueunit487">°C</div></div>
+<div class="green round-right span-8 last" style="height:140px">
+<p>Geldige waarden: Invoer tussen<br>10 °C en 30 °C</br></p>
+</div>
+<script language="javascript" type="text/javascript">
+    valSettings['val487'] = new Array();
+    valSettings['val487']['type'] = 'float';     valSettings['val487']['min'] = '10';
+    valSettings['val487']['max'] = '30';
+    jsvalues[487] = new Array();
+    jsvalues[487]['id']='val487';
+    jsvalues[487]['val']='36864';
+    //alert(36864);
+    pre7off(487,true);
+  </script>
+</div>
+<div class="calibration round span-24 last" id="calval10982">
+<div class="span-7 ialigned">
+<h3 class="title">MAXIMAALTEMPERATUUR</h3>
+</div>
+<div class="values span-7">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val10982','+',20,90,'0.5',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" id="editorslower" onmousedown="change('val10982','-',20,90,'0.5',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown" id="val10982" name="val10982" style="width:3.6em" tabindex="4" type="text" value=""/>
+<script language="javascript" type="text/javascript">
+      valSettings['val10982'] = new Array();
+      valSettings['val10982']['type'] = 'float';       valSettings['val10982']['min'] = '20';
+      valSettings['val10982']['max'] = '90';
+      
+            
+      jsvalues['10982'] = new Array();
+      jsvalues['10982']['id']='val10982';
+      jsvalues['10982']['val']='55,0';
+    </script>
+</div>
+<div class="values span-1 append-1">°C</div>
+<div class="green round-right span-8 last">
+<p>Geldige waarden: Invoer tussen<br/>20 °C en 90 °C</p>
+</div>
+</div> <div class="calibration round span-24 last" id="calval10983">
+<div class="span-7 ialigned">
+<h3 class="title">MENGDYNAMIEK</h3>
+</div>
+<div class="values span-7">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val10983','+',30,240,'1',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" id="editorslower" onmousedown="change('val10983','-',30,240,'1',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown" id="val10983" name="val10983" style="width:3.6em" tabindex="5" type="text" value=""/>
+<script language="javascript" type="text/javascript">
+      valSettings['val10983'] = new Array();
+      valSettings['val10983']['type'] = 'int';       valSettings['val10983']['min'] = '30';
+      valSettings['val10983']['max'] = '240';
+      
+            
+      jsvalues['10983'] = new Array();
+      jsvalues['10983']['id']='val10983';
+      jsvalues['10983']['val']='50';
+    </script>
+</div>
+<div class="values span-1 append-1"></div>
+<div class="green round-right span-8 last">
+<p>Geldige waarden: Invoer tussen<br/>30  en 240 </p>
+</div>
+</div> <div class="calibration round span-24 last" id="calval26">
+<div class="span-7 ialigned">
+<h3 class="title">STIJGING VERWARMINGSCURVE</h3>
+</div>
+<div class="values span-7">
+<div class="editors">
+<a href="javascript://" onmousedown="change('val26','+',0,3,'0.01',true);return false;">
+<img src="./pics/button_higher.png"/>
+</a>
+<a href="javascript://" id="editorslower" onmousedown="change('val26','-',0,3,'0.01',true);return false;" style="clear:left;">
+<img src="./pics/button_lower.png"/>
+</a>
+</div>
+<input class="edit upndown" id="val26" name="val26" style="width:3.6em" tabindex="6" type="text" value=""/>
+<script language="javascript" type="text/javascript">
+      valSettings['val26'] = new Array();
+      valSettings['val26']['type'] = 'double';       valSettings['val26']['min'] = '0';
+      valSettings['val26']['max'] = '3';
+      
+            
+      jsvalues['26'] = new Array();
+      jsvalues['26']['id']='val26';
+      jsvalues['26']['val']='0,95';
+    </script>
+</div>
+<div class="values span-1 append-1"></div>
+<div class="green round-right span-8 last">
+<p>Geldige waarden: Invoer tussen<br/>0  en 3 </p>
+</div>
+</div> <div class="focusguard" id="focusguard-2" tabindex="8"></div>
+<div class="span-24 last">
+<div class="span-4 right">
+<div class="button left" onclick="document.forms['werte'].onsubmit();"><div class="bg_r"> </div><a>Opslaan</a></div> </div>
+</div>
+<div class="span-24 last"><p></p></div>
+<script type="text/javascript">
+$( document ).ready(function() {
+  $('#focusguard-1').focus( function() {
+	// "last" focus guard got focus: set focus to the first field
+	$('.lastElement').focus();
+	$('.lastElement').select();
+	
+  });
+
+  $('#focusguard-2').focus( function() {
+   // "first" focus guard got focus: set focus to the last field
+   $('.firstElement').focus();
+   $('.firstElement').select();
+  });
+}); 
+</script>
+</div> </form></div>
+</div>
+
+
+<div id="footer">
+<!--[if IE]>
+	<style type="text/css">
+	#footer
+{
+		
+		height:260px;
+}
+	#versionsNummer
+	{
+		position:relative;
+		top:-33px;
+	}
+	</style>
+
+     	<![endif]-->
+<div class="span-24 last footer_middle curdef">
+<div class="span-8 prepend-top" style="height:145px">
+</div>
+</div>
+<div class="links span-23 prepend-top append-1 last footer_middle">
+<div class="span-17">
+<a class="intern" href="?forcepage=dsgvo" onclick="return checkChanges(this);">Gegevensbescherming</a>
+<a href="http://www.stiebel-eltron.com/en/info/imprint.html">Impressum</a>
+       
+      <p class="right" id="versionsNummer" style="margin-top:8px">1.4.00.0040</p>
+</div>
+<div class="copyright span-6 last curdef">
+  		© STIEBEL ELTRON 2025  	</div>
+</div>
+</div>
+</body>
+</html>
