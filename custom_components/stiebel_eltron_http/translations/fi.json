@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "LÄMMÖNTUOTTAJA ULK WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTIVOITU"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Lämmityspuskuri"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT YLEMPI HUONE/PUSKURILT.LP1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT YLEMPI TILALÄMP.LP2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT YLEMPI L-VEDEN LÄMP.ASETUS"
     }
   }
 }

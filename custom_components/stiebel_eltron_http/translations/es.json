@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "GENERADOR CALOR EXTERNO WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY ACTIVADO"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Dep. inercia calefacción"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT TEMP.AMB./INERCIA SUP. HK1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT TEMP.AMB.SUPER. HK2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT TEMP.REF.SUP.AGUA CALIENTE"
     }
   }
 }

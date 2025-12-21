@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "GENERATEUR CHAL. EXTERNE ECS-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY ACTIVÉ"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Ballon tampon chauffage"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT TEMP. AMB./TAMPON SUP. CC1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT TEMP. AMB. SUP. CC2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT TEMP. CONS. ECS SUP"
     }
   }
 }

@@ -385,6 +385,12 @@ class StiebelEltronScrapingClient:
         except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
             LOGGER.debug("DHW external heat source page not available or failed to parse")
 
+        try:
+            sg_ready_data = await self.async_scrape_sg_ready()
+            result.update(sg_ready_data)
+        except (aiohttp.ClientError, StiebelEltronScrapingClientError, ValueError):
+            LOGGER.debug("SG Ready page not available or failed to parse")
+
         LOGGER.debug("Scraped data: %s", result)
         return result
 
@@ -810,6 +816,19 @@ class StiebelEltronScrapingClient:
         from .const import DHW_EXTERNAL_PATH
         return await self._scrape_heating_config_page(DHW_EXTERNAL_PATH, "DHW_EXTERNAL")
 
+    async def async_scrape_sg_ready(self) -> Any:
+        """Scrape SG Ready / Energy Management configuration data.
+        
+        This fetches configuration values from the SG Ready page (s=4,14):
+        - SG Ready enabled (ON/OFF)
+        - SG Ready input source (OFF/MODBUS/CAN BUS/ISG PLUS)
+        - Heating buffer configuration
+        - Upper temperature limits for HC1, HC2, and DHW
+        
+        Returns a dict with SG Ready sensor keys.
+        """
+        return await self._scrape_heating_config_page("/?s=4,14", "SG_READY")
+
     async def _scrape_heating_config_page(self, path: str, circuit: str) -> dict:
         """Generic method to scrape heating configuration pages.
         
@@ -932,6 +951,8 @@ class StiebelEltronScrapingClient:
             result = self._map_dhw_pasteurisation_values(val_dict, type_dict)
         elif circuit == "DHW_EXTERNAL":
             result = self._map_dhw_external_values(val_dict, type_dict)
+        elif circuit == "SG_READY":
+            result = self._map_sg_ready_values(val_dict, type_dict)
         
         return result
 
@@ -1352,6 +1373,64 @@ class StiebelEltronScrapingClient:
                 result[DHW_EXTERNAL_PWM_KEY] = self._parse_value(
                     raw_val, type_dict.get("455", "int")
                 )
+        
+        return result
+
+    def _map_sg_ready_values(self, val_dict: dict, type_dict: dict) -> dict:
+        """Map SG Ready / Energy Management val IDs to sensor keys."""
+        from .const import (
+            SG_READY_ENABLED_KEY,
+            SG_READY_INPUT_KEY,
+            SG_READY_HEATING_BUFFER_KEY,
+            SG_READY_UPPER_TEMP_HC1_KEY,
+            SG_READY_UPPER_TEMP_HC2_KEY,
+            SG_READY_UPPER_TEMP_DHW_KEY,
+        )
+        
+        result = {}
+        
+        # val60305 = SG Ready Enabled (0=OFF, 1=ON)
+        if "60305" in val_dict:
+            result[SG_READY_ENABLED_KEY] = val_dict["60305"] == "1"
+        
+        # val60028 = SG-Ready Input (0=OFF, 1=MODBUS, 2=CAN BUS, 3=ISG PLUS)
+        if "60028" in val_dict:
+            raw_val = val_dict["60028"]
+            input_map = {
+                "0": "OFF",
+                "1": "MODBUS",
+                "2": "CAN BUS",
+                "3": "ISG PLUS",
+            }
+            result[SG_READY_INPUT_KEY] = input_map.get(raw_val, raw_val)
+        
+        # val60317 = Heating buffer (0=No buffer, 1=Buffer with mixer, 2=Buffer without mixer)
+        if "60317" in val_dict:
+            raw_val = val_dict["60317"]
+            buffer_map = {
+                "0": "NO BUFFER",
+                "1": "BUFFER WITH MIXER",
+                "2": "BUFFER WITHOUT MIXER",
+            }
+            result[SG_READY_HEATING_BUFFER_KEY] = buffer_map.get(raw_val, raw_val)
+        
+        # val60310 = Upper Room/Buffer Temp HC1
+        if "60310" in val_dict:
+            result[SG_READY_UPPER_TEMP_HC1_KEY] = self._parse_value(
+                val_dict["60310"], type_dict.get("60310", "float")
+            )
+        
+        # val60311 = Upper Room Temp HC2
+        if "60311" in val_dict:
+            result[SG_READY_UPPER_TEMP_HC2_KEY] = self._parse_value(
+                val_dict["60311"], type_dict.get("60311", "float")
+            )
+        
+        # val60312 = Upper Set DHW Temp
+        if "60312" in val_dict:
+            result[SG_READY_UPPER_TEMP_DHW_KEY] = self._parse_value(
+                val_dict["60312"], type_dict.get("60312", "float")
+            )
         
         return result
 

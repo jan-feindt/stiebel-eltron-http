@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "WARMTEOPWEKKER EXTERN WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY GEACTIV."
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Verwarmingsbuffer"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT BOV. KAMER-/BUF.TEMP. HK1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT BOV. KAMERTEMP. HK2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT BOV. NOM. WARMWATERTEMP."
     }
   }
 }

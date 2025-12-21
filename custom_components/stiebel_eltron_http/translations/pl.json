@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "ZEWN. WYTWORNICA CIEPLA WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTYWOW."
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Zb. buforowy ogrzewania"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM./ZAS. OG1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM. OG2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT GÓRNA TEMP. ZAD. CWU"
     }
   }
 }

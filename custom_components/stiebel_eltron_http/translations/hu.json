@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "KÜLSÕ HÕGENERÁTOR WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTIVÁLVA"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Fűtési puffer"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT HK1 FELSŐ HELYIS-/PUFFERH."
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT HK2 FELS HELY-HŐM"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT FELSŐ MELEGV. HŐM.-ALAPJEL"
     }
   }
 }

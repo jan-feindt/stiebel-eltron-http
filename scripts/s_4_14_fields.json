@@ -1,0 +1,104 @@
+[
+  {
+    "field_name": "SG READY ENABLED",
+    "val_id": "60305",
+    "div_id": "calval60305",
+    "input_type": "radio",
+    "options": [
+      {
+        "value": "0",
+        "label": "OFF",
+        "checked": false
+      },
+      {
+        "value": "1",
+        "label": "ON",
+        "checked": true
+      }
+    ]
+  },
+  {
+    "field_name": "SG-READY INPUT",
+    "val_id": "60028",
+    "div_id": "calval60028",
+    "input_type": "radio",
+    "options": [
+      {
+        "value": "0",
+        "label": "OFF",
+        "checked": false
+      },
+      {
+        "value": "1",
+        "label": "MODBUS",
+        "checked": true
+      },
+      {
+        "value": "3",
+        "label": "CAN BUS",
+        "checked": false
+      },
+      {
+        "value": "4",
+        "label": "ISG PLUS",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "field_name": "Heating buffer",
+    "val_id": "60317",
+    "div_id": "calval60317",
+    "input_type": "radio",
+    "options": [
+      {
+        "value": "0",
+        "label": "No buffer",
+        "checked": false
+      },
+      {
+        "value": "1",
+        "label": "Buffer with mixer",
+        "checked": true
+      },
+      {
+        "value": "2",
+        "label": "Buffer without mixer",
+        "checked": false
+      }
+    ]
+  },
+  {
+    "field_name": "UPPER ROOM/BUFFER TEMP. HC1",
+    "val_id": "60310",
+    "div_id": "calval60310",
+    "input_type": "numeric",
+    "min": "20",
+    "max": "50",
+    "data_type": "float",
+    "current_value": "24,0",
+    "unit": "°C"
+  },
+  {
+    "field_name": "UPPER ROOM TEMP. HC2",
+    "val_id": "60311",
+    "div_id": "calval60311",
+    "input_type": "numeric",
+    "min": "20",
+    "max": "30",
+    "data_type": "float",
+    "current_value": "23,0",
+    "unit": "°C"
+  },
+  {
+    "field_name": "UPPER SET DHW TEMP.",
+    "val_id": "60312",
+    "div_id": "calval60312",
+    "input_type": "numeric",
+    "min": "40",
+    "max": "80",
+    "data_type": "float",
+    "current_value": "52,0",
+    "unit": "°C"
+  }
+]

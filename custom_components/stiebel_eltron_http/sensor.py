@@ -125,6 +125,12 @@ from .const import (
     DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
     DHW_EXTERNAL_LOWER_LIMIT_KEY,
     DHW_EXTERNAL_PWM_KEY,
+    SG_READY_ENABLED_KEY,
+    SG_READY_INPUT_KEY,
+    SG_READY_HEATING_BUFFER_KEY,
+    SG_READY_UPPER_TEMP_HC1_KEY,
+    SG_READY_UPPER_TEMP_HC2_KEY,
+    SG_READY_UPPER_TEMP_DHW_KEY,
 )
 from .entity import StiebelEltronHttpEntity
 
@@ -1066,6 +1072,58 @@ ENTITY_DESCRIPTIONS = (
         state_class=SensorStateClass.MEASUREMENT,
         icon="mdi:pulse",
     ),
+    # SG Ready / Energy Management Configuration Sensors (s=4,14)
+    SensorEntityDescription(
+        key=SG_READY_ENABLED_KEY,
+        name="SG Ready enabled",
+        translation_key=SG_READY_ENABLED_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        options=["OFF", "ON"],
+        icon="mdi:lightning-bolt",
+    ),
+    SensorEntityDescription(
+        key=SG_READY_INPUT_KEY,
+        name="SG Ready input",
+        translation_key=SG_READY_INPUT_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        options=["OFF", "MODBUS", "CAN BUS", "ISG PLUS"],
+        icon="mdi:connection",
+    ),
+    SensorEntityDescription(
+        key=SG_READY_HEATING_BUFFER_KEY,
+        name="SG Ready heating buffer",
+        translation_key=SG_READY_HEATING_BUFFER_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        options=["NO BUFFER", "BUFFER WITH MIXER", "BUFFER WITHOUT MIXER"],
+        icon="mdi:water-boiler",
+    ),
+    SensorEntityDescription(
+        key=SG_READY_UPPER_TEMP_HC1_KEY,
+        name="SG Ready upper temp HC1",
+        translation_key=SG_READY_UPPER_TEMP_HC1_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-chevron-up",
+    ),
+    SensorEntityDescription(
+        key=SG_READY_UPPER_TEMP_HC2_KEY,
+        name="SG Ready upper temp HC2",
+        translation_key=SG_READY_UPPER_TEMP_HC2_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-chevron-up",
+    ),
+    SensorEntityDescription(
+        key=SG_READY_UPPER_TEMP_DHW_KEY,
+        name="SG Ready upper temp DHW",
+        translation_key=SG_READY_UPPER_TEMP_DHW_KEY,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+        state_class=SensorStateClass.MEASUREMENT,
+        icon="mdi:thermometer-chevron-up",
+    ),
 )
 
 
@@ -1153,6 +1211,12 @@ async def async_setup_entry(
             DHW_EXTERNAL_DUAL_MODE_TEMP_KEY,
             DHW_EXTERNAL_LOWER_LIMIT_KEY,
             DHW_EXTERNAL_PWM_KEY,
+            SG_READY_ENABLED_KEY,
+            SG_READY_INPUT_KEY,
+            SG_READY_HEATING_BUFFER_KEY,
+            SG_READY_UPPER_TEMP_HC1_KEY,
+            SG_READY_UPPER_TEMP_HC2_KEY,
+            SG_READY_UPPER_TEMP_DHW_KEY,
         }
         if key in optional_keys:
             if key not in data or data.get(key) is None:

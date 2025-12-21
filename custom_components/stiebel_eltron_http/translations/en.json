@@ -361,6 +361,24 @@
     },
     "dhw_external_pwm": {
       "name": "EXTERNAL HEAT SOURCE WW PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SG READY ENABLED"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Heating buffer"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT UPPER ROOM/BUFFER TEMP. HC1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT UPPER ROOM TEMP. HC2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT UPPER SET DHW TEMP."
     }
   }
 }

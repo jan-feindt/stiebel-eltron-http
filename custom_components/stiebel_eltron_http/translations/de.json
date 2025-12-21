@@ -361,6 +361,24 @@
     },
     "dhw_external_pwm": {
       "name": "WÄRMEERZEUGER EXTERN WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTIVIERT"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY EINGANG"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Heizungspuffer"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT OBERE RAUM/PUFFERTEMP. HK1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT OBERE RAUMTEMP. HK2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT OBERE WARMWASSER SOLLTEMP."
     }
   }
 }

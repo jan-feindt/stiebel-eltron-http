@@ -186,6 +186,13 @@ def test_all_canonical_keys_covered_by_testdata():
         "dhw_external_dual_mode_temp",
         "dhw_external_lower_limit",
         "dhw_external_pwm",
+        # SG Ready / Energy Management keys (only in s=4,14 page, not main snapshots)
+        "sg_ready_enabled",
+        "sg_ready_input",
+        "sg_ready_heating_buffer",
+        "sg_ready_upper_temp_hc1",
+        "sg_ready_upper_temp_hc2",
+        "sg_ready_upper_temp_dhw",
         # WCCI keys (only in s=4,25 page, not main snapshots)
         "wcci_buffer",
         "wcci_input_mode",

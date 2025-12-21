@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "GENERATORE DI CALORE EST WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY ATTIVATO"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Serb. tampone riscaldam."
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT TMP TAMP./AMB. SUP. HK1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT TMP AMB. SUP. HK2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT TMP ACS DES. SUP."
     }
   }
 }

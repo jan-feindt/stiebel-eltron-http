@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "VARMEGENERATOR EKSTERN WW-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTIVERET"
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Varmebuffer"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT ØVRE RUM/BUFFERTEMP. VK 1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT ØVRE RUMTEMP. VK 2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT ØVRE VARMTVAND NOM.TEMP."
     }
   }
 }

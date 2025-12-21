@@ -207,3 +207,11 @@ DHW_EXTERNAL_SOURCE_KEY = "dhw_external_source"
 DHW_EXTERNAL_DUAL_MODE_TEMP_KEY = "dhw_external_dual_mode_temp"
 DHW_EXTERNAL_LOWER_LIMIT_KEY = "dhw_external_lower_limit"
 DHW_EXTERNAL_PWM_KEY = "dhw_external_pwm"
+
+# SG Ready / Energy Management Configuration Keys (s=4,14)
+SG_READY_ENABLED_KEY = "sg_ready_enabled"
+SG_READY_INPUT_KEY = "sg_ready_input"
+SG_READY_HEATING_BUFFER_KEY = "sg_ready_heating_buffer"
+SG_READY_UPPER_TEMP_HC1_KEY = "sg_ready_upper_temp_hc1"
+SG_READY_UPPER_TEMP_HC2_KEY = "sg_ready_upper_temp_hc2"
+SG_READY_UPPER_TEMP_DHW_KEY = "sg_ready_upper_temp_dhw"

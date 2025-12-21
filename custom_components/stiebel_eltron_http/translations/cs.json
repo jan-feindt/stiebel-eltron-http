@@ -355,6 +355,24 @@
     },
     "dhw_external_pwm": {
       "name": "ZDROJ TEPLA EXTERNI TUV-PWM"
+    },
+    "sg_ready_enabled": {
+      "name": "ENERGIEMANAGEMENT SGREADY AKTIV."
+    },
+    "sg_ready_input": {
+      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+    },
+    "sg_ready_heating_buffer": {
+      "name": "ENERGIEMANAGEMENT Akum. zásobník topení"
+    },
+    "sg_ready_upper_temp_hc1": {
+      "name": "ENERGIEMANAGEMENT HOR.TEP.MÍST./AK.ZÁS. TO1"
+    },
+    "sg_ready_upper_temp_hc2": {
+      "name": "ENERGIEMANAGEMENT HOR. TEP. MÍST. TO2"
+    },
+    "sg_ready_upper_temp_dhw": {
+      "name": "ENERGIEMANAGEMENT HOR. POŽ. TEP. TV"
     }
   }
 }

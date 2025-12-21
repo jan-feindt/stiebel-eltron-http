@@ -31,6 +31,7 @@ PAGES = {
     "_s_4_3_5": "MAX VORLAUFTEMPERATUR",  # DHW Max Flow Temp
     "_s_4_3_6": "PASTEURISIERUNG",  # DHW Pasteurisation
     "_s_4_3_7": "WÄRMEERZEUGER EXTERN",  # DHW External Heat Source
+    "_s_4_14": "ENERGIEMANAGEMENT",  # SG Ready / Energy Management
 }
 
 # Sensor key mappings
@@ -102,6 +103,14 @@ SENSOR_MAPPINGS = {
         "val42": "dhw_external_dual_mode_temp",
         "val44": "dhw_external_lower_limit",
         "val455": "dhw_external_pwm",
+    },
+    "_s_4_14": {
+        "val60305": "sg_ready_enabled",
+        "val60028": "sg_ready_input",
+        "val60317": "sg_ready_heating_buffer",
+        "val60310": "sg_ready_upper_temp_hc1",
+        "val60311": "sg_ready_upper_temp_hc2",
+        "val60312": "sg_ready_upper_temp_dhw",
     },
 }
 
