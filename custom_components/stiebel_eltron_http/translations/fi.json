@@ -122,6 +122,15 @@
       "set_temperature_hk_2": {
         "name": "OHJELÄMPÖT HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready aktiivinen"
+      },
+      "start_sg_ready_state": {
+        "name": "SG Ready tila"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Energianhallinta tila"
+      },
       "start_operation_mode": {
         "name": "Käyttötapa"
       },

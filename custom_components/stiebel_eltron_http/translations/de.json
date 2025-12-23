@@ -176,6 +176,15 @@
       "start_operation_mode": {
         "name": "Betriebsart"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready aktiv"
+      },
+      "start_sg_ready_state": {
+        "name": "SG Ready Betriebszustand"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Energiemanagement Status"
+      },
       "supply_temperature": {
         "name": "VORLAUFTEMPERATUR"
       },

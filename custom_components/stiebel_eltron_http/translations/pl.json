@@ -116,6 +116,15 @@
       "set_temperature_hk_2": {
         "name": "TEMPERATURA ZADANA HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready aktywny"
+      },
+      "start_sg_ready_state": {
+        "name": "Stan SG Ready"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Status zarządzania energią"
+      },
       "start_operation_mode": {
         "name": "Tryb pracy"
       },

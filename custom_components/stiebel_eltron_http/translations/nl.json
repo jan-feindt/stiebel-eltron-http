@@ -122,6 +122,15 @@
       "set_temperature_hk_2": {
         "name": "GEVRAAGDE TEMP. HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready actief"
+      },
+      "start_sg_ready_state": {
+        "name": "SG Ready status"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Energiebeheer status"
+      },
       "start_operation_mode": {
         "name": "Bedrijfsmodus"
       },

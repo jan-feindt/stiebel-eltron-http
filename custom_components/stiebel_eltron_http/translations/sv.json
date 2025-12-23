@@ -119,6 +119,15 @@
       "set_temperature_hk_2": {
         "name": "BÖRTEMPERATUR HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready aktiv"
+      },
+      "start_sg_ready_state": {
+        "name": "SG Ready status"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Energihantering status"
+      },
       "start_operation_mode": {
         "name": "Driftsläge"
       },

@@ -113,6 +113,15 @@
       "set_temperature_hk_2": {
         "name": "POZADOVANA TEPLOTA HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready aktivní"
+      },
+      "start_sg_ready_state": {
+        "name": "Stav SG Ready"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Stav správy energie"
+      },
       "start_operation_mode": {
         "name": "Provozní režim"
       },

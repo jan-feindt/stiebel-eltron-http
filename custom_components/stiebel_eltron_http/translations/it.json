@@ -122,6 +122,15 @@
       "set_temperature_hk_2": {
         "name": "TEMP NOMINALE HK 2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready attivo"
+      },
+      "start_sg_ready_state": {
+        "name": "Stato SG Ready"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Stato gestione energia"
+      },
       "start_operation_mode": {
         "name": "Modalità di esercizio"
       },

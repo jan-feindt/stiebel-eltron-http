@@ -119,6 +119,15 @@
       "set_temperature_hk_2": {
         "name": "CONSIGNE TEMP. CC2"
       },
+      "start_sg_ready_active": {
+        "name": "SG Ready actif"
+      },
+      "start_sg_ready_state": {
+        "name": "État SG Ready"
+      },
+      "start_energy_mgmt_ok": {
+        "name": "Statut gestion énergie"
+      },
       "start_operation_mode": {
         "name": "Mode de fonctionnement"
       },
