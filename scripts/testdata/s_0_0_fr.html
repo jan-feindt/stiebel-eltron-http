@@ -66,13 +66,13 @@
 <!-- END: load slider -->
 <!-- BEGIN: Uhrzeit -->
 <script language="javascript" type="text/javascript">
-var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
+var timestampunterschied = 1766492048 * 1000 - new Date().getTime();
 </script>
 <script language="javascript" src="./js/uhrzeit.js" type="text/javascript"></script>
 <!-- END:  Uhrzeit -->
 </link></head>
 <body>
-<div class="sessionToken" id="sessionToken" style="display:none">6920c0e6aa314</div><div id="header">
+<div class="sessionToken" id="sessionToken" style="display:none">694a8792924db</div><div id="header">
 <div class="head curdef">
 <div id="meta">
 <div id="login">
@@ -84,6 +84,7 @@ var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
 <a href="." onclick="return checkChanges(this);" title="zur Startseite">
 <img alt="Servicewelt" src="./pics/title.png"/>
 </a>
+<div style="position: relative; color: #97B765; font-weight: 900; margin: 18px 0px 0px 323px;"></div>
 </div>
 <div class="logo"><a class="home_link" href="." onclick="return checkChanges(this);" title="zur Startseite"> </a></div>
 </div>
@@ -216,10 +217,10 @@ var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
 <a href="?s=4,3" onclick="return checkChanges(this);">EAU CHAUDE SANITAIRE</a>
 </li>
 <li>
-<a href="?s=4,15" onclick="return checkChanges(this);">ISG</a>
+<a href="?s=4,14" onclick="return checkChanges(this);">GESTION DE L'ENERGIE</a>
 </li>
 <li>
-<a href="?s=4,25" onclick="return checkChanges(this);">INFLUENCE SUR LA PUISSANCE</a>
+<a href="?s=4,15" onclick="return checkChanges(this);">ISG</a>
 </li>
 </ul>
 </div>
@@ -257,7 +258,20 @@ var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
 <img src="./pics/anlagen/ste/wpm/WPL 10 AC.jpg" title="Geräteabbildung" width="150"/>
 </div>
 <div class="buehne span-11 last" id="val1edit">
-<br/><br/><br/><br/><br/><br/><br/><br/> <a href="javascript://" onclick="return false;">
+<div class="grey round" id="Modus" style="padding: 12px; margin-right: 15px; margin-bottom: 20px">
+<div id="Infobox" style="float:right;">
+<img src="./pics/icon_status_ok.gif" style="margin: 4px"/><br/>
+<img src="./pics/SG-Ready-Logo.png" style="margin: 4px"/>
+</div>
+<span style="color:#97b765; font-size:14px; font-weight:bold;">
+			ENERGY MANAGEMENT			</span><br/>
+			Statut d'exploitation 2 depuis :			<br/>
+			19.12.2025 | 06:45 			<br/>
+			SG Ready actif			<br/>
+<b>Aucun défaut</b>
+<br/>
+</div>
+<a href="javascript://" onclick="return false;">
 <div class="green round-left status span-10 last">
 <div class="span-2">
 <img src="./pics/icon_betriebsart.gif"/>
@@ -298,7 +312,7 @@ var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
 <div class="grey round span-8 last" id="box_start_status_system">
 <div class="span-6 curdef"><h3>État du système</h3><p style="height:35px;">Votre système fonctionne correctement.</p><p class="info">Aucun défaut</p></div><div class="span-2 last"><img class="last" src="pics/icon_status_ok.gif"/></div> </div>
 <div class="grey round span-8 last prepend-top" id="box_start_status_portal">
-<div class="span-6 curdef"><h3>Statut du portail</h3><p style="">Dernier contact :<br>21.11.2025 | 20:42 heure</br></p><p class="info">Code du portail présent</p></div><div class="span-2 last"><img class="last" src="pics/icon_status_ok.gif"/></div> </div>
+<div class="span-6 curdef"><h3>Statut du portail</h3><p style="">Dernier contact :<br/>23.12.2025 | 13:13 heure</p><p class="info">Code du portail présent</p></div><div class="span-2 last"><img class="last" src="pics/icon_status_ok.gif"/></div> </div>
 </div>
 </div>
 <link href="./css/layout3tabs.css" rel="stylesheet" type="text/css"/><script language="javascript" type="text/javascript">
@@ -317,24 +331,24 @@ var timestampunterschied = 1763754212 * 1000 - new Date().getTime();
   var marke_color1 = '#97b663';
   var marke_color2 = '#97b663';
   
-  charts[1]['min']    = [['Ve',8.2],['Sa',6.2],['Di',2.3],['Lu',0.3],['Ma',0.6],['Me',2],['Je',-2.5]];
-  charts[1]['mittel'] = [['Ve',10.7],['Sa',7.4],['Di',6.1],['Lu',2.9],['Ma',2.7],['Me',3],['Je',0]];
-  charts[1]['max']    = [['Ve',12.8],['Sa',8.6],['Di',8.6],['Lu',4.6],['Ma',5.2],['Me',4.9],['Je',2.8]];
-  charts[2]['line']   = [['Ve',92],['Sa',123],['Di',126],['Lu',145],['Ma',105],['Me',84],['Je',48]];
-  charts[3]['line']   = [['Ve',23],['Sa',25],['Di',30],['Lu',21],['Ma',27],['Me',40],['Je',31]]; 
+  charts[1]['min']    = [['Ma',3.9],['Me',4.5],['Je',3.6],['Ve',5.9],['Sa',3.3],['Di',5],['Lu',4.4]];
+  charts[1]['mittel'] = [['Ma',5.9],['Me',6.6],['Je',6.3],['Ve',8.9],['Sa',5.6],['Di',7.2],['Lu',5.2]];
+  charts[1]['max']    = [['Ma',8.5],['Me',7.8],['Je',9.5],['Ve',11.2],['Sa',7.9],['Di',9.6],['Lu',6]];
+  charts[2]['line']   = [['Ma',154],['Me',142],['Je',155],['Ve',135],['Sa',147],['Di',138],['Lu',152]];
+  charts[3]['line']   = [['Ma',20],['Me',30],['Je',16],['Ve',22],['Sa',21],['Di',17],['Lu',21]]; 
   
   
-  maxValues[1] = 14;
-  maxValues[2] = 150;
-  maxValues[3] = 45;
+  maxValues[1] = 12;
+  maxValues[2] = 175;
+  maxValues[3] = 35;
   
-  minValues[1] = -4;
+  minValues[1] = 0;
   minValues[2] = 0;
   minValues[3] = 0;
   
-  nrTicks[1] = 10;
-  nrTicks[2] = 7;
-  nrTicks[3] = 10;
+  nrTicks[1] = 7;
+  nrTicks[2] = 8;
+  nrTicks[3] = 8;
   
   temp_linien_beschreibung['MAX']    = 'Max';
   temp_linien_beschreibung['MITTEL'] = 'Moyen';
@@ -356,7 +370,7 @@ $(document).ready(function(){
 <div class="GraphTabs">
 </div>
 <div class="GraphTabs" style="">
-<h3> Temp.<br>extérieure en °C</br></h3>
+<h3> Temp.<br/>extérieure en °C</h3>
 </div>
 </div>
 </a>
@@ -496,7 +510,7 @@ jsobj['val']='22,0';
 jsvalues.push(jsobj);
 jsobj = new Array();
 jsobj['id']='val10040a';
-jsobj['val']='45,3';
+jsobj['val']='50,0';
 jsvalues.push(jsobj);
 valSettings['val11018'] = new Array();
 valSettings['val11018']['type'] = 'float';

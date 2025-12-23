@@ -22,6 +22,9 @@ from .const import (
     START_OPERATION_MODE_KEY,
     START_PORTAL_OK,
     START_SYSTEM_OK,
+    START_SG_READY_ACTIVE,
+    START_SG_READY_STATE,
+    START_ENERGY_MGMT_OK,
     OUTSIDE_TEMPERATURE_KEY,
     PROFILE_NETWORK_PATH,
     ROOM_HUMIDITY_KEY,
@@ -1529,6 +1532,29 @@ class StiebelEltronScrapingClient:
                     src = (img.get("src") or "").strip()
                     # True only if the OK icon is present (not error or warning)
                     result[START_SYSTEM_OK] = src == "pics/icon_status_ok.gif"
+
+            # Energy Management status box (new since firmware update)
+            # Look for div with id="Modus" that contains SG Ready information
+            energy_mgmt_box = soup.find(id="Modus")
+            if energy_mgmt_box:
+                # Check for OK status icon
+                img = energy_mgmt_box.find("img", src=lambda x: x and "icon_status" in x)
+                if img and img.has_attr("src"):
+                    src = (img.get("src") or "").strip()
+                    is_ok = src == "./pics/icon_status_ok.gif" or src == "pics/icon_status_ok.gif"
+                    result[START_ENERGY_MGMT_OK] = "OK" if is_ok else "ERROR"
+                
+                # Check if SG Ready logo is present
+                sg_logo = energy_mgmt_box.find("img", src=lambda x: x and "SG-Ready-Logo" in x)
+                result[START_SG_READY_ACTIVE] = "ON" if sg_logo is not None else "OFF"
+                
+                # Extract SG Ready state number from text like "Status 2 since:" or "Betriebszustand 2 seit:"
+                text_content = _text(energy_mgmt_box)
+                import re
+                # Match various language patterns: Status/Betriebszustand/Statut d'exploitation followed by number
+                state_match = re.search(r'(?:Status|Betriebszustand|Statut\s+d\'exploitation)\s+(\d+)\s+', text_content)
+                if state_match:
+                    result[START_SG_READY_STATE] = int(state_match.group(1))
         except Exception:
             # Keep best-effort parsing—do not fail the whole extraction on errors.
             LOGGER.debug("Failed to parse start-page ok indicators", exc_info=True)

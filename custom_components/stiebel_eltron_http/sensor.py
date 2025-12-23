@@ -66,6 +66,9 @@ from .const import (
     LOWER_LIMIT_HZG_KEY,
     LOWER_LIMIT_WW_KEY,
     START_OPERATION_MODE_KEY,
+    START_SG_READY_ACTIVE,
+    START_SG_READY_STATE,
+    START_ENERGY_MGMT_OK,
     RUNTIME_VD_HEATING_KEY,
     RUNTIME_VD_DHW_KEY,
     RUNTIME_VD_DEFROST_KEY,
@@ -475,6 +478,28 @@ ENTITY_DESCRIPTIONS = (
         name="Operation mode",
         translation_key=START_OPERATION_MODE_KEY,
         icon="mdi:cog-outline",
+    ),
+    SensorEntityDescription(
+        key=START_SG_READY_ACTIVE,
+        name="SG Ready active",
+        translation_key=START_SG_READY_ACTIVE,
+        icon="mdi:lightning-bolt-circle",
+        device_class=SensorDeviceClass.ENUM,
+        options=["OFF", "ON"],
+    ),
+    SensorEntityDescription(
+        key=START_SG_READY_STATE,
+        name="SG Ready state",
+        translation_key=START_SG_READY_STATE,
+        icon="mdi:state-machine",
+    ),
+    SensorEntityDescription(
+        key=START_ENERGY_MGMT_OK,
+        name="Energy management status",
+        translation_key=START_ENERGY_MGMT_OK,
+        icon="mdi:check-circle-outline",
+        device_class=SensorDeviceClass.ENUM,
+        options=["ERROR", "OK"],
     ),
     # ---- External heat source temperatures ----
     SensorEntityDescription(

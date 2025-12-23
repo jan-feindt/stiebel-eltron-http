@@ -123,6 +123,9 @@ MAC_ADDRESS_KEY = "mac_address"
 START_OPERATION_MODE_KEY = "start_operation_mode"
 START_PORTAL_OK = "start_portal_ok"
 START_SYSTEM_OK = "start_system_ok"
+START_SG_READY_ACTIVE = "start_sg_ready_active"
+START_SG_READY_STATE = "start_sg_ready_state"
+START_ENERGY_MGMT_OK = "start_energy_mgmt_ok"
 
 # WCCI (Water Control and Communication Interface) - Power Influence (s=4,25)
 WCCI_INPUT_MODE_KEY = "wcci_input_mode"
