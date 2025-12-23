@@ -35,9 +35,9 @@ def test_extract_sg_ready_config():
     result = client._extract_heating_config(html_content, "SG_READY")
     
     # Verify extracted values exist (values may vary by system)
-    # SG Ready enabled (boolean)
+    # SG Ready enabled (enum: OFF/ON)
     assert SG_READY_ENABLED_KEY in result
-    assert isinstance(result[SG_READY_ENABLED_KEY], bool)
+    assert result[SG_READY_ENABLED_KEY] in ["OFF", "ON"]
     
     # SG Ready input (enum)
     assert SG_READY_INPUT_KEY in result

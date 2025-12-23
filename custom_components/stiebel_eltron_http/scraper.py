@@ -1394,7 +1394,7 @@ class StiebelEltronScrapingClient:
         
         # val60305 = SG Ready Enabled (0=OFF, 1=ON)
         if "60305" in val_dict:
-            result[SG_READY_ENABLED_KEY] = val_dict["60305"] == "1"
+            result[SG_READY_ENABLED_KEY] = "ON" if val_dict["60305"] == "1" else "OFF"
         
         # val60028 = SG-Ready Input (0=OFF, 1=MODBUS, 2=CAN BUS, 3=ISG PLUS)
         if "60028" in val_dict:
