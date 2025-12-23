@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2025-12-23
+
+### Added
+- **SG Ready / Energy Management Configuration** (s=4,14): 6 new configuration sensors
+  - SG Ready enabled/disabled toggle
+  - SG Ready input source selection (OFF/MODBUS/CAN BUS/ISG PLUS)
+  - Heating buffer configuration (3 options)
+  - Upper temperature limits for HC1, HC2, and DHW circuits
+  - Full translation support across 12 languages
+- **Energy Management Status on Start Page** (s=0): 3 new real-time status sensors
+  - SG Ready active indicator (ON/OFF)
+  - SG Ready operating state (1-4) showing current grid signal mode
+  - Energy Management system health status (OK/ERROR)
+- Multi-language regex pattern matching for German "Betriebszustand" and French "Statut d'exploitation"
+- Comprehensive test coverage with 13 parametrized tests for all language variations
+
+### Changed
+- Updated start page testdata (s_0_0_*.html) for all 12 languages with firmware changes
+- Enhanced scraper to detect and extract Energy Management status box from start page
+- Improved sensor entity descriptions with appropriate device classes and icons
+
+### Technical
+- Added 9 configuration sensor constants across heating and energy management pages
+- Extended heating configuration infrastructure to support SG Ready parameters
+- Created test_sg_ready_config.py and test_start_page_energy_mgmt.py
+- Total sensors: 64 (55 from 0.2.0 + 9 new configuration/status sensors)
+
 ## [0.2.0] - 2025-11-24
 
 ### Added
