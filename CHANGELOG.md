@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.2] - 2025-12-23
+
+### Fixed
+- **UnicodeDecodeError in WCCI scraper**: Added encoding fallback (UTF-8 → ISO-8859-1) to handle German umlauts and special characters in WCCI endpoint responses
+- **UnboundLocalError in WCCI scraper**: Moved json import to top of file to fix exception handler reference error
+- **ImportError for configuration paths**: Added missing PATH constants (HEATING_SUMMER_PATH, HEATING_PUMP_CYCLES_PATH, HEATING_EXTERNAL_PATH, and 8 DHW paths, plus SG_READY_PATH)
+- **ValueError for sg_ready_enabled sensor**: Changed from boolean to string enum ("OFF"/"ON") to match sensor device class definition
+
+### Added
+- Translations for start page Energy Management sensors in all 12 languages (start_sg_ready_active, start_sg_ready_state, start_energy_mgmt_ok)
+
+### Technical
+- Enhanced error handling for non-UTF-8 encoded responses from older ISG devices
+- Improved type consistency between scraper output and sensor definitions
+- All configuration page paths now properly defined in const.py
+
 ## [0.2.1] - 2025-12-23
 
 ### Added
