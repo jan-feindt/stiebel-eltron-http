@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 import socket
 from typing import Any
@@ -560,7 +561,6 @@ class StiebelEltronScrapingClient:
             )
             
             # Parse JSON response
-            import json
             data = json.loads(json_response)
             LOGGER.debug("WCCI: Received data: %s", data)
             
@@ -2038,7 +2038,11 @@ class StiebelEltronScrapingClient:
                 _verify_response_or_raise(response)
 
                 # Read full response text, then log a truncated snippet for debugging.
-                text = await response.text()
+                # Try UTF-8 first, fall back to ISO-8859-1 if that fails (for German umlauts etc.)
+                try:
+                    text = await response.text(encoding='utf-8')
+                except UnicodeDecodeError:
+                    text = await response.text(encoding='iso-8859-1')
                 safe_text = text if isinstance(text, str) else str(text)
                 if len(safe_text) > 1000:
                     safe_text = safe_text[:1000] + "...(truncated)"
