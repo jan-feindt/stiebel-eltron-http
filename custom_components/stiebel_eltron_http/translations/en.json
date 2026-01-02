@@ -297,7 +297,7 @@
       "name": "STANDARD SETTING FROST PROTECTION"
     },
     "heating_summer_mode": {
-      "name": "SUMMER MODE SUMMER MODE"
+      "name": "SUMMER MODE"
     },
     "heating_summer_outside_temp": {
       "name": "SUMMER MODE OUTSIDE TEMPERATURE"
@@ -306,10 +306,10 @@
       "name": "SUMMER MODE BUILDING HEAT BUFFER"
     },
     "heating_pump_cycles": {
-      "name": "PUMP CYCLES PUMP CYCLES"
+      "name": "PUMP CYCLES"
     },
     "heating_external_source": {
-      "name": "EXTERNAL HEAT SOURCE EXTERNAL HEAT SOURCE"
+      "name": "EXTERNAL HEAT SOURCE"
     },
     "heating_external_curve_gap": {
       "name": "EXTERNAL HEAT SOURCE HEATING CURVE GAP"
@@ -339,10 +339,10 @@
       "name": "STANDARD SETTING DHW STAGES"
     },
     "dhw_learning_function": {
-      "name": "WW LEARNING FUNCTION WW LEARNING FUNCTION"
+      "name": "WW LEARNING FUNCTION"
     },
     "dhw_combi_cylinder": {
-      "name": "COMBI CYLINDER COMBI CYLINDER"
+      "name": "COMBI CYLINDER"
     },
     "dhw_output_summer": {
       "name": "WW OUTPUT WP WW OUTPUT SUMMER"
@@ -351,16 +351,16 @@
       "name": "WW OUTPUT WP WW OUTPUT WINTER"
     },
     "dhw_max_flow_temp": {
-      "name": "MAXIMUM FLOW TEMPERATURE MAXIMUM FLOW TEMPERATURE"
+      "name": "MAXIMUM FLOW TEMPERATURE"
     },
     "dhw_pasteurisation": {
-      "name": "PASTEURISATION PASTEURISATION"
+      "name": "PASTEURISATION"
     },
     "dhw_pasteurisation_temp": {
       "name": "PASTEURISATION SET TEMPERATURE"
     },
     "dhw_external_source": {
-      "name": "EXTERNAL HEAT SOURCE EXTERNAL HEAT SOURCE"
+      "name": "EXTERNAL HEAT SOURCE"
     },
     "dhw_external_dual_mode_temp": {
       "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP WW"
