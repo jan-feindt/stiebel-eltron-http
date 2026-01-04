@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "EFFEKTPÅVERKAN LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "VARMEKRETS 1 KOMFORTTEMPERATUR"
+      },
+      "hc1_eco_temperature": {
+        "name": "VARMEKRETS 1 ECO-TEMPERATUR"
+      },
+      "hc1_minimum_temperature": {
+        "name": "VARMEKRETS 1 LÄGSTA TEMPERATUR"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "VARMEKRETS 1 STIGNING VÄRMEKURVA"
+      },
+      "hc2_comfort_temperature": {
+        "name": "VARMEKRETS 2 KOMFORTTEMPERATUR"
+      },
+      "hc2_eco_temperature": {
+        "name": "VARMEKRETS 2 ECO-TEMPERATUR"
+      },
+      "hc2_minimum_temperature": {
+        "name": "VARMEKRETS 2 LÄGSTA TEMPERATUR"
+      },
+      "hc2_maximum_temperature": {
+        "name": "VARMEKRETS 2 MAXTEMPERATUR"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "VARMEKRETS 2 SHUNTDYNAMIK"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "VARMEKRETS 2 STIGNING VÄRMEKURVA"
+      },
+      "heating_buffer_operation": {
+        "name": "GRUNDINSTÄLLNING BUFFERTDRIFT"
+      },
+      "heating_max_return_temp": {
+        "name": "GRUNDINSTÄLLNING MAX RETURTEMP"
+      },
+      "heating_max_flow_temp": {
+        "name": "GRUNDINSTÄLLNING MAX FRAMLEDNINGSTEMP"
+      },
+      "heating_fixed_value_operation": {
+        "name": "GRUNDINSTÄLLNING FASTVÄRDESDRIFT"
+      },
+      "heating_frost_protection": {
+        "name": "GRUNDINSTÄLLNING FROSTKYDD"
+      },
+      "heating_summer_mode": {
+        "name": "SOMMARDRIFT SOMMARDRIFT"
+      },
+      "heating_summer_outside_temp": {
+        "name": "SOMMARDRIFT UTETEMPERATUR"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "SOMMARDRIFT BYGGNADSISOLERING"
+      },
+      "heating_pump_cycles": {
+        "name": "PUMPCYKLER PUMPCYKLER"
+      },
+      "heating_external_source": {
+        "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
+      },
+      "heating_external_curve_gap": {
+        "name": "VÄRMEGENERATOR EXTERN AVSTÅND VÄRMEKURVA"
+      },
+      "heating_external_blocking_time": {
+        "name": "VÄRMEGENERATOR EXTERN SPÄRRTID EVU"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "VARMVATTENTEMPERATURER KOMFORTTEMPERATUR"
+      },
+      "dhw_eco_temperature": {
+        "name": "VARMVATTENTEMPERATURER ECO-TEMPERATUR"
+      },
+      "dhw_mode": {
+        "name": "GRUNDINSTÄLLNING VARMVATTENDRIFT"
+      },
+      "dhw_hysteresis": {
+        "name": "GRUNDINSTÄLLNING VARMVATTENHYSTERES"
+      },
+      "dhw_stages": {
+        "name": "GRUNDINSTÄLLNING VARMVATTENNIVÅER"
+      },
+      "dhw_learning_function": {
+        "name": "WW INLÄRNINGSFUNKTION WW INLÄRNINGSFUNKTION"
+      },
+      "dhw_combi_cylinder": {
+        "name": "KOMBIACKUMULATOR KOMBIACKUMULATOR"
+      },
+      "dhw_output_summer": {
+        "name": "WW EFFEKT WP WW EFFEKT SOMMAR"
+      },
+      "dhw_output_winter": {
+        "name": "WW EFFEKT WP WW EFFEKT VINTER"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAX FRAMLEDNINGSTEMP MAX FRAMLEDNINGSTEMP"
+      },
+      "dhw_pasteurisation": {
+        "name": "ANTILEGIONELLABEHANDLING ANTILEGIONELLABEHANDLING"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "ANTILEGIONELLABEHANDLING BÖRTEMPERATUR"
+      },
+      "dhw_external_source": {
+        "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS WW"
+      },
+      "dhw_external_pwm": {
+        "name": "VÄRMEGENERATOR EXTERN WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTIVERAD"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Ackumulatortank"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT ÖVRE RUMS/BUFFERTTEMP. HK1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT ÖVRE RUMSTEMP HK2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT ÖVRE BÖRTEMP. VARMVATTEN"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "VARMEKRETS 1 KOMFORTTEMPERATUR"
-    },
-    "hc1_eco_temperature": {
-      "name": "VARMEKRETS 1 ECO-TEMPERATUR"
-    },
-    "hc1_minimum_temperature": {
-      "name": "VARMEKRETS 1 LÄGSTA TEMPERATUR"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "VARMEKRETS 1 STIGNING VÄRMEKURVA"
-    },
-    "hc2_comfort_temperature": {
-      "name": "VARMEKRETS 2 KOMFORTTEMPERATUR"
-    },
-    "hc2_eco_temperature": {
-      "name": "VARMEKRETS 2 ECO-TEMPERATUR"
-    },
-    "hc2_minimum_temperature": {
-      "name": "VARMEKRETS 2 LÄGSTA TEMPERATUR"
-    },
-    "hc2_maximum_temperature": {
-      "name": "VARMEKRETS 2 MAXTEMPERATUR"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "VARMEKRETS 2 SHUNTDYNAMIK"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "VARMEKRETS 2 STIGNING VÄRMEKURVA"
-    },
-    "heating_buffer_operation": {
-      "name": "GRUNDINSTÄLLNING BUFFERTDRIFT"
-    },
-    "heating_max_return_temp": {
-      "name": "GRUNDINSTÄLLNING MAX RETURTEMP"
-    },
-    "heating_max_flow_temp": {
-      "name": "GRUNDINSTÄLLNING MAX FRAMLEDNINGSTEMP"
-    },
-    "heating_fixed_value_operation": {
-      "name": "GRUNDINSTÄLLNING FASTVÄRDESDRIFT"
-    },
-    "heating_frost_protection": {
-      "name": "GRUNDINSTÄLLNING FROSTKYDD"
-    },
-    "heating_summer_mode": {
-      "name": "SOMMARDRIFT SOMMARDRIFT"
-    },
-    "heating_summer_outside_temp": {
-      "name": "SOMMARDRIFT UTETEMPERATUR"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "SOMMARDRIFT BYGGNADSISOLERING"
-    },
-    "heating_pump_cycles": {
-      "name": "PUMPCYKLER PUMPCYKLER"
-    },
-    "heating_external_source": {
-      "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
-    },
-    "heating_external_curve_gap": {
-      "name": "VÄRMEGENERATOR EXTERN AVSTÅND VÄRMEKURVA"
-    },
-    "heating_external_blocking_time": {
-      "name": "VÄRMEGENERATOR EXTERN SPÄRRTID EVU"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "VARMVATTENTEMPERATURER KOMFORTTEMPERATUR"
-    },
-    "dhw_eco_temperature": {
-      "name": "VARMVATTENTEMPERATURER ECO-TEMPERATUR"
-    },
-    "dhw_mode": {
-      "name": "GRUNDINSTÄLLNING VARMVATTENDRIFT"
-    },
-    "dhw_hysteresis": {
-      "name": "GRUNDINSTÄLLNING VARMVATTENHYSTERES"
-    },
-    "dhw_stages": {
-      "name": "GRUNDINSTÄLLNING VARMVATTENNIVÅER"
-    },
-    "dhw_learning_function": {
-      "name": "WW INLÄRNINGSFUNKTION WW INLÄRNINGSFUNKTION"
-    },
-    "dhw_combi_cylinder": {
-      "name": "KOMBIACKUMULATOR KOMBIACKUMULATOR"
-    },
-    "dhw_output_summer": {
-      "name": "WW EFFEKT WP WW EFFEKT SOMMAR"
-    },
-    "dhw_output_winter": {
-      "name": "WW EFFEKT WP WW EFFEKT VINTER"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAX FRAMLEDNINGSTEMP MAX FRAMLEDNINGSTEMP"
-    },
-    "dhw_pasteurisation": {
-      "name": "ANTILEGIONELLABEHANDLING ANTILEGIONELLABEHANDLING"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "ANTILEGIONELLABEHANDLING BÖRTEMPERATUR"
-    },
-    "dhw_external_source": {
-      "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "VÄRMEGENERATOR EXTERN BIVALENSTEMPERATUR WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "VÄRMEGENERATOR EXTERN UNDRE ANVÄND.GRÄNS WW"
-    },
-    "dhw_external_pwm": {
-      "name": "VÄRMEGENERATOR EXTERN WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTIVERAD"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Ackumulatortank"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT ÖVRE RUMS/BUFFERTTEMP. HK1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT ÖVRE RUMSTEMP HK2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT ÖVRE BÖRTEMP. VARMVATTEN"
     }
   }
 }

@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "INFLUSSO SULLA POTENZA LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA COMFORT"
+      },
+      "hc1_eco_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA ECO"
+      },
+      "hc1_minimum_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA MINIMA"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "CIRCUITO RISCALDAMENTO 1 AUMENTO CURVA CALORIFICA"
+      },
+      "hc2_comfort_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA COMFORT"
+      },
+      "hc2_eco_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA ECO"
+      },
+      "hc2_minimum_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA MINIMA"
+      },
+      "hc2_maximum_temperature": {
+        "name": "CIRCUITO RISCALDAMENTO 2 TEMP MAX"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "CIRCUITO RISCALDAMENTO 2 DINAMICA MISCELATORE"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "CIRCUITO RISCALDAMENTO 2 AUMENTO CURVA CALORIFICA"
+      },
+      "heating_buffer_operation": {
+        "name": "IMPOSTAZIONE STANDARD FUNZ TAMPONE"
+      },
+      "heating_max_return_temp": {
+        "name": "IMPOSTAZIONE STANDARD TEMP MAX RITORNO"
+      },
+      "heating_max_flow_temp": {
+        "name": "IMPOSTAZIONE STANDARD TEMP MAX MANDATA"
+      },
+      "heating_fixed_value_operation": {
+        "name": "IMPOSTAZIONE STANDARD FUNZION VALORE FISSO"
+      },
+      "heating_frost_protection": {
+        "name": "IMPOSTAZIONE STANDARD PROTEZ ANTIGELO"
+      },
+      "heating_summer_mode": {
+        "name": "USO ESTIVO USO ESTIVO"
+      },
+      "heating_summer_outside_temp": {
+        "name": "USO ESTIVO TEMPERATURA ESTERNA"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "USO ESTIVO ATTENUAZIONE EDIFICIO"
+      },
+      "heating_pump_cycles": {
+        "name": "CICLI POMPA CICLI POMPA"
+      },
+      "heating_external_source": {
+        "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+      },
+      "heating_external_curve_gap": {
+        "name": "GENERATORE DI CALORE EST DISTANZA CURVA CALOR"
+      },
+      "heating_external_blocking_time": {
+        "name": "GENERATORE DI CALORE EST TEMPO BLOCCO POTENZA"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "TEMPERATURE ACQUA CALDA TEMPERATURA COMFORT"
+      },
+      "dhw_eco_temperature": {
+        "name": "TEMPERATURE ACQUA CALDA TEMPERATURA ECO"
+      },
+      "dhw_mode": {
+        "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA"
+      },
+      "dhw_hysteresis": {
+        "name": "IMPOSTAZIONE STANDARD ISTERESI ACQUA CALDA"
+      },
+      "dhw_stages": {
+        "name": "IMPOSTAZIONE STANDARD STADI ACQUA CALDA"
+      },
+      "dhw_learning_function": {
+        "name": "FUNZ APPRENDIMENTO WW FUNZ APPRENDIMENTO WW"
+      },
+      "dhw_combi_cylinder": {
+        "name": "SERBATOIO COMBI SERBATOIO COMBI"
+      },
+      "dhw_output_summer": {
+        "name": "RENDIM WW WP RENDIM WW ESTATE"
+      },
+      "dhw_output_winter": {
+        "name": "RENDIM WW WP RENDIM WW INVERNO"
+      },
+      "dhw_max_flow_temp": {
+        "name": "TEMP MAX MANDATA TEMP MAX MANDATA"
+      },
+      "dhw_pasteurisation": {
+        "name": "TRATTAM. ANTILEGIONELLA TRATTAM. ANTILEGIONELLA"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "TRATTAM. ANTILEGIONELLA TEMPERATURA NOMINALE"
+      },
+      "dhw_external_source": {
+        "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF WW"
+      },
+      "dhw_external_pwm": {
+        "name": "GENERATORE DI CALORE EST WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY ATTIVATO"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Serb. tampone riscaldam."
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT TMP TAMP./AMB. SUP. HK1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT TMP AMB. SUP. HK2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT TMP ACS DES. SUP."
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA COMFORT"
-    },
-    "hc1_eco_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA ECO"
-    },
-    "hc1_minimum_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA MINIMA"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "CIRCUITO RISCALDAMENTO 1 AUMENTO CURVA CALORIFICA"
-    },
-    "hc2_comfort_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA COMFORT"
-    },
-    "hc2_eco_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA ECO"
-    },
-    "hc2_minimum_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA MINIMA"
-    },
-    "hc2_maximum_temperature": {
-      "name": "CIRCUITO RISCALDAMENTO 2 TEMP MAX"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "CIRCUITO RISCALDAMENTO 2 DINAMICA MISCELATORE"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "CIRCUITO RISCALDAMENTO 2 AUMENTO CURVA CALORIFICA"
-    },
-    "heating_buffer_operation": {
-      "name": "IMPOSTAZIONE STANDARD FUNZ TAMPONE"
-    },
-    "heating_max_return_temp": {
-      "name": "IMPOSTAZIONE STANDARD TEMP MAX RITORNO"
-    },
-    "heating_max_flow_temp": {
-      "name": "IMPOSTAZIONE STANDARD TEMP MAX MANDATA"
-    },
-    "heating_fixed_value_operation": {
-      "name": "IMPOSTAZIONE STANDARD FUNZION VALORE FISSO"
-    },
-    "heating_frost_protection": {
-      "name": "IMPOSTAZIONE STANDARD PROTEZ ANTIGELO"
-    },
-    "heating_summer_mode": {
-      "name": "USO ESTIVO USO ESTIVO"
-    },
-    "heating_summer_outside_temp": {
-      "name": "USO ESTIVO TEMPERATURA ESTERNA"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "USO ESTIVO ATTENUAZIONE EDIFICIO"
-    },
-    "heating_pump_cycles": {
-      "name": "CICLI POMPA CICLI POMPA"
-    },
-    "heating_external_source": {
-      "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
-    },
-    "heating_external_curve_gap": {
-      "name": "GENERATORE DI CALORE EST DISTANZA CURVA CALOR"
-    },
-    "heating_external_blocking_time": {
-      "name": "GENERATORE DI CALORE EST TEMPO BLOCCO POTENZA"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "TEMPERATURE ACQUA CALDA TEMPERATURA COMFORT"
-    },
-    "dhw_eco_temperature": {
-      "name": "TEMPERATURE ACQUA CALDA TEMPERATURA ECO"
-    },
-    "dhw_mode": {
-      "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA"
-    },
-    "dhw_hysteresis": {
-      "name": "IMPOSTAZIONE STANDARD ISTERESI ACQUA CALDA"
-    },
-    "dhw_stages": {
-      "name": "IMPOSTAZIONE STANDARD STADI ACQUA CALDA"
-    },
-    "dhw_learning_function": {
-      "name": "FUNZ APPRENDIMENTO WW FUNZ APPRENDIMENTO WW"
-    },
-    "dhw_combi_cylinder": {
-      "name": "SERBATOIO COMBI SERBATOIO COMBI"
-    },
-    "dhw_output_summer": {
-      "name": "RENDIM WW WP RENDIM WW ESTATE"
-    },
-    "dhw_output_winter": {
-      "name": "RENDIM WW WP RENDIM WW INVERNO"
-    },
-    "dhw_max_flow_temp": {
-      "name": "TEMP MAX MANDATA TEMP MAX MANDATA"
-    },
-    "dhw_pasteurisation": {
-      "name": "TRATTAM. ANTILEGIONELLA TRATTAM. ANTILEGIONELLA"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "TRATTAM. ANTILEGIONELLA TEMPERATURA NOMINALE"
-    },
-    "dhw_external_source": {
-      "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF WW"
-    },
-    "dhw_external_pwm": {
-      "name": "GENERATORE DI CALORE EST WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY ATTIVATO"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Serb. tampone riscaldam."
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT TMP TAMP./AMB. SUP. HK1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT TMP AMB. SUP. HK2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT TMP ACS DES. SUP."
     }
   }
 }

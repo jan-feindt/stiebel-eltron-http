@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "VAIKUTUS TEHOON LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "LÄM-PIIRI 1 MUKAV-LÄMPÖTILA"
+      },
+      "hc1_eco_temperature": {
+        "name": "LÄM-PIIRI 1 ECO-LÄMPÖTILA"
+      },
+      "hc1_minimum_temperature": {
+        "name": "LÄM-PIIRI 1 MINIMILÄMPÖTILA"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "LÄM-PIIRI 1 LÄMM KÄYRÄN NOUSU"
+      },
+      "hc2_comfort_temperature": {
+        "name": "LÄM-PIIRI 2 MUKAV-LÄMPÖTILA"
+      },
+      "hc2_eco_temperature": {
+        "name": "LÄM-PIIRI 2 ECO-LÄMPÖTILA"
+      },
+      "hc2_minimum_temperature": {
+        "name": "LÄM-PIIRI 2 MINIMILÄMPÖTILA"
+      },
+      "hc2_maximum_temperature": {
+        "name": "LÄM-PIIRI 2 MAX LÄMPÖT"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "LÄM-PIIRI 2 SEKOIT.DYNAM."
+      },
+      "hc2_heating_curve_rise": {
+        "name": "LÄM-PIIRI 2 LÄMM KÄYRÄN NOUSU"
+      },
+      "heating_buffer_operation": {
+        "name": "PERUSASETUS PUSKURIKÄYTTÖ"
+      },
+      "heating_max_return_temp": {
+        "name": "PERUSASETUS MAX PALUUVIRT LÄMPÖT"
+      },
+      "heating_max_flow_temp": {
+        "name": "PERUSASETUS MAX MENOVIRT LÄMPÖT"
+      },
+      "heating_fixed_value_operation": {
+        "name": "PERUSASETUS KIINT LÄM AS KÄYTTÖ"
+      },
+      "heating_frost_protection": {
+        "name": "PERUSASETUS JÄÄTYMISESTO"
+      },
+      "heating_summer_mode": {
+        "name": "KESÄKÄYTTÖ KESÄKÄYTTÖ"
+      },
+      "heating_summer_outside_temp": {
+        "name": "KESÄKÄYTTÖ ULKOLÄMPÖTILA"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "KESÄKÄYTTÖ RAKENNUSVAIMENNUS"
+      },
+      "heating_pump_cycles": {
+        "name": "PUMPPUJAKSOT PUMPPUJAKSOT"
+      },
+      "heating_external_source": {
+        "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+      },
+      "heating_external_curve_gap": {
+        "name": "LÄMMÖNTUOTTAJA ULK LÄMMITYSKÄYRÄN VÄLI"
+      },
+      "heating_external_blocking_time": {
+        "name": "LÄMMÖNTUOTTAJA ULK SÄHKÖNJAK KESK"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "LÄMMÖNTUOTTAJA ULK KÄYT ALARAJA HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "LÄMMINV LÄMPÖT MUKAV-LÄMPÖTILA"
+      },
+      "dhw_eco_temperature": {
+        "name": "LÄMMINV LÄMPÖT ECO-LÄMPÖTILA"
+      },
+      "dhw_mode": {
+        "name": "PERUSASETUS LÄMMINVESIK"
+      },
+      "dhw_hysteresis": {
+        "name": "PERUSASETUS LÄMMINVESIK HYSTER"
+      },
+      "dhw_stages": {
+        "name": "PERUSASETUS LÄMMINVESIK AST"
+      },
+      "dhw_learning_function": {
+        "name": "WW OPPIMISTOIM WW OPPIMISTOIM"
+      },
+      "dhw_combi_cylinder": {
+        "name": "YHDISTELMÄVAR YHDISTELMÄVAR"
+      },
+      "dhw_output_summer": {
+        "name": "WW TEHO WP WW TEHO KESÄ"
+      },
+      "dhw_output_winter": {
+        "name": "WW TEHO WP WW TEHO TALVI"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"
+      },
+      "dhw_pasteurisation": {
+        "name": "ANTILEGIONELLAKÄSITT ANTILEGIONELLAKÄSITT"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "ANTILEGIONELLAKÄSITT OHJELÄMPÖTILA"
+      },
+      "dhw_external_source": {
+        "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "LÄMMÖNTUOTTAJA ULK KÄYTÖN ALARAJA WW"
+      },
+      "dhw_external_pwm": {
+        "name": "LÄMMÖNTUOTTAJA ULK WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTIVOITU"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Lämmityspuskuri"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT YLEMPI HUONE/PUSKURILT.LP1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT YLEMPI TILALÄMP.LP2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT YLEMPI L-VEDEN LÄMP.ASETUS"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "LÄM-PIIRI 1 MUKAV-LÄMPÖTILA"
-    },
-    "hc1_eco_temperature": {
-      "name": "LÄM-PIIRI 1 ECO-LÄMPÖTILA"
-    },
-    "hc1_minimum_temperature": {
-      "name": "LÄM-PIIRI 1 MINIMILÄMPÖTILA"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "LÄM-PIIRI 1 LÄMM KÄYRÄN NOUSU"
-    },
-    "hc2_comfort_temperature": {
-      "name": "LÄM-PIIRI 2 MUKAV-LÄMPÖTILA"
-    },
-    "hc2_eco_temperature": {
-      "name": "LÄM-PIIRI 2 ECO-LÄMPÖTILA"
-    },
-    "hc2_minimum_temperature": {
-      "name": "LÄM-PIIRI 2 MINIMILÄMPÖTILA"
-    },
-    "hc2_maximum_temperature": {
-      "name": "LÄM-PIIRI 2 MAX LÄMPÖT"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "LÄM-PIIRI 2 SEKOIT.DYNAM."
-    },
-    "hc2_heating_curve_rise": {
-      "name": "LÄM-PIIRI 2 LÄMM KÄYRÄN NOUSU"
-    },
-    "heating_buffer_operation": {
-      "name": "PERUSASETUS PUSKURIKÄYTTÖ"
-    },
-    "heating_max_return_temp": {
-      "name": "PERUSASETUS MAX PALUUVIRT LÄMPÖT"
-    },
-    "heating_max_flow_temp": {
-      "name": "PERUSASETUS MAX MENOVIRT LÄMPÖT"
-    },
-    "heating_fixed_value_operation": {
-      "name": "PERUSASETUS KIINT LÄM AS KÄYTTÖ"
-    },
-    "heating_frost_protection": {
-      "name": "PERUSASETUS JÄÄTYMISESTO"
-    },
-    "heating_summer_mode": {
-      "name": "KESÄKÄYTTÖ KESÄKÄYTTÖ"
-    },
-    "heating_summer_outside_temp": {
-      "name": "KESÄKÄYTTÖ ULKOLÄMPÖTILA"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "KESÄKÄYTTÖ RAKENNUSVAIMENNUS"
-    },
-    "heating_pump_cycles": {
-      "name": "PUMPPUJAKSOT PUMPPUJAKSOT"
-    },
-    "heating_external_source": {
-      "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
-    },
-    "heating_external_curve_gap": {
-      "name": "LÄMMÖNTUOTTAJA ULK LÄMMITYSKÄYRÄN VÄLI"
-    },
-    "heating_external_blocking_time": {
-      "name": "LÄMMÖNTUOTTAJA ULK SÄHKÖNJAK KESK"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "LÄMMÖNTUOTTAJA ULK KÄYT ALARAJA HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "LÄMMINV LÄMPÖT MUKAV-LÄMPÖTILA"
-    },
-    "dhw_eco_temperature": {
-      "name": "LÄMMINV LÄMPÖT ECO-LÄMPÖTILA"
-    },
-    "dhw_mode": {
-      "name": "PERUSASETUS LÄMMINVESIK"
-    },
-    "dhw_hysteresis": {
-      "name": "PERUSASETUS LÄMMINVESIK HYSTER"
-    },
-    "dhw_stages": {
-      "name": "PERUSASETUS LÄMMINVESIK AST"
-    },
-    "dhw_learning_function": {
-      "name": "WW OPPIMISTOIM WW OPPIMISTOIM"
-    },
-    "dhw_combi_cylinder": {
-      "name": "YHDISTELMÄVAR YHDISTELMÄVAR"
-    },
-    "dhw_output_summer": {
-      "name": "WW TEHO WP WW TEHO KESÄ"
-    },
-    "dhw_output_winter": {
-      "name": "WW TEHO WP WW TEHO TALVI"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"
-    },
-    "dhw_pasteurisation": {
-      "name": "ANTILEGIONELLAKÄSITT ANTILEGIONELLAKÄSITT"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "ANTILEGIONELLAKÄSITT OHJELÄMPÖTILA"
-    },
-    "dhw_external_source": {
-      "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "LÄMMÖNTUOTTAJA ULK KÄYTÖN ALARAJA WW"
-    },
-    "dhw_external_pwm": {
-      "name": "LÄMMÖNTUOTTAJA ULK WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTIVOITU"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Lämmityspuskuri"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT YLEMPI HUONE/PUSKURILT.LP1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT YLEMPI TILALÄMP.LP2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT YLEMPI L-VEDEN LÄMP.ASETUS"
     }
   }
 }

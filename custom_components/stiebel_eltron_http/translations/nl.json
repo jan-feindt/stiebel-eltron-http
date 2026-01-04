@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "VERMOGENSBEÏNLVOEDING LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "VERWARMINGSCIRCUIT 1 COMFORT TEMPERATUUR"
+      },
+      "hc1_eco_temperature": {
+        "name": "VERWARMINGSCIRCUIT 1 ECO TEMPERATUUR"
+      },
+      "hc1_minimum_temperature": {
+        "name": "VERWARMINGSCIRCUIT 1 MINIMUMTEMPERATUUR"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "VERWARMINGSCIRCUIT 1 STIJGING VERWARMINGSCURVE"
+      },
+      "hc2_comfort_temperature": {
+        "name": "VERWARMINGSCIRCUIT 2 COMFORT TEMPERATUUR"
+      },
+      "hc2_eco_temperature": {
+        "name": "VERWARMINGSCIRCUIT 2 ECO TEMPERATUUR"
+      },
+      "hc2_minimum_temperature": {
+        "name": "VERWARMINGSCIRCUIT 2 MINIMUMTEMPERATUUR"
+      },
+      "hc2_maximum_temperature": {
+        "name": "VERWARMINGSCIRCUIT 2 MAXIMAALTEMPERATUUR"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "VERWARMINGSCIRCUIT 2 MENGDYNAMIEK"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "VERWARMINGSCIRCUIT 2 STIJGING VERWARMINGSCURVE"
+      },
+      "heating_buffer_operation": {
+        "name": "BASISINSTELLING BUFFERWERKING"
+      },
+      "heating_max_return_temp": {
+        "name": "BASISINSTELLING MAX RETOURTEMPERATUUR"
+      },
+      "heating_max_flow_temp": {
+        "name": "BASISINSTELLING MAX AANVOERTEMPERATUUR"
+      },
+      "heating_fixed_value_operation": {
+        "name": "BASISINSTELLING VASTE-WAARDEWERKING"
+      },
+      "heating_frost_protection": {
+        "name": "BASISINSTELLING VORSTBESCHERMING"
+      },
+      "heating_summer_mode": {
+        "name": "ZOMERBEDRIJF ZOMERBEDRIJF"
+      },
+      "heating_summer_outside_temp": {
+        "name": "ZOMERBEDRIJF BUITENTEMPERATUUR"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "ZOMERBEDRIJF GEBOUWDEMPING"
+      },
+      "heating_pump_cycles": {
+        "name": "POMPCYCLI POMPCYCLI"
+      },
+      "heating_external_source": {
+        "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+      },
+      "heating_external_curve_gap": {
+        "name": "WARMTEOPWEKKER EXTERN AFSTAND VERWARMINGSCURVE"
+      },
+      "heating_external_blocking_time": {
+        "name": "WARMTEOPWEKKER EXTERN SPERTIJD EVU"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "WARMWATERTEMPERATUREN COMFORT TEMPERATUUR"
+      },
+      "dhw_eco_temperature": {
+        "name": "WARMWATERTEMPERATUREN ECO TEMPERATUUR"
+      },
+      "dhw_mode": {
+        "name": "BASISINSTELLING WARMWATERBEDRIJF"
+      },
+      "dhw_hysteresis": {
+        "name": "BASISINSTELLING WARMWATERHYSTERESIS"
+      },
+      "dhw_stages": {
+        "name": "BASISINSTELLING WARMWATERTRAPPEN"
+      },
+      "dhw_learning_function": {
+        "name": "WW ZELFLEERFUNCTIE WW ZELFLEERFUNCTIE"
+      },
+      "dhw_combi_cylinder": {
+        "name": "COMBI-BOILER COMBI-BOILER"
+      },
+      "dhw_output_summer": {
+        "name": "WW VERMOGEN WP WW VERMOGEN ZOMER"
+      },
+      "dhw_output_winter": {
+        "name": "WW VERMOGEN WP WW VERMOGEN WINTER"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"
+      },
+      "dhw_pasteurisation": {
+        "name": "ANTILEGIONELLABEHANDELING ANTILEGIONELLABEHANDELING"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "ANTILEGIONELLABEHANDELING NOMINALE TEMPERATUUR"
+      },
+      "dhw_external_source": {
+        "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED WW"
+      },
+      "dhw_external_pwm": {
+        "name": "WARMTEOPWEKKER EXTERN WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY GEACTIV."
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Verwarmingsbuffer"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT BOV. KAMER-/BUF.TEMP. HK1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT BOV. KAMERTEMP. HK2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT BOV. NOM. WARMWATERTEMP."
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "VERWARMINGSCIRCUIT 1 COMFORT TEMPERATUUR"
-    },
-    "hc1_eco_temperature": {
-      "name": "VERWARMINGSCIRCUIT 1 ECO TEMPERATUUR"
-    },
-    "hc1_minimum_temperature": {
-      "name": "VERWARMINGSCIRCUIT 1 MINIMUMTEMPERATUUR"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "VERWARMINGSCIRCUIT 1 STIJGING VERWARMINGSCURVE"
-    },
-    "hc2_comfort_temperature": {
-      "name": "VERWARMINGSCIRCUIT 2 COMFORT TEMPERATUUR"
-    },
-    "hc2_eco_temperature": {
-      "name": "VERWARMINGSCIRCUIT 2 ECO TEMPERATUUR"
-    },
-    "hc2_minimum_temperature": {
-      "name": "VERWARMINGSCIRCUIT 2 MINIMUMTEMPERATUUR"
-    },
-    "hc2_maximum_temperature": {
-      "name": "VERWARMINGSCIRCUIT 2 MAXIMAALTEMPERATUUR"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "VERWARMINGSCIRCUIT 2 MENGDYNAMIEK"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "VERWARMINGSCIRCUIT 2 STIJGING VERWARMINGSCURVE"
-    },
-    "heating_buffer_operation": {
-      "name": "BASISINSTELLING BUFFERWERKING"
-    },
-    "heating_max_return_temp": {
-      "name": "BASISINSTELLING MAX RETOURTEMPERATUUR"
-    },
-    "heating_max_flow_temp": {
-      "name": "BASISINSTELLING MAX AANVOERTEMPERATUUR"
-    },
-    "heating_fixed_value_operation": {
-      "name": "BASISINSTELLING VASTE-WAARDEWERKING"
-    },
-    "heating_frost_protection": {
-      "name": "BASISINSTELLING VORSTBESCHERMING"
-    },
-    "heating_summer_mode": {
-      "name": "ZOMERBEDRIJF ZOMERBEDRIJF"
-    },
-    "heating_summer_outside_temp": {
-      "name": "ZOMERBEDRIJF BUITENTEMPERATUUR"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "ZOMERBEDRIJF GEBOUWDEMPING"
-    },
-    "heating_pump_cycles": {
-      "name": "POMPCYCLI POMPCYCLI"
-    },
-    "heating_external_source": {
-      "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
-    },
-    "heating_external_curve_gap": {
-      "name": "WARMTEOPWEKKER EXTERN AFSTAND VERWARMINGSCURVE"
-    },
-    "heating_external_blocking_time": {
-      "name": "WARMTEOPWEKKER EXTERN SPERTIJD EVU"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "WARMWATERTEMPERATUREN COMFORT TEMPERATUUR"
-    },
-    "dhw_eco_temperature": {
-      "name": "WARMWATERTEMPERATUREN ECO TEMPERATUUR"
-    },
-    "dhw_mode": {
-      "name": "BASISINSTELLING WARMWATERBEDRIJF"
-    },
-    "dhw_hysteresis": {
-      "name": "BASISINSTELLING WARMWATERHYSTERESIS"
-    },
-    "dhw_stages": {
-      "name": "BASISINSTELLING WARMWATERTRAPPEN"
-    },
-    "dhw_learning_function": {
-      "name": "WW ZELFLEERFUNCTIE WW ZELFLEERFUNCTIE"
-    },
-    "dhw_combi_cylinder": {
-      "name": "COMBI-BOILER COMBI-BOILER"
-    },
-    "dhw_output_summer": {
-      "name": "WW VERMOGEN WP WW VERMOGEN ZOMER"
-    },
-    "dhw_output_winter": {
-      "name": "WW VERMOGEN WP WW VERMOGEN WINTER"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"
-    },
-    "dhw_pasteurisation": {
-      "name": "ANTILEGIONELLABEHANDELING ANTILEGIONELLABEHANDELING"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "ANTILEGIONELLABEHANDELING NOMINALE TEMPERATUUR"
-    },
-    "dhw_external_source": {
-      "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED WW"
-    },
-    "dhw_external_pwm": {
-      "name": "WARMTEOPWEKKER EXTERN WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY GEACTIV."
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Verwarmingsbuffer"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT BOV. KAMER-/BUF.TEMP. HK1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT BOV. KAMERTEMP. HK2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT BOV. NOM. WARMWATERTEMP."
     }
   }
 }

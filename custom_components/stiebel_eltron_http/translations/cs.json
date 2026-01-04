@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "OVLIVNĚNÍ VÝKONU LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "TOPNY OKRUH 1 KOMFORTNI TEPLOTA"
+      },
+      "hc1_eco_temperature": {
+        "name": "TOPNY OKRUH 1 EKO TEPLOTA"
+      },
+      "hc1_minimum_temperature": {
+        "name": "TOPNY OKRUH 1 MINIMALNI TEPLOTA"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "TOPNY OKRUH 1 STOUPANI TOPNE KRIVKY"
+      },
+      "hc2_comfort_temperature": {
+        "name": "TOPNY OKRUH 2 KOMFORTNI TEPLOTA"
+      },
+      "hc2_eco_temperature": {
+        "name": "TOPNY OKRUH 2 EKO TEPLOTA"
+      },
+      "hc2_minimum_temperature": {
+        "name": "TOPNY OKRUH 2 MINIMALNI TEPLOTA"
+      },
+      "hc2_maximum_temperature": {
+        "name": "TOPNY OKRUH 2 MAXIMALNI TEPLOTA"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "TOPNY OKRUH 2 SMĚŠOVAČ, DYNAMIKA"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "TOPNY OKRUH 2 STOUPANI TOPNE KRIVKY"
+      },
+      "heating_buffer_operation": {
+        "name": "ZÁKLADNÍ NASTAVENÍ AKUMULACNI REZIM"
+      },
+      "heating_max_return_temp": {
+        "name": "ZÁKLADNÍ NASTAVENÍ MAXIMALNI TEPL VRAT VODY"
+      },
+      "heating_max_flow_temp": {
+        "name": "ZÁKLADNÍ NASTAVENÍ MAX VSTUP TEPL TOP VODY"
+      },
+      "heating_fixed_value_operation": {
+        "name": "ZÁKLADNÍ NASTAVENÍ REZIM PEVNA HODNOTA"
+      },
+      "heating_frost_protection": {
+        "name": "ZÁKLADNÍ NASTAVENÍ PROTIZAMRAZ"
+      },
+      "heating_summer_mode": {
+        "name": "TEPL LETO PREP TEPL LETO PREP"
+      },
+      "heating_summer_outside_temp": {
+        "name": "TEPL LETO PREP VENKOVNI TEPLOTA"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "TEPL LETO PREP VYSOUSENI BUDOVY"
+      },
+      "heating_pump_cycles": {
+        "name": "CYKLY CERPADLA CYKLY CERPADLA"
+      },
+      "heating_external_source": {
+        "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+      },
+      "heating_external_curve_gap": {
+        "name": "ZDROJ TEPLA EXTERNI ODSTUP KRIVEK"
+      },
+      "heating_external_blocking_time": {
+        "name": "ZDROJ TEPLA EXTERNI CASOVE BLOKOVANI EL ROZV"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "ZDROJ TEPLA EXTERNI BIVALENTNI TEPLOTA TOPENI"
+      },
+      "heating_external_lower_limit": {
+        "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "TEPLOTY TEPLE VODY KOMFORTNI TEPLOTA"
+      },
+      "dhw_eco_temperature": {
+        "name": "TEPLOTY TEPLE VODY EKO TEPLOTA"
+      },
+      "dhw_mode": {
+        "name": "ZÁKLADNÍ NASTAVENÍ REZIM OHREVU TUV"
+      },
+      "dhw_hysteresis": {
+        "name": "ZÁKLADNÍ NASTAVENÍ HYSTEREZE TEPLE VODY"
+      },
+      "dhw_stages": {
+        "name": "ZÁKLADNÍ NASTAVENÍ STUPEN TEPLE VODY"
+      },
+      "dhw_learning_function": {
+        "name": "UCICI PROGR TUV UCICI PROGR TUV"
+      },
+      "dhw_combi_cylinder": {
+        "name": "KOMBINOVANY ZASOBNIK KOMBINOVANY ZASOBNIK"
+      },
+      "dhw_output_summer": {
+        "name": "VYKON TUV TC VYKON TUV LETO"
+      },
+      "dhw_output_winter": {
+        "name": "VYKON TUV TC VYKON TUV ZIMA"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAX VSTUP TEPL TOP VODY MAX VSTUP TEPL TOP VODY"
+      },
+      "dhw_pasteurisation": {
+        "name": "TEPELNA DEZINFEKCE TEPELNA DEZINFEKCE"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "TEPELNA DEZINFEKCE POŽADOVANÁ TEPLOTA"
+      },
+      "dhw_external_source": {
+        "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "ZDROJ TEPLA EXTERNI BIVALENT TEPL TEPLA VODA"
+      },
+      "dhw_external_lower_limit": {
+        "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI TUV"
+      },
+      "dhw_external_pwm": {
+        "name": "ZDROJ TEPLA EXTERNI TUV-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTIV."
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Akum. zásobník topení"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT HOR.TEP.MÍST./AK.ZÁS. TO1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT HOR. TEP. MÍST. TO2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT HOR. POŽ. TEP. TV"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "TOPNY OKRUH 1 KOMFORTNI TEPLOTA"
-    },
-    "hc1_eco_temperature": {
-      "name": "TOPNY OKRUH 1 EKO TEPLOTA"
-    },
-    "hc1_minimum_temperature": {
-      "name": "TOPNY OKRUH 1 MINIMALNI TEPLOTA"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "TOPNY OKRUH 1 STOUPANI TOPNE KRIVKY"
-    },
-    "hc2_comfort_temperature": {
-      "name": "TOPNY OKRUH 2 KOMFORTNI TEPLOTA"
-    },
-    "hc2_eco_temperature": {
-      "name": "TOPNY OKRUH 2 EKO TEPLOTA"
-    },
-    "hc2_minimum_temperature": {
-      "name": "TOPNY OKRUH 2 MINIMALNI TEPLOTA"
-    },
-    "hc2_maximum_temperature": {
-      "name": "TOPNY OKRUH 2 MAXIMALNI TEPLOTA"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "TOPNY OKRUH 2 SMĚŠOVAČ, DYNAMIKA"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "TOPNY OKRUH 2 STOUPANI TOPNE KRIVKY"
-    },
-    "heating_buffer_operation": {
-      "name": "ZÁKLADNÍ NASTAVENÍ AKUMULACNI REZIM"
-    },
-    "heating_max_return_temp": {
-      "name": "ZÁKLADNÍ NASTAVENÍ MAXIMALNI TEPL VRAT VODY"
-    },
-    "heating_max_flow_temp": {
-      "name": "ZÁKLADNÍ NASTAVENÍ MAX VSTUP TEPL TOP VODY"
-    },
-    "heating_fixed_value_operation": {
-      "name": "ZÁKLADNÍ NASTAVENÍ REZIM PEVNA HODNOTA"
-    },
-    "heating_frost_protection": {
-      "name": "ZÁKLADNÍ NASTAVENÍ PROTIZAMRAZ"
-    },
-    "heating_summer_mode": {
-      "name": "TEPL LETO PREP TEPL LETO PREP"
-    },
-    "heating_summer_outside_temp": {
-      "name": "TEPL LETO PREP VENKOVNI TEPLOTA"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "TEPL LETO PREP VYSOUSENI BUDOVY"
-    },
-    "heating_pump_cycles": {
-      "name": "CYKLY CERPADLA CYKLY CERPADLA"
-    },
-    "heating_external_source": {
-      "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
-    },
-    "heating_external_curve_gap": {
-      "name": "ZDROJ TEPLA EXTERNI ODSTUP KRIVEK"
-    },
-    "heating_external_blocking_time": {
-      "name": "ZDROJ TEPLA EXTERNI CASOVE BLOKOVANI EL ROZV"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "ZDROJ TEPLA EXTERNI BIVALENTNI TEPLOTA TOPENI"
-    },
-    "heating_external_lower_limit": {
-      "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "TEPLOTY TEPLE VODY KOMFORTNI TEPLOTA"
-    },
-    "dhw_eco_temperature": {
-      "name": "TEPLOTY TEPLE VODY EKO TEPLOTA"
-    },
-    "dhw_mode": {
-      "name": "ZÁKLADNÍ NASTAVENÍ REZIM OHREVU TUV"
-    },
-    "dhw_hysteresis": {
-      "name": "ZÁKLADNÍ NASTAVENÍ HYSTEREZE TEPLE VODY"
-    },
-    "dhw_stages": {
-      "name": "ZÁKLADNÍ NASTAVENÍ STUPEN TEPLE VODY"
-    },
-    "dhw_learning_function": {
-      "name": "UCICI PROGR TUV UCICI PROGR TUV"
-    },
-    "dhw_combi_cylinder": {
-      "name": "KOMBINOVANY ZASOBNIK KOMBINOVANY ZASOBNIK"
-    },
-    "dhw_output_summer": {
-      "name": "VYKON TUV TC VYKON TUV LETO"
-    },
-    "dhw_output_winter": {
-      "name": "VYKON TUV TC VYKON TUV ZIMA"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAX VSTUP TEPL TOP VODY MAX VSTUP TEPL TOP VODY"
-    },
-    "dhw_pasteurisation": {
-      "name": "TEPELNA DEZINFEKCE TEPELNA DEZINFEKCE"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "TEPELNA DEZINFEKCE POŽADOVANÁ TEPLOTA"
-    },
-    "dhw_external_source": {
-      "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "ZDROJ TEPLA EXTERNI BIVALENT TEPL TEPLA VODA"
-    },
-    "dhw_external_lower_limit": {
-      "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI TUV"
-    },
-    "dhw_external_pwm": {
-      "name": "ZDROJ TEPLA EXTERNI TUV-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTIV."
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Akum. zásobník topení"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT HOR.TEP.MÍST./AK.ZÁS. TO1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT HOR. TEP. MÍST. TO2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT HOR. POŽ. TEP. TV"
     }
   }
 }

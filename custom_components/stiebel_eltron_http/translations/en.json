@@ -241,6 +241,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "POWER CONSUMPTION CONTROL LIMIT FUNCTIONALITY BLOCKED"
+      },
+      "hc1_comfort_temperature": {
+        "name": "HEATING CIRCUIT 1 COMFORT TEMPERATURE"
+      },
+      "hc1_eco_temperature": {
+        "name": "HEATING CIRCUIT 1 ECO TEMPERATURE"
+      },
+      "hc1_minimum_temperature": {
+        "name": "HEATING CIRCUIT 1 MINIMUM TEMPERATURE"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "HEATING CIRCUIT 1 HEATING CURVE RISE"
+      },
+      "hc2_comfort_temperature": {
+        "name": "HEATING CIRCUIT 2 COMFORT TEMPERATURE"
+      },
+      "hc2_eco_temperature": {
+        "name": "HEATING CIRCUIT 2 ECO TEMPERATURE"
+      },
+      "hc2_minimum_temperature": {
+        "name": "HEATING CIRCUIT 2 MINIMUM TEMPERATURE"
+      },
+      "hc2_maximum_temperature": {
+        "name": "HEATING CIRCUIT 2 MAXIMUM TEMPERATURE"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "HEATING CIRCUIT 2 MIXER DYNAMICS"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "HEATING CIRCUIT 2 HEATING CURVE RISE"
+      },
+      "heating_buffer_operation": {
+        "name": "STANDARD SETTING BUFFER OPERATION"
+      },
+      "heating_max_return_temp": {
+        "name": "STANDARD SETTING MAXIMUM RETURN TEMP"
+      },
+      "heating_max_flow_temp": {
+        "name": "STANDARD SETTING MAXIMUM FLOW TEMPERATURE"
+      },
+      "heating_fixed_value_operation": {
+        "name": "STANDARD SETTING FIXED VALUE OPERATION"
+      },
+      "heating_frost_protection": {
+        "name": "STANDARD SETTING FROST PROTECTION"
+      },
+      "heating_summer_mode": {
+        "name": "SUMMER MODE"
+      },
+      "heating_summer_outside_temp": {
+        "name": "SUMMER MODE OUTSIDE TEMPERATURE"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "SUMMER MODE BUILDING HEAT BUFFER"
+      },
+      "heating_pump_cycles": {
+        "name": "PUMP CYCLES"
+      },
+      "heating_external_source": {
+        "name": "EXTERNAL HEAT SOURCE"
+      },
+      "heating_external_curve_gap": {
+        "name": "EXTERNAL HEAT SOURCE HEATING CURVE GAP"
+      },
+      "heating_external_blocking_time": {
+        "name": "EXTERNAL HEAT SOURCE BLOCKING TIME EVU"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "DHW TEMPERATURES COMFORT TEMPERATURE"
+      },
+      "dhw_eco_temperature": {
+        "name": "DHW TEMPERATURES ECO TEMPERATURE"
+      },
+      "dhw_mode": {
+        "name": "STANDARD SETTING DHW MODE"
+      },
+      "dhw_hysteresis": {
+        "name": "STANDARD SETTING DHW HYSTERESIS"
+      },
+      "dhw_stages": {
+        "name": "STANDARD SETTING DHW STAGES"
+      },
+      "dhw_learning_function": {
+        "name": "WW LEARNING FUNCTION"
+      },
+      "dhw_combi_cylinder": {
+        "name": "COMBI CYLINDER"
+      },
+      "dhw_output_summer": {
+        "name": "WW OUTPUT WP WW OUTPUT SUMMER"
+      },
+      "dhw_output_winter": {
+        "name": "WW OUTPUT WP WW OUTPUT WINTER"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAXIMUM FLOW TEMPERATURE"
+      },
+      "dhw_pasteurisation": {
+        "name": "PASTEURISATION"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "PASTEURISATION SET TEMPERATURE"
+      },
+      "dhw_external_source": {
+        "name": "EXTERNAL HEAT SOURCE"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT WW"
+      },
+      "dhw_external_pwm": {
+        "name": "EXTERNAL HEAT SOURCE WW PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SG READY ENABLED"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Heating buffer"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT UPPER ROOM/BUFFER TEMP. HC1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT UPPER ROOM TEMP. HC2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT UPPER SET DHW TEMP."
       }
     },
     "binary_sensor": {
@@ -250,144 +388,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "HEATING CIRCUIT 1 COMFORT TEMPERATURE"
-    },
-    "hc1_eco_temperature": {
-      "name": "HEATING CIRCUIT 1 ECO TEMPERATURE"
-    },
-    "hc1_minimum_temperature": {
-      "name": "HEATING CIRCUIT 1 MINIMUM TEMPERATURE"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "HEATING CIRCUIT 1 HEATING CURVE RISE"
-    },
-    "hc2_comfort_temperature": {
-      "name": "HEATING CIRCUIT 2 COMFORT TEMPERATURE"
-    },
-    "hc2_eco_temperature": {
-      "name": "HEATING CIRCUIT 2 ECO TEMPERATURE"
-    },
-    "hc2_minimum_temperature": {
-      "name": "HEATING CIRCUIT 2 MINIMUM TEMPERATURE"
-    },
-    "hc2_maximum_temperature": {
-      "name": "HEATING CIRCUIT 2 MAXIMUM TEMPERATURE"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "HEATING CIRCUIT 2 MIXER DYNAMICS"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "HEATING CIRCUIT 2 HEATING CURVE RISE"
-    },
-    "heating_buffer_operation": {
-      "name": "STANDARD SETTING BUFFER OPERATION"
-    },
-    "heating_max_return_temp": {
-      "name": "STANDARD SETTING MAXIMUM RETURN TEMP"
-    },
-    "heating_max_flow_temp": {
-      "name": "STANDARD SETTING MAXIMUM FLOW TEMPERATURE"
-    },
-    "heating_fixed_value_operation": {
-      "name": "STANDARD SETTING FIXED VALUE OPERATION"
-    },
-    "heating_frost_protection": {
-      "name": "STANDARD SETTING FROST PROTECTION"
-    },
-    "heating_summer_mode": {
-      "name": "SUMMER MODE"
-    },
-    "heating_summer_outside_temp": {
-      "name": "SUMMER MODE OUTSIDE TEMPERATURE"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "SUMMER MODE BUILDING HEAT BUFFER"
-    },
-    "heating_pump_cycles": {
-      "name": "PUMP CYCLES"
-    },
-    "heating_external_source": {
-      "name": "EXTERNAL HEAT SOURCE"
-    },
-    "heating_external_curve_gap": {
-      "name": "EXTERNAL HEAT SOURCE HEATING CURVE GAP"
-    },
-    "heating_external_blocking_time": {
-      "name": "EXTERNAL HEAT SOURCE BLOCKING TIME EVU"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "DHW TEMPERATURES COMFORT TEMPERATURE"
-    },
-    "dhw_eco_temperature": {
-      "name": "DHW TEMPERATURES ECO TEMPERATURE"
-    },
-    "dhw_mode": {
-      "name": "STANDARD SETTING DHW MODE"
-    },
-    "dhw_hysteresis": {
-      "name": "STANDARD SETTING DHW HYSTERESIS"
-    },
-    "dhw_stages": {
-      "name": "STANDARD SETTING DHW STAGES"
-    },
-    "dhw_learning_function": {
-      "name": "WW LEARNING FUNCTION"
-    },
-    "dhw_combi_cylinder": {
-      "name": "COMBI CYLINDER"
-    },
-    "dhw_output_summer": {
-      "name": "WW OUTPUT WP WW OUTPUT SUMMER"
-    },
-    "dhw_output_winter": {
-      "name": "WW OUTPUT WP WW OUTPUT WINTER"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAXIMUM FLOW TEMPERATURE"
-    },
-    "dhw_pasteurisation": {
-      "name": "PASTEURISATION"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "PASTEURISATION SET TEMPERATURE"
-    },
-    "dhw_external_source": {
-      "name": "EXTERNAL HEAT SOURCE"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT WW"
-    },
-    "dhw_external_pwm": {
-      "name": "EXTERNAL HEAT SOURCE WW PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SG READY ENABLED"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Heating buffer"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT UPPER ROOM/BUFFER TEMP. HC1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT UPPER ROOM TEMP. HC2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT UPPER SET DHW TEMP."
     }
   }
 }

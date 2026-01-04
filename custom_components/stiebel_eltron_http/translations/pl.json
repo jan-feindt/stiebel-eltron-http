@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "STEROWANIE MOCĄ LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "OBIEG GRZEWCZY 1 TEMPERATURA KOMFORTOWA"
+      },
+      "hc1_eco_temperature": {
+        "name": "OBIEG GRZEWCZY 1 TEMPERATURA ECO"
+      },
+      "hc1_minimum_temperature": {
+        "name": "OBIEG GRZEWCZY 1 TEMPERATURA MINIMALNA"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "OBIEG GRZEWCZY 1 NACHYL KRZYWEJ GRZEWCZEJ"
+      },
+      "hc2_comfort_temperature": {
+        "name": "OBIEG GRZEWCZY 2 TEMPERATURA KOMFORTOWA"
+      },
+      "hc2_eco_temperature": {
+        "name": "OBIEG GRZEWCZY 2 TEMPERATURA ECO"
+      },
+      "hc2_minimum_temperature": {
+        "name": "OBIEG GRZEWCZY 2 TEMPERATURA MINIMALNA"
+      },
+      "hc2_maximum_temperature": {
+        "name": "OBIEG GRZEWCZY 2 TEMPERATURA MAKS."
+      },
+      "hc2_mixer_dynamics": {
+        "name": "OBIEG GRZEWCZY 2 DYNAMIKA MIESZACZA"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "OBIEG GRZEWCZY 2 NACHYL KRZYWEJ GRZEWCZEJ"
+      },
+      "heating_buffer_operation": {
+        "name": "NASTAWA PODSTAWOWA TRYB BUFOROWY"
+      },
+      "heating_max_return_temp": {
+        "name": "NASTAWA PODSTAWOWA MAKS TEMP POWROTU"
+      },
+      "heating_max_flow_temp": {
+        "name": "NASTAWA PODSTAWOWA MAKS TEMP ZASILANIA"
+      },
+      "heating_fixed_value_operation": {
+        "name": "NASTAWA PODSTAWOWA PRACA STALOWARTOSCIOWA"
+      },
+      "heating_frost_protection": {
+        "name": "NASTAWA PODSTAWOWA ANTYZAMARZANIE"
+      },
+      "heating_summer_mode": {
+        "name": "TRYB LETNI TRYB LETNI"
+      },
+      "heating_summer_outside_temp": {
+        "name": "TRYB LETNI TEMP ZEWNETRZNA"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "TRYB LETNI TLUMIENIE BUDYNKU"
+      },
+      "heating_pump_cycles": {
+        "name": "CYKLE POMPY CYKLE POMPY"
+      },
+      "heating_external_source": {
+        "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+      },
+      "heating_external_curve_gap": {
+        "name": "ZEWN. WYTWORNICA CIEPLA ODL KRZYWEJ GRZEWCZEJ"
+      },
+      "heating_external_blocking_time": {
+        "name": "ZEWN. WYTWORNICA CIEPLA CZAS BLOKADY ZAK ENERGET"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "TEMPERATURY CWU TEMPERATURA KOMFORTOWA"
+      },
+      "dhw_eco_temperature": {
+        "name": "TEMPERATURY CWU TEMPERATURA ECO"
+      },
+      "dhw_mode": {
+        "name": "NASTAWA PODSTAWOWA TRYB CWU"
+      },
+      "dhw_hysteresis": {
+        "name": "NASTAWA PODSTAWOWA HISTEREZA CWU"
+      },
+      "dhw_stages": {
+        "name": "NASTAWA PODSTAWOWA STOPNIE CWU"
+      },
+      "dhw_learning_function": {
+        "name": "WW FUNKCJA NAUKI PROGR WW FUNKCJA NAUKI PROGR"
+      },
+      "dhw_combi_cylinder": {
+        "name": "ZASOBNIK KOMBINOWANY ZASOBNIK KOMBINOWANY"
+      },
+      "dhw_output_summer": {
+        "name": "WW MOC WP WW MOC LATO"
+      },
+      "dhw_output_winter": {
+        "name": "WW MOC WP WW MOC ZIMA"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAKS TEMP ZASILANIA MAKS TEMP ZASILANIA"
+      },
+      "dhw_pasteurisation": {
+        "name": "FUNKCJA ANTYLEGIONELLI FUNKCJA ANTYLEGIONELLI"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "FUNKCJA ANTYLEGIONELLI TEMPERATURA ZADANA"
+      },
+      "dhw_external_source": {
+        "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. WW"
+      },
+      "dhw_external_pwm": {
+        "name": "ZEWN. WYTWORNICA CIEPLA WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTYWOW."
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Zb. buforowy ogrzewania"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM./ZAS. OG1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM. OG2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT GÓRNA TEMP. ZAD. CWU"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "OBIEG GRZEWCZY 1 TEMPERATURA KOMFORTOWA"
-    },
-    "hc1_eco_temperature": {
-      "name": "OBIEG GRZEWCZY 1 TEMPERATURA ECO"
-    },
-    "hc1_minimum_temperature": {
-      "name": "OBIEG GRZEWCZY 1 TEMPERATURA MINIMALNA"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "OBIEG GRZEWCZY 1 NACHYL KRZYWEJ GRZEWCZEJ"
-    },
-    "hc2_comfort_temperature": {
-      "name": "OBIEG GRZEWCZY 2 TEMPERATURA KOMFORTOWA"
-    },
-    "hc2_eco_temperature": {
-      "name": "OBIEG GRZEWCZY 2 TEMPERATURA ECO"
-    },
-    "hc2_minimum_temperature": {
-      "name": "OBIEG GRZEWCZY 2 TEMPERATURA MINIMALNA"
-    },
-    "hc2_maximum_temperature": {
-      "name": "OBIEG GRZEWCZY 2 TEMPERATURA MAKS."
-    },
-    "hc2_mixer_dynamics": {
-      "name": "OBIEG GRZEWCZY 2 DYNAMIKA MIESZACZA"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "OBIEG GRZEWCZY 2 NACHYL KRZYWEJ GRZEWCZEJ"
-    },
-    "heating_buffer_operation": {
-      "name": "NASTAWA PODSTAWOWA TRYB BUFOROWY"
-    },
-    "heating_max_return_temp": {
-      "name": "NASTAWA PODSTAWOWA MAKS TEMP POWROTU"
-    },
-    "heating_max_flow_temp": {
-      "name": "NASTAWA PODSTAWOWA MAKS TEMP ZASILANIA"
-    },
-    "heating_fixed_value_operation": {
-      "name": "NASTAWA PODSTAWOWA PRACA STALOWARTOSCIOWA"
-    },
-    "heating_frost_protection": {
-      "name": "NASTAWA PODSTAWOWA ANTYZAMARZANIE"
-    },
-    "heating_summer_mode": {
-      "name": "TRYB LETNI TRYB LETNI"
-    },
-    "heating_summer_outside_temp": {
-      "name": "TRYB LETNI TEMP ZEWNETRZNA"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "TRYB LETNI TLUMIENIE BUDYNKU"
-    },
-    "heating_pump_cycles": {
-      "name": "CYKLE POMPY CYKLE POMPY"
-    },
-    "heating_external_source": {
-      "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
-    },
-    "heating_external_curve_gap": {
-      "name": "ZEWN. WYTWORNICA CIEPLA ODL KRZYWEJ GRZEWCZEJ"
-    },
-    "heating_external_blocking_time": {
-      "name": "ZEWN. WYTWORNICA CIEPLA CZAS BLOKADY ZAK ENERGET"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "TEMPERATURY CWU TEMPERATURA KOMFORTOWA"
-    },
-    "dhw_eco_temperature": {
-      "name": "TEMPERATURY CWU TEMPERATURA ECO"
-    },
-    "dhw_mode": {
-      "name": "NASTAWA PODSTAWOWA TRYB CWU"
-    },
-    "dhw_hysteresis": {
-      "name": "NASTAWA PODSTAWOWA HISTEREZA CWU"
-    },
-    "dhw_stages": {
-      "name": "NASTAWA PODSTAWOWA STOPNIE CWU"
-    },
-    "dhw_learning_function": {
-      "name": "WW FUNKCJA NAUKI PROGR WW FUNKCJA NAUKI PROGR"
-    },
-    "dhw_combi_cylinder": {
-      "name": "ZASOBNIK KOMBINOWANY ZASOBNIK KOMBINOWANY"
-    },
-    "dhw_output_summer": {
-      "name": "WW MOC WP WW MOC LATO"
-    },
-    "dhw_output_winter": {
-      "name": "WW MOC WP WW MOC ZIMA"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAKS TEMP ZASILANIA MAKS TEMP ZASILANIA"
-    },
-    "dhw_pasteurisation": {
-      "name": "FUNKCJA ANTYLEGIONELLI FUNKCJA ANTYLEGIONELLI"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "FUNKCJA ANTYLEGIONELLI TEMPERATURA ZADANA"
-    },
-    "dhw_external_source": {
-      "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. WW"
-    },
-    "dhw_external_pwm": {
-      "name": "ZEWN. WYTWORNICA CIEPLA WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTYWOW."
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Zb. buforowy ogrzewania"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM./ZAS. OG1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM. OG2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT GÓRNA TEMP. ZAD. CWU"
     }
   }
 }

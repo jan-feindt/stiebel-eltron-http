@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "FÛTÕKÖR 1 KOMFORTHÕMÉRSÉKLET"
+      },
+      "hc1_eco_temperature": {
+        "name": "FÛTÕKÖR 1 ECO HÕMÉRSÉKLET"
+      },
+      "hc1_minimum_temperature": {
+        "name": "FÛTÕKÖR 1 MINIMÁLIS HÕMÉRSÉKLET"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "FÛTÕKÖR 1 FÛTÉSI JELLEGGÖRBE MERED."
+      },
+      "hc2_comfort_temperature": {
+        "name": "FÛTÕKÖR 2 KOMFORTHÕMÉRSÉKLET"
+      },
+      "hc2_eco_temperature": {
+        "name": "FÛTÕKÖR 2 ECO HÕMÉRSÉKLET"
+      },
+      "hc2_minimum_temperature": {
+        "name": "FÛTÕKÖR 2 MINIMÁLIS HÕMÉRSÉKLET"
+      },
+      "hc2_maximum_temperature": {
+        "name": "FÛTÕKÖR 2 MAXIMÁLIS HÕMÉRSÉKLET"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "FÛTÕKÖR 2 KEVERŐ DINAMIKA"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "FÛTÕKÖR 2 FÛTÉSI JELLEGGÖRBE MERED."
+      },
+      "heating_buffer_operation": {
+        "name": "ALAPBEÁLLÍTÁS PUFFERÜZEM"
+      },
+      "heating_max_return_temp": {
+        "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS VISSZATERO HÕM."
+      },
+      "heating_max_flow_temp": {
+        "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS ELÕREMENÕ HÕM."
+      },
+      "heating_fixed_value_operation": {
+        "name": "ALAPBEÁLLÍTÁS RÖGZÍTETT ÉRTÉKÛ ÜZEM"
+      },
+      "heating_frost_protection": {
+        "name": "ALAPBEÁLLÍTÁS FAGYVÉDELEM"
+      },
+      "heating_summer_mode": {
+        "name": "NYÁRI ÜZEM NYÁRI ÜZEM"
+      },
+      "heating_summer_outside_temp": {
+        "name": "NYÁRI ÜZEM KÜLSÕ HÕMÉRSÉKLET"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "NYÁRI ÜZEM ÉPÜLETCSILLAPÍTÁS"
+      },
+      "heating_pump_cycles": {
+        "name": "SZIV CIKLUS SZIV CIKLUS"
+      },
+      "heating_external_source": {
+        "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+      },
+      "heating_external_curve_gap": {
+        "name": "KÜLSÕ HÕGENERÁTOR FÛT. JELLEGGÖRBE TÁVOLS."
+      },
+      "heating_external_blocking_time": {
+        "name": "KÜLSÕ HÕGENERÁTOR EVU ZÁROLÁSI IDÕ"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "MELEGVÍZ-HÕMÉRSÉKLETEK KOMFORTHÕMÉRSÉKLET"
+      },
+      "dhw_eco_temperature": {
+        "name": "MELEGVÍZ-HÕMÉRSÉKLETEK ECO HÕMÉRSÉKLET"
+      },
+      "dhw_mode": {
+        "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD"
+      },
+      "dhw_hysteresis": {
+        "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-HISZTERÉZIS"
+      },
+      "dhw_stages": {
+        "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-FOKOZATOK"
+      },
+      "dhw_learning_function": {
+        "name": "WW TANULÁSI FUNKCIÓ WW TANULÁSI FUNKCIÓ"
+      },
+      "dhw_combi_cylinder": {
+        "name": "KOMBI MELEGVÍZTÁROLÓ KOMBI MELEGVÍZTÁROLÓ"
+      },
+      "dhw_output_summer": {
+        "name": "WW TELJ. WP WW TELJESÍTMÉNY NYÁRON"
+      },
+      "dhw_output_winter": {
+        "name": "WW TELJ. WP WW TELJESÍTMÉNY TÉLEN"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."
+      },
+      "dhw_pasteurisation": {
+        "name": "ANTILEGIONELLA-KEZELÉS ANTILEGIONELLA-KEZELÉS"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "ANTILEGIONELLA-KEZELÉS NÉVL. HŐMÉRS."
+      },
+      "dhw_external_source": {
+        "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR WW"
+      },
+      "dhw_external_pwm": {
+        "name": "KÜLSÕ HÕGENERÁTOR WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTIVÁLVA"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Fűtési puffer"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT HK1 FELSŐ HELYIS-/PUFFERH."
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT HK2 FELS HELY-HŐM"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT FELSŐ MELEGV. HŐM.-ALAPJEL"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "FÛTÕKÖR 1 KOMFORTHÕMÉRSÉKLET"
-    },
-    "hc1_eco_temperature": {
-      "name": "FÛTÕKÖR 1 ECO HÕMÉRSÉKLET"
-    },
-    "hc1_minimum_temperature": {
-      "name": "FÛTÕKÖR 1 MINIMÁLIS HÕMÉRSÉKLET"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "FÛTÕKÖR 1 FÛTÉSI JELLEGGÖRBE MERED."
-    },
-    "hc2_comfort_temperature": {
-      "name": "FÛTÕKÖR 2 KOMFORTHÕMÉRSÉKLET"
-    },
-    "hc2_eco_temperature": {
-      "name": "FÛTÕKÖR 2 ECO HÕMÉRSÉKLET"
-    },
-    "hc2_minimum_temperature": {
-      "name": "FÛTÕKÖR 2 MINIMÁLIS HÕMÉRSÉKLET"
-    },
-    "hc2_maximum_temperature": {
-      "name": "FÛTÕKÖR 2 MAXIMÁLIS HÕMÉRSÉKLET"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "FÛTÕKÖR 2 KEVERŐ DINAMIKA"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "FÛTÕKÖR 2 FÛTÉSI JELLEGGÖRBE MERED."
-    },
-    "heating_buffer_operation": {
-      "name": "ALAPBEÁLLÍTÁS PUFFERÜZEM"
-    },
-    "heating_max_return_temp": {
-      "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS VISSZATERO HÕM."
-    },
-    "heating_max_flow_temp": {
-      "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS ELÕREMENÕ HÕM."
-    },
-    "heating_fixed_value_operation": {
-      "name": "ALAPBEÁLLÍTÁS RÖGZÍTETT ÉRTÉKÛ ÜZEM"
-    },
-    "heating_frost_protection": {
-      "name": "ALAPBEÁLLÍTÁS FAGYVÉDELEM"
-    },
-    "heating_summer_mode": {
-      "name": "NYÁRI ÜZEM NYÁRI ÜZEM"
-    },
-    "heating_summer_outside_temp": {
-      "name": "NYÁRI ÜZEM KÜLSÕ HÕMÉRSÉKLET"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "NYÁRI ÜZEM ÉPÜLETCSILLAPÍTÁS"
-    },
-    "heating_pump_cycles": {
-      "name": "SZIV CIKLUS SZIV CIKLUS"
-    },
-    "heating_external_source": {
-      "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
-    },
-    "heating_external_curve_gap": {
-      "name": "KÜLSÕ HÕGENERÁTOR FÛT. JELLEGGÖRBE TÁVOLS."
-    },
-    "heating_external_blocking_time": {
-      "name": "KÜLSÕ HÕGENERÁTOR EVU ZÁROLÁSI IDÕ"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "MELEGVÍZ-HÕMÉRSÉKLETEK KOMFORTHÕMÉRSÉKLET"
-    },
-    "dhw_eco_temperature": {
-      "name": "MELEGVÍZ-HÕMÉRSÉKLETEK ECO HÕMÉRSÉKLET"
-    },
-    "dhw_mode": {
-      "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD"
-    },
-    "dhw_hysteresis": {
-      "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-HISZTERÉZIS"
-    },
-    "dhw_stages": {
-      "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-FOKOZATOK"
-    },
-    "dhw_learning_function": {
-      "name": "WW TANULÁSI FUNKCIÓ WW TANULÁSI FUNKCIÓ"
-    },
-    "dhw_combi_cylinder": {
-      "name": "KOMBI MELEGVÍZTÁROLÓ KOMBI MELEGVÍZTÁROLÓ"
-    },
-    "dhw_output_summer": {
-      "name": "WW TELJ. WP WW TELJESÍTMÉNY NYÁRON"
-    },
-    "dhw_output_winter": {
-      "name": "WW TELJ. WP WW TELJESÍTMÉNY TÉLEN"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."
-    },
-    "dhw_pasteurisation": {
-      "name": "ANTILEGIONELLA-KEZELÉS ANTILEGIONELLA-KEZELÉS"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "ANTILEGIONELLA-KEZELÉS NÉVL. HŐMÉRS."
-    },
-    "dhw_external_source": {
-      "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR WW"
-    },
-    "dhw_external_pwm": {
-      "name": "KÜLSÕ HÕGENERÁTOR WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTIVÁLVA"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Fűtési puffer"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT HK1 FELSŐ HELYIS-/PUFFERH."
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT HK2 FELS HELY-HŐM"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT FELSŐ MELEGV. HŐM.-ALAPJEL"
     }
   }
 }

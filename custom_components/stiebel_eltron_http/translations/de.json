@@ -241,6 +241,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "LEISTUNGSBEEINFLUSSUNG LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "HEIZKREIS 1 KOMFORT TEMPERATUR"
+      },
+      "hc1_eco_temperature": {
+        "name": "HEIZKREIS 1 ECO TEMPERATUR"
+      },
+      "hc1_minimum_temperature": {
+        "name": "HEIZKREIS 1 MINIMAL TEMPERATUR"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "HEIZKREIS 1 STEIGUNG HEIZKURVE"
+      },
+      "hc2_comfort_temperature": {
+        "name": "HEIZKREIS 2 KOMFORT TEMPERATUR"
+      },
+      "hc2_eco_temperature": {
+        "name": "HEIZKREIS 2 ECO TEMPERATUR"
+      },
+      "hc2_minimum_temperature": {
+        "name": "HEIZKREIS 2 MINIMAL TEMPERATUR"
+      },
+      "hc2_maximum_temperature": {
+        "name": "HEIZKREIS 2 MAXIMAL TEMPERATUR"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "HEIZKREIS 2 MISCHERDYNAMIK"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "HEIZKREIS 2 STEIGUNG HEIZKURVE"
+      },
+      "heating_buffer_operation": {
+        "name": "GRUNDEINSTELLUNG PUFFERBETRIEB"
+      },
+      "heating_max_return_temp": {
+        "name": "GRUNDEINSTELLUNG MAXIMALE RÜCKLAUFTEMP"
+      },
+      "heating_max_flow_temp": {
+        "name": "GRUNDEINSTELLUNG MAXIMALE VORLAUFTEMP"
+      },
+      "heating_fixed_value_operation": {
+        "name": "GRUNDEINSTELLUNG FESTWERTBETRIEB"
+      },
+      "heating_frost_protection": {
+        "name": "GRUNDEINSTELLUNG FROSTSCHUTZ"
+      },
+      "heating_summer_mode": {
+        "name": "SOMMERBETRIEB SOMMERBETRIEB"
+      },
+      "heating_summer_outside_temp": {
+        "name": "SOMMERBETRIEB AUSSENTEMPERATUR"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "SOMMERBETRIEB GEBÄUDEDÄMPFUNG"
+      },
+      "heating_pump_cycles": {
+        "name": "PUMPENZYKLEN PUMPENZYKLEN"
+      },
+      "heating_external_source": {
+        "name": "WÄRMEERZEUGER EXTERN WÄRMEERZEUGER EXTERN"
+      },
+      "heating_external_curve_gap": {
+        "name": "WÄRMEERZEUGER EXTERN ABSTAND HEIZKURVE"
+      },
+      "heating_external_blocking_time": {
+        "name": "WÄRMEERZEUGER EXTERN SPERRZEIT EVU"
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "WÄRMEERZEUGER EXTERN BIVALENZTEMPERATUR HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "WARMWASSERTEMPERATUREN KOMFORT TEMPERATUR"
+      },
+      "dhw_eco_temperature": {
+        "name": "WARMWASSERTEMPERATUREN ECO TEMPERATUR"
+      },
+      "dhw_mode": {
+        "name": "GRUNDEINSTELLUNG WARMWASSERBETRIEB"
+      },
+      "dhw_hysteresis": {
+        "name": "GRUNDEINSTELLUNG WARMWASSERHYSTERESE"
+      },
+      "dhw_stages": {
+        "name": "GRUNDEINSTELLUNG WARMWASSERSTUFEN"
+      },
+      "dhw_learning_function": {
+        "name": "WW LERNFUNKTION WW LERNFUNKTION"
+      },
+      "dhw_combi_cylinder": {
+        "name": "KOMBISPEICHER KOMBISPEICHER"
+      },
+      "dhw_output_summer": {
+        "name": "WW LEISTUNG WP WW LEISTUNG SOMMER"
+      },
+      "dhw_output_winter": {
+        "name": "WW LEISTUNG WP WW LEISTUNG WINTER"
+      },
+      "dhw_max_flow_temp": {
+        "name": "MAXIMALE VORLAUFTEMP MAXIMALE VORLAUFTEMP"
+      },
+      "dhw_pasteurisation": {
+        "name": "ANTILEGIONELLENBEHANDLUNG ANTILEGIONELLENBEHANDLUNG"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "ANTILEGIONELLENBEHANDLUNG SOLLTEMPERATUR"
+      },
+      "dhw_external_source": {
+        "name": "WÄRMEERZEUGER EXTERN WÄRMEERZEUGER EXTERN"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "WÄRMEERZEUGER EXTERN BIVALENZTEMPERATUR WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE WW"
+      },
+      "dhw_external_pwm": {
+        "name": "WÄRMEERZEUGER EXTERN WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY AKTIVIERT"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY EINGANG"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Heizungspuffer"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT OBERE RAUM/PUFFERTEMP. HK1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT OBERE RAUMTEMP. HK2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT OBERE WARMWASSER SOLLTEMP."
       }
     },
     "binary_sensor": {
@@ -250,144 +388,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "HEIZKREIS 1 KOMFORT TEMPERATUR"
-    },
-    "hc1_eco_temperature": {
-      "name": "HEIZKREIS 1 ECO TEMPERATUR"
-    },
-    "hc1_minimum_temperature": {
-      "name": "HEIZKREIS 1 MINIMAL TEMPERATUR"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "HEIZKREIS 1 STEIGUNG HEIZKURVE"
-    },
-    "hc2_comfort_temperature": {
-      "name": "HEIZKREIS 2 KOMFORT TEMPERATUR"
-    },
-    "hc2_eco_temperature": {
-      "name": "HEIZKREIS 2 ECO TEMPERATUR"
-    },
-    "hc2_minimum_temperature": {
-      "name": "HEIZKREIS 2 MINIMAL TEMPERATUR"
-    },
-    "hc2_maximum_temperature": {
-      "name": "HEIZKREIS 2 MAXIMAL TEMPERATUR"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "HEIZKREIS 2 MISCHERDYNAMIK"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "HEIZKREIS 2 STEIGUNG HEIZKURVE"
-    },
-    "heating_buffer_operation": {
-      "name": "GRUNDEINSTELLUNG PUFFERBETRIEB"
-    },
-    "heating_max_return_temp": {
-      "name": "GRUNDEINSTELLUNG MAXIMALE RÜCKLAUFTEMP"
-    },
-    "heating_max_flow_temp": {
-      "name": "GRUNDEINSTELLUNG MAXIMALE VORLAUFTEMP"
-    },
-    "heating_fixed_value_operation": {
-      "name": "GRUNDEINSTELLUNG FESTWERTBETRIEB"
-    },
-    "heating_frost_protection": {
-      "name": "GRUNDEINSTELLUNG FROSTSCHUTZ"
-    },
-    "heating_summer_mode": {
-      "name": "SOMMERBETRIEB SOMMERBETRIEB"
-    },
-    "heating_summer_outside_temp": {
-      "name": "SOMMERBETRIEB AUSSENTEMPERATUR"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "SOMMERBETRIEB GEBÄUDEDÄMPFUNG"
-    },
-    "heating_pump_cycles": {
-      "name": "PUMPENZYKLEN PUMPENZYKLEN"
-    },
-    "heating_external_source": {
-      "name": "WÄRMEERZEUGER EXTERN WÄRMEERZEUGER EXTERN"
-    },
-    "heating_external_curve_gap": {
-      "name": "WÄRMEERZEUGER EXTERN ABSTAND HEIZKURVE"
-    },
-    "heating_external_blocking_time": {
-      "name": "WÄRMEERZEUGER EXTERN SPERRZEIT EVU"
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "WÄRMEERZEUGER EXTERN BIVALENZTEMPERATUR HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "WARMWASSERTEMPERATUREN KOMFORT TEMPERATUR"
-    },
-    "dhw_eco_temperature": {
-      "name": "WARMWASSERTEMPERATUREN ECO TEMPERATUR"
-    },
-    "dhw_mode": {
-      "name": "GRUNDEINSTELLUNG WARMWASSERBETRIEB"
-    },
-    "dhw_hysteresis": {
-      "name": "GRUNDEINSTELLUNG WARMWASSERHYSTERESE"
-    },
-    "dhw_stages": {
-      "name": "GRUNDEINSTELLUNG WARMWASSERSTUFEN"
-    },
-    "dhw_learning_function": {
-      "name": "WW LERNFUNKTION WW LERNFUNKTION"
-    },
-    "dhw_combi_cylinder": {
-      "name": "KOMBISPEICHER KOMBISPEICHER"
-    },
-    "dhw_output_summer": {
-      "name": "WW LEISTUNG WP WW LEISTUNG SOMMER"
-    },
-    "dhw_output_winter": {
-      "name": "WW LEISTUNG WP WW LEISTUNG WINTER"
-    },
-    "dhw_max_flow_temp": {
-      "name": "MAXIMALE VORLAUFTEMP MAXIMALE VORLAUFTEMP"
-    },
-    "dhw_pasteurisation": {
-      "name": "ANTILEGIONELLENBEHANDLUNG ANTILEGIONELLENBEHANDLUNG"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "ANTILEGIONELLENBEHANDLUNG SOLLTEMPERATUR"
-    },
-    "dhw_external_source": {
-      "name": "WÄRMEERZEUGER EXTERN WÄRMEERZEUGER EXTERN"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "WÄRMEERZEUGER EXTERN BIVALENZTEMPERATUR WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "WÄRMEERZEUGER EXTERN UNTERE EINSATZGRENZE WW"
-    },
-    "dhw_external_pwm": {
-      "name": "WÄRMEERZEUGER EXTERN WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY AKTIVIERT"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY EINGANG"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Heizungspuffer"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT OBERE RAUM/PUFFERTEMP. HK1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT OBERE RAUMTEMP. HK2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT OBERE WARMWASSER SOLLTEMP."
     }
   }
 }

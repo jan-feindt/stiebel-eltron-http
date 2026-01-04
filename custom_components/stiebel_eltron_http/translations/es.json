@@ -235,6 +235,144 @@
       },
       "wcci_limit_functionality_blocked": {
         "name": "INFLUENCIA EN LA POTENCIA LIMITIERUNGSFUNKTION BLOCKIERT"
+      },
+      "hc1_comfort_temperature": {
+        "name": "CIRC. CALEF. 1 TEMPERATURA CONFORT"
+      },
+      "hc1_eco_temperature": {
+        "name": "CIRC. CALEF. 1 TEMPERATURA ECO"
+      },
+      "hc1_minimum_temperature": {
+        "name": "CIRC. CALEF. 1 TEMPERATURA MÍNIMA"
+      },
+      "hc1_heating_curve_rise": {
+        "name": "CIRC. CALEF. 1 AUMENTO CURVA CALEFAC."
+      },
+      "hc2_comfort_temperature": {
+        "name": "CIRC. CALEF. 2 TEMPERATURA CONFORT"
+      },
+      "hc2_eco_temperature": {
+        "name": "CIRC. CALEF. 2 TEMPERATURA ECO"
+      },
+      "hc2_minimum_temperature": {
+        "name": "CIRC. CALEF. 2 TEMPERATURA MÍNIMA"
+      },
+      "hc2_maximum_temperature": {
+        "name": "CIRC. CALEF. 2 TEMPERATURA MÁXIMA"
+      },
+      "hc2_mixer_dynamics": {
+        "name": "CIRC. CALEF. 2 DINÁMICA DEL MEZCLADOR"
+      },
+      "hc2_heating_curve_rise": {
+        "name": "CIRC. CALEF. 2 AUMENTO CURVA CALEFAC."
+      },
+      "heating_buffer_operation": {
+        "name": "AJUSTE ESTÁNDAR ZONA DEPÓSITO DE INERCIA"
+      },
+      "heating_max_return_temp": {
+        "name": "AJUSTE ESTÁNDAR TEMP. MÁX. RETORNO"
+      },
+      "heating_max_flow_temp": {
+        "name": "AJUSTE ESTÁNDAR TEMP. MÁX. IMPULSIÓN"
+      },
+      "heating_fixed_value_operation": {
+        "name": "AJUSTE ESTÁNDAR OPER. CON VALORES FIJOS"
+      },
+      "heating_frost_protection": {
+        "name": "AJUSTE ESTÁNDAR PROTEC. ANTICONG."
+      },
+      "heating_summer_mode": {
+        "name": "OPERACIÓN VERANO OPERACIÓN VERANO"
+      },
+      "heating_summer_outside_temp": {
+        "name": "OPERACIÓN VERANO TEMPERATURA EXTERIOR"
+      },
+      "heating_summer_heat_buffer": {
+        "name": "OPERACIÓN VERANO AISLAMIENTO DEL EDIFICIO"
+      },
+      "heating_pump_cycles": {
+        "name": "CICLOS BOMBA CICLOS BOMBA"
+      },
+      "heating_external_source": {
+        "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+      },
+      "heating_external_curve_gap": {
+        "name": "GENERADOR CALOR EXTERNO DISTANCIA CURVA CAL."
+      },
+      "heating_external_blocking_time": {
+        "name": "GENERADOR CALOR EXTERNO T. BLO. DEF. COMP. ELÉC."
+      },
+      "heating_external_dual_mode_temp": {
+        "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA HZG"
+      },
+      "heating_external_lower_limit": {
+        "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. HZG"
+      },
+      "dhw_comfort_temperature": {
+        "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA CONFORT"
+      },
+      "dhw_eco_temperature": {
+        "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA ECO"
+      },
+      "dhw_mode": {
+        "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE"
+      },
+      "dhw_hysteresis": {
+        "name": "AJUSTE ESTÁNDAR HISTÉRESIS AGUA CALIENTE"
+      },
+      "dhw_stages": {
+        "name": "AJUSTE ESTÁNDAR NIVELES DE AGUA CALIENTE"
+      },
+      "dhw_learning_function": {
+        "name": "WW FUNCIÓN APRENDIZAJE WW FUNCIÓN APRENDIZAJE"
+      },
+      "dhw_combi_cylinder": {
+        "name": "ACUMULADOR COMBINADO ACUMULADOR COMBINADO"
+      },
+      "dhw_output_summer": {
+        "name": "WW REND. WP WW REND. VERANO"
+      },
+      "dhw_output_winter": {
+        "name": "WW REND. WP WW REND. INVIERNO"
+      },
+      "dhw_max_flow_temp": {
+        "name": "TEMP. MÁX. IMPULSIÓN TEMP. MÁX. IMPULSIÓN"
+      },
+      "dhw_pasteurisation": {
+        "name": "TRATAMIENTO ANTILEGIONELA TRATAMIENTO ANTILEGIONELA"
+      },
+      "dhw_pasteurisation_temp": {
+        "name": "TRATAMIENTO ANTILEGIONELA TEMPERATURA DE REFERENCIA"
+      },
+      "dhw_external_source": {
+        "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+      },
+      "dhw_external_dual_mode_temp": {
+        "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA WW"
+      },
+      "dhw_external_lower_limit": {
+        "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. WW"
+      },
+      "dhw_external_pwm": {
+        "name": "GENERADOR CALOR EXTERNO WW-PWM"
+      },
+      "sg_ready_enabled": {
+        "name": "ENERGIEMANAGEMENT SGREADY ACTIVADO"
+      },
+      "sg_ready_input": {
+        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+      },
+      "sg_ready_heating_buffer": {
+        "name": "ENERGIEMANAGEMENT Dep. inercia calefacción"
+      },
+      "sg_ready_upper_temp_hc1": {
+        "name": "ENERGIEMANAGEMENT TEMP.AMB./INERCIA SUP. HK1"
+      },
+      "sg_ready_upper_temp_hc2": {
+        "name": "ENERGIEMANAGEMENT TEMP.AMB.SUPER. HK2"
+      },
+      "sg_ready_upper_temp_dhw": {
+        "name": "ENERGIEMANAGEMENT TEMP.REF.SUP.AGUA CALIENTE"
       }
     },
     "binary_sensor": {
@@ -244,144 +382,6 @@
       "start_system_ok": {
         "name": "System OK"
       }
-    },
-    "hc1_comfort_temperature": {
-      "name": "CIRC. CALEF. 1 TEMPERATURA CONFORT"
-    },
-    "hc1_eco_temperature": {
-      "name": "CIRC. CALEF. 1 TEMPERATURA ECO"
-    },
-    "hc1_minimum_temperature": {
-      "name": "CIRC. CALEF. 1 TEMPERATURA MÍNIMA"
-    },
-    "hc1_heating_curve_rise": {
-      "name": "CIRC. CALEF. 1 AUMENTO CURVA CALEFAC."
-    },
-    "hc2_comfort_temperature": {
-      "name": "CIRC. CALEF. 2 TEMPERATURA CONFORT"
-    },
-    "hc2_eco_temperature": {
-      "name": "CIRC. CALEF. 2 TEMPERATURA ECO"
-    },
-    "hc2_minimum_temperature": {
-      "name": "CIRC. CALEF. 2 TEMPERATURA MÍNIMA"
-    },
-    "hc2_maximum_temperature": {
-      "name": "CIRC. CALEF. 2 TEMPERATURA MÁXIMA"
-    },
-    "hc2_mixer_dynamics": {
-      "name": "CIRC. CALEF. 2 DINÁMICA DEL MEZCLADOR"
-    },
-    "hc2_heating_curve_rise": {
-      "name": "CIRC. CALEF. 2 AUMENTO CURVA CALEFAC."
-    },
-    "heating_buffer_operation": {
-      "name": "AJUSTE ESTÁNDAR ZONA DEPÓSITO DE INERCIA"
-    },
-    "heating_max_return_temp": {
-      "name": "AJUSTE ESTÁNDAR TEMP. MÁX. RETORNO"
-    },
-    "heating_max_flow_temp": {
-      "name": "AJUSTE ESTÁNDAR TEMP. MÁX. IMPULSIÓN"
-    },
-    "heating_fixed_value_operation": {
-      "name": "AJUSTE ESTÁNDAR OPER. CON VALORES FIJOS"
-    },
-    "heating_frost_protection": {
-      "name": "AJUSTE ESTÁNDAR PROTEC. ANTICONG."
-    },
-    "heating_summer_mode": {
-      "name": "OPERACIÓN VERANO OPERACIÓN VERANO"
-    },
-    "heating_summer_outside_temp": {
-      "name": "OPERACIÓN VERANO TEMPERATURA EXTERIOR"
-    },
-    "heating_summer_heat_buffer": {
-      "name": "OPERACIÓN VERANO AISLAMIENTO DEL EDIFICIO"
-    },
-    "heating_pump_cycles": {
-      "name": "CICLOS BOMBA CICLOS BOMBA"
-    },
-    "heating_external_source": {
-      "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
-    },
-    "heating_external_curve_gap": {
-      "name": "GENERADOR CALOR EXTERNO DISTANCIA CURVA CAL."
-    },
-    "heating_external_blocking_time": {
-      "name": "GENERADOR CALOR EXTERNO T. BLO. DEF. COMP. ELÉC."
-    },
-    "heating_external_dual_mode_temp": {
-      "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA HZG"
-    },
-    "heating_external_lower_limit": {
-      "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. HZG"
-    },
-    "dhw_comfort_temperature": {
-      "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA CONFORT"
-    },
-    "dhw_eco_temperature": {
-      "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA ECO"
-    },
-    "dhw_mode": {
-      "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE"
-    },
-    "dhw_hysteresis": {
-      "name": "AJUSTE ESTÁNDAR HISTÉRESIS AGUA CALIENTE"
-    },
-    "dhw_stages": {
-      "name": "AJUSTE ESTÁNDAR NIVELES DE AGUA CALIENTE"
-    },
-    "dhw_learning_function": {
-      "name": "WW FUNCIÓN APRENDIZAJE WW FUNCIÓN APRENDIZAJE"
-    },
-    "dhw_combi_cylinder": {
-      "name": "ACUMULADOR COMBINADO ACUMULADOR COMBINADO"
-    },
-    "dhw_output_summer": {
-      "name": "WW REND. WP WW REND. VERANO"
-    },
-    "dhw_output_winter": {
-      "name": "WW REND. WP WW REND. INVIERNO"
-    },
-    "dhw_max_flow_temp": {
-      "name": "TEMP. MÁX. IMPULSIÓN TEMP. MÁX. IMPULSIÓN"
-    },
-    "dhw_pasteurisation": {
-      "name": "TRATAMIENTO ANTILEGIONELA TRATAMIENTO ANTILEGIONELA"
-    },
-    "dhw_pasteurisation_temp": {
-      "name": "TRATAMIENTO ANTILEGIONELA TEMPERATURA DE REFERENCIA"
-    },
-    "dhw_external_source": {
-      "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
-    },
-    "dhw_external_dual_mode_temp": {
-      "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA WW"
-    },
-    "dhw_external_lower_limit": {
-      "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. WW"
-    },
-    "dhw_external_pwm": {
-      "name": "GENERADOR CALOR EXTERNO WW-PWM"
-    },
-    "sg_ready_enabled": {
-      "name": "ENERGIEMANAGEMENT SGREADY ACTIVADO"
-    },
-    "sg_ready_input": {
-      "name": "ENERGIEMANAGEMENT SG-READY INPUT"
-    },
-    "sg_ready_heating_buffer": {
-      "name": "ENERGIEMANAGEMENT Dep. inercia calefacción"
-    },
-    "sg_ready_upper_temp_hc1": {
-      "name": "ENERGIEMANAGEMENT TEMP.AMB./INERCIA SUP. HK1"
-    },
-    "sg_ready_upper_temp_hc2": {
-      "name": "ENERGIEMANAGEMENT TEMP.AMB.SUPER. HK2"
-    },
-    "sg_ready_upper_temp_dhw": {
-      "name": "ENERGIEMANAGEMENT TEMP.REF.SUP.AGUA CALIENTE"
     }
   }
 }
