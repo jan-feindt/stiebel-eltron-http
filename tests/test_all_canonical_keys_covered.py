@@ -119,21 +119,18 @@ def test_all_canonical_keys_covered_by_testdata():
         client._extract_profile_network,
     ]
 
-    uncovered = []
-    for key in keys:
-        covered = False
-        for f in files:
-            with open(f, "r", encoding="utf-8") as fh:
-                text = fh.read()
-            for ex in extractors:
-                res = ex(text)
-                if key in res and res.get(key) is not None:
-                    covered = True
-                    break
-            if covered:
-                break
-        if not covered:
-            uncovered.append(key)
+    # OPTIMIZATION: Extract all keys from all files once, then check coverage
+    covered_keys = set()
+    for f in files:
+        with open(f, "r", encoding="utf-8") as fh:
+            text = fh.read()
+        for ex in extractors:
+            res = ex(text)
+            # Add any non-None keys to covered set
+            covered_keys.update(k for k, v in res.items() if v is not None)
+    
+    # Now check which keys are uncovered
+    uncovered = [key for key in keys if key not in covered_keys]
     # Some canonical keys are intentionally not present in the sanitized
     # test snapshots (e.g., MAC address, or room-level sensors). Allow these
     # to be missing from the testdata without failing the suite.
