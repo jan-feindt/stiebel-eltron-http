@@ -177,7 +177,7 @@
         "name": "INICIO DESESCARCHE"
       },
       "compressor_starts": {
-        "name": "COMPRESOR"
+        "name": "COMPRESOR ARRANQUES"
       },
       "dhw_set_temperature": {
         "name": "TEMPERATURA DE REFERENCIA"

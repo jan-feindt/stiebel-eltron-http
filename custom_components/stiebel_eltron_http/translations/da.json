@@ -180,7 +180,7 @@
         "name": "STARTER AFRIMNING"
       },
       "compressor_starts": {
-        "name": "KOMPRESSOR"
+        "name": "KOMPRESSOR STARTER"
       },
       "dhw_set_temperature": {
         "name": "NOM. TEMPERATUR"
@@ -282,7 +282,7 @@
         "name": "GRUNDINDSTILLING FROSTSIKRING"
       },
       "heating_summer_mode": {
-        "name": "SOMMERDRIFT SOMMERDRIFT"
+        "name": "SOMMERDRIFT"
       },
       "heating_summer_outside_temp": {
         "name": "SOMMERDRIFT UDETEMPERATUR"
@@ -291,7 +291,7 @@
         "name": "SOMMERDRIFT BYGNINGSISOLERING"
       },
       "heating_pump_cycles": {
-        "name": "PUMPECYKLUS PUMPECYKLUS"
+        "name": "PUMPECYKLUS"
       },
       "heating_external_source": {
         "name": "VARMEGENERATOR EKSTERN VARMEGENERATOR EKSTERN"
@@ -327,7 +327,7 @@
         "name": "WW INDLÆRINGSFUNKTION WW INDLÆRINGSFUNKTION"
       },
       "dhw_combi_cylinder": {
-        "name": "KOMBIBEHOLDER KOMBIBEHOLDER"
+        "name": "KOMBIBEHOLDER"
       },
       "dhw_output_summer": {
         "name": "WW EFFEKT WP WW EFFEKT SOMMER"
@@ -339,7 +339,7 @@
         "name": "MAX FREMLØBSTEMP MAX FREMLØBSTEMP"
       },
       "dhw_pasteurisation": {
-        "name": "ANTI-LEGIONELLA ANTI-LEGIONELLA"
+        "name": "ANTI-LEGIONELLA"
       },
       "dhw_pasteurisation_temp": {
         "name": "ANTI-LEGIONELLA NOM. TEMPERATUR"

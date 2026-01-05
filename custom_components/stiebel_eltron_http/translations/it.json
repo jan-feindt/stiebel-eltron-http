@@ -186,7 +186,7 @@
         "name": "INIZIO SBRINAMENTO"
       },
       "compressor_starts": {
-        "name": "COMPRESSORE"
+        "name": "COMPRESSORE AVVIAMENTI"
       },
       "dhw_set_temperature": {
         "name": "ACQUA CALDA TEMPERATURA NOMINALE"

@@ -186,7 +186,7 @@
         "name": "SUL KÄYNN"
       },
       "compressor_starts": {
-        "name": "KOMPRESSORI"
+        "name": "KOMPRESSORI KÄYNNISTYKSET"
       },
       "dhw_set_temperature": {
         "name": "OHJELÄMPÖTILA"
@@ -282,7 +282,7 @@
         "name": "PERUSASETUS JÄÄTYMISESTO"
       },
       "heating_summer_mode": {
-        "name": "KESÄKÄYTTÖ KESÄKÄYTTÖ"
+        "name": "KESÄKÄYTTÖ"
       },
       "heating_summer_outside_temp": {
         "name": "KESÄKÄYTTÖ ULKOLÄMPÖTILA"
@@ -291,7 +291,7 @@
         "name": "KESÄKÄYTTÖ RAKENNUSVAIMENNUS"
       },
       "heating_pump_cycles": {
-        "name": "PUMPPUJAKSOT PUMPPUJAKSOT"
+        "name": "PUMPPUJAKSOT"
       },
       "heating_external_source": {
         "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
@@ -327,7 +327,7 @@
         "name": "WW OPPIMISTOIM WW OPPIMISTOIM"
       },
       "dhw_combi_cylinder": {
-        "name": "YHDISTELMÄVAR YHDISTELMÄVAR"
+        "name": "YHDISTELMÄVAR"
       },
       "dhw_output_summer": {
         "name": "WW TEHO WP WW TEHO KESÄ"
@@ -339,7 +339,7 @@
         "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLAKÄSITT ANTILEGIONELLAKÄSITT"
+        "name": "ANTILEGIONELLAKÄSITT"
       },
       "dhw_pasteurisation_temp": {
         "name": "ANTILEGIONELLAKÄSITT OHJELÄMPÖTILA"

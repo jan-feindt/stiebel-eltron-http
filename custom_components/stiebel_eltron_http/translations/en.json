@@ -42,7 +42,7 @@
         "name": "SET COMPRESSOR SPEED"
       },
       "compressor_starts": {
-        "name": "COMPRESSOR"
+        "name": "COMPRESSOR STARTS"
       },
       "condenser_temperature": {
         "name": "CONDENSER TEMPERATURE"

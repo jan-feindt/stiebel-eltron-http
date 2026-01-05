@@ -165,7 +165,7 @@
         "name": "TID AVFROSTNING"
       },
       "compressor_starts": {
-        "name": "KOMPRESSOR"
+        "name": "KOMPRESSOR STARTER"
       },
       "dhw_set_temperature": {
         "name": "VARMVATTEN BÖRTEMPERATUR"
@@ -282,7 +282,7 @@
         "name": "GRUNDINSTÄLLNING FROSTKYDD"
       },
       "heating_summer_mode": {
-        "name": "SOMMARDRIFT SOMMARDRIFT"
+        "name": "SOMMARDRIFT"
       },
       "heating_summer_outside_temp": {
         "name": "SOMMARDRIFT UTETEMPERATUR"
@@ -291,7 +291,7 @@
         "name": "SOMMARDRIFT BYGGNADSISOLERING"
       },
       "heating_pump_cycles": {
-        "name": "PUMPCYKLER PUMPCYKLER"
+        "name": "PUMPCYKLER"
       },
       "heating_external_source": {
         "name": "VÄRMEGENERATOR EXTERN VÄRMEGENERATOR EXTERN"
@@ -327,7 +327,7 @@
         "name": "WW INLÄRNINGSFUNKTION WW INLÄRNINGSFUNKTION"
       },
       "dhw_combi_cylinder": {
-        "name": "KOMBIACKUMULATOR KOMBIACKUMULATOR"
+        "name": "KOMBIACKUMULATOR"
       },
       "dhw_output_summer": {
         "name": "WW EFFEKT WP WW EFFEKT SOMMAR"
@@ -339,7 +339,7 @@
         "name": "MAX FRAMLEDNINGSTEMP MAX FRAMLEDNINGSTEMP"
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLABEHANDLING ANTILEGIONELLABEHANDLING"
+        "name": "ANTILEGIONELLABEHANDLING"
       },
       "dhw_pasteurisation_temp": {
         "name": "ANTILEGIONELLABEHANDLING BÖRTEMPERATUR"

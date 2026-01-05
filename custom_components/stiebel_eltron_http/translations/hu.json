@@ -171,7 +171,7 @@
         "name": "LEOLVASZTÁS-IND. SZÁMA"
       },
       "compressor_starts": {
-        "name": "KOMPRESSZOR"
+        "name": "KOMPRESSZOR INDÍTÁSOK"
       },
       "dhw_set_temperature": {
         "name": "MELEGVÍZ NÉVL. HŐMÉRS."
@@ -339,7 +339,7 @@
         "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLA-KEZELÉS ANTILEGIONELLA-KEZELÉS"
+        "name": "ANTILEGIONELLA-KEZELÉS"
       },
       "dhw_pasteurisation_temp": {
         "name": "ANTILEGIONELLA-KEZELÉS NÉVL. HŐMÉRS."

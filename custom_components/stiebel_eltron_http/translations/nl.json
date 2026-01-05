@@ -42,7 +42,7 @@
         "name": "GEVRAAGD TOERENTAL COMP."
       },
       "compressor_starts": {
-        "name": "COMPRESSOR"
+        "name": "COMPRESSOR STARTS"
       },
       "condenser_temperature": {
         "name": "CONDENSORTEMPERATUUR"
@@ -282,7 +282,7 @@
         "name": "BASISINSTELLING VORSTBESCHERMING"
       },
       "heating_summer_mode": {
-        "name": "ZOMERBEDRIJF ZOMERBEDRIJF"
+        "name": "ZOMERBEDRIJF"
       },
       "heating_summer_outside_temp": {
         "name": "ZOMERBEDRIJF BUITENTEMPERATUUR"
@@ -291,7 +291,7 @@
         "name": "ZOMERBEDRIJF GEBOUWDEMPING"
       },
       "heating_pump_cycles": {
-        "name": "POMPCYCLI POMPCYCLI"
+        "name": "POMPCYCLI"
       },
       "heating_external_source": {
         "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
@@ -327,7 +327,7 @@
         "name": "WW ZELFLEERFUNCTIE WW ZELFLEERFUNCTIE"
       },
       "dhw_combi_cylinder": {
-        "name": "COMBI-BOILER COMBI-BOILER"
+        "name": "COMBI-BOILER"
       },
       "dhw_output_summer": {
         "name": "WW VERMOGEN WP WW VERMOGEN ZOMER"
@@ -339,7 +339,7 @@
         "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLABEHANDELING ANTILEGIONELLABEHANDELING"
+        "name": "ANTILEGIONELLABEHANDELING"
       },
       "dhw_pasteurisation_temp": {
         "name": "ANTILEGIONELLABEHANDELING NOMINALE TEMPERATUUR"
