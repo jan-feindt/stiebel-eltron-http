@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Run tests
-        run: python -m pytest tests/ -v --tb=short
+        run: python -m pytest tests/ -n auto -v --tb=short
 
       - name: Test summary
         if: always()
