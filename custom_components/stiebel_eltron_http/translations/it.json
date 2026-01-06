@@ -359,7 +359,11 @@
         "name": "Temp max mandata temp max mandata"
       },
       "dhw_pasteurisation": {
-        "name": "Trattam. antilegionella trattam. antilegionella"
+        "name": "Trattam. antilegionella trattam. antilegionella",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Trattam. antilegionella temperatura nominale"

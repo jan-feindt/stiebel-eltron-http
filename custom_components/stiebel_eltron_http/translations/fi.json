@@ -359,7 +359,11 @@
         "name": "Max menovirt lämpöt max menovirt lämpöt"
       },
       "dhw_pasteurisation": {
-        "name": "Antilegionellakäsitt"
+        "name": "Antilegionellakäsitt",
+        "state": {
+          "off": "Pois",
+          "on": "Päällä"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Antilegionellakäsitt ohjelämpötila"

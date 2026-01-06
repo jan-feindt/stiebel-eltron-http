@@ -359,7 +359,11 @@
         "name": "Temp. máx. impulsión temp. máx. impulsión"
       },
       "dhw_pasteurisation": {
-        "name": "Tratamiento antilegionela tratamiento antilegionela"
+        "name": "Tratamiento antilegionela tratamiento antilegionela",
+        "state": {
+          "off": "Desactivado",
+          "on": "Activado"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Tratamiento antilegionela temperatura DE referencia"

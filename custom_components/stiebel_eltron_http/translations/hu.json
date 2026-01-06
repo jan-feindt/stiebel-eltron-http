@@ -359,7 +359,11 @@
         "name": "Maximális elõremenõ hõm. maximális elõremenõ hõm."
       },
       "dhw_pasteurisation": {
-        "name": "Antilegionella-kezelés"
+        "name": "Anti-legionella kezelés",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Antilegionella-kezelés névl. hőmérs."

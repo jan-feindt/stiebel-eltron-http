@@ -359,7 +359,11 @@
         "name": "Max vstup tepl top vody max vstup tepl top vody"
       },
       "dhw_pasteurisation": {
-        "name": "Tepelna dezinfekce tepelna dezinfekce"
+        "name": "Tepelna dezinfekce tepelna dezinfekce",
+        "state": {
+          "off": "Vypnuto",
+          "on": "Zapnuto"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Tepelna dezinfekce požadovaná teplota"

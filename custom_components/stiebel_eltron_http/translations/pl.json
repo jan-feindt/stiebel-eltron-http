@@ -359,7 +359,11 @@
         "name": "Maks temp zasilania maks temp zasilania"
       },
       "dhw_pasteurisation": {
-        "name": "Funkcja antylegionelli funkcja antylegionelli"
+        "name": "Funkcja antylegionelli funkcja antylegionelli",
+        "state": {
+          "off": "Wyłączony",
+          "on": "Włączony"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Funkcja antylegionelli temperatura zadana"

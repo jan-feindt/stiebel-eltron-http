@@ -365,7 +365,11 @@
         "name": "Maximum flow temperature"
       },
       "dhw_pasteurisation": {
-        "name": "Pasteurisation"
+        "name": "DHW pasteurisation",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Pasteurisation set temperature"

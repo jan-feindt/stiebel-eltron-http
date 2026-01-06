@@ -1058,6 +1058,7 @@ ENTITY_DESCRIPTIONS = (
         name="DHW pasteurisation",
         translation_key=DHW_PASTEURISATION_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
         icon="mdi:bacteria",
     ),
     SensorEntityDescription(

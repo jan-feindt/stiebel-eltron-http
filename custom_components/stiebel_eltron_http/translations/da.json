@@ -359,7 +359,11 @@
         "name": "Max fremløbstemp max fremløbstemp"
       },
       "dhw_pasteurisation": {
-        "name": "Anti-legionella"
+        "name": "Anti-legionella",
+        "state": {
+          "off": "Fra",
+          "on": "Til"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Anti-legionella nom. temperatur"

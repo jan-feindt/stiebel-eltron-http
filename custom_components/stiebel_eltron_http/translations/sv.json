@@ -359,7 +359,11 @@
         "name": "Max framledningstemp max framledningstemp"
       },
       "dhw_pasteurisation": {
-        "name": "Antilegionellabehandling"
+        "name": "Antilegionellabehandling",
+        "state": {
+          "off": "Av",
+          "on": "På"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Antilegionellabehandling börtemperatur"

@@ -359,7 +359,11 @@
         "name": "Temp. max. depart temp. max. depart"
       },
       "dhw_pasteurisation": {
-        "name": "Traitement anti-legionel. traitement anti-legionel."
+        "name": "Traitement anti-legionel. traitement anti-legionel.",
+        "state": {
+          "off": "Désactivé",
+          "on": "Activé"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Traitement anti-legionel. température DE consigne"

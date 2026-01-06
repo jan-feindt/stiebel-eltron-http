@@ -365,7 +365,11 @@
         "name": "Maximale Vorlauftemp"
       },
       "dhw_pasteurisation": {
-        "name": "Antilegionellenbehandlung"
+        "name": "Antilegionellenbehandlung",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Antilegionellenbehandlung Solltemperatur"

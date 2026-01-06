@@ -359,7 +359,11 @@
         "name": "Max aanvoertemperatuur max aanvoertemperatuur"
       },
       "dhw_pasteurisation": {
-        "name": "Antilegionellabehandeling"
+        "name": "Antilegionella-behandeling",
+        "state": {
+          "off": "Uit",
+          "on": "Aan"
+        }
       },
       "dhw_pasteurisation_temp": {
         "name": "Antilegionellabehandeling nominale temperatuur"

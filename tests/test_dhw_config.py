@@ -214,7 +214,7 @@ def test_extract_dhw_pasteurisation_config():
     
     # Verify extracted values
     assert DHW_PASTEURISATION_KEY in result
-    assert result[DHW_PASTEURISATION_KEY] == False  # OFF
+    assert result[DHW_PASTEURISATION_KEY] == "off"
     
     assert DHW_PASTEURISATION_TEMP_KEY in result
     assert result[DHW_PASTEURISATION_TEMP_KEY] == 60.0

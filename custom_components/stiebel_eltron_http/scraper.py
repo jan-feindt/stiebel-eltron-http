@@ -1323,7 +1323,7 @@ class StiebelEltronScrapingClient:
         # val122 = Pasteurisation (0=OFF, 1=ON)
         if "122" in val_dict:
             raw_val = val_dict["122"]
-            result[DHW_PASTEURISATION_KEY] = raw_val == "1"
+            result[DHW_PASTEURISATION_KEY] = "on" if raw_val == "1" else "off"
         
         # val11033 = Set Temperature
         if "11033" in val_dict:
