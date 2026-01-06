@@ -118,6 +118,9 @@ PARSING_TRANSLATIONS: dict[CanonicalKey, list[str]] = {
     CanonicalKey.COMPRESSOR_STARTS: [
         "COMPRESSOR",
     ],
+    CanonicalKey.STARTS_SECTION: [
+        "STARTS",
+    ],
 }
 
 # Load from JSON and merge with parsing translations

@@ -91,6 +91,12 @@ PARSING_TRANSLATIONS: dict[CanonicalKey, list[str]] = {
     CanonicalKey.WATER_FLOW: [
         "WP WASSERVOLUMENSTROM",
     ],
+    CanonicalKey.COMPRESSOR_STARTS: [
+        "VERDICHTER",
+    ],
+    CanonicalKey.STARTS_SECTION: [
+        "STARTS",
+    ],
 }
 
 # Load from JSON and merge with parsing translations
