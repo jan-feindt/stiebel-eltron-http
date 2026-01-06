@@ -24,94 +24,94 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "PUFFER TÉNYL. HÕMÉRSÉKLET"
+        "name": "Puffer tényl. hõmérséklet"
       },
       "actual_temperature_hk_1": {
-        "name": "TÉNYLEGES HÕMÉRSÉKLET HK 1"
+        "name": "Tényleges hõmérséklet HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TÉNYLEGES HÕMÉRSÉKLET HK 2"
+        "name": "Tényleges hõmérséklet HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "KOMPRESSZOR BEMENŐ HŐMÉRSÉKLETE"
+        "name": "Kompresszor bemenő hőmérséklete"
       },
       "compressor_speed_actual": {
-        "name": "KOMPR. TÉNYL. FORDSZ."
+        "name": "Kompr. tényl. fordsz."
       },
       "compressor_speed_target": {
-        "name": "KOMPRESSZOR NÉVL. FORDSZ."
+        "name": "Kompresszor névl. fordsz."
       },
       "condenser_temperature": {
-        "name": "KONDENZÁTOR-HÕMÉRSÉKLET"
+        "name": "Kondenzátor-hõmérséklet"
       },
       "dhw_consumed_today": {
-        "name": "ENERGIAFOGYASZTÁS MELEGVÍZ 1–24 ó"
+        "name": "Energiafogyasztás melegvíz 1–24 ó"
       },
       "dhw_temperature": {
-        "name": "MELEGVÍZ TÉNYLEGES HÕMÉRSÉKLET"
+        "name": "Melegvíz tényleges hõmérséklet"
       },
       "evaporator_inlet_temperature": {
-        "name": "ELPÁROLOGTATÓ BEMENŐ HŐMÉRSÉKLETE"
+        "name": "Elpárologtató bemenő hőmérséklete"
       },
       "evaporator_outlet_temperature": {
-        "name": "ELPÁROLOGTATÓ KIMENŐ HŐMÉRSÉKLETE"
+        "name": "Elpárologtató kimenő hőmérséklete"
       },
       "external_actual_temperature": {
-        "name": "KÜLSÕ HÕGENERÁTOR TÉNYLEGES HÕMÉRSÉKLET"
+        "name": "Külsõ hõgenerátor tényleges hõmérséklet"
       },
       "external_set_temperature": {
-        "name": "KÜLSÕ HÕGENERÁTOR NÉVL. HŐMÉRS."
+        "name": "Külsõ hõgenerátor névl. hőmérs."
       },
       "fan_power_relative": {
-        "name": "RELATÍV VENTILÁTORTELJ."
+        "name": "Relatív ventilátortelj."
       },
       "frost_protection_temperature": {
-        "name": "FAGYVÉDELEM"
+        "name": "Fagyvédelem"
       },
       "heating_consumed_today": {
-        "name": "ENERGIAFOGYASZTÁS FŰTÉS 1–24 ó"
+        "name": "Energiafogyasztás fűtés 1–24 ó"
       },
       "high_pressure": {
-        "name": "NYOMÁS NAGYNYOMÁS"
+        "name": "Nyomás nagynyomás"
       },
       "hot_gas_temperature": {
-        "name": "FORRÓGÁZ-HÕMÉRSÉKLET"
+        "name": "Forrógáz-hõmérséklet"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "INVERTER FELVETT TELJ."
+        "name": "Inverter felvett telj."
       },
       "inverter_voltage": {
-        "name": "INVERTER FESZÜLTSÉG"
+        "name": "Inverter feszültség"
       },
       "lower_limit_hzg": {
-        "name": "ALSÓ ALKALM. HATÁR HZG"
+        "name": "Alsó alkalm. határ hzg"
       },
       "lower_limit_ww": {
-        "name": "ALSÓ ALKALM. HATÁR WW"
+        "name": "Alsó alkalm. határ WW"
       },
       "low_pressure": {
-        "name": "NYOMÁS ALACSONY NYOMÁS"
+        "name": "Nyomás alacsony nyomás"
       },
       "oil_sump_temperature": {
-        "name": "OLAJTEKNÕ-HÕMÉRSÉKLET"
+        "name": "Olajteknõ-hõmérséklet"
       },
       "outside_temperature": {
-        "name": "KÜLSÕ HÕMÉRSÉKLET"
+        "name": "Külsõ hõmérséklet"
       },
       "return_temperature": {
-        "name": "VISSZATÉRÕ HÕMÉRSÉKLET"
+        "name": "Visszatérõ hõmérséklet"
       },
       "set_buffer_temperature": {
-        "name": "PUFFER NÉVL. HÕMÉRS."
+        "name": "Puffer névl. hõmérs."
       },
       "set_temperature_hk_1": {
-        "name": "NÉVL. HÕMÉRS. HK 1"
+        "name": "Névl. hõmérs. HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "NÉVL. HÕMÉRS. HK 2"
+        "name": "Névl. hõmérs. HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktív"
@@ -126,258 +126,258 @@
         "name": "Üzemmód"
       },
       "supply_temperature": {
-        "name": "ELÕREMENÕ HÕMÉRSÉKLET"
+        "name": "Elõremenõ hõmérséklet"
       },
       "total_dhw_consumed": {
-        "name": "ENERGIAFOGYASZTÁS MELEGVÍZ 1–12 p"
+        "name": "Energiafogyasztás melegvíz 1–12 p"
       },
       "total_heating_consumed": {
-        "name": "ENERGIAFOGYASZTÁS FŰTÉS 1–12 p"
+        "name": "Energiafogyasztás fűtés 1–12 p"
       },
       "water_flow": {
-        "name": "WP TÉRFOGATÁRAM"
+        "name": "Wp térfogatáram"
       },
       "efficiency_heating_today": {
-        "name": "HATÉKONYSÁG FŰTÉS 1–24 ó"
+        "name": "Hatékonyság fűtés 1–24 ó"
       },
       "efficiency_heating_1_12m": {
-        "name": "HATÉKONYSÁG FŰTÉS 1–12 p"
+        "name": "Hatékonyság fűtés 1–12 p"
       },
       "efficiency_heating_13_24m": {
-        "name": "HATÉKONYSÁG FŰTÉS 13–24 p"
+        "name": "Hatékonyság fűtés 13–24 p"
       },
       "efficiency_dhw_today": {
-        "name": "HATÉKONYSÁG MELEGVÍZ 1–24 ó"
+        "name": "Hatékonyság melegvíz 1–24 ó"
       },
       "efficiency_dhw_1_12m": {
-        "name": "HATÉKONYSÁG MELEGVÍZ 1–12 p"
+        "name": "Hatékonyság melegvíz 1–12 p"
       },
       "efficiency_dhw_13_24m": {
-        "name": "HATÉKONYSÁG MELEGVÍZ 13–24 p"
+        "name": "Hatékonyság melegvíz 13–24 p"
       },
       "runtime_vd_dhw": {
-        "name": "VD MELEGVÍZ"
+        "name": "VD melegvíz"
       },
       "runtime_vd_heating": {
-        "name": "VD FÛTÉS"
+        "name": "VD fûtés"
       },
       "runtime_vd_defrost": {
-        "name": "VD LEOLVASZTÁS"
+        "name": "VD leolvasztás"
       },
       "defrost_time": {
-        "name": "LEOLVASZTÁSI IDÕ"
+        "name": "Leolvasztási idõ"
       },
       "defrost_starts": {
-        "name": "LEOLVASZTÁS-IND. SZÁMA"
+        "name": "Leolvasztás-ind. száma"
       },
       "compressor_starts": {
-        "name": "KOMPRESSZOR INDÍTÁSOK"
+        "name": "Kompresszor indítások"
       },
       "dhw_set_temperature": {
-        "name": "MELEGVÍZ NÉVL. HŐMÉRS."
+        "name": "Melegvíz névl. hőmérs."
       },
       "dual_mode_temp_hzg": {
-        "name": "BIVALENCIA HÕMÉRS. HZG"
+        "name": "Bivalencia hõmérs. hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "BIVALENCIA HÕMÉRS. WW"
+        "name": "Bivalencia hõmérs. WW"
       },
       "inverter_current": {
-        "name": "INVERTER ÁRAMERÕSSÉG"
+        "name": "Inverter áramerõsség"
       },
       "heat_produced_today": {
-        "name": "HÕMENNYISÉG FŰTÉS 1–24 ó"
+        "name": "Hõmennyiség fűtés 1–24 ó"
       },
       "total_heat_produced": {
-        "name": "HÕMENNYISÉG FŰTÉS 1–12 p"
+        "name": "Hõmennyiség fűtés 1–12 p"
       },
       "dhw_produced_today": {
-        "name": "HÕMENNYISÉG MELEGVÍZ 1–24 ó"
+        "name": "Hõmennyiség melegvíz 1–24 ó"
       },
       "total_dhw_produced": {
-        "name": "HÕMENNYISÉG MELEGVÍZ 1–12 p"
+        "name": "Hõmennyiség melegvíz 1–12 p"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS FŰTÉSPUFFER"
+        "name": "Teljesítménybefolyásolás fűtéspuffer"
       },
       "wcci_operating_mode": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS AKTUÁLIS ÁLLAPOT"
+        "name": "Teljesítménybefolyásolás aktuális állapot"
       },
       "wcci_user_power_limit": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS TELJESÍTMÉNYHATÁROLÁS"
+        "name": "Teljesítménybefolyásolás teljesítményhatárolás"
       },
       "wcci_load_temp_room_1": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS 1. FŰTŐKÖR / PUFFER TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás 1. fűtőkör / puffer töltési hőmérséklete"
       },
       "wcci_load_temp_room_2": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS 2. FŰTŐKÖR TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás 2. fűtőkör töltési hőmérséklete"
       },
       "wcci_load_temp_room_3": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS 3. FŰTŐKÖR TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás 3. fűtőkör töltési hőmérséklete"
       },
       "wcci_load_temp_room_4": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS 4. FŰTŐKÖR TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás 4. fűtőkör töltési hőmérséklete"
       },
       "wcci_load_temp_room_5": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS 5. FŰTŐKÖR TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás 5. fűtőkör töltési hőmérséklete"
       },
       "wcci_load_temp_buffer": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS PUFFER TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás puffer töltési hőmérséklete"
       },
       "wcci_load_temp_dhw": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS MELEGVÍZ TÖLTÉSI HŐMÉRSÉKLETE"
+        "name": "Teljesítménybefolyásolás melegvíz töltési hőmérséklete"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "TELJESÍTMÉNYBEFOLYÁSOLÁS LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Teljesítménybefolyásolás limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "FÛTÕKÖR 1 KOMFORTHÕMÉRSÉKLET"
+        "name": "Fûtõkör 1 komforthõmérséklet"
       },
       "hc1_eco_temperature": {
-        "name": "FÛTÕKÖR 1 ECO HÕMÉRSÉKLET"
+        "name": "Fûtõkör 1 eco hõmérséklet"
       },
       "hc1_minimum_temperature": {
-        "name": "FÛTÕKÖR 1 MINIMÁLIS HÕMÉRSÉKLET"
+        "name": "Fûtõkör 1 minimális hõmérséklet"
       },
       "hc1_heating_curve_rise": {
-        "name": "FÛTÕKÖR 1 FÛTÉSI JELLEGGÖRBE MERED."
+        "name": "Fûtõkör 1 fûtési jelleggörbe mered."
       },
       "hc2_comfort_temperature": {
-        "name": "FÛTÕKÖR 2 KOMFORTHÕMÉRSÉKLET"
+        "name": "Fûtõkör 2 komforthõmérséklet"
       },
       "hc2_eco_temperature": {
-        "name": "FÛTÕKÖR 2 ECO HÕMÉRSÉKLET"
+        "name": "Fûtõkör 2 eco hõmérséklet"
       },
       "hc2_minimum_temperature": {
-        "name": "FÛTÕKÖR 2 MINIMÁLIS HÕMÉRSÉKLET"
+        "name": "Fûtõkör 2 minimális hõmérséklet"
       },
       "hc2_maximum_temperature": {
-        "name": "FÛTÕKÖR 2 MAXIMÁLIS HÕMÉRSÉKLET"
+        "name": "Fûtõkör 2 maximális hõmérséklet"
       },
       "hc2_mixer_dynamics": {
-        "name": "FÛTÕKÖR 2 KEVERŐ DINAMIKA"
+        "name": "Fûtõkör 2 keverő dinamika"
       },
       "hc2_heating_curve_rise": {
-        "name": "FÛTÕKÖR 2 FÛTÉSI JELLEGGÖRBE MERED."
+        "name": "Fûtõkör 2 fûtési jelleggörbe mered."
       },
       "heating_buffer_operation": {
-        "name": "ALAPBEÁLLÍTÁS PUFFERÜZEM"
+        "name": "Alapbeállítás pufferüzem"
       },
       "heating_max_return_temp": {
-        "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS VISSZATERO HÕM."
+        "name": "Alapbeállítás maximális visszatero hõm."
       },
       "heating_max_flow_temp": {
-        "name": "ALAPBEÁLLÍTÁS MAXIMÁLIS ELÕREMENÕ HÕM."
+        "name": "Alapbeállítás maximális elõremenõ hõm."
       },
       "heating_fixed_value_operation": {
-        "name": "ALAPBEÁLLÍTÁS RÖGZÍTETT ÉRTÉKÛ ÜZEM"
+        "name": "Alapbeállítás rögzített értékû üzem"
       },
       "heating_frost_protection": {
-        "name": "ALAPBEÁLLÍTÁS FAGYVÉDELEM"
+        "name": "Alapbeállítás fagyvédelem"
       },
       "heating_summer_mode": {
-        "name": "NYÁRI ÜZEM NYÁRI ÜZEM"
+        "name": "Nyári üzem nyári üzem"
       },
       "heating_summer_outside_temp": {
-        "name": "NYÁRI ÜZEM KÜLSÕ HÕMÉRSÉKLET"
+        "name": "Nyári üzem külsõ hõmérséklet"
       },
       "heating_summer_heat_buffer": {
-        "name": "NYÁRI ÜZEM ÉPÜLETCSILLAPÍTÁS"
+        "name": "Nyári üzem épületcsillapítás"
       },
       "heating_pump_cycles": {
-        "name": "SZIV CIKLUS SZIV CIKLUS"
+        "name": "Sziv ciklus sziv ciklus"
       },
       "heating_external_source": {
-        "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+        "name": "Külsõ hõgenerátor külsõ hõgenerátor"
       },
       "heating_external_curve_gap": {
-        "name": "KÜLSÕ HÕGENERÁTOR FÛT. JELLEGGÖRBE TÁVOLS."
+        "name": "Külsõ hõgenerátor fût. jelleggörbe távols."
       },
       "heating_external_blocking_time": {
-        "name": "KÜLSÕ HÕGENERÁTOR EVU ZÁROLÁSI IDÕ"
+        "name": "Külsõ hõgenerátor evu zárolási idõ"
       },
       "heating_external_dual_mode_temp": {
-        "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. HZG"
+        "name": "Külsõ hõgenerátor bivalencia hõmérs. hzg"
       },
       "heating_external_lower_limit": {
-        "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR HZG"
+        "name": "Külsõ hõgenerátor alsó alkalm. határ hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "MELEGVÍZ-HÕMÉRSÉKLETEK KOMFORTHÕMÉRSÉKLET"
+        "name": "Melegvíz-hõmérsékletek komforthõmérséklet"
       },
       "dhw_eco_temperature": {
-        "name": "MELEGVÍZ-HÕMÉRSÉKLETEK ECO HÕMÉRSÉKLET"
+        "name": "Melegvíz-hõmérsékletek eco hõmérséklet"
       },
       "dhw_mode": {
-        "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD",
+        "name": "Alapbeállítás melegvízes üzemmód",
         "state": {
-          "priority_operation": "ELSŐBBSÉGI ÜZEMMÓD",
-          "parallel_operation": "PÁRHUZAMOS ÜZEM",
-          "partial_priority": "RÉSZLEGES PRIORITÁS"
+          "priority_operation": "Elsőbbségi üzemmód",
+          "parallel_operation": "Párhuzamos üzem",
+          "partial_priority": "Részleges prioritás"
         }
       },
       "dhw_hysteresis": {
-        "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-HISZTERÉZIS"
+        "name": "Alapbeállítás melegvíz-hiszterézis"
       },
       "dhw_stages": {
-        "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-FOKOZATOK"
+        "name": "Alapbeállítás melegvíz-fokozatok"
       },
       "dhw_learning_function": {
-        "name": "WW TANULÁSI FUNKCIÓ WW TANULÁSI FUNKCIÓ"
+        "name": "WW tanulási funkció WW tanulási funkció"
       },
       "dhw_combi_cylinder": {
-        "name": "KOMBI MELEGVÍZTÁROLÓ KOMBI MELEGVÍZTÁROLÓ"
+        "name": "Kombi melegvíztároló kombi melegvíztároló"
       },
       "dhw_output_summer": {
-        "name": "WW TELJESÍTMÉNY NYÁRON"
+        "name": "WW teljesítmény nyáron"
       },
       "dhw_output_winter": {
-        "name": "WW TELJESÍTMÉNY TÉLEN"
+        "name": "WW teljesítmény télen"
       },
       "dhw_max_flow_temp": {
-        "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."
+        "name": "Maximális elõremenõ hõm. maximális elõremenõ hõm."
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLA-KEZELÉS"
+        "name": "Antilegionella-kezelés"
       },
       "dhw_pasteurisation_temp": {
-        "name": "ANTILEGIONELLA-KEZELÉS NÉVL. HŐMÉRS."
+        "name": "Antilegionella-kezelés névl. hőmérs."
       },
       "dhw_external_source": {
-        "name": "KÜLSÕ HÕGENERÁTOR KÜLSÕ HÕGENERÁTOR"
+        "name": "Külsõ hõgenerátor külsõ hõgenerátor"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "KÜLSÕ HÕGENERÁTOR BIVALENCIA HÕMÉRS. WW"
+        "name": "Külsõ hõgenerátor bivalencia hõmérs. WW"
       },
       "dhw_external_lower_limit": {
-        "name": "KÜLSÕ HÕGENERÁTOR ALSÓ ALKALM. HATÁR WW"
+        "name": "Külsõ hõgenerátor alsó alkalm. határ WW"
       },
       "dhw_external_pwm": {
-        "name": "KÜLSÕ HÕGENERÁTOR WW-PWM"
+        "name": "Külsõ hõgenerátor ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY AKTIVÁLVA"
+        "name": "Energiemanagement sgready aktiválva"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Fűtési puffer"
+        "name": "Energiemanagement Fűtési puffer"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT HK1 FELSŐ HELYIS-/PUFFERH."
+        "name": "Energiemanagement HK1 felső helyis-/pufferh."
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT HK2 FELS HELY-HŐM"
+        "name": "Energiemanagement HK2 fels hely-hőm"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT FELSŐ MELEGV. HŐM.-ALAPJEL"
+        "name": "Energiemanagement felső melegv. hőm.-alapjel"
       }
     },
     "binary_sensor": {

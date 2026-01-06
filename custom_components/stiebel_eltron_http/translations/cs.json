@@ -24,94 +24,94 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "SKUT TEPLOTA AKUMULACE"
+        "name": "Skut teplota akumulace"
       },
       "actual_temperature_hk_1": {
-        "name": "SKUTECNA TEPLOTA HK 1"
+        "name": "Skutecna teplota HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "SKUTECNA TEPLOTA HK 2"
+        "name": "Skutecna teplota HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "KOMPRESOR, VSTUPNÍ TEPLOTA"
+        "name": "Kompresor, vstupní teplota"
       },
       "compressor_speed_actual": {
-        "name": "SKUT OTACKY KOMPRESORU"
+        "name": "Skut otacky kompresoru"
       },
       "compressor_speed_target": {
-        "name": "POZ OTACKY KOMPRESORU"
+        "name": "Poz otacky kompresoru"
       },
       "condenser_temperature": {
-        "name": "TEPLOTA KONDENZATORU"
+        "name": "Teplota kondenzatoru"
       },
       "dhw_consumed_today": {
-        "name": "TEPLÁ VODA 1–24 h"
+        "name": "Teplá voda 1–24 h"
       },
       "dhw_temperature": {
-        "name": "SKUTECNA TEPLOTA"
+        "name": "Skutecna teplota"
       },
       "evaporator_inlet_temperature": {
-        "name": "VÝPARNÍK, VSTUPNÍ TEPLOTA"
+        "name": "Výparník, vstupní teplota"
       },
       "evaporator_outlet_temperature": {
-        "name": "VÝPARNÍK, VÝSTUPNÍ TEPLOTA"
+        "name": "Výparník, výstupní teplota"
       },
       "external_actual_temperature": {
-        "name": "SKUTECNA TEPLOTA"
+        "name": "Skutecna teplota"
       },
       "external_set_temperature": {
-        "name": "POŽADOVANÁ TEPLOTA"
+        "name": "Požadovaná teplota"
       },
       "fan_power_relative": {
-        "name": "VÝKON VENTIL. RELATIVNÍ"
+        "name": "Výkon ventil. relativní"
       },
       "frost_protection_temperature": {
-        "name": "PROTIZAMRAZ"
+        "name": "Protizamraz"
       },
       "heating_consumed_today": {
-        "name": "VYTÁPĚNÍ 1–24 h"
+        "name": "Vytápění 1–24 h"
       },
       "high_pressure": {
-        "name": "TLAK VYSOKY TLAK"
+        "name": "Tlak vysoky tlak"
       },
       "hot_gas_temperature": {
-        "name": "TEPLOTA HORKEHO PLYNU"
+        "name": "Teplota horkeho plynu"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "PŘÍKON INVERTORU"
+        "name": "Příkon invertoru"
       },
       "inverter_voltage": {
-        "name": "NAPETI INVERTORU"
+        "name": "Napeti invertoru"
       },
       "lower_limit_hzg": {
-        "name": "DOLNI HRANICE POUZITI HZG"
+        "name": "Dolni hranice pouziti hzg"
       },
       "lower_limit_ww": {
-        "name": "DOLNI HRANICE POUZITI TUV"
+        "name": "Dolni hranice pouziti tuv"
       },
       "low_pressure": {
-        "name": "TLAK NIZKY TLAK"
+        "name": "Tlak nizky tlak"
       },
       "oil_sump_temperature": {
-        "name": "TEPLOTA OLEJOVE VANY"
+        "name": "Teplota olejove vany"
       },
       "outside_temperature": {
-        "name": "VENKOVNI TEPLOTA"
+        "name": "Venkovni teplota"
       },
       "return_temperature": {
-        "name": "TEPLOTA VRATNE VODY"
+        "name": "Teplota vratne vody"
       },
       "set_buffer_temperature": {
-        "name": "POZADOVANA TEPLOTA AKUMUL"
+        "name": "Pozadovana teplota akumul"
       },
       "set_temperature_hk_1": {
-        "name": "POZADOVANA TEPLOTA HK 1"
+        "name": "Pozadovana teplota HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "POZADOVANA TEPLOTA HK 2"
+        "name": "Pozadovana teplota HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktivní"
@@ -126,258 +126,258 @@
         "name": "Provozní režim"
       },
       "supply_temperature": {
-        "name": "TEPLOTA TOP VODY"
+        "name": "Teplota top vody"
       },
       "total_dhw_consumed": {
-        "name": "TEPLÁ VODA 1–12 M"
+        "name": "Teplá voda 1–12 M"
       },
       "total_heating_consumed": {
-        "name": "VYTÁPĚNÍ 1–12 M"
+        "name": "Vytápění 1–12 M"
       },
       "water_flow": {
-        "name": "TC PRUTOK VODY"
+        "name": "Tc prutok vody"
       },
       "efficiency_dhw_today": {
-        "name": "TEPLÁ VODA 1–24 h"
+        "name": "Teplá voda 1–24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "TEPLÁ VODA 1–12 M"
+        "name": "Teplá voda 1–12 M"
       },
       "efficiency_dhw_13_24m": {
-        "name": "TEPLÁ VODA 13–24 M"
+        "name": "Teplá voda 13–24 M"
       },
       "dhw_produced_today": {
-        "name": "TEPLÁ VODA 1–24 h"
+        "name": "Teplá voda 1–24 h"
       },
       "total_dhw_produced": {
-        "name": "TEPLÁ VODA 1–12 M"
+        "name": "Teplá voda 1–12 M"
       },
       "runtime_vd_heating": {
-        "name": "VD TOPENI"
+        "name": "VD topeni"
       },
       "runtime_vd_dhw": {
-        "name": "VD TEPLA VODA"
+        "name": "VD tepla voda"
       },
       "dhw_set_temperature": {
-        "name": "POŽADOVANÁ TEPLOTA"
+        "name": "Požadovaná teplota"
       },
       "dual_mode_temp_hzg": {
-        "name": "BIVALENTNI TEPLOTA TOPENI"
+        "name": "Bivalentni teplota topeni"
       },
       "dual_mode_temp_ww": {
-        "name": "BIVALENT TEPL TEPLA VODA"
+        "name": "Bivalent tepl tepla voda"
       },
       "efficiency_heating_today": {
-        "name": "VYTÁPĚNÍ 1–24 h"
+        "name": "Vytápění 1–24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "VYTÁPĚNÍ 1–12 M"
+        "name": "Vytápění 1–12 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "VYTÁPĚNÍ 13–24 M"
+        "name": "Vytápění 13–24 M"
       },
       "heat_produced_today": {
-        "name": "VYTÁPĚNÍ 1–24 h"
+        "name": "Vytápění 1–24 h"
       },
       "total_heat_produced": {
-        "name": "VYTÁPĚNÍ 1–12 M"
+        "name": "Vytápění 1–12 M"
       },
       "runtime_vd_defrost": {
-        "name": "VD ODTAVANI"
+        "name": "VD odtavani"
       },
       "defrost_time": {
-        "name": "DOBA ODTAVANI"
+        "name": "Doba odtavani"
       },
       "defrost_starts": {
-        "name": "SPUSTENI ODTAVANI"
+        "name": "Spusteni odtavani"
       },
       "compressor_starts": {
-        "name": "KOMPRESOR SPUŠTĚNÍ"
+        "name": "Kompresor spuštění"
       },
       "inverter_current": {
-        "name": "PROUD INVERTORU"
+        "name": "Proud invertoru"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "OVLIVNĚNÍ VÝKONU AKUMULAČNÍ ZÁSOBNÍK TOPENÍ"
+        "name": "Ovlivnění výkonu akumulační zásobník topení"
       },
       "wcci_operating_mode": {
-        "name": "OVLIVNĚNÍ VÝKONU AKTUÁLNÍ STAV"
+        "name": "Ovlivnění výkonu aktuální stav"
       },
       "wcci_user_power_limit": {
-        "name": "OVLIVNĚNÍ VÝKONU OMEZENÍ VÝKONU"
+        "name": "Ovlivnění výkonu omezení výkonu"
       },
       "wcci_load_temp_room_1": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 1 / AK. NÁDRŽ"
+        "name": "Ovlivnění výkonu teplota nabití topný okruh 1 / ak. nádrž"
       },
       "wcci_load_temp_room_2": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 2"
+        "name": "Ovlivnění výkonu teplota nabití topný okruh 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 3"
+        "name": "Ovlivnění výkonu teplota nabití topný okruh 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 4"
+        "name": "Ovlivnění výkonu teplota nabití topný okruh 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TOPNÝ OKRUH 5"
+        "name": "Ovlivnění výkonu teplota nabití topný okruh 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ AK. NÁDRŽ"
+        "name": "Ovlivnění výkonu teplota nabití ak. nádrž"
       },
       "wcci_load_temp_dhw": {
-        "name": "OVLIVNĚNÍ VÝKONU TEPLOTA NABITÍ TEPLÁ VODA"
+        "name": "Ovlivnění výkonu teplota nabití teplá voda"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "OVLIVNĚNÍ VÝKONU LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Ovlivnění výkonu limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "TOPNY OKRUH 1 KOMFORTNI TEPLOTA"
+        "name": "Topny okruh 1 komfortni teplota"
       },
       "hc1_eco_temperature": {
-        "name": "TOPNY OKRUH 1 EKO TEPLOTA"
+        "name": "Topny okruh 1 eko teplota"
       },
       "hc1_minimum_temperature": {
-        "name": "TOPNY OKRUH 1 MINIMALNI TEPLOTA"
+        "name": "Topny okruh 1 minimalni teplota"
       },
       "hc1_heating_curve_rise": {
-        "name": "TOPNY OKRUH 1 STOUPANI TOPNE KRIVKY"
+        "name": "Topny okruh 1 stoupani topne krivky"
       },
       "hc2_comfort_temperature": {
-        "name": "TOPNY OKRUH 2 KOMFORTNI TEPLOTA"
+        "name": "Topny okruh 2 komfortni teplota"
       },
       "hc2_eco_temperature": {
-        "name": "TOPNY OKRUH 2 EKO TEPLOTA"
+        "name": "Topny okruh 2 eko teplota"
       },
       "hc2_minimum_temperature": {
-        "name": "TOPNY OKRUH 2 MINIMALNI TEPLOTA"
+        "name": "Topny okruh 2 minimalni teplota"
       },
       "hc2_maximum_temperature": {
-        "name": "TOPNY OKRUH 2 MAXIMALNI TEPLOTA"
+        "name": "Topny okruh 2 maximalni teplota"
       },
       "hc2_mixer_dynamics": {
-        "name": "TOPNY OKRUH 2 SMĚŠOVAČ, DYNAMIKA"
+        "name": "Topny okruh 2 směšovač, dynamika"
       },
       "hc2_heating_curve_rise": {
-        "name": "TOPNY OKRUH 2 STOUPANI TOPNE KRIVKY"
+        "name": "Topny okruh 2 stoupani topne krivky"
       },
       "heating_buffer_operation": {
-        "name": "ZÁKLADNÍ NASTAVENÍ AKUMULACNI REZIM"
+        "name": "Základní nastavení akumulacni rezim"
       },
       "heating_max_return_temp": {
-        "name": "ZÁKLADNÍ NASTAVENÍ MAXIMALNI TEPL VRAT VODY"
+        "name": "Základní nastavení maximalni tepl vrat vody"
       },
       "heating_max_flow_temp": {
-        "name": "ZÁKLADNÍ NASTAVENÍ MAX VSTUP TEPL TOP VODY"
+        "name": "Základní nastavení max vstup tepl top vody"
       },
       "heating_fixed_value_operation": {
-        "name": "ZÁKLADNÍ NASTAVENÍ REZIM PEVNA HODNOTA"
+        "name": "Základní nastavení rezim pevna hodnota"
       },
       "heating_frost_protection": {
-        "name": "ZÁKLADNÍ NASTAVENÍ PROTIZAMRAZ"
+        "name": "Základní nastavení protizamraz"
       },
       "heating_summer_mode": {
-        "name": "TEPL LETO PREP TEPL LETO PREP"
+        "name": "Tepl leto prep tepl leto prep"
       },
       "heating_summer_outside_temp": {
-        "name": "TEPL LETO PREP VENKOVNI TEPLOTA"
+        "name": "Tepl leto prep venkovni teplota"
       },
       "heating_summer_heat_buffer": {
-        "name": "TEPL LETO PREP VYSOUSENI BUDOVY"
+        "name": "Tepl leto prep vysouseni budovy"
       },
       "heating_pump_cycles": {
-        "name": "CYKLY CERPADLA CYKLY CERPADLA"
+        "name": "Cykly cerpadla cykly cerpadla"
       },
       "heating_external_source": {
-        "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+        "name": "Zdroj tepla externi zdroj tepla externi"
       },
       "heating_external_curve_gap": {
-        "name": "ZDROJ TEPLA EXTERNI ODSTUP KRIVEK"
+        "name": "Zdroj tepla externi odstup krivek"
       },
       "heating_external_blocking_time": {
-        "name": "ZDROJ TEPLA EXTERNI CASOVE BLOKOVANI EL ROZV"
+        "name": "Zdroj tepla externi casove blokovani EL rozv"
       },
       "heating_external_dual_mode_temp": {
-        "name": "ZDROJ TEPLA EXTERNI BIVALENTNI TEPLOTA TOPENI"
+        "name": "Zdroj tepla externi bivalentni teplota topeni"
       },
       "heating_external_lower_limit": {
-        "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI HZG"
+        "name": "Zdroj tepla externi dolni hranice pouziti hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "TEPLOTY TEPLE VODY KOMFORTNI TEPLOTA"
+        "name": "Teploty teple vody komfortni teplota"
       },
       "dhw_eco_temperature": {
-        "name": "TEPLOTY TEPLE VODY EKO TEPLOTA"
+        "name": "Teploty teple vody eko teplota"
       },
       "dhw_mode": {
-        "name": "ZÁKLADNÍ NASTAVENÍ REŽIM OHŘEVU TUV",
+        "name": "Základní nastavení režim ohřevu tuv",
         "state": {
-          "priority_operation": "PRIORITNI PROVOZ",
-          "parallel_operation": "PARALELNI PROVOZ",
-          "partial_priority": "DILCI PRIORITA"
+          "priority_operation": "Prioritní provoz",
+          "parallel_operation": "Paralelní provoz",
+          "partial_priority": "Dílčí priorita"
         }
       },
       "dhw_hysteresis": {
-        "name": "ZÁKLADNÍ NASTAVENÍ HYSTEREZE TEPLE VODY"
+        "name": "Základní nastavení hystereze teple vody"
       },
       "dhw_stages": {
-        "name": "ZÁKLADNÍ NASTAVENÍ STUPEN TEPLE VODY"
+        "name": "Základní nastavení stupen teple vody"
       },
       "dhw_learning_function": {
-        "name": "UCICI PROGR TUV UCICI PROGR TUV"
+        "name": "Ucici progr tuv ucici progr tuv"
       },
       "dhw_combi_cylinder": {
-        "name": "KOMBINOVANY ZASOBNIK KOMBINOVANY ZASOBNIK"
+        "name": "Kombinovany zasobnik kombinovany zasobnik"
       },
       "dhw_output_summer": {
-        "name": "VYKON TUV LETO"
+        "name": "Vykon tuv leto"
       },
       "dhw_output_winter": {
-        "name": "VYKON TUV ZIMA"
+        "name": "Vykon tuv zima"
       },
       "dhw_max_flow_temp": {
-        "name": "MAX VSTUP TEPL TOP VODY MAX VSTUP TEPL TOP VODY"
+        "name": "Max vstup tepl top vody max vstup tepl top vody"
       },
       "dhw_pasteurisation": {
-        "name": "TEPELNA DEZINFEKCE TEPELNA DEZINFEKCE"
+        "name": "Tepelna dezinfekce tepelna dezinfekce"
       },
       "dhw_pasteurisation_temp": {
-        "name": "TEPELNA DEZINFEKCE POŽADOVANÁ TEPLOTA"
+        "name": "Tepelna dezinfekce požadovaná teplota"
       },
       "dhw_external_source": {
-        "name": "ZDROJ TEPLA EXTERNI ZDROJ TEPLA EXTERNI"
+        "name": "Zdroj tepla externi zdroj tepla externi"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "ZDROJ TEPLA EXTERNI BIVALENT TEPL TEPLA VODA"
+        "name": "Zdroj tepla externi bivalent tepl tepla voda"
       },
       "dhw_external_lower_limit": {
-        "name": "ZDROJ TEPLA EXTERNI DOLNI HRANICE POUZITI TUV"
+        "name": "Zdroj tepla externi dolni hranice pouziti tuv"
       },
       "dhw_external_pwm": {
-        "name": "ZDROJ TEPLA EXTERNI TUV-PWM"
+        "name": "Zdroj tepla externi tuv-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY AKTIV."
+        "name": "Energiemanagement sgready aktiv."
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Akum. zásobník topení"
+        "name": "Energiemanagement Akum. zásobník topení"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT HOR.TEP.MÍST./AK.ZÁS. TO1"
+        "name": "Energiemanagement hor.tep.míst./ak.zás. TO1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT HOR. TEP. MÍST. TO2"
+        "name": "Energiemanagement hor. tep. míst. TO2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT HOR. POŽ. TEP. TV"
+        "name": "Energiemanagement hor. pož. tep. TV"
       }
     },
     "binary_sensor": {

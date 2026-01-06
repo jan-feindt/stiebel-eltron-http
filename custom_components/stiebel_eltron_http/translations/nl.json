@@ -24,103 +24,103 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "ACTUELE BUFFERTEMPERATUUR"
+        "name": "Actuele buffertemperatuur"
       },
       "actual_temperature_hk_1": {
-        "name": "ACTUELE TEMPERATUUR HK 1"
+        "name": "Actuele temperatuur HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "ACTUELE TEMPERATUUR HK 2"
+        "name": "Actuele temperatuur HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "INGANGSTEMPERATUUR COMPRESSOR"
+        "name": "Ingangstemperatuur compressor"
       },
       "compressor_speed_actual": {
-        "name": "ACTUEEL TOERENTAL COMP"
+        "name": "Actueel toerental comp"
       },
       "compressor_speed_target": {
-        "name": "GEVRAAGD TOERENTAL COMP."
+        "name": "Gevraagd toerental comp."
       },
       "compressor_starts": {
-        "name": "COMPRESSOR STARTS"
+        "name": "Compressor starts"
       },
       "condenser_temperature": {
-        "name": "CONDENSORTEMPERATUUR"
+        "name": "Condensortemperatuur"
       },
       "dhw_consumed_today": {
-        "name": "STROOMVERBRUIK WARM WATER 1-24 h"
+        "name": "Stroomverbruik warm water 1-24 h"
       },
       "dhw_temperature": {
-        "name": "WARM WATER ACTUELE TEMPERATUUR"
+        "name": "Warm water actuele temperatuur"
       },
       "efficiency_dhw_13_24m": {
-        "name": "EFFICIËNTIE WARM WATER 13-24 M"
+        "name": "Efficiëntie warm water 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "INGANGSTEMPERATUUR VERDAMPER"
+        "name": "Ingangstemperatuur verdamper"
       },
       "evaporator_outlet_temperature": {
-        "name": "UITGANGSTEMPERATUUR VERDAMPER"
+        "name": "Uitgangstemperatuur verdamper"
       },
       "external_actual_temperature": {
-        "name": "WARMTEOPWEKKER EXTERN ACTUELE TEMPERATUUR"
+        "name": "Warmteopwekker extern actuele temperatuur"
       },
       "external_set_temperature": {
-        "name": "WARMTEOPWEKKER EXTERN NOMINALE TEMPERATUUR"
+        "name": "Warmteopwekker extern nominale temperatuur"
       },
       "fan_power_relative": {
-        "name": "VENTILATORVERM REL"
+        "name": "Ventilatorverm rel"
       },
       "frost_protection_temperature": {
-        "name": "VORSTBESCHERMING"
+        "name": "Vorstbescherming"
       },
       "heating_consumed_today": {
-        "name": "STROOMVERBRUIK VERWARMEN 1-24 h"
+        "name": "Stroomverbruik verwarmen 1-24 h"
       },
       "high_pressure": {
-        "name": "DRUK HOGEDRUK"
+        "name": "Druk hogedruk"
       },
       "hot_gas_temperature": {
-        "name": "PERSGASTEMPERATUUR"
+        "name": "Persgastemperatuur"
       },
       "inverter_current": {
-        "name": "STROOM INVERTER"
+        "name": "Stroom inverter"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "OPNAMEVERMOGEN INVERTER"
+        "name": "Opnamevermogen inverter"
       },
       "inverter_voltage": {
-        "name": "SPANNING INVERTER"
+        "name": "Spanning inverter"
       },
       "lower_limit_hzg": {
-        "name": "OND WERKINGSGEBIED HZG"
+        "name": "Ond werkingsgebied hzg"
       },
       "lower_limit_ww": {
-        "name": "OND WERKINGSGEBIED WW"
+        "name": "Ond werkingsgebied WW"
       },
       "low_pressure": {
-        "name": "DRUK LAGEDRUK"
+        "name": "Druk lagedruk"
       },
       "oil_sump_temperature": {
-        "name": "OLIECARTERTEMPERATUUR"
+        "name": "Oliecartertemperatuur"
       },
       "outside_temperature": {
-        "name": "BUITENTEMPERATUUR"
+        "name": "Buitentemperatuur"
       },
       "return_temperature": {
-        "name": "RETOURTEMPERATUUR"
+        "name": "Retourtemperatuur"
       },
       "set_buffer_temperature": {
-        "name": "GEVRAAGDE BUFFERTEMP"
+        "name": "Gevraagde buffertemp"
       },
       "set_temperature_hk_1": {
-        "name": "GEVRAAGDE TEMP. HK 1"
+        "name": "Gevraagde temp. HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "GEVRAAGDE TEMP. HK 2"
+        "name": "Gevraagde temp. HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready actief"
@@ -135,249 +135,249 @@
         "name": "Bedrijfsmodus"
       },
       "supply_temperature": {
-        "name": "AANVOERTEMPERATUUR"
+        "name": "Aanvoertemperatuur"
       },
       "total_dhw_consumed": {
-        "name": "STROOMVERBRUIK WARM WATER 1-12 M"
+        "name": "Stroomverbruik warm water 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "STROOMVERBRUIK VERWARMEN 1-12 M"
+        "name": "Stroomverbruik verwarmen 1-12 M"
       },
       "water_flow": {
-        "name": "WP WATERDEBIET"
+        "name": "Wp waterdebiet"
       },
       "dual_mode_temp_hzg": {
-        "name": "BIVALENTIETEMPERATUUR HZG"
+        "name": "Bivalentietemperatuur hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "BIVALENTIETEMPERATUUR WW"
+        "name": "Bivalentietemperatuur WW"
       },
       "efficiency_dhw_today": {
-        "name": "EFFICIËNTIE WARM WATER 1-24 h"
+        "name": "Efficiëntie warm water 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "EFFICIËNTIE WARM WATER 1-12 M"
+        "name": "Efficiëntie warm water 1-12 M"
       },
       "runtime_vd_dhw": {
-        "name": "VD WARM WATER"
+        "name": "VD warm water"
       },
       "efficiency_heating_today": {
-        "name": "EFFICIËNTIE VERWARMEN 1-24 h"
+        "name": "Efficiëntie verwarmen 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "EFFICIËNTIE VERWARMEN 1-12 M"
+        "name": "Efficiëntie verwarmen 1-12 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "EFFICIËNTIE VERWARMEN 13-24 M"
+        "name": "Efficiëntie verwarmen 13-24 M"
       },
       "runtime_vd_heating": {
-        "name": "VD VERWARMEN"
+        "name": "VD verwarmen"
       },
       "runtime_vd_defrost": {
-        "name": "VD ONTDOOIEN"
+        "name": "VD ontdooien"
       },
       "defrost_time": {
-        "name": "TIJD ONTDOOIEN"
+        "name": "Tijd ontdooien"
       },
       "defrost_starts": {
-        "name": "BEGIN ONTDOOIEN"
+        "name": "Begin ontdooien"
       },
       "dhw_set_temperature": {
-        "name": "WARM WATER NOMINALE TEMPERATUUR"
+        "name": "Warm water nominale temperatuur"
       },
       "heat_produced_today": {
-        "name": "WARMTEHOEVEELHEID VERWARMEN 1-24 h"
+        "name": "Warmtehoeveelheid verwarmen 1-24 h"
       },
       "total_heat_produced": {
-        "name": "WARMTEHOEVEELHEID VERWARMEN 1-12 M"
+        "name": "Warmtehoeveelheid verwarmen 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "WARMTEHOEVEELHEID WARM WATER 1-24 h"
+        "name": "Warmtehoeveelheid warm water 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "WARMTEHOEVEELHEID WARM WATER 1-12 M"
+        "name": "Warmtehoeveelheid warm water 1-12 M"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "VERMOGENSBEÏNLVOEDING VERWARMINGSBUFFER"
+        "name": "Vermogensbeïnlvoeding verwarmingsbuffer"
       },
       "wcci_operating_mode": {
-        "name": "VERMOGENSBEÏNLVOEDING ACTUELE TOESTAND"
+        "name": "Vermogensbeïnlvoeding actuele toestand"
       },
       "wcci_user_power_limit": {
-        "name": "VERMOGENSBEÏNLVOEDING VERMOGENSBEGRENZING"
+        "name": "Vermogensbeïnlvoeding vermogensbegrenzing"
       },
       "wcci_load_temp_room_1": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR VERWARMINGSCIRCUIT 1 / BUFFER"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur verwarmingscircuit 1 / buffer"
       },
       "wcci_load_temp_room_2": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR VERWARMINGSCIRCUIT 2"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur verwarmingscircuit 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR VERWARMINGSCIRCUIT 3"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur verwarmingscircuit 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR VERWARMINGSCIRCUIT 4"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur verwarmingscircuit 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR VERWARMINGSCIRCUIT 5"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur verwarmingscircuit 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR BUFFER"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur buffer"
       },
       "wcci_load_temp_dhw": {
-        "name": "VERMOGENSBEÏNLVOEDING LAADTEMPERATUUR WARM WATER"
+        "name": "Vermogensbeïnlvoeding laadtemperatuur warm water"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "VERMOGENSBEÏNLVOEDING LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Vermogensbeïnlvoeding limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "VERWARMINGSCIRCUIT 1 COMFORT TEMPERATUUR"
+        "name": "Verwarmingscircuit 1 comfort temperatuur"
       },
       "hc1_eco_temperature": {
-        "name": "VERWARMINGSCIRCUIT 1 ECO TEMPERATUUR"
+        "name": "Verwarmingscircuit 1 eco temperatuur"
       },
       "hc1_minimum_temperature": {
-        "name": "VERWARMINGSCIRCUIT 1 MINIMUMTEMPERATUUR"
+        "name": "Verwarmingscircuit 1 minimumtemperatuur"
       },
       "hc1_heating_curve_rise": {
-        "name": "VERWARMINGSCIRCUIT 1 STIJGING VERWARMINGSCURVE"
+        "name": "Verwarmingscircuit 1 stijging verwarmingscurve"
       },
       "hc2_comfort_temperature": {
-        "name": "VERWARMINGSCIRCUIT 2 COMFORT TEMPERATUUR"
+        "name": "Verwarmingscircuit 2 comfort temperatuur"
       },
       "hc2_eco_temperature": {
-        "name": "VERWARMINGSCIRCUIT 2 ECO TEMPERATUUR"
+        "name": "Verwarmingscircuit 2 eco temperatuur"
       },
       "hc2_minimum_temperature": {
-        "name": "VERWARMINGSCIRCUIT 2 MINIMUMTEMPERATUUR"
+        "name": "Verwarmingscircuit 2 minimumtemperatuur"
       },
       "hc2_maximum_temperature": {
-        "name": "VERWARMINGSCIRCUIT 2 MAXIMAALTEMPERATUUR"
+        "name": "Verwarmingscircuit 2 maximaaltemperatuur"
       },
       "hc2_mixer_dynamics": {
-        "name": "VERWARMINGSCIRCUIT 2 MENGDYNAMIEK"
+        "name": "Verwarmingscircuit 2 mengdynamiek"
       },
       "hc2_heating_curve_rise": {
-        "name": "VERWARMINGSCIRCUIT 2 STIJGING VERWARMINGSCURVE"
+        "name": "Verwarmingscircuit 2 stijging verwarmingscurve"
       },
       "heating_buffer_operation": {
-        "name": "BASISINSTELLING BUFFERWERKING"
+        "name": "Basisinstelling bufferwerking"
       },
       "heating_max_return_temp": {
-        "name": "BASISINSTELLING MAX RETOURTEMPERATUUR"
+        "name": "Basisinstelling max retourtemperatuur"
       },
       "heating_max_flow_temp": {
-        "name": "BASISINSTELLING MAX AANVOERTEMPERATUUR"
+        "name": "Basisinstelling max aanvoertemperatuur"
       },
       "heating_fixed_value_operation": {
-        "name": "BASISINSTELLING VASTE-WAARDEWERKING"
+        "name": "Basisinstelling vaste-waardewerking"
       },
       "heating_frost_protection": {
-        "name": "BASISINSTELLING VORSTBESCHERMING"
+        "name": "Basisinstelling vorstbescherming"
       },
       "heating_summer_mode": {
-        "name": "ZOMERBEDRIJF"
+        "name": "Zomerbedrijf"
       },
       "heating_summer_outside_temp": {
-        "name": "ZOMERBEDRIJF BUITENTEMPERATUUR"
+        "name": "Zomerbedrijf buitentemperatuur"
       },
       "heating_summer_heat_buffer": {
-        "name": "ZOMERBEDRIJF GEBOUWDEMPING"
+        "name": "Zomerbedrijf gebouwdemping"
       },
       "heating_pump_cycles": {
-        "name": "POMPCYCLI"
+        "name": "Pompcycli"
       },
       "heating_external_source": {
-        "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+        "name": "Warmteopwekker extern warmteopwekker extern"
       },
       "heating_external_curve_gap": {
-        "name": "WARMTEOPWEKKER EXTERN AFSTAND VERWARMINGSCURVE"
+        "name": "Warmteopwekker extern afstand verwarmingscurve"
       },
       "heating_external_blocking_time": {
-        "name": "WARMTEOPWEKKER EXTERN SPERTIJD EVU"
+        "name": "Warmteopwekker extern spertijd evu"
       },
       "heating_external_dual_mode_temp": {
-        "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR HZG"
+        "name": "Warmteopwekker extern bivalentietemperatuur hzg"
       },
       "heating_external_lower_limit": {
-        "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED HZG"
+        "name": "Warmteopwekker extern ond werkingsgebied hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "WARMWATERTEMPERATUREN COMFORT TEMPERATUUR"
+        "name": "Warmwatertemperaturen comfort temperatuur"
       },
       "dhw_eco_temperature": {
-        "name": "WARMWATERTEMPERATUREN ECO TEMPERATUUR"
+        "name": "Warmwatertemperaturen eco temperatuur"
       },
       "dhw_mode": {
-        "name": "BASISINSTELLING WW-BEDRIJF",
+        "name": "Basisinstelling ww-bedrijf",
         "state": {
-          "priority_operation": "VOORRANGSWERKING",
-          "parallel_operation": "PARALLELLE WERKING",
-          "partial_priority": "DEEL VOORRANG"
+          "priority_operation": "Voorrangswerking",
+          "parallel_operation": "Parallelle werking",
+          "partial_priority": "Deel voorrang"
         }
       },
       "dhw_hysteresis": {
-        "name": "BASISINSTELLING WARMWATERHYSTERESIS"
+        "name": "Basisinstelling warmwaterhysteresis"
       },
       "dhw_stages": {
-        "name": "BASISINSTELLING WARMWATERTRAPPEN"
+        "name": "Basisinstelling warmwatertrappen"
       },
       "dhw_learning_function": {
-        "name": "WW ZELFLEERFUNCTIE WW ZELFLEERFUNCTIE"
+        "name": "WW zelfleerfunctie WW zelfleerfunctie"
       },
       "dhw_combi_cylinder": {
-        "name": "COMBI-BOILER"
+        "name": "Combi-boiler"
       },
       "dhw_output_summer": {
-        "name": "WW VERMOGEN ZOMER"
+        "name": "WW vermogen zomer"
       },
       "dhw_output_winter": {
-        "name": "WW VERMOGEN WINTER"
+        "name": "WW vermogen winter"
       },
       "dhw_max_flow_temp": {
-        "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"
+        "name": "Max aanvoertemperatuur max aanvoertemperatuur"
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLABEHANDELING"
+        "name": "Antilegionellabehandeling"
       },
       "dhw_pasteurisation_temp": {
-        "name": "ANTILEGIONELLABEHANDELING NOMINALE TEMPERATUUR"
+        "name": "Antilegionellabehandeling nominale temperatuur"
       },
       "dhw_external_source": {
-        "name": "WARMTEOPWEKKER EXTERN WARMTEOPWEKKER EXTERN"
+        "name": "Warmteopwekker extern warmteopwekker extern"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "WARMTEOPWEKKER EXTERN BIVALENTIETEMPERATUUR WW"
+        "name": "Warmteopwekker extern bivalentietemperatuur WW"
       },
       "dhw_external_lower_limit": {
-        "name": "WARMTEOPWEKKER EXTERN OND WERKINGSGEBIED WW"
+        "name": "Warmteopwekker extern ond werkingsgebied WW"
       },
       "dhw_external_pwm": {
-        "name": "WARMTEOPWEKKER EXTERN WW-PWM"
+        "name": "Warmteopwekker extern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY GEACTIV."
+        "name": "Energiemanagement sgready geactiv."
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Verwarmingsbuffer"
+        "name": "Energiemanagement Verwarmingsbuffer"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT BOV. KAMER-/BUF.TEMP. HK1"
+        "name": "Energiemanagement bov. kamer-/buf.temp. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT BOV. KAMERTEMP. HK2"
+        "name": "Energiemanagement bov. kamertemp. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT BOV. NOM. WARMWATERTEMP."
+        "name": "Energiemanagement bov. nom. warmwatertemp."
       }
     },
     "binary_sensor": {

@@ -24,100 +24,100 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "TEMP. REELLE TAMPON"
+        "name": "Temp. reelle tampon"
       },
       "actual_temperature_hk_1": {
-        "name": "TEMPERATURE REELLE CC 1"
+        "name": "Temperature reelle CC 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TEMPERATURE REELLE CC 2"
+        "name": "Temperature reelle CC 2"
       },
       "compressor_inlet_temperature": {
-        "name": "TEMP. ASPIRATION COMP."
+        "name": "Temp. aspiration comp."
       },
       "compressor_speed_actual": {
-        "name": "VIT ROT REEL COMPRESSEUR"
+        "name": "Vit rot reel compresseur"
       },
       "compressor_speed_target": {
-        "name": "CONSIGNE VITESSE COMP."
+        "name": "Consigne vitesse comp."
       },
       "condenser_temperature": {
-        "name": "TEMPERATURE CONDENSEUR"
+        "name": "Temperature condenseur"
       },
       "dhw_consumed_today": {
-        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+        "name": "Eau chaude sanitaire 1-24 h"
       },
       "dhw_temperature": {
-        "name": "TEMPERATURE REELLE"
+        "name": "Temperature reelle"
       },
       "efficiency_dhw_13_24m": {
-        "name": "EAU CHAUDE SANITAIRE 13-24 M"
+        "name": "Eau chaude sanitaire 13-24 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "CHAUFFAGE 13-24 M"
+        "name": "Chauffage 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "TEMP. ENTRÉE ÉVAPORATEUR"
+        "name": "Temp. entrée évaporateur"
       },
       "evaporator_outlet_temperature": {
-        "name": "TEMP. SORTIE ÉVAPORATEUR"
+        "name": "Temp. sortie évaporateur"
       },
       "external_actual_temperature": {
-        "name": "TEMPERATURE REELLE"
+        "name": "Temperature reelle"
       },
       "external_set_temperature": {
-        "name": "TEMPÉRATURE DE CONSIGNE"
+        "name": "Température DE consigne"
       },
       "fan_power_relative": {
-        "name": "PUISS. DE VENT. RELATIVE"
+        "name": "Puiss. DE vent. relative"
       },
       "frost_protection_temperature": {
-        "name": "HORS GEL"
+        "name": "Hors gel"
       },
       "heating_consumed_today": {
-        "name": "CHAUFFAGE 1-24 h"
+        "name": "Chauffage 1-24 h"
       },
       "high_pressure": {
-        "name": "PRESSION HAUTE PRESSION"
+        "name": "Pression haute pression"
       },
       "hot_gas_temperature": {
-        "name": "TEMP. GAZ CHAUDS"
+        "name": "Temp. gaz chauds"
       },
       "inverter_power": {
-        "name": "PUISS INVERTER"
+        "name": "Puiss inverter"
       },
       "inverter_power_input": {
-        "name": "PUISS. ABSORBÉE INVERTER"
+        "name": "Puiss. absorbée inverter"
       },
       "inverter_voltage": {
-        "name": "TENSION INVERTER"
+        "name": "Tension inverter"
       },
       "lower_limit_hzg": {
-        "name": "LIMITE INF. CHAUFFAGE"
+        "name": "Limite inf. chauffage"
       },
       "lower_limit_ww": {
-        "name": "LIMITE INF. ECS"
+        "name": "Limite inf. ecs"
       },
       "low_pressure": {
-        "name": "PRESSION BASSE PRESSION"
+        "name": "Pression basse pression"
       },
       "oil_sump_temperature": {
-        "name": "TEMPERATURE CARTER HUILE"
+        "name": "Temperature carter huile"
       },
       "outside_temperature": {
-        "name": "TEMPERATURE EXTERIEURE"
+        "name": "Temperature exterieure"
       },
       "return_temperature": {
-        "name": "TEMPERATURE RETOUR"
+        "name": "Temperature retour"
       },
       "set_buffer_temperature": {
-        "name": "CONSIGNE TEMP. TAMPON"
+        "name": "Consigne temp. tampon"
       },
       "set_temperature_hk_1": {
-        "name": "CONSIGNE TEMP. CC1"
+        "name": "Consigne temp. CC1"
       },
       "set_temperature_hk_2": {
-        "name": "CONSIGNE TEMP. CC2"
+        "name": "Consigne temp. CC2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready actif"
@@ -132,252 +132,252 @@
         "name": "Mode de fonctionnement"
       },
       "supply_temperature": {
-        "name": "TEMPERATURE DEPART"
+        "name": "Temperature depart"
       },
       "total_dhw_consumed": {
-        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+        "name": "Eau chaude sanitaire 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "CHAUFFAGE 1-12 M"
+        "name": "Chauffage 1-12 M"
       },
       "water_flow": {
-        "name": "DEBIT EAU PAC"
+        "name": "Debit eau pac"
       },
       "efficiency_heating_today": {
-        "name": "CHAUFFAGE 1-24 h"
+        "name": "Chauffage 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "CHAUFFAGE 1-12 M"
+        "name": "Chauffage 1-12 M"
       },
       "efficiency_dhw_today": {
-        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+        "name": "Eau chaude sanitaire 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+        "name": "Eau chaude sanitaire 1-12 M"
       },
       "heat_produced_today": {
-        "name": "CHAUFFAGE 1-24 h"
+        "name": "Chauffage 1-24 h"
       },
       "total_heat_produced": {
-        "name": "CHAUFFAGE 1-12 M"
+        "name": "Chauffage 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "EAU CHAUDE SANITAIRE 1-24 h"
+        "name": "Eau chaude sanitaire 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "EAU CHAUDE SANITAIRE 1-12 M"
+        "name": "Eau chaude sanitaire 1-12 M"
       },
       "dual_mode_temp_hzg": {
-        "name": "TEMP. BIVALENCE CHAUFFAGE"
+        "name": "Temp. bivalence chauffage"
       },
       "dual_mode_temp_ww": {
-        "name": "TEMP. BIVALENCE ECS"
+        "name": "Temp. bivalence ecs"
       },
       "runtime_vd_heating": {
-        "name": "COMP. CHAUFFAGE"
+        "name": "Comp. chauffage"
       },
       "runtime_vd_dhw": {
-        "name": "COMP. ECS"
+        "name": "Comp. ecs"
       },
       "runtime_vd_defrost": {
-        "name": "COMP. DEGIVRAGE"
+        "name": "Comp. degivrage"
       },
       "defrost_time": {
-        "name": "DUREE DEGIVRAGE"
+        "name": "Duree degivrage"
       },
       "defrost_starts": {
-        "name": "DEMARRAGE DEGIVRAGE"
+        "name": "Demarrage degivrage"
       },
       "compressor_starts": {
-        "name": "COMPRESSEUR DÉMARRAGES"
+        "name": "Compresseur démarrages"
       },
       "dhw_set_temperature": {
-        "name": "TEMPÉRATURE DE CONSIGNE"
+        "name": "Température DE consigne"
       },
       "inverter_current": {
-        "name": "INTENSITE INVERTER"
+        "name": "Intensite inverter"
       },
       "wcci_input_mode": {
-        "name": "INFLUENCE SUR LA PUISSANCE MODE DE SAISIE"
+        "name": "Influence sur LA puissance mode DE saisie"
       },
       "wcci_input_source": {
-        "name": "INFLUENCE SUR LA PUISSANCE SOURCE D'ENTRÉE"
+        "name": "Influence sur LA puissance source d'entrée"
       },
       "wcci_buffer": {
-        "name": "INFLUENCE SUR LA PUISSANCE BALLON TAMPON CHAUFFAGE"
+        "name": "Influence sur LA puissance ballon tampon chauffage"
       },
       "wcci_operating_mode": {
-        "name": "INFLUENCE SUR LA PUISSANCE ÉTAT ACTUEL"
+        "name": "Influence sur LA puissance état actuel"
       },
       "wcci_user_power_limit": {
-        "name": "INFLUENCE SUR LA PUISSANCE LIMITATION DE PUISSANCE"
+        "name": "Influence sur LA puissance limitation DE puissance"
       },
       "wcci_load_temp_room_1": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 1 / TAMPON"
+        "name": "Influence sur LA puissance temp. charge circuit chauffage 1 / tampon"
       },
       "wcci_load_temp_room_2": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 2"
+        "name": "Influence sur LA puissance temp. charge circuit chauffage 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 3"
+        "name": "Influence sur LA puissance temp. charge circuit chauffage 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 4"
+        "name": "Influence sur LA puissance temp. charge circuit chauffage 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE CIRCUIT CHAUFFAGE 5"
+        "name": "Influence sur LA puissance temp. charge circuit chauffage 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE TAMPON"
+        "name": "Influence sur LA puissance temp. charge tampon"
       },
       "wcci_load_temp_dhw": {
-        "name": "INFLUENCE SUR LA PUISSANCE TEMP. CHARGE ECS"
+        "name": "Influence sur LA puissance temp. charge ecs"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "INFLUENCE SUR LA PUISSANCE FONCTIONNALITÉ DE LIMITATION BLOQUÉE"
+        "name": "Influence sur LA puissance fonctionnalité DE limitation bloquée"
       },
       "hc1_comfort_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE CONFORT"
+        "name": "Circuit chauffage 1 température confort"
       },
       "hc1_eco_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE ÉCO"
+        "name": "Circuit chauffage 1 température éco"
       },
       "hc1_minimum_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 1 TEMPÉRATURE MINIMALE"
+        "name": "Circuit chauffage 1 température minimale"
       },
       "hc1_heating_curve_rise": {
-        "name": "CIRCUIT CHAUFFAGE 1 PENTE COURBE DE CHAUFFE"
+        "name": "Circuit chauffage 1 pente courbe DE chauffe"
       },
       "hc2_comfort_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE CONFORT"
+        "name": "Circuit chauffage 2 température confort"
       },
       "hc2_eco_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE ÉCO"
+        "name": "Circuit chauffage 2 température éco"
       },
       "hc2_minimum_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 2 TEMPÉRATURE MINIMALE"
+        "name": "Circuit chauffage 2 température minimale"
       },
       "hc2_maximum_temperature": {
-        "name": "CIRCUIT CHAUFFAGE 2 TEMPERATURE MAX."
+        "name": "Circuit chauffage 2 temperature max."
       },
       "hc2_mixer_dynamics": {
-        "name": "CIRCUIT CHAUFFAGE 2 DYNAMIQUE VANNE MÉLANG."
+        "name": "Circuit chauffage 2 dynamique vanne mélang."
       },
       "hc2_heating_curve_rise": {
-        "name": "CIRCUIT CHAUFFAGE 2 PENTE COURBE DE CHAUFFE"
+        "name": "Circuit chauffage 2 pente courbe DE chauffe"
       },
       "heating_buffer_operation": {
-        "name": "RÉGLAGE DE BASE MODE BALLON TAMPON"
+        "name": "Réglage DE base mode ballon tampon"
       },
       "heating_max_return_temp": {
-        "name": "RÉGLAGE DE BASE TEMP.  MAX. RETOUR"
+        "name": "Réglage DE base temp. max. retour"
       },
       "heating_max_flow_temp": {
-        "name": "RÉGLAGE DE BASE TEMP. MAX. DEPART"
+        "name": "Réglage DE base temp. max. depart"
       },
       "heating_fixed_value_operation": {
-        "name": "RÉGLAGE DE BASE MODE CONSIGNE FIXE"
+        "name": "Réglage DE base mode consigne fixe"
       },
       "heating_frost_protection": {
-        "name": "RÉGLAGE DE BASE HORS GEL"
+        "name": "Réglage DE base hors gel"
       },
       "heating_summer_mode": {
-        "name": "MODE ETE MODE ETE"
+        "name": "Mode ete mode ete"
       },
       "heating_summer_outside_temp": {
-        "name": "MODE ETE TEMPERATURE EXTERIEURE"
+        "name": "Mode ete temperature exterieure"
       },
       "heating_summer_heat_buffer": {
-        "name": "MODE ETE ISOLATION BATIMENT"
+        "name": "Mode ete isolation batiment"
       },
       "heating_pump_cycles": {
-        "name": "CYCLES POMPES CYCLES POMPES"
+        "name": "Cycles pompes cycles pompes"
       },
       "heating_external_source": {
-        "name": "GENERATEUR CHAL. EXTERNE GENERATEUR CHAL. EXTERNE"
+        "name": "Generateur chal. externe generateur chal. externe"
       },
       "heating_external_curve_gap": {
-        "name": "GENERATEUR CHAL. EXTERNE ECART COURBE DE CHAUFFE"
+        "name": "Generateur chal. externe ecart courbe DE chauffe"
       },
       "heating_external_blocking_time": {
-        "name": "GENERATEUR CHAL. EXTERNE INTERDICTION TARIFAIRE"
+        "name": "Generateur chal. externe interdiction tarifaire"
       },
       "heating_external_dual_mode_temp": {
-        "name": "GENERATEUR CHAL. EXTERNE TEMP. BIVALENCE CHAUFFAGE"
+        "name": "Generateur chal. externe temp. bivalence chauffage"
       },
       "heating_external_lower_limit": {
-        "name": "GENERATEUR CHAL. EXTERNE LIMITE INF. CHAUFFAGE"
+        "name": "Generateur chal. externe limite inf. chauffage"
       },
       "dhw_comfort_temperature": {
-        "name": "TEMPERATURES ECS TEMPÉRATURE CONFORT"
+        "name": "Temperatures ecs température confort"
       },
       "dhw_eco_temperature": {
-        "name": "TEMPERATURES ECS TEMPÉRATURE ÉCO"
+        "name": "Temperatures ecs température éco"
       },
       "dhw_mode": {
-        "name": "RÉGLAGE DE BASE MODE ECS",
+        "name": "Réglage DE base mode ecs",
         "state": {
-          "priority_operation": "MODE PRIORITE",
-          "parallel_operation": "MODE PARALLELE",
-          "partial_priority": "PRIORITE PARTIELLE"
+          "priority_operation": "Mode priorité",
+          "parallel_operation": "Mode parallèle",
+          "partial_priority": "Priorité partielle"
         }
       },
       "dhw_hysteresis": {
-        "name": "RÉGLAGE DE BASE HYSTERESIS ECS"
+        "name": "Réglage DE base hysteresis ecs"
       },
       "dhw_stages": {
-        "name": "RÉGLAGE DE BASE NIVEAUX ECS"
+        "name": "Réglage DE base niveaux ecs"
       },
       "dhw_learning_function": {
-        "name": "APPRENTISSAGE ECS APPRENTISSAGE ECS"
+        "name": "Apprentissage ecs apprentissage ecs"
       },
       "dhw_combi_cylinder": {
-        "name": "BALLON COMBINE BALLON COMBINE"
+        "name": "Ballon combine ballon combine"
       },
       "dhw_output_summer": {
-        "name": "PUISSANCE ECS ÉTÉ"
+        "name": "Puissance ecs été"
       },
       "dhw_output_winter": {
-        "name": "PUISSANCE ECS HIVER"
+        "name": "Puissance ecs hiver"
       },
       "dhw_max_flow_temp": {
-        "name": "TEMP. MAX. DEPART TEMP. MAX. DEPART"
+        "name": "Temp. max. depart temp. max. depart"
       },
       "dhw_pasteurisation": {
-        "name": "TRAITEMENT ANTI-LEGIONEL. TRAITEMENT ANTI-LEGIONEL."
+        "name": "Traitement anti-legionel. traitement anti-legionel."
       },
       "dhw_pasteurisation_temp": {
-        "name": "TRAITEMENT ANTI-LEGIONEL. TEMPÉRATURE DE CONSIGNE"
+        "name": "Traitement anti-legionel. température DE consigne"
       },
       "dhw_external_source": {
-        "name": "GENERATEUR CHAL. EXTERNE GENERATEUR CHAL. EXTERNE"
+        "name": "Generateur chal. externe generateur chal. externe"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "GENERATEUR CHAL. EXTERNE TEMP. BIVALENCE ECS"
+        "name": "Generateur chal. externe temp. bivalence ecs"
       },
       "dhw_external_lower_limit": {
-        "name": "GENERATEUR CHAL. EXTERNE LIMITE INF. ECS"
+        "name": "Generateur chal. externe limite inf. ecs"
       },
       "dhw_external_pwm": {
-        "name": "GENERATEUR CHAL. EXTERNE ECS-PWM"
+        "name": "Generateur chal. externe ecs-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY ACTIVÉ"
+        "name": "Energiemanagement sgready activé"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Ballon tampon chauffage"
+        "name": "Energiemanagement Ballon tampon chauffage"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT TEMP. AMB./TAMPON SUP. CC1"
+        "name": "Energiemanagement temp. amb./tampon sup. CC1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT TEMP. AMB. SUP. CC2"
+        "name": "Energiemanagement temp. amb. sup. CC2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT TEMP. CONS. ECS SUP"
+        "name": "Energiemanagement temp. cons. ecs sup"
       }
     },
     "binary_sensor": {

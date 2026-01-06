@@ -24,76 +24,76 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "ACTUAL BUFFER TEMPERATURE"
+        "name": "Actual buffer temperature"
       },
       "actual_temperature_hk_1": {
-        "name": "ACTUAL TEMPERATURE HK 1"
+        "name": "Actual temperature HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "ACTUAL TEMPERATURE HK 2"
+        "name": "Actual temperature HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "COMPRESSOR INLET TEMPERATURE"
+        "name": "Compressor inlet temperature"
       },
       "compressor_speed_actual": {
-        "name": "ACTUAL COMPRESSOR SPEED"
+        "name": "Actual compressor speed"
       },
       "compressor_speed_target": {
-        "name": "SET COMPRESSOR SPEED"
+        "name": "Set compressor speed"
       },
       "compressor_starts": {
-        "name": "COMPRESSOR STARTS"
+        "name": "Compressor starts"
       },
       "condenser_temperature": {
-        "name": "CONDENSER TEMPERATURE"
+        "name": "Condenser temperature"
       },
       "defrost_starts": {
-        "name": "DEFROST STARTS"
+        "name": "Defrost starts"
       },
       "defrost_time": {
-        "name": "DEFROST TIME"
+        "name": "Defrost time"
       },
       "dhw_consumed_today": {
         "name": "DHW 1–24 h"
       },
       "dhw_produced_today": {
-        "name": "DHW PRODUCED 1–24 h"
+        "name": "DHW produced 1–24 h"
       },
       "dhw_set_temperature": {
-        "name": "SET TEMPERATURE"
+        "name": "Set temperature"
       },
       "dhw_temperature": {
-        "name": "ACTUAL TEMPERATURE"
+        "name": "Actual temperature"
       },
       "dual_mode_temp_hzg": {
-        "name": "DUAL MODE TEMP HZG"
+        "name": "Dual mode temp hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "DUAL MODE TEMP WW"
+        "name": "Dual mode temp WW"
       },
       "efficiency_dhw_today": {
-        "name": "DHW EFFICIENCY 1–24 h"
+        "name": "DHW efficiency 1–24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "DHW EFFICIENCY 1–12 M"
+        "name": "DHW efficiency 1–12 M"
       },
       "efficiency_dhw_13_24m": {
-        "name": "DHW EFFICIENCY 13–24 M"
+        "name": "DHW efficiency 13–24 M"
       },
       "efficiency_heating_today": {
-        "name": "HEATING EFFICIENCY 1–24 h"
+        "name": "Heating efficiency 1–24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "HEATING EFFICIENCY 1–12 M"
+        "name": "Heating efficiency 1–12 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "HEATING EFFICIENCY 13–24 M"
+        "name": "Heating efficiency 13–24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "EVAPORATOR INLET TEMPERATURE"
+        "name": "Evaporator inlet temperature"
       },
       "evaporator_outlet_temperature": {
-        "name": "EVAPORATOR OUTLET TEMPERATURE"
+        "name": "Evaporator outlet temperature"
       },
       "external_actual_temperature": {
         "name": "Actual temperature external"
@@ -102,76 +102,76 @@
         "name": "Set temperature external"
       },
       "fan_power_relative": {
-        "name": "RELATIVE FAN SPEED"
+        "name": "Relative fan speed"
       },
       "frost_protection_temperature": {
-        "name": "FROST PROTECTION TEMP"
+        "name": "Frost protection temp"
       },
       "heating_consumed_today": {
-        "name": "HEATING 1–24 h"
+        "name": "Heating 1–24 h"
       },
       "heat_produced_today": {
-        "name": "HEAT PRODUCED 1–24 h"
+        "name": "Heat produced 1–24 h"
       },
       "high_pressure": {
-        "name": "HIGH PRESSURE"
+        "name": "High pressure"
       },
       "hot_gas_temperature": {
-        "name": "HOT GAS TEMPERATURE"
+        "name": "Hot gas temperature"
       },
       "inverter_current": {
-        "name": "INVERTER CURRENT"
+        "name": "Inverter current"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "INVERTER POWER CONSUMPTION"
+        "name": "Inverter power consumption"
       },
       "inverter_voltage": {
-        "name": "INVERTER VOLTAGE"
+        "name": "Inverter voltage"
       },
       "lower_limit_hzg": {
-        "name": "Lower app limit HZG"
+        "name": "Lower app limit hzg"
       },
       "lower_limit_ww": {
         "name": "Lower app limit WW"
       },
       "low_pressure": {
-        "name": "LOW PRESSURE"
+        "name": "Low pressure"
       },
       "oil_sump_temperature": {
-        "name": "OIL SUMP TEMPERATURE"
+        "name": "Oil sump temperature"
       },
       "outside_temperature": {
-        "name": "OUTSIDE TEMPERATURE"
+        "name": "Outside temperature"
       },
       "return_temperature": {
-        "name": "RETURN TEMPERATURE"
+        "name": "Return temperature"
       },
       "room_humidity": {
-        "name": "ROOM RELATIVE HUMIDITY"
+        "name": "Room relative humidity"
       },
       "room_temperature": {
-        "name": "ROOM TEMPERATURE"
+        "name": "Room temperature"
       },
       "runtime_vd_defrost": {
-        "name": "VD DEFROST"
+        "name": "Vd defrost"
       },
       "runtime_vd_dhw": {
-        "name": "VD DHW"
+        "name": "Vd DHW"
       },
       "runtime_vd_heating": {
-        "name": "VD HEATING"
+        "name": "Vd heating"
       },
       "set_buffer_temperature": {
-        "name": "SET BUFFER TEMPERATURE"
+        "name": "Set buffer temperature"
       },
       "set_temperature_hk_1": {
-        "name": "SET TEMPERATURE HK 1"
+        "name": "Set temperature HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "SET TEMPERATURE HK 2"
+        "name": "Set temperature HK 2"
       },
       "start_operation_mode": {
         "name": "Operating mode"
@@ -186,204 +186,204 @@
         "name": "Energy management status"
       },
       "supply_temperature": {
-        "name": "FLOW TEMPERATURE"
+        "name": "Flow temperature"
       },
       "total_dhw_consumed": {
         "name": "DHW 1–12 M"
       },
       "total_dhw_produced": {
-        "name": "DHW PRODUCED 1–12 M"
+        "name": "DHW produced 1–12 M"
       },
       "total_heating_consumed": {
-        "name": "HEATING 1–12 M"
+        "name": "Heating 1–12 M"
       },
       "total_heat_produced": {
-        "name": "HEAT PRODUCED 1–12 M"
+        "name": "Heat produced 1–12 M"
       },
       "water_flow": {
-        "name": "WP WATER FLOW RATE"
+        "name": "Wp water flow rate"
       },
       "wcci_input_mode": {
-        "name": "POWER CONSUMPTION CONTROL INPUT MODE"
+        "name": "Power consumption control input mode"
       },
       "wcci_input_source": {
-        "name": "POWER CONSUMPTION CONTROL INPUT SOURCE"
+        "name": "Power consumption control input source"
       },
       "wcci_buffer": {
-        "name": "POWER CONSUMPTION CONTROL BUFFER"
+        "name": "Power consumption control buffer"
       },
       "wcci_operating_mode": {
-        "name": "POWER CONSUMPTION CONTROL CURRENT STATE"
+        "name": "Power consumption control current state"
       },
       "wcci_user_power_limit": {
-        "name": "POWER CONSUMPTION CONTROL POWER LIMIT"
+        "name": "Power consumption control power limit"
       },
       "wcci_load_temp_room_1": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC1 / BUFFER"
+        "name": "Power consumption control load temperature HC1 / buffer"
       },
       "wcci_load_temp_room_2": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC2"
+        "name": "Power consumption control load temperature HC2"
       },
       "wcci_load_temp_room_3": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC3"
+        "name": "Power consumption control load temperature HC3"
       },
       "wcci_load_temp_room_4": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC4"
+        "name": "Power consumption control load temperature HC4"
       },
       "wcci_load_temp_room_5": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE HC5"
+        "name": "Power consumption control load temperature HC5"
       },
       "wcci_load_temp_buffer": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE BUFFER"
+        "name": "Power consumption control load temperature buffer"
       },
       "wcci_load_temp_dhw": {
-        "name": "POWER CONSUMPTION CONTROL LOAD TEMPERATURE DHW"
+        "name": "Power consumption control load temperature DHW"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "POWER CONSUMPTION CONTROL LIMIT FUNCTIONALITY BLOCKED"
+        "name": "Power consumption control limit functionality blocked"
       },
       "hc1_comfort_temperature": {
-        "name": "HEATING CIRCUIT 1 COMFORT TEMPERATURE"
+        "name": "Heating circuit 1 comfort temperature"
       },
       "hc1_eco_temperature": {
-        "name": "HEATING CIRCUIT 1 ECO TEMPERATURE"
+        "name": "Heating circuit 1 eco temperature"
       },
       "hc1_minimum_temperature": {
-        "name": "HEATING CIRCUIT 1 MINIMUM TEMPERATURE"
+        "name": "Heating circuit 1 minimum temperature"
       },
       "hc1_heating_curve_rise": {
-        "name": "HEATING CIRCUIT 1 HEATING CURVE RISE"
+        "name": "Heating circuit 1 heating curve rise"
       },
       "hc2_comfort_temperature": {
-        "name": "HEATING CIRCUIT 2 COMFORT TEMPERATURE"
+        "name": "Heating circuit 2 comfort temperature"
       },
       "hc2_eco_temperature": {
-        "name": "HEATING CIRCUIT 2 ECO TEMPERATURE"
+        "name": "Heating circuit 2 eco temperature"
       },
       "hc2_minimum_temperature": {
-        "name": "HEATING CIRCUIT 2 MINIMUM TEMPERATURE"
+        "name": "Heating circuit 2 minimum temperature"
       },
       "hc2_maximum_temperature": {
-        "name": "HEATING CIRCUIT 2 MAXIMUM TEMPERATURE"
+        "name": "Heating circuit 2 maximum temperature"
       },
       "hc2_mixer_dynamics": {
-        "name": "HEATING CIRCUIT 2 MIXER DYNAMICS"
+        "name": "Heating circuit 2 mixer dynamics"
       },
       "hc2_heating_curve_rise": {
-        "name": "HEATING CIRCUIT 2 HEATING CURVE RISE"
+        "name": "Heating circuit 2 heating curve rise"
       },
       "heating_buffer_operation": {
-        "name": "STANDARD SETTING BUFFER OPERATION"
+        "name": "Standard setting buffer operation"
       },
       "heating_max_return_temp": {
-        "name": "STANDARD SETTING MAXIMUM RETURN TEMP"
+        "name": "Standard setting maximum return temp"
       },
       "heating_max_flow_temp": {
-        "name": "STANDARD SETTING MAXIMUM FLOW TEMPERATURE"
+        "name": "Standard setting maximum flow temperature"
       },
       "heating_fixed_value_operation": {
-        "name": "STANDARD SETTING FIXED VALUE OPERATION"
+        "name": "Standard setting fixed value operation"
       },
       "heating_frost_protection": {
-        "name": "STANDARD SETTING FROST PROTECTION"
+        "name": "Standard setting frost protection"
       },
       "heating_summer_mode": {
-        "name": "SUMMER MODE"
+        "name": "Summer mode"
       },
       "heating_summer_outside_temp": {
-        "name": "SUMMER MODE OUTSIDE TEMPERATURE"
+        "name": "Summer mode outside temperature"
       },
       "heating_summer_heat_buffer": {
-        "name": "SUMMER MODE BUILDING HEAT BUFFER"
+        "name": "Summer mode building heat buffer"
       },
       "heating_pump_cycles": {
-        "name": "PUMP CYCLES"
+        "name": "Pump cycles"
       },
       "heating_external_source": {
-        "name": "EXTERNAL HEAT SOURCE"
+        "name": "External heat source"
       },
       "heating_external_curve_gap": {
-        "name": "EXTERNAL HEAT SOURCE HEATING CURVE GAP"
+        "name": "External heat source heating curve gap"
       },
       "heating_external_blocking_time": {
-        "name": "EXTERNAL HEAT SOURCE BLOCKING TIME EVU"
+        "name": "External heat source blocking time evu"
       },
       "heating_external_dual_mode_temp": {
-        "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP HZG"
+        "name": "External heat source dual mode temp hzg"
       },
       "heating_external_lower_limit": {
-        "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT HZG"
+        "name": "External heat source lower app limit hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "DHW TEMPERATURES COMFORT TEMPERATURE"
+        "name": "DHW temperatures comfort temperature"
       },
       "dhw_eco_temperature": {
-        "name": "DHW TEMPERATURES ECO TEMPERATURE"
+        "name": "DHW temperatures eco temperature"
       },
       "dhw_mode": {
-        "name": "STANDARD SETTING DHW MODE",
+        "name": "Standard setting DHW mode",
         "state": {
-          "priority_operation": "PRIORITY OPERATION",
-          "parallel_operation": "PARALLEL OPERATION",
-          "partial_priority": "PARTIAL PRIORITY"
+          "priority_operation": "Priority operation",
+          "parallel_operation": "Parallel operation",
+          "partial_priority": "Partial priority"
         }
       },
       "dhw_hysteresis": {
-        "name": "STANDARD SETTING DHW HYSTERESIS"
+        "name": "Standard setting DHW hysteresis"
       },
       "dhw_stages": {
-        "name": "STANDARD SETTING DHW STAGES"
+        "name": "Standard setting DHW stages"
       },
       "dhw_learning_function": {
-        "name": "WW LEARNING FUNCTION"
+        "name": "Ww learning function"
       },
       "dhw_combi_cylinder": {
-        "name": "COMBI CYLINDER"
+        "name": "Combi cylinder"
       },
       "dhw_output_summer": {
-        "name": "DHW OUTPUT SUMMER"
+        "name": "DHW output summer"
       },
       "dhw_output_winter": {
-        "name": "DHW OUTPUT WINTER"
+        "name": "DHW output winter"
       },
       "dhw_max_flow_temp": {
-        "name": "MAXIMUM FLOW TEMPERATURE"
+        "name": "Maximum flow temperature"
       },
       "dhw_pasteurisation": {
-        "name": "PASTEURISATION"
+        "name": "Pasteurisation"
       },
       "dhw_pasteurisation_temp": {
-        "name": "PASTEURISATION SET TEMPERATURE"
+        "name": "Pasteurisation set temperature"
       },
       "dhw_external_source": {
-        "name": "EXTERNAL HEAT SOURCE"
+        "name": "External heat source"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "EXTERNAL HEAT SOURCE DUAL MODE TEMP WW"
+        "name": "External heat source dual mode temp WW"
       },
       "dhw_external_lower_limit": {
-        "name": "EXTERNAL HEAT SOURCE LOWER APP LIMIT WW"
+        "name": "External heat source lower app limit WW"
       },
       "dhw_external_pwm": {
-        "name": "EXTERNAL HEAT SOURCE WW PWM"
+        "name": "External heat source WW pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SG READY ENABLED"
+        "name": "Energiemanagement SG ready enabled"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Heating buffer"
+        "name": "Energiemanagement Heating buffer"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT UPPER ROOM/BUFFER TEMP. HC1"
+        "name": "Energiemanagement upper room/buffer temp. HC1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT UPPER ROOM TEMP. HC2"
+        "name": "Energiemanagement upper room temp. HC2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT UPPER SET DHW TEMP."
+        "name": "Energiemanagement upper set DHW temp."
       }
     },
     "binary_sensor": {

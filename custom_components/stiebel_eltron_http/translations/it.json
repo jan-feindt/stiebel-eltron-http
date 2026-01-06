@@ -24,103 +24,103 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "TEMP EFF TAMPONE"
+        "name": "Temp eff tampone"
       },
       "actual_temperature_hk_1": {
-        "name": "TEMP EFFETTIVA HK 1"
+        "name": "Temp effettiva HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TEMP EFFETTIVA HK 2"
+        "name": "Temp effettiva HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "TEMPERATURA INGRESSO COMPRESSORE"
+        "name": "Temperatura ingresso compressore"
       },
       "compressor_speed_actual": {
-        "name": "NUMERO GIRI EFF. COMPRESS"
+        "name": "Numero giri eff. compress"
       },
       "compressor_speed_target": {
-        "name": "NUMERO GIRI NOM COMPRESS"
+        "name": "Numero giri nom compress"
       },
       "condenser_temperature": {
-        "name": "TEMP CONDENSATORE"
+        "name": "Temp condensatore"
       },
       "dhw_consumed_today": {
-        "name": "CONSUMO ENERGETICO ACQUA CALDA 1-24 h"
+        "name": "Consumo energetico acqua calda 1-24 h"
       },
       "dhw_temperature": {
-        "name": "ACQUA CALDA TEMP EFFETTIVA"
+        "name": "Acqua calda temp effettiva"
       },
       "efficiency_dhw_13_24m": {
-        "name": "EFFICIENZA ACQUA CALDA 13-24 M"
+        "name": "Efficienza acqua calda 13-24 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "EFFICIENZA RISCALDAMENTO 13-24 M"
+        "name": "Efficienza riscaldamento 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "TEMPERATURA INGRESSO EVAPORATORE"
+        "name": "Temperatura ingresso evaporatore"
       },
       "evaporator_outlet_temperature": {
-        "name": "TEMPERATURA USCITA EVAPORATORE"
+        "name": "Temperatura uscita evaporatore"
       },
       "external_actual_temperature": {
-        "name": "GENERATORE DI CALORE EST TEMP EFFETTIVA"
+        "name": "Generatore DI calore est temp effettiva"
       },
       "external_set_temperature": {
-        "name": "GENERATORE DI CALORE EST TEMPERATURA NOMINALE"
+        "name": "Generatore DI calore est temperatura nominale"
       },
       "fan_power_relative": {
-        "name": "POTENZA RELAT VENTILATORE"
+        "name": "Potenza relat ventilatore"
       },
       "frost_protection_temperature": {
-        "name": "PROTEZ ANTIGELO"
+        "name": "Protez antigelo"
       },
       "heating_consumed_today": {
-        "name": "CONSUMO ENERGETICO RISCALDAMENTO 1-24 h"
+        "name": "Consumo energetico riscaldamento 1-24 h"
       },
       "high_pressure": {
-        "name": "PRESS ALTA PRESSIONE"
+        "name": "Press alta pressione"
       },
       "hot_gas_temperature": {
-        "name": "TEMP GAS CALDO"
+        "name": "Temp gas caldo"
       },
       "inverter_current": {
-        "name": "CORRENTE INVERTER"
+        "name": "Corrente inverter"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "ASSORB. POTENZA INVERTER"
+        "name": "Assorb. potenza inverter"
       },
       "inverter_voltage": {
-        "name": "TENSIONE INVERTER"
+        "name": "Tensione inverter"
       },
       "lower_limit_hzg": {
-        "name": "LIMITE OPERATIVO INF HZG"
+        "name": "Limite operativo inf hzg"
       },
       "lower_limit_ww": {
-        "name": "LIMITE OPERATIVO INF WW"
+        "name": "Limite operativo inf WW"
       },
       "low_pressure": {
-        "name": "PRESS BASSA PRESSIONE"
+        "name": "Press bassa pressione"
       },
       "oil_sump_temperature": {
-        "name": "TEMPERATURA COPPA OLIO"
+        "name": "Temperatura coppa olio"
       },
       "outside_temperature": {
-        "name": "TEMPERATURA ESTERNA"
+        "name": "Temperatura esterna"
       },
       "return_temperature": {
-        "name": "TEMP RITORNO"
+        "name": "Temp ritorno"
       },
       "set_buffer_temperature": {
-        "name": "TEMP NOM TAMP"
+        "name": "Temp nom tamp"
       },
       "set_temperature_hk_1": {
-        "name": "TEMP NOMINALE HK 1"
+        "name": "Temp nominale HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "TEMP NOMINALE HK 2"
+        "name": "Temp nominale HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready attivo"
@@ -135,249 +135,249 @@
         "name": "Modalità di esercizio"
       },
       "supply_temperature": {
-        "name": "TEMP MANDATA"
+        "name": "Temp mandata"
       },
       "total_dhw_consumed": {
-        "name": "CONSUMO ENERGETICO ACQUA CALDA 1-12 M"
+        "name": "Consumo energetico acqua calda 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "CONSUMO ENERGETICO RISCALDAMENTO 1-12 M"
+        "name": "Consumo energetico riscaldamento 1-12 M"
       },
       "water_flow": {
-        "name": "FLUSSO VOL ACQUA WP"
+        "name": "Flusso vol acqua WP"
       },
       "efficiency_heating_today": {
-        "name": "EFFICIENZA RISCALDAMENTO 1-24 h"
+        "name": "Efficienza riscaldamento 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "EFFICIENZA RISCALDAMENTO 1-12 M"
+        "name": "Efficienza riscaldamento 1-12 M"
       },
       "efficiency_dhw_today": {
-        "name": "EFFICIENZA ACQUA CALDA 1-24 h"
+        "name": "Efficienza acqua calda 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "EFFICIENZA ACQUA CALDA 1-12 M"
+        "name": "Efficienza acqua calda 1-12 M"
       },
       "heat_produced_today": {
-        "name": "QUANTITÀ CALORE RISCALDAMENTO 1-24 h"
+        "name": "Quantità calore riscaldamento 1-24 h"
       },
       "total_heat_produced": {
-        "name": "QUANTITÀ CALORE RISCALDAMENTO 1-12 M"
+        "name": "Quantità calore riscaldamento 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "QUANTITÀ CALORE ACQUA CALDA 1-24 h"
+        "name": "Quantità calore acqua calda 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "QUANTITÀ CALORE ACQUA CALDA 1-12 M"
+        "name": "Quantità calore acqua calda 1-12 M"
       },
       "runtime_vd_dhw": {
-        "name": "VD ACQUA CALDA"
+        "name": "VD acqua calda"
       },
       "runtime_vd_heating": {
-        "name": "VD RISCALDAMENTO"
+        "name": "VD riscaldamento"
       },
       "runtime_vd_defrost": {
-        "name": "VD SBRINAMENTO"
+        "name": "VD sbrinamento"
       },
       "defrost_time": {
-        "name": "TEMPO SBRINAMENTO"
+        "name": "Tempo sbrinamento"
       },
       "defrost_starts": {
-        "name": "INIZIO SBRINAMENTO"
+        "name": "Inizio sbrinamento"
       },
       "compressor_starts": {
-        "name": "COMPRESSORE AVVIAMENTI"
+        "name": "Compressore avviamenti"
       },
       "dhw_set_temperature": {
-        "name": "ACQUA CALDA TEMPERATURA NOMINALE"
+        "name": "Acqua calda temperatura nominale"
       },
       "dual_mode_temp_hzg": {
-        "name": "TEMP DI BIVALENZA HZG"
+        "name": "Temp DI bivalenza hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "TEMP DI BIVALENZA WW"
+        "name": "Temp DI bivalenza WW"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "INFLUSSO SULLA POTENZA PUFFER PER RISCALDAMENTO"
+        "name": "Influsso sulla potenza puffer per riscaldamento"
       },
       "wcci_operating_mode": {
-        "name": "INFLUSSO SULLA POTENZA STATO ATTUALE"
+        "name": "Influsso sulla potenza stato attuale"
       },
       "wcci_user_power_limit": {
-        "name": "INFLUSSO SULLA POTENZA LIMITAZIONE POTENZA"
+        "name": "Influsso sulla potenza limitazione potenza"
       },
       "wcci_load_temp_room_1": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO CIRC RISC 1 / PUFFER"
+        "name": "Influsso sulla potenza temperatura DI carico circ risc 1 / puffer"
       },
       "wcci_load_temp_room_2": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO CIRC RISC 2"
+        "name": "Influsso sulla potenza temperatura DI carico circ risc 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO CIRC RISC 3"
+        "name": "Influsso sulla potenza temperatura DI carico circ risc 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO CIRC RISC 4"
+        "name": "Influsso sulla potenza temperatura DI carico circ risc 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO CIRC RISC 5"
+        "name": "Influsso sulla potenza temperatura DI carico circ risc 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO PUFFER"
+        "name": "Influsso sulla potenza temperatura DI carico puffer"
       },
       "wcci_load_temp_dhw": {
-        "name": "INFLUSSO SULLA POTENZA TEMPERATURA DI CARICO ACS"
+        "name": "Influsso sulla potenza temperatura DI carico acs"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "INFLUSSO SULLA POTENZA LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Influsso sulla potenza limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA COMFORT"
+        "name": "Circuito riscaldamento 1 temperatura comfort"
       },
       "hc1_eco_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA ECO"
+        "name": "Circuito riscaldamento 1 temperatura eco"
       },
       "hc1_minimum_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 1 TEMPERATURA MINIMA"
+        "name": "Circuito riscaldamento 1 temperatura minima"
       },
       "hc1_heating_curve_rise": {
-        "name": "CIRCUITO RISCALDAMENTO 1 AUMENTO CURVA CALORIFICA"
+        "name": "Circuito riscaldamento 1 aumento curva calorifica"
       },
       "hc2_comfort_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA COMFORT"
+        "name": "Circuito riscaldamento 2 temperatura comfort"
       },
       "hc2_eco_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA ECO"
+        "name": "Circuito riscaldamento 2 temperatura eco"
       },
       "hc2_minimum_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 2 TEMPERATURA MINIMA"
+        "name": "Circuito riscaldamento 2 temperatura minima"
       },
       "hc2_maximum_temperature": {
-        "name": "CIRCUITO RISCALDAMENTO 2 TEMP MAX"
+        "name": "Circuito riscaldamento 2 temp max"
       },
       "hc2_mixer_dynamics": {
-        "name": "CIRCUITO RISCALDAMENTO 2 DINAMICA MISCELATORE"
+        "name": "Circuito riscaldamento 2 dinamica miscelatore"
       },
       "hc2_heating_curve_rise": {
-        "name": "CIRCUITO RISCALDAMENTO 2 AUMENTO CURVA CALORIFICA"
+        "name": "Circuito riscaldamento 2 aumento curva calorifica"
       },
       "heating_buffer_operation": {
-        "name": "IMPOSTAZIONE STANDARD FUNZ TAMPONE"
+        "name": "Impostazione standard funz tampone"
       },
       "heating_max_return_temp": {
-        "name": "IMPOSTAZIONE STANDARD TEMP MAX RITORNO"
+        "name": "Impostazione standard temp max ritorno"
       },
       "heating_max_flow_temp": {
-        "name": "IMPOSTAZIONE STANDARD TEMP MAX MANDATA"
+        "name": "Impostazione standard temp max mandata"
       },
       "heating_fixed_value_operation": {
-        "name": "IMPOSTAZIONE STANDARD FUNZION VALORE FISSO"
+        "name": "Impostazione standard funzion valore fisso"
       },
       "heating_frost_protection": {
-        "name": "IMPOSTAZIONE STANDARD PROTEZ ANTIGELO"
+        "name": "Impostazione standard protez antigelo"
       },
       "heating_summer_mode": {
-        "name": "USO ESTIVO USO ESTIVO"
+        "name": "Uso estivo uso estivo"
       },
       "heating_summer_outside_temp": {
-        "name": "USO ESTIVO TEMPERATURA ESTERNA"
+        "name": "Uso estivo temperatura esterna"
       },
       "heating_summer_heat_buffer": {
-        "name": "USO ESTIVO ATTENUAZIONE EDIFICIO"
+        "name": "Uso estivo attenuazione edificio"
       },
       "heating_pump_cycles": {
-        "name": "CICLI POMPA CICLI POMPA"
+        "name": "Cicli pompa cicli pompa"
       },
       "heating_external_source": {
-        "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+        "name": "Generatore DI calore est generatore DI calore est"
       },
       "heating_external_curve_gap": {
-        "name": "GENERATORE DI CALORE EST DISTANZA CURVA CALOR"
+        "name": "Generatore DI calore est distanza curva calor"
       },
       "heating_external_blocking_time": {
-        "name": "GENERATORE DI CALORE EST TEMPO BLOCCO POTENZA"
+        "name": "Generatore DI calore est tempo blocco potenza"
       },
       "heating_external_dual_mode_temp": {
-        "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA HZG"
+        "name": "Generatore DI calore est temp DI bivalenza hzg"
       },
       "heating_external_lower_limit": {
-        "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF HZG"
+        "name": "Generatore DI calore est limite operativo inf hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "TEMPERATURE ACQUA CALDA TEMPERATURA COMFORT"
+        "name": "Temperature acqua calda temperatura comfort"
       },
       "dhw_eco_temperature": {
-        "name": "TEMPERATURE ACQUA CALDA TEMPERATURA ECO"
+        "name": "Temperature acqua calda temperatura eco"
       },
       "dhw_mode": {
-        "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA",
+        "name": "Impostazione standard modalità acqua calda",
         "state": {
-          "priority_operation": "ESERCIZIO PRIORITARIO",
-          "parallel_operation": "FUNZ PARALLELO",
-          "partial_priority": "PRIORITÀ PARZIALE"
+          "priority_operation": "Esercizio prioritario",
+          "parallel_operation": "Funz parallelo",
+          "partial_priority": "Priorità parziale"
         }
       },
       "dhw_hysteresis": {
-        "name": "IMPOSTAZIONE STANDARD ISTERESI ACQUA CALDA"
+        "name": "Impostazione standard isteresi acqua calda"
       },
       "dhw_stages": {
-        "name": "IMPOSTAZIONE STANDARD STADI ACQUA CALDA"
+        "name": "Impostazione standard stadi acqua calda"
       },
       "dhw_learning_function": {
-        "name": "FUNZ APPRENDIMENTO WW FUNZ APPRENDIMENTO WW"
+        "name": "Funz apprendimento WW funz apprendimento WW"
       },
       "dhw_combi_cylinder": {
-        "name": "SERBATOIO COMBI SERBATOIO COMBI"
+        "name": "Serbatoio combi serbatoio combi"
       },
       "dhw_output_summer": {
-        "name": "RENDIM WW ESTATE"
+        "name": "Rendim WW estate"
       },
       "dhw_output_winter": {
-        "name": "RENDIM WW INVERNO"
+        "name": "Rendim WW inverno"
       },
       "dhw_max_flow_temp": {
-        "name": "TEMP MAX MANDATA TEMP MAX MANDATA"
+        "name": "Temp max mandata temp max mandata"
       },
       "dhw_pasteurisation": {
-        "name": "TRATTAM. ANTILEGIONELLA TRATTAM. ANTILEGIONELLA"
+        "name": "Trattam. antilegionella trattam. antilegionella"
       },
       "dhw_pasteurisation_temp": {
-        "name": "TRATTAM. ANTILEGIONELLA TEMPERATURA NOMINALE"
+        "name": "Trattam. antilegionella temperatura nominale"
       },
       "dhw_external_source": {
-        "name": "GENERATORE DI CALORE EST GENERATORE DI CALORE EST"
+        "name": "Generatore DI calore est generatore DI calore est"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "GENERATORE DI CALORE EST TEMP DI BIVALENZA WW"
+        "name": "Generatore DI calore est temp DI bivalenza WW"
       },
       "dhw_external_lower_limit": {
-        "name": "GENERATORE DI CALORE EST LIMITE OPERATIVO INF WW"
+        "name": "Generatore DI calore est limite operativo inf WW"
       },
       "dhw_external_pwm": {
-        "name": "GENERATORE DI CALORE EST WW-PWM"
+        "name": "Generatore DI calore est ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY ATTIVATO"
+        "name": "Energiemanagement sgready attivato"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Serb. tampone riscaldam."
+        "name": "Energiemanagement Serb. tampone riscaldam."
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT TMP TAMP./AMB. SUP. HK1"
+        "name": "Energiemanagement tmp tamp./amb. sup. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT TMP AMB. SUP. HK2"
+        "name": "Energiemanagement tmp amb. sup. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT TMP ACS DES. SUP."
+        "name": "Energiemanagement tmp acs des. sup."
       }
     },
     "binary_sensor": {

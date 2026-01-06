@@ -24,103 +24,103 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "AKTUEL BUFFERTEMP"
+        "name": "Aktuel buffertemp"
       },
       "actual_temperature_hk_1": {
-        "name": "AKTUEL TEMPERATUR HK 1"
+        "name": "Aktuel temperatur HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "AKTUEL TEMPERATUR HK 2"
+        "name": "Aktuel temperatur HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "KONDENSATOR-INDGANGSTEMPERATUR"
+        "name": "Kondensator-indgangstemperatur"
       },
       "compressor_speed_actual": {
-        "name": "FAK. OMDREJ. TAL KOMPRES."
+        "name": "Fak. omdrej. tal kompres."
       },
       "compressor_speed_target": {
-        "name": "NOM. OMDREJ.TAL KOMPRES."
+        "name": "Nom. omdrej.tal kompres."
       },
       "condenser_temperature": {
-        "name": "KONDENSATORTEMPERATUR"
+        "name": "Kondensatortemperatur"
       },
       "dhw_consumed_today": {
-        "name": "VARMT VAND 1-24 h"
+        "name": "Varmt vand 1-24 h"
       },
       "dhw_temperature": {
-        "name": "AKTUEL TEMPERATUR"
+        "name": "Aktuel temperatur"
       },
       "efficiency_dhw_13_24m": {
-        "name": "VARMT VAND 13-24 M"
+        "name": "Varmt vand 13-24 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "VARME 13-24 M"
+        "name": "Varme 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "FORDAMPER-INDGANGSTEMPERATUR"
+        "name": "Fordamper-indgangstemperatur"
       },
       "evaporator_outlet_temperature": {
-        "name": "FORDAMPER-UDGANGSTEMPERATUR"
+        "name": "Fordamper-udgangstemperatur"
       },
       "external_actual_temperature": {
-        "name": "AKTUEL TEMPERATUR"
+        "name": "Aktuel temperatur"
       },
       "external_set_temperature": {
-        "name": "NOM. TEMPERATUR"
+        "name": "Nom. temperatur"
       },
       "fan_power_relative": {
-        "name": "VENTILATOREFFEKT RELATIV"
+        "name": "Ventilatoreffekt relativ"
       },
       "frost_protection_temperature": {
-        "name": "FROSTSIKRING"
+        "name": "Frostsikring"
       },
       "heating_consumed_today": {
-        "name": "VARME 1-24 h"
+        "name": "Varme 1-24 h"
       },
       "high_pressure": {
-        "name": "TRYK HØJTRYK"
+        "name": "Tryk højtryk"
       },
       "hot_gas_temperature": {
-        "name": "VARMEGASTEMPERATUR"
+        "name": "Varmegastemperatur"
       },
       "inverter_current": {
-        "name": "STRØMINVERTER"
+        "name": "Strøminverter"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "INDGANGSEFFEKT INVERTER"
+        "name": "Indgangseffekt inverter"
       },
       "inverter_voltage": {
-        "name": "SPÆNDINGSINVERTER"
+        "name": "Spændingsinverter"
       },
       "lower_limit_hzg": {
-        "name": "LAV ANVEND.GRÆNSE HZG"
+        "name": "Lav anvend.grænse hzg"
       },
       "lower_limit_ww": {
-        "name": "LAV ANVEND.GRÆNSE WW"
+        "name": "Lav anvend.grænse WW"
       },
       "low_pressure": {
-        "name": "TRYK LAVTRYK"
+        "name": "Tryk lavtryk"
       },
       "oil_sump_temperature": {
-        "name": "OLIESUMPTEMPERATUR"
+        "name": "Oliesumptemperatur"
       },
       "outside_temperature": {
-        "name": "UDETEMPERATUR"
+        "name": "Udetemperatur"
       },
       "return_temperature": {
-        "name": "RETURTEMPERATUR"
+        "name": "Returtemperatur"
       },
       "set_buffer_temperature": {
-        "name": "INDST. BUFFERTEMPERATUR"
+        "name": "Indst. buffertemperatur"
       },
       "set_temperature_hk_1": {
-        "name": "INDST. TEMPERATUR HK 1"
+        "name": "Indst. temperatur HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "INDST. TEMPERATUR HK 2"
+        "name": "Indst. temperatur HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktiv"
@@ -135,249 +135,249 @@
         "name": "Driftsmåde"
       },
       "supply_temperature": {
-        "name": "FREMLØBSTEMPERATUR"
+        "name": "Fremløbstemperatur"
       },
       "total_dhw_consumed": {
-        "name": "VARMT VAND 1-12 M"
+        "name": "Varmt vand 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "VARME 1-12 M"
+        "name": "Varme 1-12 M"
       },
       "water_flow": {
-        "name": "WP VANDVOLUMENSTRØM"
+        "name": "Wp vandvolumenstrøm"
       },
       "heat_produced_today": {
-        "name": "VARME 1-24 h"
+        "name": "Varme 1-24 h"
       },
       "total_heat_produced": {
-        "name": "VARME 1-12 M"
+        "name": "Varme 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "VARMT VAND 1-24 h"
+        "name": "Varmt vand 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "VARMT VAND 1-12 M"
+        "name": "Varmt vand 1-12 M"
       },
       "runtime_vd_dhw": {
-        "name": "VD VARMT VAND"
+        "name": "VD varmt vand"
       },
       "runtime_vd_heating": {
-        "name": "VD VARME"
+        "name": "VD varme"
       },
       "dual_mode_temp_hzg": {
-        "name": "BIVALENSTEMPERATUR HZG"
+        "name": "Bivalenstemperatur hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "BIVALENSTEMPERATUR WW"
+        "name": "Bivalenstemperatur WW"
       },
       "runtime_vd_defrost": {
-        "name": "VD AFRIMNING"
+        "name": "VD afrimning"
       },
       "defrost_time": {
-        "name": "AFRIMNINGSTID"
+        "name": "Afrimningstid"
       },
       "defrost_starts": {
-        "name": "STARTER AFRIMNING"
+        "name": "Starter afrimning"
       },
       "compressor_starts": {
-        "name": "KOMPRESSOR STARTER"
+        "name": "Kompressor starter"
       },
       "dhw_set_temperature": {
-        "name": "NOM. TEMPERATUR"
+        "name": "Nom. temperatur"
       },
       "efficiency_heating_today": {
-        "name": "VARME 1-24 h"
+        "name": "Varme 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "VARME 1-12 M"
+        "name": "Varme 1-12 M"
       },
       "efficiency_dhw_today": {
-        "name": "VARMT VAND 1-24 h"
+        "name": "Varmt vand 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "VARMT VAND 1-12 M"
+        "name": "Varmt vand 1-12 M"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "EFFEKTPÅVIRKNING VARMEBUFFER"
+        "name": "Effektpåvirkning varmebuffer"
       },
       "wcci_operating_mode": {
-        "name": "EFFEKTPÅVIRKNING AKTUEL TILSTAND"
+        "name": "Effektpåvirkning aktuel tilstand"
       },
       "wcci_user_power_limit": {
-        "name": "EFFEKTPÅVIRKNING EFFEKTBEGRÆNSNING"
+        "name": "Effektpåvirkning effektbegrænsning"
       },
       "wcci_load_temp_room_1": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 1 / BUFFER"
+        "name": "Effektpåvirkning ladetemperatur varmekreds 1 / buffer"
       },
       "wcci_load_temp_room_2": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 2"
+        "name": "Effektpåvirkning ladetemperatur varmekreds 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 3"
+        "name": "Effektpåvirkning ladetemperatur varmekreds 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 4"
+        "name": "Effektpåvirkning ladetemperatur varmekreds 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMEKREDS 5"
+        "name": "Effektpåvirkning ladetemperatur varmekreds 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR BUFFER"
+        "name": "Effektpåvirkning ladetemperatur buffer"
       },
       "wcci_load_temp_dhw": {
-        "name": "EFFEKTPÅVIRKNING LADETEMPERATUR VARMT VAND"
+        "name": "Effektpåvirkning ladetemperatur varmt vand"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "EFFEKTPÅVIRKNING LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Effektpåvirkning limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "VARMEKREDS 1 KOMFORT-TEMPERATUR"
+        "name": "Varmekreds 1 komfort-temperatur"
       },
       "hc1_eco_temperature": {
-        "name": "VARMEKREDS 1 ECO-TEMPERATUR"
+        "name": "Varmekreds 1 eco-temperatur"
       },
       "hc1_minimum_temperature": {
-        "name": "VARMEKREDS 1 MINIMALTEMPERATUR"
+        "name": "Varmekreds 1 minimaltemperatur"
       },
       "hc1_heating_curve_rise": {
-        "name": "VARMEKREDS 1 STIGNING VARMEKURVE"
+        "name": "Varmekreds 1 stigning varmekurve"
       },
       "hc2_comfort_temperature": {
-        "name": "VARMEKREDS 2 KOMFORT-TEMPERATUR"
+        "name": "Varmekreds 2 komfort-temperatur"
       },
       "hc2_eco_temperature": {
-        "name": "VARMEKREDS 2 ECO-TEMPERATUR"
+        "name": "Varmekreds 2 eco-temperatur"
       },
       "hc2_minimum_temperature": {
-        "name": "VARMEKREDS 2 MINIMALTEMPERATUR"
+        "name": "Varmekreds 2 minimaltemperatur"
       },
       "hc2_maximum_temperature": {
-        "name": "VARMEKREDS 2 MAX TEMPERATUR"
+        "name": "Varmekreds 2 max temperatur"
       },
       "hc2_mixer_dynamics": {
-        "name": "VARMEKREDS 2 SHUNT-DYNAMIK"
+        "name": "Varmekreds 2 shunt-dynamik"
       },
       "hc2_heating_curve_rise": {
-        "name": "VARMEKREDS 2 STIGNING VARMEKURVE"
+        "name": "Varmekreds 2 stigning varmekurve"
       },
       "heating_buffer_operation": {
-        "name": "GRUNDINDSTILLING BUFFERDRIFT"
+        "name": "Grundindstilling bufferdrift"
       },
       "heating_max_return_temp": {
-        "name": "GRUNDINDSTILLING MAX RETURTEMPERATUR"
+        "name": "Grundindstilling max returtemperatur"
       },
       "heating_max_flow_temp": {
-        "name": "GRUNDINDSTILLING MAX FREMLØBSTEMP"
+        "name": "Grundindstilling max fremløbstemp"
       },
       "heating_fixed_value_operation": {
-        "name": "GRUNDINDSTILLING FAST VÆRDI DRIFT"
+        "name": "Grundindstilling fast værdi drift"
       },
       "heating_frost_protection": {
-        "name": "GRUNDINDSTILLING FROSTSIKRING"
+        "name": "Grundindstilling frostsikring"
       },
       "heating_summer_mode": {
-        "name": "SOMMERDRIFT"
+        "name": "Sommerdrift"
       },
       "heating_summer_outside_temp": {
-        "name": "SOMMERDRIFT UDETEMPERATUR"
+        "name": "Sommerdrift udetemperatur"
       },
       "heating_summer_heat_buffer": {
-        "name": "SOMMERDRIFT BYGNINGSISOLERING"
+        "name": "Sommerdrift bygningsisolering"
       },
       "heating_pump_cycles": {
-        "name": "PUMPECYKLUS"
+        "name": "Pumpecyklus"
       },
       "heating_external_source": {
-        "name": "VARMEGENERATOR EKSTERN VARMEGENERATOR EKSTERN"
+        "name": "Varmegenerator ekstern varmegenerator ekstern"
       },
       "heating_external_curve_gap": {
-        "name": "VARMEGENERATOR EKSTERN AFSTAND VARMEKURVE"
+        "name": "Varmegenerator ekstern afstand varmekurve"
       },
       "heating_external_blocking_time": {
-        "name": "VARMEGENERATOR EKSTERN SPÆRRETID EVU"
+        "name": "Varmegenerator ekstern spærretid evu"
       },
       "heating_external_dual_mode_temp": {
-        "name": "VARMEGENERATOR EKSTERN BIVALENSTEMPERATUR HZG"
+        "name": "Varmegenerator ekstern bivalenstemperatur hzg"
       },
       "heating_external_lower_limit": {
-        "name": "VARMEGENERATOR EKSTERN LAV ANVEND.GRÆNSE HZG"
+        "name": "Varmegenerator ekstern lav anvend.grænse hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "VARMTVANDSTEMPERATURER KOMFORT-TEMPERATUR"
+        "name": "Varmtvandstemperaturer komfort-temperatur"
       },
       "dhw_eco_temperature": {
-        "name": "VARMTVANDSTEMPERATURER ECO-TEMPERATUR"
+        "name": "Varmtvandstemperaturer eco-temperatur"
       },
       "dhw_mode": {
-        "name": "GRUNDINDSTILLING VARMTVANDSDRIFT",
+        "name": "Grundindstilling varmtvandsdrift",
         "state": {
-          "priority_operation": "PRIORITERET FUNKTION",
-          "parallel_operation": "PARALLELFUNKTION",
-          "partial_priority": "DELVIS PRIORITERET"
+          "priority_operation": "Prioriteret funktion",
+          "parallel_operation": "Parallelfunktion",
+          "partial_priority": "Delvis prioriteret"
         }
       },
       "dhw_hysteresis": {
-        "name": "GRUNDINDSTILLING VARMTVANDS-HYSTERESE"
+        "name": "Grundindstilling varmtvands-hysterese"
       },
       "dhw_stages": {
-        "name": "GRUNDINDSTILLING VARMTVANDSTRIN"
+        "name": "Grundindstilling varmtvandstrin"
       },
       "dhw_learning_function": {
-        "name": "WW INDLÆRINGSFUNKTION WW INDLÆRINGSFUNKTION"
+        "name": "WW indlæringsfunktion WW indlæringsfunktion"
       },
       "dhw_combi_cylinder": {
-        "name": "KOMBIBEHOLDER"
+        "name": "Kombibeholder"
       },
       "dhw_output_summer": {
-        "name": "WW EFFEKT SOMMER"
+        "name": "WW effekt sommer"
       },
       "dhw_output_winter": {
-        "name": "WW EFFEKT VINTER"
+        "name": "WW effekt vinter"
       },
       "dhw_max_flow_temp": {
-        "name": "MAX FREMLØBSTEMP MAX FREMLØBSTEMP"
+        "name": "Max fremløbstemp max fremløbstemp"
       },
       "dhw_pasteurisation": {
-        "name": "ANTI-LEGIONELLA"
+        "name": "Anti-legionella"
       },
       "dhw_pasteurisation_temp": {
-        "name": "ANTI-LEGIONELLA NOM. TEMPERATUR"
+        "name": "Anti-legionella nom. temperatur"
       },
       "dhw_external_source": {
-        "name": "VARMEGENERATOR EKSTERN VARMEGENERATOR EKSTERN"
+        "name": "Varmegenerator ekstern varmegenerator ekstern"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "VARMEGENERATOR EKSTERN BIVALENSTEMPERATUR WW"
+        "name": "Varmegenerator ekstern bivalenstemperatur WW"
       },
       "dhw_external_lower_limit": {
-        "name": "VARMEGENERATOR EKSTERN LAV ANVEND.GRÆNSE WW"
+        "name": "Varmegenerator ekstern lav anvend.grænse WW"
       },
       "dhw_external_pwm": {
-        "name": "VARMEGENERATOR EKSTERN WW-PWM"
+        "name": "Varmegenerator ekstern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY AKTIVERET"
+        "name": "Energiemanagement sgready aktiveret"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Varmebuffer"
+        "name": "Energiemanagement Varmebuffer"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT ØVRE RUM/BUFFERTEMP. VK 1"
+        "name": "Energiemanagement øvre rum/buffertemp. VK 1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT ØVRE RUMTEMP. VK 2"
+        "name": "Energiemanagement øvre rumtemp. VK 2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT ØVRE VARMTVAND NOM.TEMP."
+        "name": "Energiemanagement øvre varmtvand nom.temp."
       }
     },
     "binary_sensor": {

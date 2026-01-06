@@ -24,103 +24,103 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "PUSKURIV TOSILÄMPÖT"
+        "name": "Puskuriv tosilämpöt"
       },
       "actual_temperature_hk_1": {
-        "name": "TOSILÄMPÖT HK 1"
+        "name": "Tosilämpöt HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TOSILÄMPÖT HK 2"
+        "name": "Tosilämpöt HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "KOMPRESSORIN TULOLÄMPÖTILA"
+        "name": "Kompressorin tulolämpötila"
       },
       "compressor_speed_actual": {
-        "name": "KOMPR TOD. KÄYNTINOP"
+        "name": "Kompr tod. käyntinop"
       },
       "compressor_speed_target": {
-        "name": "OHJEPYÖRNOP KOMPR"
+        "name": "Ohjepyörnop kompr"
       },
       "condenser_temperature": {
-        "name": "KONDENS LÄMPÖT"
+        "name": "Kondens lämpöt"
       },
       "dhw_consumed_today": {
-        "name": "LÄMMINVESI 1-24 h"
+        "name": "Lämminvesi 1-24 h"
       },
       "dhw_temperature": {
-        "name": "TOSILÄMPÖT"
+        "name": "Tosilämpöt"
       },
       "efficiency_dhw_13_24m": {
-        "name": "LÄMMINVESI 13-24 M"
+        "name": "Lämminvesi 13-24 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "LÄMMITYS 13-24 M"
+        "name": "Lämmitys 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "HÖYRYSTIMEN TULOLÄMPÖTILA"
+        "name": "Höyrystimen tulolämpötila"
       },
       "evaporator_outlet_temperature": {
-        "name": "HÖYRYSTIMEN LÄHTÖLÄMPÖTILA"
+        "name": "Höyrystimen lähtölämpötila"
       },
       "external_actual_temperature": {
-        "name": "TOSILÄMPÖT"
+        "name": "Tosilämpöt"
       },
       "external_set_temperature": {
-        "name": "OHJELÄMPÖTILA"
+        "name": "Ohjelämpötila"
       },
       "fan_power_relative": {
-        "name": "PUHALTIMEN TEHO SUHTEELLINEN"
+        "name": "Puhaltimen teho suhteellinen"
       },
       "frost_protection_temperature": {
-        "name": "JÄÄTYMISESTO"
+        "name": "Jäätymisesto"
       },
       "heating_consumed_today": {
-        "name": "LÄMMITYS 1-24 h"
+        "name": "Lämmitys 1-24 h"
       },
       "high_pressure": {
-        "name": "PAINE KORKEAP"
+        "name": "Paine korkeap"
       },
       "hot_gas_temperature": {
-        "name": "KUUMAKAASULÄMPÖT"
+        "name": "Kuumakaasulämpöt"
       },
       "inverter_current": {
-        "name": "VIRTA INVERTTERI"
+        "name": "Virta invertteri"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "SUORITUSKYKY INVERTTERI"
+        "name": "Suorituskyky invertteri"
       },
       "inverter_voltage": {
-        "name": "JÄNNITE INVERTTERI"
+        "name": "Jännite invertteri"
       },
       "lower_limit_hzg": {
-        "name": "KÄYT ALARAJA HZG"
+        "name": "Käyt alaraja hzg"
       },
       "lower_limit_ww": {
-        "name": "KÄYTÖN ALARAJA WW"
+        "name": "Käytön alaraja WW"
       },
       "low_pressure": {
-        "name": "PAINE ALAPAINE"
+        "name": "Paine alapaine"
       },
       "oil_sump_temperature": {
-        "name": "ÖLJYKAMMION LÄMPÖT"
+        "name": "Öljykammion lämpöt"
       },
       "outside_temperature": {
-        "name": "ULKOLÄMPÖTILA"
+        "name": "Ulkolämpötila"
       },
       "return_temperature": {
-        "name": "PALUUVIRT LÄMPÖT"
+        "name": "Paluuvirt lämpöt"
       },
       "set_buffer_temperature": {
-        "name": "PUSKURIV OHJELÄMPÖT"
+        "name": "Puskuriv ohjelämpöt"
       },
       "set_temperature_hk_1": {
-        "name": "OHJELÄMPÖT HK 1"
+        "name": "Ohjelämpöt HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "OHJELÄMPÖT HK 2"
+        "name": "Ohjelämpöt HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktiivinen"
@@ -135,249 +135,249 @@
         "name": "Käyttötapa"
       },
       "supply_temperature": {
-        "name": "MENOVIRT LÄMPÖT"
+        "name": "Menovirt lämpöt"
       },
       "total_dhw_consumed": {
-        "name": "LÄMMINVESI 1-12 M"
+        "name": "Lämminvesi 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "LÄMMITYS 1-12 M"
+        "name": "Lämmitys 1-12 M"
       },
       "water_flow": {
-        "name": "WP VEDEN TILAVUUSVIRTA"
+        "name": "Wp veden tilavuusvirta"
       },
       "efficiency_heating_today": {
-        "name": "LÄMMITYS 1-24 h"
+        "name": "Lämmitys 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "LÄMMITYS 1-12 M"
+        "name": "Lämmitys 1-12 M"
       },
       "efficiency_dhw_today": {
-        "name": "LÄMMINVESI 1-24 h"
+        "name": "Lämminvesi 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "LÄMMINVESI 1-12 M"
+        "name": "Lämminvesi 1-12 M"
       },
       "heat_produced_today": {
-        "name": "LÄMMITYS 1-24 h"
+        "name": "Lämmitys 1-24 h"
       },
       "total_heat_produced": {
-        "name": "LÄMMITYS 1-12 M"
+        "name": "Lämmitys 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "LÄMMINVESI 1-24 h"
+        "name": "Lämminvesi 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "LÄMMINVESI 1-12 M"
+        "name": "Lämminvesi 1-12 M"
       },
       "runtime_vd_defrost": {
-        "name": "VD SULATUS"
+        "name": "VD sulatus"
       },
       "defrost_time": {
-        "name": "SULATUSAIKA"
+        "name": "Sulatusaika"
       },
       "runtime_vd_heating": {
-        "name": "VD LÄMM"
+        "name": "VD lämm"
       },
       "runtime_vd_dhw": {
-        "name": "VD LÄMMINV"
+        "name": "VD lämminv"
       },
       "defrost_starts": {
-        "name": "SUL KÄYNN"
+        "name": "Sul käynn"
       },
       "compressor_starts": {
-        "name": "KOMPRESSORI KÄYNNISTYKSET"
+        "name": "Kompressori käynnistykset"
       },
       "dhw_set_temperature": {
-        "name": "OHJELÄMPÖTILA"
+        "name": "Ohjelämpötila"
       },
       "dual_mode_temp_hzg": {
-        "name": "KYTKENTÄLÄMPÖT HZG"
+        "name": "Kytkentälämpöt hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "KYTKENTÄLÄMPÖT WW"
+        "name": "Kytkentälämpöt WW"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "VAIKUTUS TEHOON LÄMMITYSPUSKURI"
+        "name": "Vaikutus tehoon lämmityspuskuri"
       },
       "wcci_operating_mode": {
-        "name": "VAIKUTUS TEHOON TÄMÄNHETKINEN TILA"
+        "name": "Vaikutus tehoon tämänhetkinen tila"
       },
       "wcci_user_power_limit": {
-        "name": "VAIKUTUS TEHOON TEHONRAJOITUS"
+        "name": "Vaikutus tehoon tehonrajoitus"
       },
       "wcci_load_temp_room_1": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 1 / PUSKURI"
+        "name": "Vaikutus tehoon latauslämpötila lämmityspiiri 1 / puskuri"
       },
       "wcci_load_temp_room_2": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 2"
+        "name": "Vaikutus tehoon latauslämpötila lämmityspiiri 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 3"
+        "name": "Vaikutus tehoon latauslämpötila lämmityspiiri 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 4"
+        "name": "Vaikutus tehoon latauslämpötila lämmityspiiri 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMITYSPIIRI 5"
+        "name": "Vaikutus tehoon latauslämpötila lämmityspiiri 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA PUSKURI"
+        "name": "Vaikutus tehoon latauslämpötila puskuri"
       },
       "wcci_load_temp_dhw": {
-        "name": "VAIKUTUS TEHOON LATAUSLÄMPÖTILA LÄMMIN KÄYTTÖVESI"
+        "name": "Vaikutus tehoon latauslämpötila lämmin käyttövesi"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "VAIKUTUS TEHOON LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Vaikutus tehoon limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "LÄM-PIIRI 1 MUKAV-LÄMPÖTILA"
+        "name": "Läm-piiri 1 mukav-lämpötila"
       },
       "hc1_eco_temperature": {
-        "name": "LÄM-PIIRI 1 ECO-LÄMPÖTILA"
+        "name": "Läm-piiri 1 eco-lämpötila"
       },
       "hc1_minimum_temperature": {
-        "name": "LÄM-PIIRI 1 MINIMILÄMPÖTILA"
+        "name": "Läm-piiri 1 minimilämpötila"
       },
       "hc1_heating_curve_rise": {
-        "name": "LÄM-PIIRI 1 LÄMM KÄYRÄN NOUSU"
+        "name": "Läm-piiri 1 lämm käyrän nousu"
       },
       "hc2_comfort_temperature": {
-        "name": "LÄM-PIIRI 2 MUKAV-LÄMPÖTILA"
+        "name": "Läm-piiri 2 mukav-lämpötila"
       },
       "hc2_eco_temperature": {
-        "name": "LÄM-PIIRI 2 ECO-LÄMPÖTILA"
+        "name": "Läm-piiri 2 eco-lämpötila"
       },
       "hc2_minimum_temperature": {
-        "name": "LÄM-PIIRI 2 MINIMILÄMPÖTILA"
+        "name": "Läm-piiri 2 minimilämpötila"
       },
       "hc2_maximum_temperature": {
-        "name": "LÄM-PIIRI 2 MAX LÄMPÖT"
+        "name": "Läm-piiri 2 max lämpöt"
       },
       "hc2_mixer_dynamics": {
-        "name": "LÄM-PIIRI 2 SEKOIT.DYNAM."
+        "name": "Läm-piiri 2 sekoit.dynam."
       },
       "hc2_heating_curve_rise": {
-        "name": "LÄM-PIIRI 2 LÄMM KÄYRÄN NOUSU"
+        "name": "Läm-piiri 2 lämm käyrän nousu"
       },
       "heating_buffer_operation": {
-        "name": "PERUSASETUS PUSKURIKÄYTTÖ"
+        "name": "Perusasetus puskurikäyttö"
       },
       "heating_max_return_temp": {
-        "name": "PERUSASETUS MAX PALUUVIRT LÄMPÖT"
+        "name": "Perusasetus max paluuvirt lämpöt"
       },
       "heating_max_flow_temp": {
-        "name": "PERUSASETUS MAX MENOVIRT LÄMPÖT"
+        "name": "Perusasetus max menovirt lämpöt"
       },
       "heating_fixed_value_operation": {
-        "name": "PERUSASETUS KIINT LÄM AS KÄYTTÖ"
+        "name": "Perusasetus kiint läm AS käyttö"
       },
       "heating_frost_protection": {
-        "name": "PERUSASETUS JÄÄTYMISESTO"
+        "name": "Perusasetus jäätymisesto"
       },
       "heating_summer_mode": {
-        "name": "KESÄKÄYTTÖ"
+        "name": "Kesäkäyttö"
       },
       "heating_summer_outside_temp": {
-        "name": "KESÄKÄYTTÖ ULKOLÄMPÖTILA"
+        "name": "Kesäkäyttö ulkolämpötila"
       },
       "heating_summer_heat_buffer": {
-        "name": "KESÄKÄYTTÖ RAKENNUSVAIMENNUS"
+        "name": "Kesäkäyttö rakennusvaimennus"
       },
       "heating_pump_cycles": {
-        "name": "PUMPPUJAKSOT"
+        "name": "Pumppujaksot"
       },
       "heating_external_source": {
-        "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+        "name": "Lämmöntuottaja ulk lämmöntuottaja ulk"
       },
       "heating_external_curve_gap": {
-        "name": "LÄMMÖNTUOTTAJA ULK LÄMMITYSKÄYRÄN VÄLI"
+        "name": "Lämmöntuottaja ulk lämmityskäyrän väli"
       },
       "heating_external_blocking_time": {
-        "name": "LÄMMÖNTUOTTAJA ULK SÄHKÖNJAK KESK"
+        "name": "Lämmöntuottaja ulk sähkönjak kesk"
       },
       "heating_external_dual_mode_temp": {
-        "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT HZG"
+        "name": "Lämmöntuottaja ulk kytkentälämpöt hzg"
       },
       "heating_external_lower_limit": {
-        "name": "LÄMMÖNTUOTTAJA ULK KÄYT ALARAJA HZG"
+        "name": "Lämmöntuottaja ulk käyt alaraja hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "LÄMMINV LÄMPÖT MUKAV-LÄMPÖTILA"
+        "name": "Lämminv lämpöt mukav-lämpötila"
       },
       "dhw_eco_temperature": {
-        "name": "LÄMMINV LÄMPÖT ECO-LÄMPÖTILA"
+        "name": "Lämminv lämpöt eco-lämpötila"
       },
       "dhw_mode": {
-        "name": "PERUSASETUS LÄMMINVESIK",
+        "name": "Perusasetus lämminvesik",
         "state": {
-          "priority_operation": "PRIOR KÄYTTÖ",
-          "parallel_operation": "RINN KÄYTTÖ",
-          "partial_priority": "OSITT PRIORIT"
+          "priority_operation": "Prior käyttö",
+          "parallel_operation": "Rinn käyttö",
+          "partial_priority": "Ositt priorit"
         }
       },
       "dhw_hysteresis": {
-        "name": "PERUSASETUS LÄMMINVESIK HYSTER"
+        "name": "Perusasetus lämminvesik hyster"
       },
       "dhw_stages": {
-        "name": "PERUSASETUS LÄMMINVESIK AST"
+        "name": "Perusasetus lämminvesik ast"
       },
       "dhw_learning_function": {
-        "name": "WW OPPIMISTOIM WW OPPIMISTOIM"
+        "name": "WW oppimistoim WW oppimistoim"
       },
       "dhw_combi_cylinder": {
-        "name": "YHDISTELMÄVAR"
+        "name": "Yhdistelmävar"
       },
       "dhw_output_summer": {
-        "name": "WW TEHO KESÄ"
+        "name": "WW teho kesä"
       },
       "dhw_output_winter": {
-        "name": "WW TEHO TALVI"
+        "name": "WW teho talvi"
       },
       "dhw_max_flow_temp": {
-        "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"
+        "name": "Max menovirt lämpöt max menovirt lämpöt"
       },
       "dhw_pasteurisation": {
-        "name": "ANTILEGIONELLAKÄSITT"
+        "name": "Antilegionellakäsitt"
       },
       "dhw_pasteurisation_temp": {
-        "name": "ANTILEGIONELLAKÄSITT OHJELÄMPÖTILA"
+        "name": "Antilegionellakäsitt ohjelämpötila"
       },
       "dhw_external_source": {
-        "name": "LÄMMÖNTUOTTAJA ULK LÄMMÖNTUOTTAJA ULK"
+        "name": "Lämmöntuottaja ulk lämmöntuottaja ulk"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "LÄMMÖNTUOTTAJA ULK KYTKENTÄLÄMPÖT WW"
+        "name": "Lämmöntuottaja ulk kytkentälämpöt WW"
       },
       "dhw_external_lower_limit": {
-        "name": "LÄMMÖNTUOTTAJA ULK KÄYTÖN ALARAJA WW"
+        "name": "Lämmöntuottaja ulk käytön alaraja WW"
       },
       "dhw_external_pwm": {
-        "name": "LÄMMÖNTUOTTAJA ULK WW-PWM"
+        "name": "Lämmöntuottaja ulk ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY AKTIVOITU"
+        "name": "Energiemanagement sgready aktivoitu"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Lämmityspuskuri"
+        "name": "Energiemanagement Lämmityspuskuri"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT YLEMPI HUONE/PUSKURILT.LP1"
+        "name": "Energiemanagement ylempi HUONE/PUSKURILT.LP1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT YLEMPI TILALÄMP.LP2"
+        "name": "Energiemanagement ylempi TILALÄMP.LP2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT YLEMPI L-VEDEN LÄMP.ASETUS"
+        "name": "Energiemanagement ylempi l-veden lämp.asetus"
       }
     },
     "binary_sensor": {

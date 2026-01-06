@@ -24,97 +24,97 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "TEMP RZECZYWISTA BUFORA"
+        "name": "Temp rzeczywista bufora"
       },
       "actual_temperature_hk_1": {
-        "name": "TEMP RZECZYWISTA HK 1"
+        "name": "Temp rzeczywista HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TEMP RZECZYWISTA HK 2"
+        "name": "Temp rzeczywista HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "TEMPERATURA WLOTU SPRĘŻARKI"
+        "name": "Temperatura wlotu sprężarki"
       },
       "compressor_speed_actual": {
-        "name": "OBROTY RZECZ SPREZARKI"
+        "name": "Obroty rzecz sprezarki"
       },
       "compressor_speed_target": {
-        "name": "OBROTY ZAD. SPREZARKI"
+        "name": "Obroty zad. sprezarki"
       },
       "condenser_temperature": {
-        "name": "TEMPERATURA SKRAPLACZA"
+        "name": "Temperatura skraplacza"
       },
       "dhw_consumed_today": {
-        "name": "ZUŻYCIE ENERGII ELEKTRYCZNEJ CWU 1–24 godz."
+        "name": "Zużycie energii elektrycznej cwu 1–24 godz."
       },
       "dhw_temperature": {
-        "name": "CIEPLA WODA UZYTKOWA TEMP RZECZYWISTA"
+        "name": "Ciepla woda uzytkowa temp rzeczywista"
       },
       "evaporator_inlet_temperature": {
-        "name": "TEMPERATURA WLOTU PAROWNIKA"
+        "name": "Temperatura wlotu parownika"
       },
       "evaporator_outlet_temperature": {
-        "name": "TEMPERATURA WYLOTU PAROWNIKA"
+        "name": "Temperatura wylotu parownika"
       },
       "external_actual_temperature": {
-        "name": "ZEWN. WYTWORNICA CIEPLA TEMP RZECZYWISTA"
+        "name": "Zewn. wytwornica ciepla temp rzeczywista"
       },
       "external_set_temperature": {
-        "name": "ZEWN. WYTWORNICA CIEPLA TEMPERATURA ZADANA"
+        "name": "Zewn. wytwornica ciepla temperatura zadana"
       },
       "fan_power_relative": {
-        "name": "WZGLĘDNA MOC WENTYLATORA"
+        "name": "Względna moc wentylatora"
       },
       "frost_protection_temperature": {
-        "name": "ANTYZAMARZANIE"
+        "name": "Antyzamarzanie"
       },
       "heating_consumed_today": {
-        "name": "ZUŻYCIE ENERGII ELEKTRYCZNEJ GRZANIE 1–24 godz."
+        "name": "Zużycie energii elektrycznej grzanie 1–24 godz."
       },
       "high_pressure": {
-        "name": "WART WYSOKIEGO CISNIENIA"
+        "name": "Wart wysokiego cisnienia"
       },
       "hot_gas_temperature": {
-        "name": "TEMP. GAZU GORACEGO"
+        "name": "Temp. gazu goracego"
       },
       "inverter_current": {
-        "name": "PRAD INWERTERA"
+        "name": "Prad inwertera"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "POBÓR MOCY INWERTERA"
+        "name": "Pobór mocy inwertera"
       },
       "inverter_voltage": {
-        "name": "NAPIECIE INWERTERA"
+        "name": "Napiecie inwertera"
       },
       "lower_limit_hzg": {
-        "name": "DOLNA GRANICA STOS. HZG"
+        "name": "Dolna granica stos. hzg"
       },
       "lower_limit_ww": {
-        "name": "DOLNA GRANICA STOS. WW"
+        "name": "Dolna granica stos. WW"
       },
       "low_pressure": {
-        "name": "WART NISKIEGO CISNIENIA"
+        "name": "Wart niskiego cisnienia"
       },
       "oil_sump_temperature": {
-        "name": "TEMP MISKI OLEJOWEJ"
+        "name": "Temp miski olejowej"
       },
       "outside_temperature": {
-        "name": "TEMP ZEWNETRZNA"
+        "name": "Temp zewnetrzna"
       },
       "return_temperature": {
-        "name": "TEMPERATURA POWROTU"
+        "name": "Temperatura powrotu"
       },
       "set_buffer_temperature": {
-        "name": "TEMP ZADANA BUFORA"
+        "name": "Temp zadana bufora"
       },
       "set_temperature_hk_1": {
-        "name": "TEMPERATURA ZADANA HK 1"
+        "name": "Temperatura zadana HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "TEMPERATURA ZADANA HK 2"
+        "name": "Temperatura zadana HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktywny"
@@ -129,255 +129,255 @@
         "name": "Tryb pracy"
       },
       "supply_temperature": {
-        "name": "TEMPERATURA ZASILANIA"
+        "name": "Temperatura zasilania"
       },
       "total_dhw_consumed": {
-        "name": "ZUŻYCIE ENERGII ELEKTRYCZNEJ CWU 1–12 mies."
+        "name": "Zużycie energii elektrycznej cwu 1–12 mies."
       },
       "total_heating_consumed": {
-        "name": "ZUŻYCIE ENERGII ELEKTRYCZNEJ GRZANIE 1–12 mies."
+        "name": "Zużycie energii elektrycznej grzanie 1–12 mies."
       },
       "water_flow": {
-        "name": "WP PRZEPLYW WODY"
+        "name": "Wp przeplyw wody"
       },
       "runtime_vd_heating": {
-        "name": "VD OGRZEWANIE"
+        "name": "VD ogrzewanie"
       },
       "runtime_vd_dhw": {
-        "name": "VD CIEPLA WODA"
+        "name": "VD ciepla woda"
       },
       "runtime_vd_defrost": {
-        "name": "VD ROZMRAZANIE"
+        "name": "VD rozmrazanie"
       },
       "defrost_time": {
-        "name": "CZAS ROZMRAZANIA"
+        "name": "Czas rozmrazania"
       },
       "defrost_starts": {
-        "name": "START ROZMRAZANIA"
+        "name": "Start rozmrazania"
       },
       "compressor_starts": {
-        "name": "SPREZARKA URUCHOMIEŃ"
+        "name": "Sprezarka uruchomień"
       },
       "efficiency_heating_today": {
-        "name": "EFEKTYWNOŚĆ GRZANIE 1–24 godz."
+        "name": "Efektywność grzanie 1–24 godz."
       },
       "efficiency_heating_1_12m": {
-        "name": "EFEKTYWNOŚĆ GRZANIE 1–12 mies."
+        "name": "Efektywność grzanie 1–12 mies."
       },
       "efficiency_heating_13_24m": {
-        "name": "EFEKTYWNOŚĆ GRZANIE 13–24 mies."
+        "name": "Efektywność grzanie 13–24 mies."
       },
       "efficiency_dhw_today": {
-        "name": "EFEKTYWNOŚĆ CWU 1–24 godz."
+        "name": "Efektywność cwu 1–24 godz."
       },
       "efficiency_dhw_1_12m": {
-        "name": "EFEKTYWNOŚĆ CWU 1–12 mies."
+        "name": "Efektywność cwu 1–12 mies."
       },
       "efficiency_dhw_13_24m": {
-        "name": "EFEKTYWNOŚĆ CWU 13–24 mies."
+        "name": "Efektywność cwu 13–24 mies."
       },
       "heat_produced_today": {
-        "name": "ILOSC CIEPLA GRZANIE 1–24 godz."
+        "name": "Ilosc ciepla grzanie 1–24 godz."
       },
       "total_heat_produced": {
-        "name": "ILOSC CIEPLA GRZANIE 1–12 mies."
+        "name": "Ilosc ciepla grzanie 1–12 mies."
       },
       "dhw_produced_today": {
-        "name": "ILOSC CIEPLA CWU 1–24 godz."
+        "name": "Ilosc ciepla cwu 1–24 godz."
       },
       "total_dhw_produced": {
-        "name": "ILOSC CIEPLA CWU 1–12 mies."
+        "name": "Ilosc ciepla cwu 1–12 mies."
       },
       "dhw_set_temperature": {
-        "name": "CIEPLA WODA UZYTKOWA TEMPERATURA ZADANA"
+        "name": "Ciepla woda uzytkowa temperatura zadana"
       },
       "dual_mode_temp_hzg": {
-        "name": "TEMP BIWALENTNA HZG"
+        "name": "Temp biwalentna hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "TEMP BIWALENTNA WW"
+        "name": "Temp biwalentna WW"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "STEROWANIE MOCĄ ZB. BUFOROWY OGRZEWANIA"
+        "name": "Sterowanie mocą zb. buforowy ogrzewania"
       },
       "wcci_operating_mode": {
-        "name": "STEROWANIE MOCĄ BIEŻĄCY STAN"
+        "name": "Sterowanie mocą bieżący stan"
       },
       "wcci_user_power_limit": {
-        "name": "STEROWANIE MOCĄ OGRANICZENIE MOCY"
+        "name": "Sterowanie mocą ograniczenie mocy"
       },
       "wcci_load_temp_room_1": {
-        "name": "STEROWANIE MOCĄ TEMP ŁADOWANIA OG 1 / ZB. BUFOROWEGO"
+        "name": "Sterowanie mocą temp ładowania OG 1 / zb. buforowego"
       },
       "wcci_load_temp_room_2": {
-        "name": "STEROWANIE MOCĄ TEMPERATURA ŁADOWANIA OG 2"
+        "name": "Sterowanie mocą temperatura ładowania OG 2"
       },
       "wcci_load_temp_room_3": {
-        "name": "STEROWANIE MOCĄ TEMPERATURA ŁADOWANIA OG 3"
+        "name": "Sterowanie mocą temperatura ładowania OG 3"
       },
       "wcci_load_temp_room_4": {
-        "name": "STEROWANIE MOCĄ TEMPERATURA ŁADOWANIA OG 4"
+        "name": "Sterowanie mocą temperatura ładowania OG 4"
       },
       "wcci_load_temp_room_5": {
-        "name": "STEROWANIE MOCĄ TEMPERATURA ŁADOWANIA OG 5"
+        "name": "Sterowanie mocą temperatura ładowania OG 5"
       },
       "wcci_load_temp_buffer": {
-        "name": "STEROWANIE MOCĄ TEMP ŁADOWANIA ZB. BUFOROWEGO"
+        "name": "Sterowanie mocą temp ładowania zb. buforowego"
       },
       "wcci_load_temp_dhw": {
-        "name": "STEROWANIE MOCĄ TEMP ŁADOWANIA CWU"
+        "name": "Sterowanie mocą temp ładowania cwu"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "STEROWANIE MOCĄ LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Sterowanie mocą limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "OBIEG GRZEWCZY 1 TEMPERATURA KOMFORTOWA"
+        "name": "Obieg grzewczy 1 temperatura komfortowa"
       },
       "hc1_eco_temperature": {
-        "name": "OBIEG GRZEWCZY 1 TEMPERATURA ECO"
+        "name": "Obieg grzewczy 1 temperatura eco"
       },
       "hc1_minimum_temperature": {
-        "name": "OBIEG GRZEWCZY 1 TEMPERATURA MINIMALNA"
+        "name": "Obieg grzewczy 1 temperatura minimalna"
       },
       "hc1_heating_curve_rise": {
-        "name": "OBIEG GRZEWCZY 1 NACHYL KRZYWEJ GRZEWCZEJ"
+        "name": "Obieg grzewczy 1 nachyl krzywej grzewczej"
       },
       "hc2_comfort_temperature": {
-        "name": "OBIEG GRZEWCZY 2 TEMPERATURA KOMFORTOWA"
+        "name": "Obieg grzewczy 2 temperatura komfortowa"
       },
       "hc2_eco_temperature": {
-        "name": "OBIEG GRZEWCZY 2 TEMPERATURA ECO"
+        "name": "Obieg grzewczy 2 temperatura eco"
       },
       "hc2_minimum_temperature": {
-        "name": "OBIEG GRZEWCZY 2 TEMPERATURA MINIMALNA"
+        "name": "Obieg grzewczy 2 temperatura minimalna"
       },
       "hc2_maximum_temperature": {
-        "name": "OBIEG GRZEWCZY 2 TEMPERATURA MAKS."
+        "name": "Obieg grzewczy 2 temperatura maks."
       },
       "hc2_mixer_dynamics": {
-        "name": "OBIEG GRZEWCZY 2 DYNAMIKA MIESZACZA"
+        "name": "Obieg grzewczy 2 dynamika mieszacza"
       },
       "hc2_heating_curve_rise": {
-        "name": "OBIEG GRZEWCZY 2 NACHYL KRZYWEJ GRZEWCZEJ"
+        "name": "Obieg grzewczy 2 nachyl krzywej grzewczej"
       },
       "heating_buffer_operation": {
-        "name": "NASTAWA PODSTAWOWA TRYB BUFOROWY"
+        "name": "Nastawa podstawowa tryb buforowy"
       },
       "heating_max_return_temp": {
-        "name": "NASTAWA PODSTAWOWA MAKS TEMP POWROTU"
+        "name": "Nastawa podstawowa maks temp powrotu"
       },
       "heating_max_flow_temp": {
-        "name": "NASTAWA PODSTAWOWA MAKS TEMP ZASILANIA"
+        "name": "Nastawa podstawowa maks temp zasilania"
       },
       "heating_fixed_value_operation": {
-        "name": "NASTAWA PODSTAWOWA PRACA STALOWARTOSCIOWA"
+        "name": "Nastawa podstawowa praca stalowartosciowa"
       },
       "heating_frost_protection": {
-        "name": "NASTAWA PODSTAWOWA ANTYZAMARZANIE"
+        "name": "Nastawa podstawowa antyzamarzanie"
       },
       "heating_summer_mode": {
-        "name": "TRYB LETNI TRYB LETNI"
+        "name": "Tryb letni tryb letni"
       },
       "heating_summer_outside_temp": {
-        "name": "TRYB LETNI TEMP ZEWNETRZNA"
+        "name": "Tryb letni temp zewnetrzna"
       },
       "heating_summer_heat_buffer": {
-        "name": "TRYB LETNI TLUMIENIE BUDYNKU"
+        "name": "Tryb letni tlumienie budynku"
       },
       "heating_pump_cycles": {
-        "name": "CYKLE POMPY CYKLE POMPY"
+        "name": "Cykle pompy cykle pompy"
       },
       "heating_external_source": {
-        "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+        "name": "Zewn. wytwornica ciepla zewn. wytwornica ciepla"
       },
       "heating_external_curve_gap": {
-        "name": "ZEWN. WYTWORNICA CIEPLA ODL KRZYWEJ GRZEWCZEJ"
+        "name": "Zewn. wytwornica ciepla odl krzywej grzewczej"
       },
       "heating_external_blocking_time": {
-        "name": "ZEWN. WYTWORNICA CIEPLA CZAS BLOKADY ZAK ENERGET"
+        "name": "Zewn. wytwornica ciepla czas blokady zak energet"
       },
       "heating_external_dual_mode_temp": {
-        "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA HZG"
+        "name": "Zewn. wytwornica ciepla temp biwalentna hzg"
       },
       "heating_external_lower_limit": {
-        "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. HZG"
+        "name": "Zewn. wytwornica ciepla dolna granica stos. hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "TEMPERATURY CWU TEMPERATURA KOMFORTOWA"
+        "name": "Temperatury cwu temperatura komfortowa"
       },
       "dhw_eco_temperature": {
-        "name": "TEMPERATURY CWU TEMPERATURA ECO"
+        "name": "Temperatury cwu temperatura eco"
       },
       "dhw_mode": {
-        "name": "NASTAWA PODSTAWOWA TRYB CWU",
+        "name": "Nastawa podstawowa tryb cwu",
         "state": {
-          "priority_operation": "TRYB PRIORYTETU",
-          "parallel_operation": "TRYB ROWNOLEGLY",
-          "partial_priority": "PRIORYTET CZESCIOWY"
+          "priority_operation": "Tryb priorytetu",
+          "parallel_operation": "Tryb równoległy",
+          "partial_priority": "Priorytet częściowy"
         }
       },
       "dhw_hysteresis": {
-        "name": "NASTAWA PODSTAWOWA HISTEREZA CWU"
+        "name": "Nastawa podstawowa histereza cwu"
       },
       "dhw_stages": {
-        "name": "NASTAWA PODSTAWOWA STOPNIE CWU"
+        "name": "Nastawa podstawowa stopnie cwu"
       },
       "dhw_learning_function": {
-        "name": "WW FUNKCJA NAUKI PROGR WW FUNKCJA NAUKI PROGR"
+        "name": "WW funkcja nauki progr WW funkcja nauki progr"
       },
       "dhw_combi_cylinder": {
-        "name": "ZASOBNIK KOMBINOWANY ZASOBNIK KOMBINOWANY"
+        "name": "Zasobnik kombinowany zasobnik kombinowany"
       },
       "dhw_output_summer": {
-        "name": "WW MOC LATO"
+        "name": "WW moc lato"
       },
       "dhw_output_winter": {
-        "name": "WW MOC ZIMA"
+        "name": "WW moc zima"
       },
       "dhw_max_flow_temp": {
-        "name": "MAKS TEMP ZASILANIA MAKS TEMP ZASILANIA"
+        "name": "Maks temp zasilania maks temp zasilania"
       },
       "dhw_pasteurisation": {
-        "name": "FUNKCJA ANTYLEGIONELLI FUNKCJA ANTYLEGIONELLI"
+        "name": "Funkcja antylegionelli funkcja antylegionelli"
       },
       "dhw_pasteurisation_temp": {
-        "name": "FUNKCJA ANTYLEGIONELLI TEMPERATURA ZADANA"
+        "name": "Funkcja antylegionelli temperatura zadana"
       },
       "dhw_external_source": {
-        "name": "ZEWN. WYTWORNICA CIEPLA ZEWN. WYTWORNICA CIEPLA"
+        "name": "Zewn. wytwornica ciepla zewn. wytwornica ciepla"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "ZEWN. WYTWORNICA CIEPLA TEMP BIWALENTNA WW"
+        "name": "Zewn. wytwornica ciepla temp biwalentna WW"
       },
       "dhw_external_lower_limit": {
-        "name": "ZEWN. WYTWORNICA CIEPLA DOLNA GRANICA STOS. WW"
+        "name": "Zewn. wytwornica ciepla dolna granica stos. WW"
       },
       "dhw_external_pwm": {
-        "name": "ZEWN. WYTWORNICA CIEPLA WW-PWM"
+        "name": "Zewn. wytwornica ciepla ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY AKTYWOW."
+        "name": "Energiemanagement sgready aktywow."
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Zb. buforowy ogrzewania"
+        "name": "Energiemanagement Zb. buforowy ogrzewania"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM./ZAS. OG1"
+        "name": "Energiemanagement górna temp.pom./zas. OG1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT GÓRNA TEMP.POM. OG2"
+        "name": "Energiemanagement górna temp.pom. OG2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT GÓRNA TEMP. ZAD. CWU"
+        "name": "Energiemanagement górna temp. zad. cwu"
       }
     },
     "binary_sensor": {

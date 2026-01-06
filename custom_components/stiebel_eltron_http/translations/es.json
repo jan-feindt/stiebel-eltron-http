@@ -24,100 +24,100 @@
   "entity": {
     "sensor": {
       "actual_buffer_temperature": {
-        "name": "TEMP. REAL DEP. INERCIA"
+        "name": "Temp. real dep. inercia"
       },
       "actual_temperature_hk_1": {
-        "name": "TEMPERATURA REAL HK 1"
+        "name": "Temperatura real HK 1"
       },
       "actual_temperature_hk_2": {
-        "name": "TEMPERATURA REAL HK 2"
+        "name": "Temperatura real HK 2"
       },
       "compressor_inlet_temperature": {
-        "name": "TEMPERATURA DE ENTRADA DEL COMPRESOR"
+        "name": "Temperatura DE entrada del compresor"
       },
       "compressor_speed_actual": {
-        "name": "VEL. REAL COMPRESOR"
+        "name": "Vel. real compresor"
       },
       "compressor_speed_target": {
-        "name": "VEL. DE REF. COMPRESOR"
+        "name": "Vel. DE ref. compresor"
       },
       "condenser_temperature": {
-        "name": "TEMPERATURA DEL COND."
+        "name": "Temperatura del cond."
       },
       "dhw_consumed_today": {
-        "name": "AGUA CALIENTE 1-24 h"
+        "name": "Agua caliente 1-24 h"
       },
       "dhw_temperature": {
-        "name": "TEMPERATURA REAL"
+        "name": "Temperatura real"
       },
       "efficiency_dhw_13_24m": {
-        "name": "AGUA CALIENTE 13-24 M"
+        "name": "Agua caliente 13-24 M"
       },
       "efficiency_heating_13_24m": {
-        "name": "CALEFACCIÓN 13-24 M"
+        "name": "Calefacción 13-24 M"
       },
       "evaporator_inlet_temperature": {
-        "name": "TEMPERATURA DE ENTRADA DEL EVAPORADOR"
+        "name": "Temperatura DE entrada del evaporador"
       },
       "evaporator_outlet_temperature": {
-        "name": "TEMPERATURA DE SALIDA DEL EVAPORADOR"
+        "name": "Temperatura DE salida del evaporador"
       },
       "external_actual_temperature": {
-        "name": "TEMPERATURA REAL"
+        "name": "Temperatura real"
       },
       "external_set_temperature": {
-        "name": "TEMPERATURA DE REFERENCIA"
+        "name": "Temperatura DE referencia"
       },
       "fan_power_relative": {
-        "name": "POTENCIA RELATIVA VENT."
+        "name": "Potencia relativa vent."
       },
       "frost_protection_temperature": {
-        "name": "PROTEC. ANTICONG."
+        "name": "Protec. anticong."
       },
       "heating_consumed_today": {
-        "name": "CALEFACCIÓN 1-24 h"
+        "name": "Calefacción 1-24 h"
       },
       "high_pressure": {
-        "name": "PRESIÓN ALTA PRESIÓN"
+        "name": "Presión alta presión"
       },
       "hot_gas_temperature": {
-        "name": "TEMP. DEL GAS CALIENTE"
+        "name": "Temp. del gas caliente"
       },
       "inverter_power": {
-        "name": "INVERTER POWER"
+        "name": "Inverter power"
       },
       "inverter_power_input": {
-        "name": "CONSUMO ENERGÍA INVERSOR"
+        "name": "Consumo energía inversor"
       },
       "inverter_voltage": {
-        "name": "TENSIÓN INVERSOR"
+        "name": "Tensión inversor"
       },
       "lower_limit_hzg": {
-        "name": "LÍMITE INF. UTIL. HZG"
+        "name": "Límite inf. util. hzg"
       },
       "lower_limit_ww": {
-        "name": "LÍMITE INF. UTIL. WW"
+        "name": "Límite inf. util. WW"
       },
       "low_pressure": {
-        "name": "PRESIÓN BAJA PRESIÓN"
+        "name": "Presión baja presión"
       },
       "oil_sump_temperature": {
-        "name": "TEMP. COLECTOR ACEITE"
+        "name": "Temp. colector aceite"
       },
       "outside_temperature": {
-        "name": "TEMPERATURA EXTERIOR"
+        "name": "Temperatura exterior"
       },
       "return_temperature": {
-        "name": "TEMPERATURA DE RETORNO"
+        "name": "Temperatura DE retorno"
       },
       "set_buffer_temperature": {
-        "name": "TEMP. REF. DEPÓSITO INER."
+        "name": "Temp. ref. depósito iner."
       },
       "set_temperature_hk_1": {
-        "name": "TEMPERATURA DE REF. HK 1"
+        "name": "Temperatura DE ref. HK 1"
       },
       "set_temperature_hk_2": {
-        "name": "TEMPERATURA DE REF. HK 2"
+        "name": "Temperatura DE ref. HK 2"
       },
       "start_sg_ready_active": {
         "name": "SG Ready activo"
@@ -132,252 +132,252 @@
         "name": "Modo de servicio"
       },
       "supply_temperature": {
-        "name": "TEMP. DE IMPULSIÓN"
+        "name": "Temp. DE impulsión"
       },
       "total_dhw_consumed": {
-        "name": "AGUA CALIENTE 1-12 M"
+        "name": "Agua caliente 1-12 M"
       },
       "total_heating_consumed": {
-        "name": "CALEFACCIÓN 1-12 M"
+        "name": "Calefacción 1-12 M"
       },
       "water_flow": {
-        "name": "CAUDAL AGUA WP"
+        "name": "Caudal agua WP"
       },
       "dual_mode_temp_hzg": {
-        "name": "TEMP. BIVALENCIA HZG"
+        "name": "Temp. bivalencia hzg"
       },
       "dual_mode_temp_ww": {
-        "name": "TEMP. BIVALENCIA WW"
+        "name": "Temp. bivalencia WW"
       },
       "heat_produced_today": {
-        "name": "CALEFACCIÓN 1-24 h"
+        "name": "Calefacción 1-24 h"
       },
       "total_heat_produced": {
-        "name": "CALEFACCIÓN 1-12 M"
+        "name": "Calefacción 1-12 M"
       },
       "dhw_produced_today": {
-        "name": "AGUA CALIENTE 1-24 h"
+        "name": "Agua caliente 1-24 h"
       },
       "total_dhw_produced": {
-        "name": "AGUA CALIENTE 1-12 M"
+        "name": "Agua caliente 1-12 M"
       },
       "runtime_vd_dhw": {
-        "name": "VD AGUA CALIENTE"
+        "name": "VD agua caliente"
       },
       "runtime_vd_heating": {
-        "name": "VD CALEFACCIÓN"
+        "name": "VD calefacción"
       },
       "runtime_vd_defrost": {
-        "name": "VD DESESCARCHE"
+        "name": "VD desescarche"
       },
       "defrost_time": {
-        "name": "TIEMPO DESESCARCHE"
+        "name": "Tiempo desescarche"
       },
       "defrost_starts": {
-        "name": "INICIO DESESCARCHE"
+        "name": "Inicio desescarche"
       },
       "compressor_starts": {
-        "name": "COMPRESOR ARRANQUES"
+        "name": "Compresor arranques"
       },
       "dhw_set_temperature": {
-        "name": "TEMPERATURA DE REFERENCIA"
+        "name": "Temperatura DE referencia"
       },
       "inverter_current": {
-        "name": "INVERSOR CORRIENTE"
+        "name": "Inversor corriente"
       },
       "efficiency_heating_today": {
-        "name": "CALEFACCIÓN 1-24 h"
+        "name": "Calefacción 1-24 h"
       },
       "efficiency_heating_1_12m": {
-        "name": "CALEFACCIÓN 1-12 M"
+        "name": "Calefacción 1-12 M"
       },
       "efficiency_dhw_today": {
-        "name": "AGUA CALIENTE 1-24 h"
+        "name": "Agua caliente 1-24 h"
       },
       "efficiency_dhw_1_12m": {
-        "name": "AGUA CALIENTE 1-12 M"
+        "name": "Agua caliente 1-12 M"
       },
       "wcci_input_mode": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEMODUS"
+        "name": "Leistungsbeeinflussung eingabemodus"
       },
       "wcci_input_source": {
-        "name": "LEISTUNGSBEEINFLUSSUNG EINGABEQUELLE"
+        "name": "Leistungsbeeinflussung eingabequelle"
       },
       "wcci_buffer": {
-        "name": "INFLUENCIA EN LA POTENCIA DEP. INERCIA CALEFACCIÓN"
+        "name": "Influencia EN LA potencia dep. inercia calefacción"
       },
       "wcci_operating_mode": {
-        "name": "INFLUENCIA EN LA POTENCIA ESTADO ACTUAL"
+        "name": "Influencia EN LA potencia estado actual"
       },
       "wcci_user_power_limit": {
-        "name": "INFLUENCIA EN LA POTENCIA LIMITACIÓN DE CONSUMO"
+        "name": "Influencia EN LA potencia limitación DE consumo"
       },
       "wcci_load_temp_room_1": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 1 / DEP. INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga circ. DE calefacción 1 / dep. inercia"
       },
       "wcci_load_temp_room_2": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 2 / DEP. INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga circ. DE calefacción 2 / dep. inercia"
       },
       "wcci_load_temp_room_3": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 3 / DEP. INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga circ. DE calefacción 3 / dep. inercia"
       },
       "wcci_load_temp_room_4": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 4 / DEP. INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga circ. DE calefacción 4 / dep. inercia"
       },
       "wcci_load_temp_room_5": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA CIRC. DE CALEFACCIÓN 5 / DEP. INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga circ. DE calefacción 5 / dep. inercia"
       },
       "wcci_load_temp_buffer": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA EN DEP. DE INERCIA"
+        "name": "Influencia EN LA potencia temp. DE carga EN dep. DE inercia"
       },
       "wcci_load_temp_dhw": {
-        "name": "INFLUENCIA EN LA POTENCIA TEMP. DE CARGA DE AGUA CALIENTE"
+        "name": "Influencia EN LA potencia temp. DE carga DE agua caliente"
       },
       "wcci_limit_functionality_blocked": {
-        "name": "INFLUENCIA EN LA POTENCIA LIMITIERUNGSFUNKTION BLOCKIERT"
+        "name": "Influencia EN LA potencia limitierungsfunktion blockiert"
       },
       "hc1_comfort_temperature": {
-        "name": "CIRC. CALEF. 1 TEMPERATURA CONFORT"
+        "name": "Circ. calef. 1 temperatura confort"
       },
       "hc1_eco_temperature": {
-        "name": "CIRC. CALEF. 1 TEMPERATURA ECO"
+        "name": "Circ. calef. 1 temperatura eco"
       },
       "hc1_minimum_temperature": {
-        "name": "CIRC. CALEF. 1 TEMPERATURA MÍNIMA"
+        "name": "Circ. calef. 1 temperatura mínima"
       },
       "hc1_heating_curve_rise": {
-        "name": "CIRC. CALEF. 1 AUMENTO CURVA CALEFAC."
+        "name": "Circ. calef. 1 aumento curva calefac."
       },
       "hc2_comfort_temperature": {
-        "name": "CIRC. CALEF. 2 TEMPERATURA CONFORT"
+        "name": "Circ. calef. 2 temperatura confort"
       },
       "hc2_eco_temperature": {
-        "name": "CIRC. CALEF. 2 TEMPERATURA ECO"
+        "name": "Circ. calef. 2 temperatura eco"
       },
       "hc2_minimum_temperature": {
-        "name": "CIRC. CALEF. 2 TEMPERATURA MÍNIMA"
+        "name": "Circ. calef. 2 temperatura mínima"
       },
       "hc2_maximum_temperature": {
-        "name": "CIRC. CALEF. 2 TEMPERATURA MÁXIMA"
+        "name": "Circ. calef. 2 temperatura máxima"
       },
       "hc2_mixer_dynamics": {
-        "name": "CIRC. CALEF. 2 DINÁMICA DEL MEZCLADOR"
+        "name": "Circ. calef. 2 dinámica del mezclador"
       },
       "hc2_heating_curve_rise": {
-        "name": "CIRC. CALEF. 2 AUMENTO CURVA CALEFAC."
+        "name": "Circ. calef. 2 aumento curva calefac."
       },
       "heating_buffer_operation": {
-        "name": "AJUSTE ESTÁNDAR ZONA DEPÓSITO DE INERCIA"
+        "name": "Ajuste estándar zona depósito DE inercia"
       },
       "heating_max_return_temp": {
-        "name": "AJUSTE ESTÁNDAR TEMP. MÁX. RETORNO"
+        "name": "Ajuste estándar temp. máx. retorno"
       },
       "heating_max_flow_temp": {
-        "name": "AJUSTE ESTÁNDAR TEMP. MÁX. IMPULSIÓN"
+        "name": "Ajuste estándar temp. máx. impulsión"
       },
       "heating_fixed_value_operation": {
-        "name": "AJUSTE ESTÁNDAR OPER. CON VALORES FIJOS"
+        "name": "Ajuste estándar oper. con valores fijos"
       },
       "heating_frost_protection": {
-        "name": "AJUSTE ESTÁNDAR PROTEC. ANTICONG."
+        "name": "Ajuste estándar protec. anticong."
       },
       "heating_summer_mode": {
-        "name": "OPERACIÓN VERANO OPERACIÓN VERANO"
+        "name": "Operación verano operación verano"
       },
       "heating_summer_outside_temp": {
-        "name": "OPERACIÓN VERANO TEMPERATURA EXTERIOR"
+        "name": "Operación verano temperatura exterior"
       },
       "heating_summer_heat_buffer": {
-        "name": "OPERACIÓN VERANO AISLAMIENTO DEL EDIFICIO"
+        "name": "Operación verano aislamiento del edificio"
       },
       "heating_pump_cycles": {
-        "name": "CICLOS BOMBA CICLOS BOMBA"
+        "name": "Ciclos bomba ciclos bomba"
       },
       "heating_external_source": {
-        "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+        "name": "Generador calor externo generador calor externo"
       },
       "heating_external_curve_gap": {
-        "name": "GENERADOR CALOR EXTERNO DISTANCIA CURVA CAL."
+        "name": "Generador calor externo distancia curva cal."
       },
       "heating_external_blocking_time": {
-        "name": "GENERADOR CALOR EXTERNO T. BLO. DEF. COMP. ELÉC."
+        "name": "Generador calor externo T. blo. def. comp. eléc."
       },
       "heating_external_dual_mode_temp": {
-        "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA HZG"
+        "name": "Generador calor externo temp. bivalencia hzg"
       },
       "heating_external_lower_limit": {
-        "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. HZG"
+        "name": "Generador calor externo límite inf. util. hzg"
       },
       "dhw_comfort_temperature": {
-        "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA CONFORT"
+        "name": "Temps. DE agua caliente temperatura confort"
       },
       "dhw_eco_temperature": {
-        "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA ECO"
+        "name": "Temps. DE agua caliente temperatura eco"
       },
       "dhw_mode": {
-        "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE",
+        "name": "Ajuste estándar modo agua caliente",
         "state": {
-          "priority_operation": "MODO PRIORITARIO",
-          "parallel_operation": "MODO FUNC. EN PARALELO",
-          "partial_priority": "PRIORIDAD PARCIAL"
+          "priority_operation": "Modo prioritario",
+          "parallel_operation": "Modo func. en paralelo",
+          "partial_priority": "Prioridad parcial"
         }
       },
       "dhw_hysteresis": {
-        "name": "AJUSTE ESTÁNDAR HISTÉRESIS AGUA CALIENTE"
+        "name": "Ajuste estándar histéresis agua caliente"
       },
       "dhw_stages": {
-        "name": "AJUSTE ESTÁNDAR NIVELES DE AGUA CALIENTE"
+        "name": "Ajuste estándar niveles DE agua caliente"
       },
       "dhw_learning_function": {
-        "name": "WW FUNCIÓN APRENDIZAJE WW FUNCIÓN APRENDIZAJE"
+        "name": "WW función aprendizaje WW función aprendizaje"
       },
       "dhw_combi_cylinder": {
-        "name": "ACUMULADOR COMBINADO ACUMULADOR COMBINADO"
+        "name": "Acumulador combinado acumulador combinado"
       },
       "dhw_output_summer": {
-        "name": "WW REND. VERANO"
+        "name": "WW rend. verano"
       },
       "dhw_output_winter": {
-        "name": "WW REND. INVIERNO"
+        "name": "WW rend. invierno"
       },
       "dhw_max_flow_temp": {
-        "name": "TEMP. MÁX. IMPULSIÓN TEMP. MÁX. IMPULSIÓN"
+        "name": "Temp. máx. impulsión temp. máx. impulsión"
       },
       "dhw_pasteurisation": {
-        "name": "TRATAMIENTO ANTILEGIONELA TRATAMIENTO ANTILEGIONELA"
+        "name": "Tratamiento antilegionela tratamiento antilegionela"
       },
       "dhw_pasteurisation_temp": {
-        "name": "TRATAMIENTO ANTILEGIONELA TEMPERATURA DE REFERENCIA"
+        "name": "Tratamiento antilegionela temperatura DE referencia"
       },
       "dhw_external_source": {
-        "name": "GENERADOR CALOR EXTERNO GENERADOR CALOR EXTERNO"
+        "name": "Generador calor externo generador calor externo"
       },
       "dhw_external_dual_mode_temp": {
-        "name": "GENERADOR CALOR EXTERNO TEMP. BIVALENCIA WW"
+        "name": "Generador calor externo temp. bivalencia WW"
       },
       "dhw_external_lower_limit": {
-        "name": "GENERADOR CALOR EXTERNO LÍMITE INF. UTIL. WW"
+        "name": "Generador calor externo límite inf. util. WW"
       },
       "dhw_external_pwm": {
-        "name": "GENERADOR CALOR EXTERNO WW-PWM"
+        "name": "Generador calor externo ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "ENERGIEMANAGEMENT SGREADY ACTIVADO"
+        "name": "Energiemanagement sgready activado"
       },
       "sg_ready_input": {
-        "name": "ENERGIEMANAGEMENT SG-READY INPUT"
+        "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "ENERGIEMANAGEMENT Dep. inercia calefacción"
+        "name": "Energiemanagement Dep. inercia calefacción"
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "ENERGIEMANAGEMENT TEMP.AMB./INERCIA SUP. HK1"
+        "name": "Energiemanagement temp.amb./inercia sup. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "ENERGIEMANAGEMENT TEMP.AMB.SUPER. HK2"
+        "name": "Energiemanagement temp.amb.super. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "ENERGIEMANAGEMENT TEMP.REF.SUP.AGUA CALIENTE"
+        "name": "Energiemanagement temp.ref.sup.agua caliente"
       }
     },
     "binary_sensor": {
