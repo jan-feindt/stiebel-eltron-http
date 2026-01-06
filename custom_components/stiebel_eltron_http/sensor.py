@@ -69,6 +69,8 @@ from .const import (
     START_SG_READY_ACTIVE,
     START_SG_READY_STATE,
     START_ENERGY_MGMT_OK,
+    START_PORTAL_OK,
+    START_SYSTEM_OK,
     RUNTIME_VD_HEATING_KEY,
     RUNTIME_VD_DHW_KEY,
     RUNTIME_VD_DEFROST_KEY,
@@ -502,6 +504,22 @@ ENTITY_DESCRIPTIONS = (
         icon="mdi:check-circle-outline",
         device_class=SensorDeviceClass.ENUM,
         options=["ERROR", "OK"],
+    ),
+    SensorEntityDescription(
+        key=START_PORTAL_OK,
+        name="Portal connected",
+        translation_key=START_PORTAL_OK,
+        icon="mdi:cloud-check",
+        device_class=SensorDeviceClass.ENUM,
+        options=["disconnected", "connected"],
+    ),
+    SensorEntityDescription(
+        key=START_SYSTEM_OK,
+        name="System OK",
+        translation_key=START_SYSTEM_OK,
+        icon="mdi:check-circle",
+        device_class=SensorDeviceClass.ENUM,
+        options=["error", "ok"],
     ),
     # ---- External heat source temperatures ----
     SensorEntityDescription(
@@ -1190,6 +1208,11 @@ async def async_setup_entry(
             EFFICIENCY_DHW_13_24M_KEY,
             # Start page overview fields (s=0) are optional; create when available
             START_OPERATION_MODE_KEY,
+            START_SG_READY_ACTIVE,
+            START_SG_READY_STATE,
+            START_ENERGY_MGMT_OK,
+            START_PORTAL_OK,
+            START_SYSTEM_OK,
             # Heating circuit sensors (HK 1, HK 2) are optional
             ACTUAL_TEMPERATURE_HK_1_KEY,
             SET_TEMPERATURE_HK_1_KEY,

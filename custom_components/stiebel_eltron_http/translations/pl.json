@@ -397,15 +397,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement górna temp. zad. cwu"
+      },
+      "start_portal_ok": {
+        "name": "Portal połączony",
+        "state": {
+          "disconnected": "Rozłączony",
+          "connected": "Połączony"
+        }
+      },
+      "start_system_ok": {
+        "name": "System OK",
+        "state": {
+          "error": "Błąd",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

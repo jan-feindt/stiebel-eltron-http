@@ -397,15 +397,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement ylempi l-veden lämp.asetus"
+      },
+      "start_portal_ok": {
+        "name": "Portaali yhdistetty",
+        "state": {
+          "disconnected": "Katkaistu",
+          "connected": "Yhdistetty"
+        }
+      },
+      "start_system_ok": {
+        "name": "Järjestelmä OK",
+        "state": {
+          "error": "Virhe",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

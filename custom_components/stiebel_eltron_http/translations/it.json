@@ -397,15 +397,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement tmp acs des. sup."
+      },
+      "start_portal_ok": {
+        "name": "Portale connesso",
+        "state": {
+          "disconnected": "Disconnesso",
+          "connected": "Connesso"
+        }
+      },
+      "start_system_ok": {
+        "name": "Sistema OK",
+        "state": {
+          "error": "Errore",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

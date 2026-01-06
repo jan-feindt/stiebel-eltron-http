@@ -46,19 +46,13 @@ async def async_setup_entry(
     entry: StiebelEltronHttpConfigEntry,
     async_add_entities: AddEntitiesCallback,
 ) -> None:
-    """Set up the binary sensor platform."""
-    data = entry.runtime_data.coordinator.data or {}
-
-    to_create = []
-    for desc in ENTITY_DESCRIPTIONS:
-        key = desc.key
-        if key in data and data.get(key) is not None:
-            to_create.append(
-                StiebelEltronHttpPortalBinarySensor(entry.runtime_data.coordinator, desc)
-            )
-
-    if to_create:
-        async_add_entities(to_create)
+    """Set up the binary sensor platform.
+    
+    Note: Portal connectivity and system status sensors were moved to sensor.py
+    as ENUM sensors with proper state translations.
+    """
+    # No binary sensors to create - all moved to sensor platform
+    pass
 
 
 class StiebelEltronHttpPortalBinarySensor(

@@ -397,15 +397,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement övre börtemp. varmvatten"
+      },
+      "start_portal_ok": {
+        "name": "Portal ansluten",
+        "state": {
+          "disconnected": "Frånkopplad",
+          "connected": "Ansluten"
+        }
+      },
+      "start_system_ok": {
+        "name": "System OK",
+        "state": {
+          "error": "Fel",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

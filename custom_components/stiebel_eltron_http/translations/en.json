@@ -403,15 +403,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement upper set DHW temp."
+      },
+      "start_portal_ok": {
+        "name": "Portal connected",
+        "state": {
+          "disconnected": "Disconnected",
+          "connected": "Connected"
+        }
+      },
+      "start_system_ok": {
+        "name": "System OK",
+        "state": {
+          "error": "Error",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

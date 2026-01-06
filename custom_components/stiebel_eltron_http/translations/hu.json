@@ -397,15 +397,23 @@
       },
       "sg_ready_upper_temp_dhw": {
         "name": "Energiemanagement felső melegv. hőm.-alapjel"
+      },
+      "start_portal_ok": {
+        "name": "Portál csatlakoztatva",
+        "state": {
+          "disconnected": "Leválasztva",
+          "connected": "Csatlakoztatva"
+        }
+      },
+      "start_system_ok": {
+        "name": "Rendszer OK",
+        "state": {
+          "error": "Hiba",
+          "ok": "OK"
+        }
       }
     },
     "binary_sensor": {
-      "start_portal_ok": {
-        "name": "Portal Connected"
-      },
-      "start_system_ok": {
-        "name": "System OK"
-      }
     }
   }
 }

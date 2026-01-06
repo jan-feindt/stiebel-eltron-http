@@ -1529,8 +1529,8 @@ class StiebelEltronScrapingClient:
                 img = portal_box.find("img")
                 if img and img.has_attr("src"):
                     src = (img.get("src") or "").strip()
-                    # True only if the OK icon is present (not error or warning)
-                    result[START_PORTAL_OK] = src == "pics/icon_status_ok.gif"
+                    # Return state key instead of boolean
+                    result[START_PORTAL_OK] = "connected" if src == "pics/icon_status_ok.gif" else "disconnected"
 
             # System ok indicator (similar approach)
             system_box = soup.find(id="box_start_status_system")
@@ -1538,8 +1538,8 @@ class StiebelEltronScrapingClient:
                 img = system_box.find("img")
                 if img and img.has_attr("src"):
                     src = (img.get("src") or "").strip()
-                    # True only if the OK icon is present (not error or warning)
-                    result[START_SYSTEM_OK] = src == "pics/icon_status_ok.gif"
+                    # Return state key instead of boolean
+                    result[START_SYSTEM_OK] = "ok" if src == "pics/icon_status_ok.gif" else "error"
 
             # Energy Management status box (new since firmware update)
             # Look for div with id="Modus" that contains SG Ready information
