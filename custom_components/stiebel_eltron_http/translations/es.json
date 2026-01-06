@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Dep. inercia calefacción"
+        "name": "Energiemanagement Dep. inercia calefacción",
+        "state": {
+          "no_buffer": "Sin acumulador",
+          "buffer_with_mixer": "Acumulador con mezclador",
+          "buffer_without_mixer": "Acumulador sin mezclador"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement temp.amb./inercia sup. HK1"

@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Verwarmingsbuffer"
+        "name": "Energiemanagement Verwarmingsbuffer",
+        "state": {
+          "no_buffer": "Geen buffer",
+          "buffer_with_mixer": "Buffer met mengklep",
+          "buffer_without_mixer": "Buffer zonder mengklep"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement bov. kamer-/buf.temp. HK1"

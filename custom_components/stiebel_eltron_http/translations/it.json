@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Serb. tampone riscaldam."
+        "name": "Energiemanagement Serb. tampone riscaldam.",
+        "state": {
+          "no_buffer": "Nessun buffer",
+          "buffer_with_mixer": "Buffer con miscelatore",
+          "buffer_without_mixer": "Buffer senza miscelatore"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement tmp tamp./amb. sup. HK1"

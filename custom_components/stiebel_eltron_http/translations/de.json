@@ -393,7 +393,12 @@
         "name": "Energiemanagement Sg-ready Eingang"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Heizungspuffer"
+        "name": "Energiemanagement Heizungspuffer",
+        "state": {
+          "no_buffer": "Kein Puffer",
+          "buffer_with_mixer": "Puffer mit Mischer",
+          "buffer_without_mixer": "Puffer ohne Mischer"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement Obere Raum/puffertemp. HK1"

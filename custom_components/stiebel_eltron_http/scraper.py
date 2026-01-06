@@ -1411,9 +1411,9 @@ class StiebelEltronScrapingClient:
         if "60317" in val_dict:
             raw_val = val_dict["60317"]
             buffer_map = {
-                "0": "NO BUFFER",
-                "1": "BUFFER WITH MIXER",
-                "2": "BUFFER WITHOUT MIXER",
+                "0": "no_buffer",
+                "1": "buffer_with_mixer",
+                "2": "buffer_without_mixer",
             }
             result[SG_READY_HEATING_BUFFER_KEY] = buffer_map.get(raw_val, raw_val)
         

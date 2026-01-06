@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Ballon tampon chauffage"
+        "name": "Energiemanagement ballon tampon chauffage",
+        "state": {
+          "no_buffer": "Pas de ballon tampon",
+          "buffer_with_mixer": "Ballon tampon avec mitigeur",
+          "buffer_without_mixer": "Ballon tampon sans mitigeur"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement temp. amb./tampon sup. CC1"

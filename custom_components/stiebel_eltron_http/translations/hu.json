@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Fűtési puffer"
+        "name": "Energiemanagement Fűtési puffer",
+        "state": {
+          "no_buffer": "Nincs puffer",
+          "buffer_with_mixer": "Puffer keverővel",
+          "buffer_without_mixer": "Puffer keverő nélkül"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement HK1 felső helyis-/pufferh."

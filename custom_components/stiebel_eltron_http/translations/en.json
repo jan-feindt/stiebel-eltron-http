@@ -393,7 +393,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Heating buffer"
+        "name": "Energiemanagement Heating buffer",
+        "state": {
+          "no_buffer": "No buffer",
+          "buffer_with_mixer": "Buffer with mixer",
+          "buffer_without_mixer": "Buffer without mixer"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement upper room/buffer temp. HC1"

@@ -1144,7 +1144,7 @@ ENTITY_DESCRIPTIONS = (
         name="SG Ready heating buffer",
         translation_key=SG_READY_HEATING_BUFFER_KEY,
         device_class=SensorDeviceClass.ENUM,
-        options=["NO BUFFER", "BUFFER WITH MIXER", "BUFFER WITHOUT MIXER"],
+        options=["no_buffer", "buffer_with_mixer", "buffer_without_mixer"],
         icon="mdi:water-boiler",
     ),
     SensorEntityDescription(

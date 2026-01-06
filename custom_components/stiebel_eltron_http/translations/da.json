@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Varmebuffer"
+        "name": "Energiemanagement Varmebuffer",
+        "state": {
+          "no_buffer": "Ingen buffer",
+          "buffer_with_mixer": "Buffer med blander",
+          "buffer_without_mixer": "Buffer uden blander"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement øvre rum/buffertemp. VK 1"

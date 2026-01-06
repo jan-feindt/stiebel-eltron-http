@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Zb. buforowy ogrzewania"
+        "name": "Energiemanagement Bufor ogrzewania",
+        "state": {
+          "no_buffer": "Brak bufora",
+          "buffer_with_mixer": "Bufor z mieszaczem",
+          "buffer_without_mixer": "Bufor bez mieszacza"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement górna temp.pom./zas. OG1"

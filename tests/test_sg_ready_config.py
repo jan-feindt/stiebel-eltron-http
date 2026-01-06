@@ -45,7 +45,7 @@ def test_extract_sg_ready_config():
     
     # Heating buffer configuration (enum)
     assert SG_READY_HEATING_BUFFER_KEY in result
-    assert result[SG_READY_HEATING_BUFFER_KEY] in ["NO BUFFER", "BUFFER WITH MIXER", "BUFFER WITHOUT MIXER"]
+    assert result[SG_READY_HEATING_BUFFER_KEY] in ["no_buffer", "buffer_with_mixer", "buffer_without_mixer"]
     
     # Upper temperature limits (float)
     assert SG_READY_UPPER_TEMP_HC1_KEY in result

@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Lämmityspuskuri"
+        "name": "Energiemanagement Lämmityspuskuri",
+        "state": {
+          "no_buffer": "Ei puskuria",
+          "buffer_with_mixer": "Puskuri sekoittimella",
+          "buffer_without_mixer": "Puskuri ilman sekoitinta"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement ylempi HUONE/PUSKURILT.LP1"

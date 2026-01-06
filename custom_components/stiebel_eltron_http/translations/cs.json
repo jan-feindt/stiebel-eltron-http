@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Akum. zásobník topení"
+        "name": "Energiemanagement Akum. zásobník topení",
+        "state": {
+          "no_buffer": "Bez zásobníku",
+          "buffer_with_mixer": "Zásobník s směšovačem",
+          "buffer_without_mixer": "Zásobník bez směšovače"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement hor.tep.míst./ak.zás. TO1"

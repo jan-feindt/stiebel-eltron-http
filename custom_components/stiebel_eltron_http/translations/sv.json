@@ -387,7 +387,12 @@
         "name": "Energiemanagement sg-ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Ackumulatortank"
+        "name": "Energiemanagement Ackumulatortank",
+        "state": {
+          "no_buffer": "Ingen buffert",
+          "buffer_with_mixer": "Buffert med blandare",
+          "buffer_without_mixer": "Buffert utan blandare"
+        }
       },
       "sg_ready_upper_temp_hc1": {
         "name": "Energiemanagement övre rums/bufferttemp. HK1"
