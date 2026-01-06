@@ -315,7 +315,12 @@
         "name": "TEMPS. DE AGUA CALIENTE TEMPERATURA ECO"
       },
       "dhw_mode": {
-        "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE"
+        "name": "AJUSTE ESTÁNDAR MODO AGUA CALIENTE",
+        "state": {
+          "priority_operation": "MODO PRIORITARIO",
+          "parallel_operation": "MODO FUNC. EN PARALELO",
+          "partial_priority": "PRIORIDAD PARCIAL"
+        }
       },
       "dhw_hysteresis": {
         "name": "AJUSTE ESTÁNDAR HISTÉRESIS AGUA CALIENTE"

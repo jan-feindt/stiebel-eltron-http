@@ -315,7 +315,12 @@
         "name": "VARMTVANDSTEMPERATURER ECO-TEMPERATUR"
       },
       "dhw_mode": {
-        "name": "GRUNDINDSTILLING VARMTVANDSDRIFT"
+        "name": "GRUNDINDSTILLING VARMTVANDSDRIFT",
+        "state": {
+          "priority_operation": "PRIORITERET FUNKTION",
+          "parallel_operation": "PARALLELFUNKTION",
+          "partial_priority": "DELVIS PRIORITERET"
+        }
       },
       "dhw_hysteresis": {
         "name": "GRUNDINDSTILLING VARMTVANDS-HYSTERESE"

@@ -321,7 +321,12 @@
         "name": "WARMWASSERTEMPERATUREN ECO TEMPERATUR"
       },
       "dhw_mode": {
-        "name": "GRUNDEINSTELLUNG WARMWASSERBETRIEB"
+        "name": "GRUNDEINSTELLUNG WARMWASSERBETRIEB",
+        "state": {
+          "priority_operation": "VORRANGBETRIEB",
+          "parallel_operation": "PARALLELBETRIEB",
+          "partial_priority": "TEILVORRANG"
+        }
       },
       "dhw_hysteresis": {
         "name": "GRUNDEINSTELLUNG WARMWASSERHYSTERESE"

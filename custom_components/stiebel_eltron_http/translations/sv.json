@@ -315,7 +315,12 @@
         "name": "VARMVATTENTEMPERATURER ECO-TEMPERATUR"
       },
       "dhw_mode": {
-        "name": "GRUNDINSTÄLLNING VARMVATTENDRIFT"
+        "name": "GRUNDINSTÄLLNING VARMVATTENDRIFT",
+        "state": {
+          "priority_operation": "PRIORITETSDRIFT",
+          "parallel_operation": "PARALLELLDRIFT",
+          "partial_priority": "DELPRIORITET"
+        }
       },
       "dhw_hysteresis": {
         "name": "GRUNDINSTÄLLNING VARMVATTENHYSTERES"

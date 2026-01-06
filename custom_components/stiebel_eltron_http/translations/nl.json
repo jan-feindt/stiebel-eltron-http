@@ -315,7 +315,12 @@
         "name": "WARMWATERTEMPERATUREN ECO TEMPERATUUR"
       },
       "dhw_mode": {
-        "name": "BASISINSTELLING WARMWATERBEDRIJF"
+        "name": "BASISINSTELLING WW-BEDRIJF",
+        "state": {
+          "priority_operation": "VOORRANGSWERKING",
+          "parallel_operation": "PARALLELLE WERKING",
+          "partial_priority": "DEEL VOORRANG"
+        }
       },
       "dhw_hysteresis": {
         "name": "BASISINSTELLING WARMWATERHYSTERESIS"

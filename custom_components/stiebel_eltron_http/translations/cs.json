@@ -315,7 +315,12 @@
         "name": "TEPLOTY TEPLE VODY EKO TEPLOTA"
       },
       "dhw_mode": {
-        "name": "ZÁKLADNÍ NASTAVENÍ REZIM OHREVU TUV"
+        "name": "ZÁKLADNÍ NASTAVENÍ REŽIM OHŘEVU TUV",
+        "state": {
+          "priority_operation": "PRIORITNI PROVOZ",
+          "parallel_operation": "PARALELNI PROVOZ",
+          "partial_priority": "DILCI PRIORITA"
+        }
       },
       "dhw_hysteresis": {
         "name": "ZÁKLADNÍ NASTAVENÍ HYSTEREZE TEPLE VODY"

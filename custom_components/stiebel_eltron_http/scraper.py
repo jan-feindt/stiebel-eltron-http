@@ -1228,9 +1228,9 @@ class StiebelEltronScrapingClient:
         if "375" in val_dict:
             raw_val = val_dict["375"]
             mode_map = {
-                "0": "PRIORITY OPERATION",
-                "1": "PARALLEL OPERATION",
-                "2": "PARTIAL PRIORITY",
+                "0": "priority_operation",
+                "1": "parallel_operation",
+                "2": "partial_priority",
             }
             result[DHW_MODE_KEY] = mode_map.get(raw_val, raw_val)
         

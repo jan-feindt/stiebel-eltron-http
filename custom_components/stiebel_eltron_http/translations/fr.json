@@ -315,7 +315,12 @@
         "name": "TEMPERATURES ECS TEMPÉRATURE ÉCO"
       },
       "dhw_mode": {
-        "name": "RÉGLAGE DE BASE MODE ECS"
+        "name": "RÉGLAGE DE BASE MODE ECS",
+        "state": {
+          "priority_operation": "MODE PRIORITE",
+          "parallel_operation": "MODE PARALLELE",
+          "partial_priority": "PRIORITE PARTIELLE"
+        }
       },
       "dhw_hysteresis": {
         "name": "RÉGLAGE DE BASE HYSTERESIS ECS"

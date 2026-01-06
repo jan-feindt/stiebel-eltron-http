@@ -315,7 +315,12 @@
         "name": "TEMPERATURY CWU TEMPERATURA ECO"
       },
       "dhw_mode": {
-        "name": "NASTAWA PODSTAWOWA TRYB CWU"
+        "name": "NASTAWA PODSTAWOWA TRYB CWU",
+        "state": {
+          "priority_operation": "TRYB PRIORYTETU",
+          "parallel_operation": "TRYB ROWNOLEGLY",
+          "partial_priority": "PRIORYTET CZESCIOWY"
+        }
       },
       "dhw_hysteresis": {
         "name": "NASTAWA PODSTAWOWA HISTEREZA CWU"

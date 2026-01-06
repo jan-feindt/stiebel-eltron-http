@@ -985,6 +985,7 @@ ENTITY_DESCRIPTIONS = (
         name="DHW mode",
         translation_key=DHW_MODE_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["priority_operation", "parallel_operation", "partial_priority"],
         icon="mdi:water-boiler",
     ),
     SensorEntityDescription(

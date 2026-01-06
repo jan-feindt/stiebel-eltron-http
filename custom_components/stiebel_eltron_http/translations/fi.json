@@ -315,7 +315,12 @@
         "name": "LÄMMINV LÄMPÖT ECO-LÄMPÖTILA"
       },
       "dhw_mode": {
-        "name": "PERUSASETUS LÄMMINVESIK"
+        "name": "PERUSASETUS LÄMMINVESIK",
+        "state": {
+          "priority_operation": "PRIOR KÄYTTÖ",
+          "parallel_operation": "RINN KÄYTTÖ",
+          "partial_priority": "OSITT PRIORIT"
+        }
       },
       "dhw_hysteresis": {
         "name": "PERUSASETUS LÄMMINVESIK HYSTER"

@@ -321,7 +321,12 @@
         "name": "DHW TEMPERATURES ECO TEMPERATURE"
       },
       "dhw_mode": {
-        "name": "STANDARD SETTING DHW MODE"
+        "name": "STANDARD SETTING DHW MODE",
+        "state": {
+          "priority_operation": "PRIORITY OPERATION",
+          "parallel_operation": "PARALLEL OPERATION",
+          "partial_priority": "PARTIAL PRIORITY"
+        }
       },
       "dhw_hysteresis": {
         "name": "STANDARD SETTING DHW HYSTERESIS"

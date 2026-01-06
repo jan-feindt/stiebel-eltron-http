@@ -315,7 +315,12 @@
         "name": "MELEGVÍZ-HÕMÉRSÉKLETEK ECO HÕMÉRSÉKLET"
       },
       "dhw_mode": {
-        "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD"
+        "name": "ALAPBEÁLLÍTÁS MELEGVÍZES ÜZEMMÓD",
+        "state": {
+          "priority_operation": "ELSŐBBSÉGI ÜZEMMÓD",
+          "parallel_operation": "PÁRHUZAMOS ÜZEM",
+          "partial_priority": "RÉSZLEGES PRIORITÁS"
+        }
       },
       "dhw_hysteresis": {
         "name": "ALAPBEÁLLÍTÁS MELEGVÍZ-HISZTERÉZIS"

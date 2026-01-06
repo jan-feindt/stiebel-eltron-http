@@ -75,7 +75,7 @@ def test_extract_dhw_standard_config():
     
     # Verify extracted values
     assert DHW_MODE_KEY in result
-    assert result[DHW_MODE_KEY] == "PRIORITY OPERATION"
+    assert result[DHW_MODE_KEY] == "priority_operation"
     
     assert DHW_HYSTERESIS_KEY in result
     assert result[DHW_HYSTERESIS_KEY] == 5.0

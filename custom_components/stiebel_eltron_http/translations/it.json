@@ -315,7 +315,12 @@
         "name": "TEMPERATURE ACQUA CALDA TEMPERATURA ECO"
       },
       "dhw_mode": {
-        "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA"
+        "name": "IMPOSTAZIONE STANDARD MODALITÀ ACQUA CALDA",
+        "state": {
+          "priority_operation": "ESERCIZIO PRIORITARIO",
+          "parallel_operation": "FUNZ PARALLELO",
+          "partial_priority": "PRIORITÀ PARZIALE"
+        }
       },
       "dhw_hysteresis": {
         "name": "IMPOSTAZIONE STANDARD ISTERESI ACQUA CALDA"
