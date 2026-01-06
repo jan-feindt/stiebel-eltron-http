@@ -330,10 +330,10 @@
         "name": "SERBATOIO COMBI SERBATOIO COMBI"
       },
       "dhw_output_summer": {
-        "name": "RENDIM WW WP RENDIM WW ESTATE"
+        "name": "RENDIM WW ESTATE"
       },
       "dhw_output_winter": {
-        "name": "RENDIM WW WP RENDIM WW INVERNO"
+        "name": "RENDIM WW INVERNO"
       },
       "dhw_max_flow_temp": {
         "name": "TEMP MAX MANDATA TEMP MAX MANDATA"

@@ -336,10 +336,10 @@
         "name": "COMBI CYLINDER"
       },
       "dhw_output_summer": {
-        "name": "WW OUTPUT WP WW OUTPUT SUMMER"
+        "name": "DHW OUTPUT SUMMER"
       },
       "dhw_output_winter": {
-        "name": "WW OUTPUT WP WW OUTPUT WINTER"
+        "name": "DHW OUTPUT WINTER"
       },
       "dhw_max_flow_temp": {
         "name": "MAXIMUM FLOW TEMPERATURE"

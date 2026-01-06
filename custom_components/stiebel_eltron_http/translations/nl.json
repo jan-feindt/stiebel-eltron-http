@@ -330,10 +330,10 @@
         "name": "COMBI-BOILER"
       },
       "dhw_output_summer": {
-        "name": "WW VERMOGEN WP WW VERMOGEN ZOMER"
+        "name": "WW VERMOGEN ZOMER"
       },
       "dhw_output_winter": {
-        "name": "WW VERMOGEN WP WW VERMOGEN WINTER"
+        "name": "WW VERMOGEN WINTER"
       },
       "dhw_max_flow_temp": {
         "name": "MAX AANVOERTEMPERATUUR MAX AANVOERTEMPERATUUR"

@@ -330,10 +330,10 @@
         "name": "KOMBIACKUMULATOR"
       },
       "dhw_output_summer": {
-        "name": "WW EFFEKT WP WW EFFEKT SOMMAR"
+        "name": "WW EFFEKT SOMMAR"
       },
       "dhw_output_winter": {
-        "name": "WW EFFEKT WP WW EFFEKT VINTER"
+        "name": "WW EFFEKT VINTER"
       },
       "dhw_max_flow_temp": {
         "name": "MAX FRAMLEDNINGSTEMP MAX FRAMLEDNINGSTEMP"

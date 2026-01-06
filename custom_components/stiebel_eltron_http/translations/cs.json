@@ -330,10 +330,10 @@
         "name": "KOMBINOVANY ZASOBNIK KOMBINOVANY ZASOBNIK"
       },
       "dhw_output_summer": {
-        "name": "VYKON TUV TC VYKON TUV LETO"
+        "name": "VYKON TUV LETO"
       },
       "dhw_output_winter": {
-        "name": "VYKON TUV TC VYKON TUV ZIMA"
+        "name": "VYKON TUV ZIMA"
       },
       "dhw_max_flow_temp": {
         "name": "MAX VSTUP TEPL TOP VODY MAX VSTUP TEPL TOP VODY"

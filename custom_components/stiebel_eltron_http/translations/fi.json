@@ -330,10 +330,10 @@
         "name": "YHDISTELMÄVAR"
       },
       "dhw_output_summer": {
-        "name": "WW TEHO WP WW TEHO KESÄ"
+        "name": "WW TEHO KESÄ"
       },
       "dhw_output_winter": {
-        "name": "WW TEHO WP WW TEHO TALVI"
+        "name": "WW TEHO TALVI"
       },
       "dhw_max_flow_temp": {
         "name": "MAX MENOVIRT LÄMPÖT MAX MENOVIRT LÄMPÖT"

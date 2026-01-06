@@ -336,10 +336,10 @@
         "name": "KOMBISPEICHER"
       },
       "dhw_output_summer": {
-        "name": "WW LEISTUNG WP WW LEISTUNG SOMMER"
+        "name": "WW LEISTUNG SOMMER"
       },
       "dhw_output_winter": {
-        "name": "WW LEISTUNG WP WW LEISTUNG WINTER"
+        "name": "WW LEISTUNG WINTER"
       },
       "dhw_max_flow_temp": {
         "name": "MAXIMALE VORLAUFTEMP"

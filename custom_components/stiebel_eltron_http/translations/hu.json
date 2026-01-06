@@ -330,10 +330,10 @@
         "name": "KOMBI MELEGVÍZTÁROLÓ KOMBI MELEGVÍZTÁROLÓ"
       },
       "dhw_output_summer": {
-        "name": "WW TELJ. WP WW TELJESÍTMÉNY NYÁRON"
+        "name": "WW TELJESÍTMÉNY NYÁRON"
       },
       "dhw_output_winter": {
-        "name": "WW TELJ. WP WW TELJESÍTMÉNY TÉLEN"
+        "name": "WW TELJESÍTMÉNY TÉLEN"
       },
       "dhw_max_flow_temp": {
         "name": "MAXIMÁLIS ELÕREMENÕ HÕM. MAXIMÁLIS ELÕREMENÕ HÕM."

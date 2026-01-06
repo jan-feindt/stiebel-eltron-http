@@ -330,10 +330,10 @@
         "name": "BALLON COMBINE BALLON COMBINE"
       },
       "dhw_output_summer": {
-        "name": "PUISSANCE ECS PAC PUISSANCE ECS ÉTÉ"
+        "name": "PUISSANCE ECS ÉTÉ"
       },
       "dhw_output_winter": {
-        "name": "PUISSANCE ECS PAC PUISSANCE ECS HIVER"
+        "name": "PUISSANCE ECS HIVER"
       },
       "dhw_max_flow_temp": {
         "name": "TEMP. MAX. DEPART TEMP. MAX. DEPART"

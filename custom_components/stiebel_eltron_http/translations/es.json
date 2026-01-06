@@ -330,10 +330,10 @@
         "name": "ACUMULADOR COMBINADO ACUMULADOR COMBINADO"
       },
       "dhw_output_summer": {
-        "name": "WW REND. WP WW REND. VERANO"
+        "name": "WW REND. VERANO"
       },
       "dhw_output_winter": {
-        "name": "WW REND. WP WW REND. INVIERNO"
+        "name": "WW REND. INVIERNO"
       },
       "dhw_max_flow_temp": {
         "name": "TEMP. MÁX. IMPULSIÓN TEMP. MÁX. IMPULSIÓN"

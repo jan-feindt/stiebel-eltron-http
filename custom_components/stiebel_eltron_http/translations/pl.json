@@ -330,10 +330,10 @@
         "name": "ZASOBNIK KOMBINOWANY ZASOBNIK KOMBINOWANY"
       },
       "dhw_output_summer": {
-        "name": "WW MOC WP WW MOC LATO"
+        "name": "WW MOC LATO"
       },
       "dhw_output_winter": {
-        "name": "WW MOC WP WW MOC ZIMA"
+        "name": "WW MOC ZIMA"
       },
       "dhw_max_flow_temp": {
         "name": "MAKS TEMP ZASILANIA MAKS TEMP ZASILANIA"

@@ -330,10 +330,10 @@
         "name": "KOMBIBEHOLDER"
       },
       "dhw_output_summer": {
-        "name": "WW EFFEKT WP WW EFFEKT SOMMER"
+        "name": "WW EFFEKT SOMMER"
       },
       "dhw_output_winter": {
-        "name": "WW EFFEKT WP WW EFFEKT VINTER"
+        "name": "WW EFFEKT VINTER"
       },
       "dhw_max_flow_temp": {
         "name": "MAX FREMLØBSTEMP MAX FREMLØBSTEMP"
