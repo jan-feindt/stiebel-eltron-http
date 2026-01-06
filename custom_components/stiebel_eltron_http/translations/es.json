@@ -294,7 +294,14 @@
         "name": "Ciclos bomba ciclos bomba"
       },
       "heating_external_source": {
-        "name": "Generador calor externo generador calor externo"
+        "name": "Generador calor externo",
+        "state": {
+          "off": "Apagado",
+          "threaded_immersion_heater": "Calentador de inmersión roscado",
+          "boiler": "Caldera",
+          "hzg_pwm": "Calefacción PWM",
+          "heating_0_10v": "Calefacción 0-10V"
+        }
       },
       "heating_external_curve_gap": {
         "name": "Generador calor externo distancia curva cal."

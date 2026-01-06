@@ -300,7 +300,14 @@
         "name": "Pump cycles"
       },
       "heating_external_source": {
-        "name": "External heat source"
+        "name": "External heat source",
+        "state": {
+          "off": "Off",
+          "threaded_immersion_heater": "Threaded immersion heater",
+          "boiler": "Boiler",
+          "hzg_pwm": "Heating PWM",
+          "heating_0_10v": "Heating 0-10V"
+        }
       },
       "heating_external_curve_gap": {
         "name": "External heat source heating curve gap"

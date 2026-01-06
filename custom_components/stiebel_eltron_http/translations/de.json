@@ -300,7 +300,14 @@
         "name": "Pumpenzyklen"
       },
       "heating_external_source": {
-        "name": "Wärmeerzeuger Extern"
+        "name": "Wärmeerzeuger Extern",
+        "state": {
+          "off": "Aus",
+          "threaded_immersion_heater": "Einschraubheizkörper",
+          "boiler": "Kessel",
+          "hzg_pwm": "HZG-PWM",
+          "heating_0_10v": "HZG 0-10V"
+        }
       },
       "heating_external_curve_gap": {
         "name": "Wärmeerzeuger Extern Abstand Heizkurve"

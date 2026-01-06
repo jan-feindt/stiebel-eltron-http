@@ -294,7 +294,14 @@
         "name": "Cicli pompa cicli pompa"
       },
       "heating_external_source": {
-        "name": "Generatore DI calore est generatore DI calore est"
+        "name": "Generatore DI calore est",
+        "state": {
+          "off": "Off",
+          "threaded_immersion_heater": "Resistenza ad avvitare",
+          "boiler": "Caldaia",
+          "hzg_pwm": "Riscaldamento PWM",
+          "heating_0_10v": "Riscaldamento 0-10V"
+        }
       },
       "heating_external_curve_gap": {
         "name": "Generatore DI calore est distanza curva calor"

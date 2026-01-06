@@ -921,6 +921,7 @@ ENTITY_DESCRIPTIONS = (
         name="Heating external source",
         translation_key=HEATING_EXTERNAL_SOURCE_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "threaded_immersion_heater", "boiler", "hzg_pwm", "heating_0_10v"],
         icon="mdi:heating-coil",
     ),
     SensorEntityDescription(

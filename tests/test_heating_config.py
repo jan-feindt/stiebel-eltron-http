@@ -226,7 +226,7 @@ def test_extract_heating_external_config():
     
     # Verify extracted values
     assert HEATING_EXTERNAL_SOURCE_KEY in result
-    assert result[HEATING_EXTERNAL_SOURCE_KEY] == "THREADED IMMERSION HEATER"
+    assert result[HEATING_EXTERNAL_SOURCE_KEY] == "threaded_immersion_heater"
     
     assert HEATING_EXTERNAL_CURVE_GAP_KEY in result
     assert result[HEATING_EXTERNAL_CURVE_GAP_KEY] == 3.0

@@ -294,7 +294,14 @@
         "name": "Sziv ciklus sziv ciklus"
       },
       "heating_external_source": {
-        "name": "Külsõ hõgenerátor külsõ hõgenerátor"
+        "name": "Külsõ hõgenerátor",
+        "state": {
+          "off": "Ki",
+          "threaded_immersion_heater": "Csavaros fűtőpatron",
+          "boiler": "Kazán",
+          "hzg_pwm": "Fűtés PWM",
+          "heating_0_10v": "Fűtés 0-10V"
+        }
       },
       "heating_external_curve_gap": {
         "name": "Külsõ hõgenerátor fût. jelleggörbe távols."
