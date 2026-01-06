@@ -132,7 +132,15 @@
         "name": "Energiebeheer status"
       },
       "start_operation_mode": {
-        "name": "Bedrijfsmodus"
+        "name": "Bedrijfsmodus",
+        "state": {
+          "emergency_operation": "Noodbedrijf",
+          "standby_mode": "Stand-bywerking",
+          "programmed_operation": "Programmawerking",
+          "comfort_mode": "Comfortwerking",
+          "eco_mode": "Eco-bedrijf",
+          "dhw_mode": "Warmwaterbedrijf"
+        }
       },
       "supply_temperature": {
         "name": "Aanvoertemperatuur"

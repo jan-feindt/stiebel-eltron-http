@@ -129,7 +129,15 @@
         "name": "Statut gestion énergie"
       },
       "start_operation_mode": {
-        "name": "Mode de fonctionnement"
+        "name": "Mode de fonctionnement",
+        "state": {
+          "emergency_operation": "Mode secours",
+          "standby_mode": "Mode stand-by",
+          "programmed_operation": "Mode programmation",
+          "comfort_mode": "Mode confort",
+          "eco_mode": "Mode éco",
+          "dhw_mode": "Mode ECS"
+        }
       },
       "supply_temperature": {
         "name": "Temperature depart"

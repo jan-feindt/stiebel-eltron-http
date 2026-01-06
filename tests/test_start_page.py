@@ -17,7 +17,7 @@ def test_start_page_de_extracts_expected_values() -> None:
 
     # Betriebsart expected as value attribute in the fixture
     assert START_OPERATION_MODE_KEY in res
-    assert res[START_OPERATION_MODE_KEY] == "PROGRAMMBETRIEB"
+    assert res[START_OPERATION_MODE_KEY] == "programmed_operation"
 
 
 def test_start_page_en_extracts_expected_values() -> None:

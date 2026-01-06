@@ -132,7 +132,15 @@
         "name": "Energistyring status"
       },
       "start_operation_mode": {
-        "name": "Driftsmåde"
+        "name": "Driftsmåde",
+        "state": {
+          "emergency_operation": "Nøddrift",
+          "standby_mode": "Standby-drift",
+          "programmed_operation": "Programdrift",
+          "comfort_mode": "Komfortdrift",
+          "eco_mode": "Eco-drift",
+          "dhw_mode": "Varmtvandsdrift"
+        }
       },
       "supply_temperature": {
         "name": "Fremløbstemperatur"

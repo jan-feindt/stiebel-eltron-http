@@ -174,7 +174,15 @@
         "name": "Set temperature HK 2"
       },
       "start_operation_mode": {
-        "name": "Operating mode"
+        "name": "Operating mode",
+        "state": {
+          "emergency_operation": "Emergency operation",
+          "standby_mode": "Standby mode",
+          "programmed_operation": "Programmed operation",
+          "comfort_mode": "Comfort mode",
+          "eco_mode": "Eco mode",
+          "dhw_mode": "DHW mode"
+        }
       },
       "start_sg_ready_active": {
         "name": "SG Ready active"

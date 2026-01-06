@@ -1481,20 +1481,28 @@ class StiebelEltronScrapingClient:
 
             # Betriebsart (operation mode) — use centralized alias matching
             if parsing._matches_alias(heading, betr_aliases):
-                # try to find an input with the displayed value first
-                input_val = block.find("input", attrs={"value": True})
-                if input_val and input_val.has_attr("value"):
-                    result[START_OPERATION_MODE_KEY] = input_val.get("value")
+                # Map radio button value to state key
+                mode_map = {
+                    "0": "emergency_operation",
+                    "1": "standby_mode",
+                    "2": "programmed_operation",
+                    "3": "comfort_mode",
+                    "4": "eco_mode",
+                    "5": "dhw_mode",
+                }
+                # Look for the hidden input that stores the selected value (id="val1")
+                # This is the actual radio button value (0-5), not the display text
+                hidden_input = block.find("input", attrs={"id": "val1", "type": "hidden"})
+                if hidden_input and hidden_input.has_attr("value"):
+                    raw_val = hidden_input.get("value")
+                    result[START_OPERATION_MODE_KEY] = mode_map.get(raw_val, raw_val)
                     continue
-                # fallback: any element with class 'value' or 'values'
-                val_elem = block.find(class_="value") or block.find(class_="values")
-                if val_elem:
-                    # if it contains an input, use that value
-                    iv = val_elem.find("input", attrs={"value": True})
-                    if iv and iv.has_attr("value"):
-                        result[START_OPERATION_MODE_KEY] = iv.get("value")
-                    else:
-                        result[START_OPERATION_MODE_KEY] = _text(val_elem)
+                # Fallback: try to find the checked radio button
+                checked_radio = block.find("input", attrs={"type": "radio", "checked": True})
+                if checked_radio and checked_radio.has_attr("value"):
+                    raw_val = checked_radio.get("value")
+                    result[START_OPERATION_MODE_KEY] = mode_map.get(raw_val, raw_val)
+                    continue
 
         # As a final fallback, try to search for these headings anywhere in the page
         # if not found by block scan above.

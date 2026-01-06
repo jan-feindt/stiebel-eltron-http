@@ -477,6 +477,8 @@ ENTITY_DESCRIPTIONS = (
         key=START_OPERATION_MODE_KEY,
         name="Operation mode",
         translation_key=START_OPERATION_MODE_KEY,
+        device_class=SensorDeviceClass.ENUM,
+        options=["emergency_operation", "standby_mode", "programmed_operation", "comfort_mode", "eco_mode", "dhw_mode"],
         icon="mdi:cog-outline",
     ),
     SensorEntityDescription(

@@ -132,7 +132,15 @@
         "name": "Energianhallinta tila"
       },
       "start_operation_mode": {
-        "name": "Käyttötapa"
+        "name": "Käyttötapa",
+        "state": {
+          "emergency_operation": "Varakäyttö",
+          "standby_mode": "Valmiuskäyttö",
+          "programmed_operation": "Ohjelmakäyttö",
+          "comfort_mode": "Mukavuuskäyttö",
+          "eco_mode": "Eco-käyttö",
+          "dhw_mode": "Lämminvesikäyttö"
+        }
       },
       "supply_temperature": {
         "name": "Menovirt lämpöt"

@@ -64,7 +64,7 @@ def test_extract_start_page_energy_management():
     
     # Verify operation mode is still extracted
     assert START_OPERATION_MODE_KEY in result
-    assert result[START_OPERATION_MODE_KEY] == "PROGRAMMED OPERATION"
+    assert result[START_OPERATION_MODE_KEY] == "programmed_operation"
     
     # Verify new Energy Management fields
     assert START_ENERGY_MGMT_OK in result

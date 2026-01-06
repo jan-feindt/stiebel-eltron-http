@@ -132,7 +132,15 @@
         "name": "Stato gestione energia"
       },
       "start_operation_mode": {
-        "name": "Modalità di esercizio"
+        "name": "Modalità di esercizio",
+        "state": {
+          "emergency_operation": "Serv emergenza",
+          "standby_mode": "Funzionamento in standby",
+          "programmed_operation": "Funz programma",
+          "comfort_mode": "Funzionamento comfort",
+          "eco_mode": "Funzionamento eco",
+          "dhw_mode": "Modalità acqua calda"
+        }
       },
       "supply_temperature": {
         "name": "Temp mandata"

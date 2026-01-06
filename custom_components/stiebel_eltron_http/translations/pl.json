@@ -126,7 +126,15 @@
         "name": "Status zarządzania energią"
       },
       "start_operation_mode": {
-        "name": "Tryb pracy"
+        "name": "Tryb pracy",
+        "state": {
+          "emergency_operation": "Praca wymuszona",
+          "standby_mode": "Tryb gotowości",
+          "programmed_operation": "Tryb programowania",
+          "comfort_mode": "Tryb komfortowy",
+          "eco_mode": "Tryb eco",
+          "dhw_mode": "Tryb cwu"
+        }
       },
       "supply_temperature": {
         "name": "Temperatura zasilania"

@@ -123,7 +123,15 @@
         "name": "Stav správy energie"
       },
       "start_operation_mode": {
-        "name": "Provozní režim"
+        "name": "Provozní režim",
+        "state": {
+          "emergency_operation": "Nouzovy provoz",
+          "standby_mode": "Pohotovostni rezim",
+          "programmed_operation": "Rezim program",
+          "comfort_mode": "Komfortni rezim",
+          "eco_mode": "Rezim eco",
+          "dhw_mode": "Rezim ohrevu tuv"
+        }
       },
       "supply_temperature": {
         "name": "Teplota top vody"

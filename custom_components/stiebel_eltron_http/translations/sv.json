@@ -129,7 +129,15 @@
         "name": "Energihantering status"
       },
       "start_operation_mode": {
-        "name": "Driftsläge"
+        "name": "Driftsläge",
+        "state": {
+          "emergency_operation": "Nöddrift",
+          "standby_mode": "Beredskapsdrift",
+          "programmed_operation": "Programdrift",
+          "comfort_mode": "Komfortdrift",
+          "eco_mode": "Eco-drift",
+          "dhw_mode": "Varmvattendrift"
+        }
       },
       "supply_temperature": {
         "name": "Framledningstemperatur"

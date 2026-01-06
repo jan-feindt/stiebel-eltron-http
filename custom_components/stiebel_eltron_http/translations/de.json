@@ -174,7 +174,15 @@
         "name": "Solltemperatur HK 2"
       },
       "start_operation_mode": {
-        "name": "Betriebsart"
+        "name": "Betriebsart",
+        "state": {
+          "emergency_operation": "Notbetrieb",
+          "standby_mode": "Bereitschaftsbetrieb",
+          "programmed_operation": "Programmbetrieb",
+          "comfort_mode": "Komfortbetrieb",
+          "eco_mode": "Eco-Betrieb",
+          "dhw_mode": "Warmwasserbetrieb"
+        }
       },
       "start_sg_ready_active": {
         "name": "SG Ready aktiv"

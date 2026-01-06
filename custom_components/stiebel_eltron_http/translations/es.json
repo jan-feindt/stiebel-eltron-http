@@ -129,7 +129,15 @@
         "name": "Estado gestión energía"
       },
       "start_operation_mode": {
-        "name": "Modo de servicio"
+        "name": "Modo de servicio",
+        "state": {
+          "emergency_operation": "Funcionamiento emergencia",
+          "standby_mode": "Modo de disponibilidad",
+          "programmed_operation": "Func. programado",
+          "comfort_mode": "Modo confort",
+          "eco_mode": "Operación eco",
+          "dhw_mode": "Modo agua caliente"
+        }
       },
       "supply_temperature": {
         "name": "Temp. DE impulsión"

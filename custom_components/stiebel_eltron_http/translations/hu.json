@@ -123,7 +123,15 @@
         "name": "Energiagazdálkodás státusz"
       },
       "start_operation_mode": {
-        "name": "Üzemmód"
+        "name": "Üzemmód",
+        "state": {
+          "emergency_operation": "Vészüzem",
+          "standby_mode": "Készenléti üzemmód",
+          "programmed_operation": "Program-üzemmód",
+          "comfort_mode": "Kényelmi üzemmód",
+          "eco_mode": "Eco-üzemmód",
+          "dhw_mode": "Melegvízes üzemmód"
+        }
       },
       "supply_temperature": {
         "name": "Elõremenõ hõmérséklet"
