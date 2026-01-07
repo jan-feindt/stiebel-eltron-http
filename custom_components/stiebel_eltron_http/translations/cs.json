@@ -124,7 +124,7 @@
         "name": "Stav SG Ready"
       },
       "start_energy_mgmt_ok": {
-        "name": "Stav správy energie"
+        "name": "Stav EMS"
       },
       "start_operation_mode": {
         "name": "Provozní režim",
@@ -411,13 +411,13 @@
         "name": "Zdroj tepla externi tuv-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktiv."
+        "name": "EMS SG Ready aktiv."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Akum. zásobník topení",
+        "name": "EMS Akum. zásobník topení",
         "state": {
           "no_buffer": "Bez zásobníku",
           "buffer_with_mixer": "Zásobník s směšovačem",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement hor.tep.míst./ak.zás. TO1"
+        "name": "EMS hor.tep.míst./ak.zás. TO1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement hor. tep. míst. TO2"
+        "name": "EMS hor. tep. míst. TO2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement hor. pož. tep. TV"
+        "name": "EMS hor. pož. tep. TV"
       },
       "start_portal_ok": {
         "name": "Portál připojen",

@@ -195,7 +195,7 @@
         "name": "SG Ready Betriebszustand"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energiemanagement Status"
+        "name": "EMS Status"
       },
       "supply_temperature": {
         "name": "Vorlauftemperatur"
@@ -417,13 +417,13 @@
         "name": "Wärmeerzeuger Extern Ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready Aktiviert"
+        "name": "EMS SG Ready Aktiviert"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready Eingang"
+        "name": "EMS SG Ready Eingang"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Heizungspuffer",
+        "name": "EMS Heizungspuffer",
         "state": {
           "no_buffer": "Kein Puffer",
           "buffer_with_mixer": "Puffer mit Mischer",
@@ -431,13 +431,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement Obere Raum/puffertemp. HK1"
+        "name": "EMS Obere Raum/puffertemp. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement Obere Raumtemp. HK2"
+        "name": "EMS Obere Raumtemp. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement Obere Warmwasser Solltemp."
+        "name": "EMS Obere Warmwasser Solltemp."
       },
       "start_portal_ok": {
         "name": "Portal verbunden",

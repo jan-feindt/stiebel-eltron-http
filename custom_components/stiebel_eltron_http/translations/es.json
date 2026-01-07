@@ -130,7 +130,7 @@
         "name": "Estado SG Ready"
       },
       "start_energy_mgmt_ok": {
-        "name": "Estado gestión energía"
+        "name": "Estado EMS"
       },
       "start_operation_mode": {
         "name": "Modo de servicio",
@@ -411,13 +411,13 @@
         "name": "Generador calor externo ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready activado"
+        "name": "EMS SG Ready activado"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Dep. inercia calefacción",
+        "name": "EMS Dep. inercia calefacción",
         "state": {
           "no_buffer": "Sin acumulador",
           "buffer_with_mixer": "Acumulador con mezclador",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement temp.amb./inercia sup. HK1"
+        "name": "EMS temp.amb./inercia sup. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement temp.amb.super. HK2"
+        "name": "EMS temp.amb.super. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement temp.ref.sup.agua caliente"
+        "name": "EMS temp.ref.sup.agua caliente"
       },
       "start_portal_ok": {
         "name": "Portal conectado",

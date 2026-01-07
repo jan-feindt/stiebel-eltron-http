@@ -133,7 +133,7 @@
         "name": "SG Ready status"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energistyring status"
+        "name": "EMS status"
       },
       "start_operation_mode": {
         "name": "Driftsmåde",
@@ -411,13 +411,13 @@
         "name": "Varmegenerator ekstern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktiveret"
+        "name": "EMS SG Ready aktiveret"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Varmebuffer",
+        "name": "EMS Varmebuffer",
         "state": {
           "no_buffer": "Ingen buffer",
           "buffer_with_mixer": "Buffer med blander",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement øvre rum/buffertemp. VK 1"
+        "name": "EMS øvre rum/buffertemp. VK 1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement øvre rumtemp. VK 2"
+        "name": "EMS øvre rumtemp. VK 2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement øvre varmtvand nom.temp."
+        "name": "EMS øvre varmtvand nom.temp."
       },
       "start_portal_ok": {
         "name": "Portal forbundet",

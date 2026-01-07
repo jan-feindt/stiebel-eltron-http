@@ -127,7 +127,7 @@
         "name": "Stan SG Ready"
       },
       "start_energy_mgmt_ok": {
-        "name": "Status zarządzania energią"
+        "name": "Status EMS"
       },
       "start_operation_mode": {
         "name": "Tryb pracy",
@@ -411,13 +411,13 @@
         "name": "Zewn. wytwornica ciepla ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktywow."
+        "name": "EMS SG Ready aktywow."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Bufor ogrzewania",
+        "name": "EMS Bufor ogrzewania",
         "state": {
           "no_buffer": "Brak bufora",
           "buffer_with_mixer": "Bufor z mieszaczem",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement górna temp.pom./zas. OG1"
+        "name": "EMS górna temp.pom./zas. OG1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement górna temp.pom. OG2"
+        "name": "EMS górna temp.pom. OG2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement górna temp. zad. cwu"
+        "name": "EMS górna temp. zad. cwu"
       },
       "start_portal_ok": {
         "name": "Portal połączony",

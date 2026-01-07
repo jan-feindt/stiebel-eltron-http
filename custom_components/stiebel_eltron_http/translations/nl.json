@@ -133,7 +133,7 @@
         "name": "SG Ready status"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energiebeheer status"
+        "name": "EMS status"
       },
       "start_operation_mode": {
         "name": "Bedrijfsmodus",
@@ -403,13 +403,13 @@
         "name": "Warmteopwekker extern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready geactiv."
+        "name": "EMS SG Ready geactiv."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Verwarmingsbuffer",
+        "name": "EMS Verwarmingsbuffer",
         "state": {
           "no_buffer": "Geen buffer",
           "buffer_with_mixer": "Buffer met mengklep",
@@ -417,13 +417,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement bov. kamer-/buf.temp. HK1"
+        "name": "EMS bov. kamer-/buf.temp. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement bov. kamertemp. HK2"
+        "name": "EMS bov. kamertemp. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement bov. nom. warmwatertemp."
+        "name": "EMS bov. nom. warmwatertemp."
       },
       "start_portal_ok": {
         "name": "Portaal verbonden",

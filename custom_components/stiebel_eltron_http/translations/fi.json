@@ -133,7 +133,7 @@
         "name": "SG Ready tila"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energianhallinta tila"
+        "name": "EMS tila"
       },
       "start_operation_mode": {
         "name": "Käyttötapa",
@@ -399,13 +399,13 @@
         "name": "Lämmöntuottaja ulk ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktivoitu"
+        "name": "EMS SG Ready aktivoitu"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Lämmityspuskuri",
+        "name": "EMS Lämmityspuskuri",
         "state": {
           "no_buffer": "Ei puskuria",
           "buffer_with_mixer": "Puskuri sekoittimella",
@@ -413,13 +413,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement ylempi HUONE/PUSKURILT.LP1"
+        "name": "EMS ylempi HUONE/PUSKURILT.LP1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement ylempi TILALÄMP.LP2"
+        "name": "EMS ylempi TILALÄMP.LP2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement ylempi l-veden lämp.asetus"
+        "name": "EMS ylempi l-veden lämp.asetus"
       },
       "start_portal_ok": {
         "name": "Portaali yhdistetty",

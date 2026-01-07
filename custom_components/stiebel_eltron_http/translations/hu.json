@@ -124,7 +124,7 @@
         "name": "SG Ready állapot"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energiagazdálkodás státusz"
+        "name": "EMS státusz"
       },
       "start_operation_mode": {
         "name": "Üzemmód",
@@ -411,13 +411,13 @@
         "name": "Külsõ hõgenerátor ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktiválva"
+        "name": "EMS SG Ready aktiválva"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Fűtési puffer",
+        "name": "EMS Fűtési puffer",
         "state": {
           "no_buffer": "Nincs puffer",
           "buffer_with_mixer": "Puffer keverővel",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement HK1 felső helyis-/pufferh."
+        "name": "EMS HK1 felső helyis-/pufferh."
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement HK2 fels hely-hőm"
+        "name": "EMS HK2 fels hely-hőm"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement felső melegv. hőm.-alapjel"
+        "name": "EMS felső melegv. hőm.-alapjel"
       },
       "start_portal_ok": {
         "name": "Portál csatlakoztatva",

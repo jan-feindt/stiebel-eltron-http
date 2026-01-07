@@ -130,7 +130,7 @@
         "name": "État SG Ready"
       },
       "start_energy_mgmt_ok": {
-        "name": "Statut gestion énergie"
+        "name": "Statut EMS"
       },
       "start_operation_mode": {
         "name": "Mode de fonctionnement",
@@ -411,13 +411,13 @@
         "name": "Generateur chal. externe ecs-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready activé"
+        "name": "EMS SG Ready activé"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement ballon tampon chauffage",
+        "name": "EMS ballon tampon chauffage",
         "state": {
           "no_buffer": "Pas de ballon tampon",
           "buffer_with_mixer": "Ballon tampon avec mitigeur",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement temp. amb./tampon sup. CC1"
+        "name": "EMS temp. amb./tampon sup. CC1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement temp. amb. sup. CC2"
+        "name": "EMS temp. amb. sup. CC2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement temp. cons. ecs sup"
+        "name": "EMS temp. cons. ecs sup"
       },
       "start_portal_ok": {
         "name": "Portail connecté",

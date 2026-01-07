@@ -133,7 +133,7 @@
         "name": "Stato SG Ready"
       },
       "start_energy_mgmt_ok": {
-        "name": "Stato gestione energia"
+        "name": "Stato EMS"
       },
       "start_operation_mode": {
         "name": "Modalità di esercizio",
@@ -411,13 +411,13 @@
         "name": "Generatore DI calore est ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready attivato"
+        "name": "EMS SG Ready attivato"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Serb. tampone riscaldam.",
+        "name": "EMS Serb. tampone riscaldam.",
         "state": {
           "no_buffer": "Nessun buffer",
           "buffer_with_mixer": "Buffer con miscelatore",
@@ -425,13 +425,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement tmp tamp./amb. sup. HK1"
+        "name": "EMS tmp tamp./amb. sup. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement tmp amb. sup. HK2"
+        "name": "EMS tmp amb. sup. HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement tmp acs des. sup."
+        "name": "EMS tmp acs des. sup."
       },
       "start_portal_ok": {
         "name": "Portale connesso",

@@ -130,7 +130,7 @@
         "name": "SG Ready status"
       },
       "start_energy_mgmt_ok": {
-        "name": "Energihantering status"
+        "name": "EMS status"
       },
       "start_operation_mode": {
         "name": "Driftsläge",
@@ -403,13 +403,13 @@
         "name": "Värmegenerator extern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG Ready aktiverad"
+        "name": "EMS SG Ready aktiverad"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement SG Ready input"
+        "name": "EMS SG Ready input"
       },
       "sg_ready_heating_buffer": {
-        "name": "Energiemanagement Ackumulatortank",
+        "name": "EMS Ackumulatortank",
         "state": {
           "no_buffer": "Ingen buffert",
           "buffer_with_mixer": "Buffert med blandare",
@@ -417,13 +417,13 @@
         }
       },
       "sg_ready_upper_temp_hc1": {
-        "name": "Energiemanagement övre rums/bufferttemp. HK1"
+        "name": "EMS övre rums/bufferttemp. HK1"
       },
       "sg_ready_upper_temp_hc2": {
-        "name": "Energiemanagement övre rumstemp HK2"
+        "name": "EMS övre rumstemp HK2"
       },
       "sg_ready_upper_temp_dhw": {
-        "name": "Energiemanagement övre börtemp. varmvatten"
+        "name": "EMS övre börtemp. varmvatten"
       },
       "start_portal_ok": {
         "name": "Portal ansluten",
