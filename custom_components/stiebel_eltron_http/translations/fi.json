@@ -314,7 +314,7 @@
         "name": "Pumppujaksot"
       },
       "heating_external_source": {
-        "name": "Lämmöntuottaja ulk",
+        "name": "Ulkoinen lämmönlähde Lämmitys",
         "state": {
           "off": "Pois",
           "threaded_immersion_heater": "Uppopatruuna",
@@ -384,7 +384,7 @@
         "name": "Antilegionellakäsitt ohjelämpötila"
       },
       "dhw_external_source": {
-        "name": "Lämmöntuottaja ulk lämmöntuottaja ulk",
+        "name": "Ulkoinen lämmönlähde Lämmin vesi",
         "state": {
           "off": "Pois",
           "supported": "Tuettu",

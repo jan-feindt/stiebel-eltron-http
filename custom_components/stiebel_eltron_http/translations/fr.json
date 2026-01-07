@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Generateur chal. externe",
+        "name": "Source de chaleur externe Chauffage",
         "state": {
           "off": "Arrêt",
           "threaded_immersion_heater": "Résistance à visser",
@@ -396,7 +396,7 @@
         "name": "Traitement anti-legionel. température DE consigne"
       },
       "dhw_external_source": {
-        "name": "Generateur chal. externe generateur chal. externe",
+        "name": "Source de chaleur externe ECS",
         "state": {
           "off": "Arrêt",
           "supported": "Pris en charge",

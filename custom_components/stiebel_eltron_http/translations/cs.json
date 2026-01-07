@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Zdroj tepla externi",
+        "name": "Externí zdroj tepla Vytápění",
         "state": {
           "off": "Vyp",
           "threaded_immersion_heater": "Šroubovací topné těleso",
@@ -396,7 +396,7 @@
         "name": "Tepelna dezinfekce požadovaná teplota"
       },
       "dhw_external_source": {
-        "name": "Zdroj tepla externi zdroj tepla externi",
+        "name": "Externí zdroj tepla TUV",
         "state": {
           "off": "Vyp",
           "supported": "Podporováno",

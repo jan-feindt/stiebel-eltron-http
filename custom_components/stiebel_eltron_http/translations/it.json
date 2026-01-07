@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Generatore DI calore est",
+        "name": "Fonte di calore esterna Riscaldamento",
         "state": {
           "off": "Off",
           "threaded_immersion_heater": "Resistenza ad avvitare",
@@ -396,7 +396,7 @@
         "name": "Trattam. antilegionella temperatura nominale"
       },
       "dhw_external_source": {
-        "name": "Generatore DI calore est generatore DI calore est",
+        "name": "Fonte di calore esterna ACS",
         "state": {
           "off": "Spento",
           "supported": "Supportato",

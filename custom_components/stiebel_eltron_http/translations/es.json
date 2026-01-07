@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Generador calor externo",
+        "name": "Fuente de calor externa Calefacción",
         "state": {
           "off": "Apagado",
           "threaded_immersion_heater": "Calentador de inmersión roscado",
@@ -396,7 +396,7 @@
         "name": "Tratamiento antilegionela temperatura DE referencia"
       },
       "dhw_external_source": {
-        "name": "Generador calor externo generador calor externo",
+        "name": "Fuente de calor externa ACS",
         "state": {
           "off": "Apagado",
           "supported": "Soportado",

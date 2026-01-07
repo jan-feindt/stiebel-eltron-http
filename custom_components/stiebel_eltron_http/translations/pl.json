@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Zewn. wytwornica ciepla",
+        "name": "Zewnętrzne źródło ciepła Ogrzewanie",
         "state": {
           "off": "Wył",
           "threaded_immersion_heater": "Grzałka wkręcana",
@@ -396,7 +396,7 @@
         "name": "Funkcja antylegionelli temperatura zadana"
       },
       "dhw_external_source": {
-        "name": "Zewn. wytwornica ciepla zewn. wytwornica ciepla",
+        "name": "Zewnętrzne źródło ciepła CWU",
         "state": {
           "off": "Wył",
           "supported": "Wspierany",

@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Warmteopwekker extern",
+        "name": "Externe warmtebron Verwarming",
         "state": {
           "off": "Uit",
           "threaded_immersion_heater": "Dompelverwarmer",
@@ -388,7 +388,7 @@
         "name": "Antilegionellabehandeling nominale temperatuur"
       },
       "dhw_external_source": {
-        "name": "Warmteopwekker extern warmteopwekker extern",
+        "name": "Externe warmtebron Warm water",
         "state": {
           "off": "Uit",
           "supported": "Ondersteund",

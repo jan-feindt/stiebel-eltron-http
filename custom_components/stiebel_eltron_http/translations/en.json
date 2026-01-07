@@ -324,7 +324,7 @@
         }
       },
       "heating_external_source": {
-        "name": "External heat source",
+        "name": "External Heat Source Heating",
         "state": {
           "off": "Off",
           "threaded_immersion_heater": "Threaded immersion heater",
@@ -402,7 +402,7 @@
         "name": "Pasteurisation set temperature"
       },
       "dhw_external_source": {
-        "name": "External heat source",
+        "name": "External Heat Source DHW",
         "state": {
           "off": "Off",
           "supported": "Supported",

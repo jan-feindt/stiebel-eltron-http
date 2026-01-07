@@ -324,7 +324,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Wärmeerzeuger Extern",
+        "name": "Wärmeerzeuger Extern Heizung",
         "state": {
           "off": "Aus",
           "threaded_immersion_heater": "Einschraubheizkörper",
@@ -402,7 +402,7 @@
         "name": "Antilegionellenbehandlung Solltemperatur"
       },
       "dhw_external_source": {
-        "name": "Wärmeerzeuger Extern",
+        "name": "Wärmeerzeuger Extern Warmwasser",
         "state": {
           "off": "Aus",
           "supported": "Unterstützt",

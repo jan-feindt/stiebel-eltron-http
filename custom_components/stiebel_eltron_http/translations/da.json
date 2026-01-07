@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Varmegenerator ekstern",
+        "name": "Ekstern varmekilde Opvarmning",
         "state": {
           "off": "Slukket",
           "threaded_immersion_heater": "Dykvarmer",
@@ -396,7 +396,7 @@
         "name": "Anti-legionella nom. temperatur"
       },
       "dhw_external_source": {
-        "name": "Varmegenerator ekstern varmegenerator ekstern",
+        "name": "Ekstern varmekilde Varmt vand",
         "state": {
           "off": "Fra",
           "supported": "Understøttet",

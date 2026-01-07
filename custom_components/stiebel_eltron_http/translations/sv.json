@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Värmegenerator extern",
+        "name": "Extern värmekälla Uppvärmning",
         "state": {
           "off": "Av",
           "threaded_immersion_heater": "Patronvärmare",
@@ -388,7 +388,7 @@
         "name": "Antilegionellabehandling börtemperatur"
       },
       "dhw_external_source": {
-        "name": "Värmegenerator extern värmegenerator extern",
+        "name": "Extern värmekälla Varmvatten",
         "state": {
           "off": "Av",
           "supported": "Stöds",

@@ -318,7 +318,7 @@
         }
       },
       "heating_external_source": {
-        "name": "Külsõ hõgenerátor",
+        "name": "Külső hőforrás Fűtés",
         "state": {
           "off": "Ki",
           "threaded_immersion_heater": "Csavaros fűtőpatron",
@@ -396,7 +396,7 @@
         "name": "Antilegionella-kezelés névl. hőmérs."
       },
       "dhw_external_source": {
-        "name": "Külsõ hõgenerátor külsõ hõgenerátor",
+        "name": "Külső hőforrás HMV",
         "state": {
           "off": "Ki",
           "supported": "Támogatott",
