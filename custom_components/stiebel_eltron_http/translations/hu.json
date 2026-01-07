@@ -411,7 +411,11 @@
         "name": "Külsõ hõgenerátor ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "EMS SG Ready aktiválva"
+        "name": "EMS SG Ready aktiválva",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "sg_ready_input": {
         "name": "EMS SG Ready input"

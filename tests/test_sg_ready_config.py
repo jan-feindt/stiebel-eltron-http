@@ -37,7 +37,7 @@ def test_extract_sg_ready_config():
     # Verify extracted values exist (values may vary by system)
     # SG Ready enabled (enum: OFF/ON)
     assert SG_READY_ENABLED_KEY in result
-    assert result[SG_READY_ENABLED_KEY] in ["OFF", "ON"]
+    assert result[SG_READY_ENABLED_KEY] in ["off", "on"]
     
     # SG Ready input (enum)
     assert SG_READY_INPUT_KEY in result

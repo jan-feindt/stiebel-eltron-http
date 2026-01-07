@@ -413,6 +413,13 @@
       "sg_ready_enabled": {
         "name": "EMS SG Ready aktiv."
       },
+      "sg_ready_enabled": {
+        "name": "EMS SG Ready aktivován",
+        "state": {
+          "off": "Vypnuto",
+          "on": "Zapnuto"
+        }
+      },
       "sg_ready_input": {
         "name": "EMS SG Ready input"
       },

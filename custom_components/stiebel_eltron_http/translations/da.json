@@ -413,6 +413,13 @@
       "sg_ready_enabled": {
         "name": "EMS SG Ready aktiveret"
       },
+      "sg_ready_enabled": {
+        "name": "EMS SG Ready aktiveret",
+        "state": {
+          "off": "Fra",
+          "on": "Til"
+        }
+      },
       "sg_ready_input": {
         "name": "EMS SG Ready input"
       },

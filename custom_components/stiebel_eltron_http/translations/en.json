@@ -417,7 +417,11 @@
         "name": "External heat source WW pwm"
       },
       "sg_ready_enabled": {
-        "name": "EMS SG Ready enabled"
+        "name": "EMS SG Ready enabled",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "sg_ready_input": {
         "name": "EMS SG Ready input"

@@ -1125,10 +1125,9 @@ ENTITY_DESCRIPTIONS = (
     # SG Ready / Energy Management Configuration Sensors (s=4,14)
     SensorEntityDescription(
         key=SG_READY_ENABLED_KEY,
-        name="SG Ready enabled",
         translation_key=SG_READY_ENABLED_KEY,
         device_class=SensorDeviceClass.ENUM,
-        options=["OFF", "ON"],
+        options=["off", "on"],
         icon="mdi:lightning-bolt",
     ),
     SensorEntityDescription(

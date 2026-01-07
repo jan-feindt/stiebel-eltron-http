@@ -417,7 +417,11 @@
         "name": "Wärmeerzeuger Extern Ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "EMS SG Ready Aktiviert"
+        "name": "EMS SG Ready Aktiviert",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "sg_ready_input": {
         "name": "EMS SG Ready Eingang"
