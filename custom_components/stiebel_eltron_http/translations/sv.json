@@ -120,7 +120,11 @@
         "name": "Börtemperatur HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktiv"
+        "name": "SG Ready aktiv",
+        "state": {
+          "off": "Av",
+          "on": "På"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready status"
@@ -275,7 +279,11 @@
         "name": "Varmekrets 2 stigning värmekurva"
       },
       "heating_buffer_operation": {
-        "name": "Grundinställning buffertdrift"
+        "name": "Grundinställning buffertdrift",
+        "state": {
+          "off": "Av",
+          "on": "På"
+        }
       },
       "heating_max_return_temp": {
         "name": "Grundinställning max returtemp"
@@ -290,7 +298,11 @@
         "name": "Grundinställning frostkydd"
       },
       "heating_summer_mode": {
-        "name": "Sommardrift"
+        "name": "Sommardrift",
+        "state": {
+          "off": "Av",
+          "on": "På"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Sommardrift utetemperatur"
@@ -299,7 +311,11 @@
         "name": "Sommardrift byggnadsisolering"
       },
       "heating_pump_cycles": {
-        "name": "Pumpcykler"
+        "name": "Pumpcykler",
+        "state": {
+          "off": "Av",
+          "on": "På"
+        }
       },
       "heating_external_source": {
         "name": "Värmegenerator extern",
@@ -369,7 +385,13 @@
         "name": "Antilegionellabehandling börtemperatur"
       },
       "dhw_external_source": {
-        "name": "Värmegenerator extern värmegenerator extern"
+        "name": "Värmegenerator extern värmegenerator extern",
+        "state": {
+          "off": "Av",
+          "supported": "Stöds",
+          "independent": "Oberoende",
+          "alone": "Ensam"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Värmegenerator extern bivalenstemperatur WW"
@@ -381,10 +403,10 @@
         "name": "Värmegenerator extern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready aktiverad"
+        "name": "Energiemanagement SG Ready aktiverad"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Ackumulatortank",

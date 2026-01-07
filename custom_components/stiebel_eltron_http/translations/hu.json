@@ -114,7 +114,11 @@
         "name": "Névl. hõmérs. HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktív"
+        "name": "SG Ready aktív",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready állapot"
@@ -275,7 +279,11 @@
         "name": "Fûtõkör 2 fûtési jelleggörbe mered."
       },
       "heating_buffer_operation": {
-        "name": "Alapbeállítás pufferüzem"
+        "name": "Alapbeállítás pufferüzem",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "heating_max_return_temp": {
         "name": "Alapbeállítás maximális visszatero hõm."
@@ -290,7 +298,11 @@
         "name": "Alapbeállítás fagyvédelem"
       },
       "heating_summer_mode": {
-        "name": "Nyári üzem nyári üzem"
+        "name": "Nyári üzem nyári üzem",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Nyári üzem külsõ hõmérséklet"
@@ -299,7 +311,11 @@
         "name": "Nyári üzem épületcsillapítás"
       },
       "heating_pump_cycles": {
-        "name": "Sziv ciklus sziv ciklus"
+        "name": "Sziv ciklus sziv ciklus",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "heating_external_source": {
         "name": "Külsõ hõgenerátor",
@@ -344,10 +360,18 @@
         "name": "Alapbeállítás melegvíz-fokozatok"
       },
       "dhw_learning_function": {
-        "name": "WW tanulási funkció WW tanulási funkció"
+        "name": "WW tanulási funkció WW tanulási funkció",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Kombi melegvíztároló kombi melegvíztároló"
+        "name": "Kombi melegvíztároló kombi melegvíztároló",
+        "state": {
+          "off": "Ki",
+          "on": "Be"
+        }
       },
       "dhw_output_summer": {
         "name": "WW teljesítmény nyáron"
@@ -369,7 +393,13 @@
         "name": "Antilegionella-kezelés névl. hőmérs."
       },
       "dhw_external_source": {
-        "name": "Külsõ hõgenerátor külsõ hõgenerátor"
+        "name": "Külsõ hõgenerátor külsõ hõgenerátor",
+        "state": {
+          "off": "Ki",
+          "supported": "Támogatott",
+          "independent": "Független",
+          "alone": "Egyedül"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Külsõ hõgenerátor bivalencia hõmérs. WW"
@@ -381,10 +411,10 @@
         "name": "Külsõ hõgenerátor ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready aktiválva"
+        "name": "Energiemanagement SG Ready aktiválva"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Fűtési puffer",

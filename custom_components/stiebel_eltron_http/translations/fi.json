@@ -123,7 +123,11 @@
         "name": "Ohjelämpöt HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktiivinen"
+        "name": "SG Ready aktiivinen",
+        "state": {
+          "off": "Pois",
+          "on": "Päällä"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready tila"
@@ -275,7 +279,11 @@
         "name": "Läm-piiri 2 lämm käyrän nousu"
       },
       "heating_buffer_operation": {
-        "name": "Perusasetus puskurikäyttö"
+        "name": "Perusasetus puskurin käyttö",
+        "state": {
+          "off": "Pois",
+          "on": "Päällä"
+        }
       },
       "heating_max_return_temp": {
         "name": "Perusasetus max paluuvirt lämpöt"
@@ -290,7 +298,11 @@
         "name": "Perusasetus jäätymisesto"
       },
       "heating_summer_mode": {
-        "name": "Kesäkäyttö"
+        "name": "Kesakaytto",
+        "state": {
+          "off": "Pois",
+          "on": "Päällä"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Kesäkäyttö ulkolämpötila"
@@ -369,7 +381,13 @@
         "name": "Antilegionellakäsitt ohjelämpötila"
       },
       "dhw_external_source": {
-        "name": "Lämmöntuottaja ulk lämmöntuottaja ulk"
+        "name": "Lämmöntuottaja ulk lämmöntuottaja ulk",
+        "state": {
+          "off": "Pois",
+          "supported": "Tuettu",
+          "independent": "Riippumaton",
+          "alone": "Yksin"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Lämmöntuottaja ulk kytkentälämpöt WW"
@@ -381,10 +399,10 @@
         "name": "Lämmöntuottaja ulk ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready aktivoitu"
+        "name": "Energiemanagement SG Ready aktivoitu"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Lämmityspuskuri",

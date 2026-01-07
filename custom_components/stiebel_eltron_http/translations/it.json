@@ -123,7 +123,11 @@
         "name": "Temp nominale HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready attivo"
+        "name": "SG Ready attivo",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "start_sg_ready_state": {
         "name": "Stato SG Ready"
@@ -275,7 +279,11 @@
         "name": "Circuito riscaldamento 2 aumento curva calorifica"
       },
       "heating_buffer_operation": {
-        "name": "Impostazione standard funz tampone"
+        "name": "Impostazione standard funz tampone",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "heating_max_return_temp": {
         "name": "Impostazione standard temp max ritorno"
@@ -290,7 +298,11 @@
         "name": "Impostazione standard protez antigelo"
       },
       "heating_summer_mode": {
-        "name": "Uso estivo uso estivo"
+        "name": "Uso estivo uso estivo",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Uso estivo temperatura esterna"
@@ -299,7 +311,11 @@
         "name": "Uso estivo attenuazione edificio"
       },
       "heating_pump_cycles": {
-        "name": "Cicli pompa cicli pompa"
+        "name": "Cicli pompa cicli pompa",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "heating_external_source": {
         "name": "Generatore DI calore est",
@@ -344,10 +360,18 @@
         "name": "Impostazione standard stadi acqua calda"
       },
       "dhw_learning_function": {
-        "name": "Funz apprendimento WW funz apprendimento WW"
+        "name": "Funz apprendimento WW funz apprendimento WW",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Serbatoio combi serbatoio combi"
+        "name": "Serbatoio combi serbatoio combi",
+        "state": {
+          "off": "Spento",
+          "on": "Acceso"
+        }
       },
       "dhw_output_summer": {
         "name": "Rendim WW estate"
@@ -369,7 +393,13 @@
         "name": "Trattam. antilegionella temperatura nominale"
       },
       "dhw_external_source": {
-        "name": "Generatore DI calore est generatore DI calore est"
+        "name": "Generatore DI calore est generatore DI calore est",
+        "state": {
+          "off": "Spento",
+          "supported": "Supportato",
+          "independent": "Indipendente",
+          "alone": "Solo"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Generatore DI calore est temp DI bivalenza WW"
@@ -381,10 +411,10 @@
         "name": "Generatore DI calore est ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready attivato"
+        "name": "Energiemanagement SG Ready attivato"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Serb. tampone riscaldam.",

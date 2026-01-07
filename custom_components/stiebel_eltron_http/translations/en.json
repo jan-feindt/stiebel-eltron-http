@@ -185,7 +185,11 @@
         }
       },
       "start_sg_ready_active": {
-        "name": "SG Ready active"
+        "name": "SG Ready active",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready state"
@@ -281,7 +285,11 @@
         "name": "Heating circuit 2 heating curve rise"
       },
       "heating_buffer_operation": {
-        "name": "Standard setting buffer operation"
+        "name": "Standard setting buffer operation",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "heating_max_return_temp": {
         "name": "Standard setting maximum return temp"
@@ -296,7 +304,11 @@
         "name": "Standard setting frost protection"
       },
       "heating_summer_mode": {
-        "name": "Summer mode"
+        "name": "Summer mode",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Summer mode outside temperature"
@@ -305,7 +317,11 @@
         "name": "Summer mode building heat buffer"
       },
       "heating_pump_cycles": {
-        "name": "Pump cycles"
+        "name": "Pump cycles",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "heating_external_source": {
         "name": "External heat source",
@@ -350,10 +366,18 @@
         "name": "Standard setting DHW stages"
       },
       "dhw_learning_function": {
-        "name": "Ww learning function"
+        "name": "Ww learning function",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Combi cylinder"
+        "name": "Combi cylinder",
+        "state": {
+          "off": "Off",
+          "on": "On"
+        }
       },
       "dhw_output_summer": {
         "name": "DHW output summer"
@@ -375,7 +399,13 @@
         "name": "Pasteurisation set temperature"
       },
       "dhw_external_source": {
-        "name": "External heat source"
+        "name": "External heat source",
+        "state": {
+          "off": "Off",
+          "supported": "Supported",
+          "independent": "Independent",
+          "alone": "Alone"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "External heat source dual mode temp WW"
@@ -387,10 +417,10 @@
         "name": "External heat source WW pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement SG ready enabled"
+        "name": "Energiemanagement SG Ready enabled"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Heating buffer",

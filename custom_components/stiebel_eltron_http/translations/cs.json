@@ -114,7 +114,11 @@
         "name": "Pozadovana teplota HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktivní"
+        "name": "SG Ready aktivní",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "start_sg_ready_state": {
         "name": "Stav SG Ready"
@@ -275,7 +279,11 @@
         "name": "Topny okruh 2 stoupani topne krivky"
       },
       "heating_buffer_operation": {
-        "name": "Základní nastavení akumulacni rezim"
+        "name": "Základní nastavení akumulacni rezim",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "heating_max_return_temp": {
         "name": "Základní nastavení maximalni tepl vrat vody"
@@ -290,7 +298,11 @@
         "name": "Základní nastavení protizamraz"
       },
       "heating_summer_mode": {
-        "name": "Tepl leto prep tepl leto prep"
+        "name": "Tepl leto prep tepl leto prep",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Tepl leto prep venkovni teplota"
@@ -299,7 +311,11 @@
         "name": "Tepl leto prep vysouseni budovy"
       },
       "heating_pump_cycles": {
-        "name": "Cykly cerpadla cykly cerpadla"
+        "name": "Cykly cerpadla cykly cerpadla",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "heating_external_source": {
         "name": "Zdroj tepla externi",
@@ -344,10 +360,18 @@
         "name": "Základní nastavení stupen teple vody"
       },
       "dhw_learning_function": {
-        "name": "Ucici progr tuv ucici progr tuv"
+        "name": "Ucici progr tuv ucici progr tuv",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Kombinovany zasobnik kombinovany zasobnik"
+        "name": "Kombinovany zasobnik kombinovany zasobnik",
+        "state": {
+          "off": "Vyp",
+          "on": "Zap"
+        }
       },
       "dhw_output_summer": {
         "name": "Vykon tuv leto"
@@ -369,7 +393,13 @@
         "name": "Tepelna dezinfekce požadovaná teplota"
       },
       "dhw_external_source": {
-        "name": "Zdroj tepla externi zdroj tepla externi"
+        "name": "Zdroj tepla externi zdroj tepla externi",
+        "state": {
+          "off": "Vyp",
+          "supported": "Podporováno",
+          "independent": "Nezávislý",
+          "alone": "Samostatně"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Zdroj tepla externi bivalent tepl tepla voda"
@@ -381,10 +411,10 @@
         "name": "Zdroj tepla externi tuv-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready aktiv."
+        "name": "Energiemanagement SG Ready aktiv."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Akum. zásobník topení",

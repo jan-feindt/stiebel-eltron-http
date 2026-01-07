@@ -168,7 +168,7 @@ def test_extract_heating_summer_config():
     
     # Verify extracted values
     assert HEATING_SUMMER_MODE_KEY in result
-    assert result[HEATING_SUMMER_MODE_KEY] == True  # ON
+    assert result[HEATING_SUMMER_MODE_KEY] == "on"
     
     assert HEATING_SUMMER_OUTSIDE_TEMP_KEY in result
     assert result[HEATING_SUMMER_OUTSIDE_TEMP_KEY] == 20.0
@@ -200,7 +200,7 @@ def test_extract_heating_pump_cycles_config():
     
     # Verify extracted values
     assert HEATING_PUMP_CYCLES_KEY in result
-    assert result[HEATING_PUMP_CYCLES_KEY] == False  # OFF
+    assert result[HEATING_PUMP_CYCLES_KEY] == "off"
 
 
 def test_extract_heating_external_config():

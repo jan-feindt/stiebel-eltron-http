@@ -485,11 +485,10 @@ ENTITY_DESCRIPTIONS = (
     ),
     SensorEntityDescription(
         key=START_SG_READY_ACTIVE,
-        name="SG Ready active",
+        device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
         translation_key=START_SG_READY_ACTIVE,
         icon="mdi:lightning-bolt-circle",
-        device_class=SensorDeviceClass.ENUM,
-        options=["OFF", "ON"],
     ),
     SensorEntityDescription(
         key=START_SG_READY_STATE,
@@ -863,7 +862,8 @@ ENTITY_DESCRIPTIONS = (
     # Heating Configuration - Basic Settings
     SensorEntityDescription(
         key=HEATING_BUFFER_OPERATION_KEY,
-        name="Heating buffer operation",
+        device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
         translation_key=HEATING_BUFFER_OPERATION_KEY,
         icon="mdi:toggle-switch",
     ),
@@ -906,9 +906,9 @@ ENTITY_DESCRIPTIONS = (
     # Summer Mode (s=4,2,3)
     SensorEntityDescription(
         key=HEATING_SUMMER_MODE_KEY,
-        name="Heating summer mode",
-        translation_key=HEATING_SUMMER_MODE_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
+        translation_key=HEATING_SUMMER_MODE_KEY,
         icon="mdi:weather-sunny",
     ),
     SensorEntityDescription(
@@ -930,9 +930,9 @@ ENTITY_DESCRIPTIONS = (
     # Pump Cycles (s=4,2,4)
     SensorEntityDescription(
         key=HEATING_PUMP_CYCLES_KEY,
-        name="Heating pump cycles",
-        translation_key=HEATING_PUMP_CYCLES_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
+        translation_key=HEATING_PUMP_CYCLES_KEY,
         icon="mdi:pump",
     ),
     # External Heat Source (s=4,2,5)
@@ -1028,17 +1028,17 @@ ENTITY_DESCRIPTIONS = (
     # Learning Function (s=4,3,2)
     SensorEntityDescription(
         key=DHW_LEARNING_FUNCTION_KEY,
-        name="DHW learning function",
-        translation_key=DHW_LEARNING_FUNCTION_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
+        translation_key=DHW_LEARNING_FUNCTION_KEY,
         icon="mdi:brain",
     ),
     # Combi Cylinder (s=4,3,3)
     SensorEntityDescription(
         key=DHW_COMBI_CYLINDER_KEY,
-        name="DHW combi cylinder",
-        translation_key=DHW_COMBI_CYLINDER_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "on"],
+        translation_key=DHW_COMBI_CYLINDER_KEY,
         icon="mdi:storage-tank",
     ),
     # Output (s=4,3,4)
@@ -1091,9 +1091,9 @@ ENTITY_DESCRIPTIONS = (
     # External Heat Source (s=4,3,7)
     SensorEntityDescription(
         key=DHW_EXTERNAL_SOURCE_KEY,
-        name="DHW external source",
-        translation_key=DHW_EXTERNAL_SOURCE_KEY,
         device_class=SensorDeviceClass.ENUM,
+        options=["off", "supported", "independent", "alone"],
+        translation_key=DHW_EXTERNAL_SOURCE_KEY,
         icon="mdi:heating-coil",
     ),
     SensorEntityDescription(

@@ -120,7 +120,11 @@
         "name": "Temperatura DE ref. HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready activo"
+        "name": "SG Ready activo",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "start_sg_ready_state": {
         "name": "Estado SG Ready"
@@ -275,7 +279,11 @@
         "name": "Circ. calef. 2 aumento curva calefac."
       },
       "heating_buffer_operation": {
-        "name": "Ajuste estándar zona depósito DE inercia"
+        "name": "Ajuste estándar zona depósito DE inercia",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "heating_max_return_temp": {
         "name": "Ajuste estándar temp. máx. retorno"
@@ -290,7 +298,11 @@
         "name": "Ajuste estándar protec. anticong."
       },
       "heating_summer_mode": {
-        "name": "Operación verano operación verano"
+        "name": "Operación verano operación verano",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Operación verano temperatura exterior"
@@ -299,7 +311,11 @@
         "name": "Operación verano aislamiento del edificio"
       },
       "heating_pump_cycles": {
-        "name": "Ciclos bomba ciclos bomba"
+        "name": "Ciclos bomba ciclos bomba",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "heating_external_source": {
         "name": "Generador calor externo",
@@ -344,10 +360,18 @@
         "name": "Ajuste estándar niveles DE agua caliente"
       },
       "dhw_learning_function": {
-        "name": "WW función aprendizaje WW función aprendizaje"
+        "name": "WW función aprendizaje WW función aprendizaje",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Acumulador combinado acumulador combinado"
+        "name": "Acumulador combinado acumulador combinado",
+        "state": {
+          "off": "Apagado",
+          "on": "Encendido"
+        }
       },
       "dhw_output_summer": {
         "name": "WW rend. verano"
@@ -369,7 +393,13 @@
         "name": "Tratamiento antilegionela temperatura DE referencia"
       },
       "dhw_external_source": {
-        "name": "Generador calor externo generador calor externo"
+        "name": "Generador calor externo generador calor externo",
+        "state": {
+          "off": "Apagado",
+          "supported": "Soportado",
+          "independent": "Independiente",
+          "alone": "Solo"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Generador calor externo temp. bivalencia WW"
@@ -381,10 +411,10 @@
         "name": "Generador calor externo ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready activado"
+        "name": "Energiemanagement SG Ready activado"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Dep. inercia calefacción",

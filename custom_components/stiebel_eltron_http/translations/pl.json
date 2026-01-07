@@ -117,7 +117,11 @@
         "name": "Temperatura zadana HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktywny"
+        "name": "SG Ready aktywny",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "start_sg_ready_state": {
         "name": "Stan SG Ready"
@@ -275,7 +279,11 @@
         "name": "Obieg grzewczy 2 nachyl krzywej grzewczej"
       },
       "heating_buffer_operation": {
-        "name": "Nastawa podstawowa tryb buforowy"
+        "name": "Nastawa podstawowa tryb buforowy",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "heating_max_return_temp": {
         "name": "Nastawa podstawowa maks temp powrotu"
@@ -290,7 +298,11 @@
         "name": "Nastawa podstawowa antyzamarzanie"
       },
       "heating_summer_mode": {
-        "name": "Tryb letni tryb letni"
+        "name": "Tryb letni tryb letni",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Tryb letni temp zewnetrzna"
@@ -299,7 +311,11 @@
         "name": "Tryb letni tlumienie budynku"
       },
       "heating_pump_cycles": {
-        "name": "Cykle pompy cykle pompy"
+        "name": "Cykle pompy cykle pompy",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "heating_external_source": {
         "name": "Zewn. wytwornica ciepla",
@@ -344,10 +360,18 @@
         "name": "Nastawa podstawowa stopnie cwu"
       },
       "dhw_learning_function": {
-        "name": "WW funkcja nauki progr WW funkcja nauki progr"
+        "name": "WW funkcja nauki progr WW funkcja nauki progr",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Zasobnik kombinowany zasobnik kombinowany"
+        "name": "Zasobnik kombinowany zasobnik kombinowany",
+        "state": {
+          "off": "Wył",
+          "on": "Wł"
+        }
       },
       "dhw_output_summer": {
         "name": "WW moc lato"
@@ -369,7 +393,13 @@
         "name": "Funkcja antylegionelli temperatura zadana"
       },
       "dhw_external_source": {
-        "name": "Zewn. wytwornica ciepla zewn. wytwornica ciepla"
+        "name": "Zewn. wytwornica ciepla zewn. wytwornica ciepla",
+        "state": {
+          "off": "Wył",
+          "supported": "Wspierany",
+          "independent": "Niezależny",
+          "alone": "Samodzielny"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Zewn. wytwornica ciepla temp biwalentna WW"
@@ -381,10 +411,10 @@
         "name": "Zewn. wytwornica ciepla ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready aktywow."
+        "name": "Energiemanagement SG Ready aktywow."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Bufor ogrzewania",

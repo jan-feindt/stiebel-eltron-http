@@ -185,7 +185,11 @@
         }
       },
       "start_sg_ready_active": {
-        "name": "SG Ready aktiv"
+        "name": "SG Ready aktiv",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready Betriebszustand"
@@ -281,7 +285,11 @@
         "name": "Heizkreis 2 Steigung Heizkurve"
       },
       "heating_buffer_operation": {
-        "name": "Grundeinstellung Pufferbetrieb"
+        "name": "Grundeinstellung Pufferbetrieb",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "heating_max_return_temp": {
         "name": "Grundeinstellung Maximale Rücklauftemp"
@@ -296,7 +304,11 @@
         "name": "Grundeinstellung Frostschutz"
       },
       "heating_summer_mode": {
-        "name": "Sommerbetrieb"
+        "name": "Sommerbetrieb",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Sommerbetrieb Aussentemperatur"
@@ -305,7 +317,11 @@
         "name": "Sommerbetrieb Gebäudedämpfung"
       },
       "heating_pump_cycles": {
-        "name": "Pumpenzyklen"
+        "name": "Pumpenzyklen",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "heating_external_source": {
         "name": "Wärmeerzeuger Extern",
@@ -350,10 +366,18 @@
         "name": "Grundeinstellung Warmwasserstufen"
       },
       "dhw_learning_function": {
-        "name": "WW Lernfunktion"
+        "name": "WW Lernfunktion",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Kombispeicher"
+        "name": "Kombispeicher",
+        "state": {
+          "off": "Aus",
+          "on": "Ein"
+        }
       },
       "dhw_output_summer": {
         "name": "WW Leistung Sommer"
@@ -375,7 +399,13 @@
         "name": "Antilegionellenbehandlung Solltemperatur"
       },
       "dhw_external_source": {
-        "name": "Wärmeerzeuger Extern"
+        "name": "Wärmeerzeuger Extern",
+        "state": {
+          "off": "Aus",
+          "supported": "Unterstützt",
+          "independent": "Unabhängig",
+          "alone": "Allein"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Wärmeerzeuger Extern Bivalenztemperatur WW"
@@ -387,10 +417,10 @@
         "name": "Wärmeerzeuger Extern Ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement Sgready Aktiviert"
+        "name": "Energiemanagement SG Ready Aktiviert"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement Sg-ready Eingang"
+        "name": "Energiemanagement SG Ready Eingang"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Heizungspuffer",

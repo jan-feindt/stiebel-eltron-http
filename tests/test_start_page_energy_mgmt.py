@@ -40,7 +40,7 @@ def test_extract_start_page_energy_management_all_languages(language):
     assert result[START_ENERGY_MGMT_OK] == "OK"
     
     assert START_SG_READY_ACTIVE in result
-    assert result[START_SG_READY_ACTIVE] == "ON"
+    assert result[START_SG_READY_ACTIVE] == "on"
     
     assert START_SG_READY_STATE in result
     assert result[START_SG_READY_STATE] == 2
@@ -71,7 +71,7 @@ def test_extract_start_page_energy_management():
     assert result[START_ENERGY_MGMT_OK] == "OK"
     
     assert START_SG_READY_ACTIVE in result
-    assert result[START_SG_READY_ACTIVE] == "ON"
+    assert result[START_SG_READY_ACTIVE] == "on"
     
     assert START_SG_READY_STATE in result
     assert result[START_SG_READY_STATE] == 2

@@ -107,7 +107,7 @@ def test_extract_dhw_learning_config():
     
     # Verify extracted values
     assert DHW_LEARNING_FUNCTION_KEY in result
-    assert result[DHW_LEARNING_FUNCTION_KEY] == False  # OFF
+    assert result[DHW_LEARNING_FUNCTION_KEY] == "off"
 
 
 def test_extract_dhw_combi_config():
@@ -133,7 +133,7 @@ def test_extract_dhw_combi_config():
     
     # Verify extracted values
     assert DHW_COMBI_CYLINDER_KEY in result
-    assert result[DHW_COMBI_CYLINDER_KEY] == False  # OFF
+    assert result[DHW_COMBI_CYLINDER_KEY] == "off"
 
 
 def test_extract_dhw_output_config():
@@ -243,7 +243,7 @@ def test_extract_dhw_external_config():
     
     # Verify extracted values
     assert DHW_EXTERNAL_SOURCE_KEY in result
-    assert result[DHW_EXTERNAL_SOURCE_KEY] == "SUPPORTED"
+    assert result[DHW_EXTERNAL_SOURCE_KEY] == "supported"
     
     assert DHW_EXTERNAL_DUAL_MODE_TEMP_KEY in result
     assert result[DHW_EXTERNAL_DUAL_MODE_TEMP_KEY] == -7.0

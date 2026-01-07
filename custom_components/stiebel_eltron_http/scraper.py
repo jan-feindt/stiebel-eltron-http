@@ -1066,7 +1066,7 @@ class StiebelEltronScrapingClient:
         # val450 = Buffer Operation (0=OFF, 1=ON)
         if "450" in val_dict:
             raw_val = val_dict["450"]
-            result[HEATING_BUFFER_OPERATION_KEY] = raw_val == "1"
+            result[HEATING_BUFFER_OPERATION_KEY] = "on" if raw_val == "1" else "off"
         
         # val11010 = Maximum Return Temperature
         if "11010" in val_dict:
@@ -1109,7 +1109,7 @@ class StiebelEltronScrapingClient:
         # val103 = Summer Mode (0=OFF, 1=ON)
         if "103" in val_dict:
             raw_val = val_dict["103"]
-            result[HEATING_SUMMER_MODE_KEY] = raw_val == "1"
+            result[HEATING_SUMMER_MODE_KEY] = "on" if raw_val == "1" else "off"
         
         # val105 = Outside Temperature
         if "105" in val_dict:
@@ -1134,7 +1134,7 @@ class StiebelEltronScrapingClient:
         # val106 = Pump Cycles (0=OFF, 1=ON)
         if "106" in val_dict:
             raw_val = val_dict["106"]
-            result[HEATING_PUMP_CYCLES_KEY] = raw_val == "1"
+            result[HEATING_PUMP_CYCLES_KEY] = "on" if raw_val == "1" else "off"
         
         return result
 
@@ -1257,7 +1257,7 @@ class StiebelEltronScrapingClient:
         # val123 = WW Learning Function (0=OFF, 1=ON)
         if "123" in val_dict:
             raw_val = val_dict["123"]
-            result[DHW_LEARNING_FUNCTION_KEY] = raw_val == "1"
+            result[DHW_LEARNING_FUNCTION_KEY] = "on" if raw_val == "1" else "off"
         
         return result
 
@@ -1270,7 +1270,7 @@ class StiebelEltronScrapingClient:
         # val454 = Combi Cylinder (0=OFF, 1=ON)
         if "454" in val_dict:
             raw_val = val_dict["454"]
-            result[DHW_COMBI_CYLINDER_KEY] = raw_val == "1"
+            result[DHW_COMBI_CYLINDER_KEY] = "on" if raw_val == "1" else "off"
         
         return result
 
@@ -1348,10 +1348,10 @@ class StiebelEltronScrapingClient:
         if "369" in val_dict:
             raw_val = val_dict["369"]
             source_map = {
-                "0": "OFF",
-                "1": "SUPPORTED",
-                "2": "INDEPENDENT",
-                "3": "ALONE",
+                "0": "off",
+                "1": "supported",
+                "2": "independent",
+                "3": "alone",
             }
             result[DHW_EXTERNAL_SOURCE_KEY] = source_map.get(raw_val, raw_val)
         
@@ -1554,7 +1554,7 @@ class StiebelEltronScrapingClient:
                 
                 # Check if SG Ready logo is present
                 sg_logo = energy_mgmt_box.find("img", src=lambda x: x and "SG-Ready-Logo" in x)
-                result[START_SG_READY_ACTIVE] = "ON" if sg_logo is not None else "OFF"
+                result[START_SG_READY_ACTIVE] = "on" if sg_logo is not None else "off"
                 
                 # Extract SG Ready state number from text like "Status 2 since:" or "Betriebszustand 2 seit:"
                 text_content = _text(energy_mgmt_box)

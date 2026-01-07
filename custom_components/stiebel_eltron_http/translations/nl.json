@@ -123,7 +123,11 @@
         "name": "Gevraagde temp. HK 2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready actief"
+        "name": "SG Ready actief",
+        "state": {
+          "off": "Uit",
+          "on": "Aan"
+        }
       },
       "start_sg_ready_state": {
         "name": "SG Ready status"
@@ -275,7 +279,11 @@
         "name": "Verwarmingscircuit 2 stijging verwarmingscurve"
       },
       "heating_buffer_operation": {
-        "name": "Basisinstelling bufferwerking"
+        "name": "Basisinstelling bufferwerking",
+        "state": {
+          "off": "Uit",
+          "on": "Aan"
+        }
       },
       "heating_max_return_temp": {
         "name": "Basisinstelling max retourtemperatuur"
@@ -290,7 +298,11 @@
         "name": "Basisinstelling vorstbescherming"
       },
       "heating_summer_mode": {
-        "name": "Zomerbedrijf"
+        "name": "Zomerbedrijf",
+        "state": {
+          "off": "Uit",
+          "on": "Aan"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Zomerbedrijf buitentemperatuur"
@@ -299,7 +311,11 @@
         "name": "Zomerbedrijf gebouwdemping"
       },
       "heating_pump_cycles": {
-        "name": "Pompcycli"
+        "name": "Pompcycli",
+        "state": {
+          "off": "Uit",
+          "on": "Aan"
+        }
       },
       "heating_external_source": {
         "name": "Warmteopwekker extern",
@@ -369,7 +385,13 @@
         "name": "Antilegionellabehandeling nominale temperatuur"
       },
       "dhw_external_source": {
-        "name": "Warmteopwekker extern warmteopwekker extern"
+        "name": "Warmteopwekker extern warmteopwekker extern",
+        "state": {
+          "off": "Uit",
+          "supported": "Ondersteund",
+          "independent": "Onafhankelijk",
+          "alone": "Alleen"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Warmteopwekker extern bivalentietemperatuur WW"
@@ -381,10 +403,10 @@
         "name": "Warmteopwekker extern ww-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready geactiv."
+        "name": "Energiemanagement SG Ready geactiv."
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement Verwarmingsbuffer",

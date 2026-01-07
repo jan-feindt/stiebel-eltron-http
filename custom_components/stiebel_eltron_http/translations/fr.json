@@ -120,7 +120,11 @@
         "name": "Consigne temp. CC2"
       },
       "start_sg_ready_active": {
-        "name": "SG Ready actif"
+        "name": "SG Ready actif",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "start_sg_ready_state": {
         "name": "État SG Ready"
@@ -275,7 +279,11 @@
         "name": "Circuit chauffage 2 pente courbe DE chauffe"
       },
       "heating_buffer_operation": {
-        "name": "Réglage DE base mode ballon tampon"
+        "name": "Réglage DE base mode ballon tampon",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "heating_max_return_temp": {
         "name": "Réglage DE base temp. max. retour"
@@ -290,7 +298,11 @@
         "name": "Réglage DE base hors gel"
       },
       "heating_summer_mode": {
-        "name": "Mode ete mode ete"
+        "name": "Mode ete mode ete",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "heating_summer_outside_temp": {
         "name": "Mode ete temperature exterieure"
@@ -299,7 +311,11 @@
         "name": "Mode ete isolation batiment"
       },
       "heating_pump_cycles": {
-        "name": "Cycles pompes cycles pompes"
+        "name": "Cycles pompes cycles pompes",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "heating_external_source": {
         "name": "Generateur chal. externe",
@@ -344,10 +360,18 @@
         "name": "Réglage DE base niveaux ecs"
       },
       "dhw_learning_function": {
-        "name": "Apprentissage ecs apprentissage ecs"
+        "name": "Apprentissage ecs apprentissage ecs",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "dhw_combi_cylinder": {
-        "name": "Ballon combine ballon combine"
+        "name": "Ballon combine ballon combine",
+        "state": {
+          "off": "Arrêt",
+          "on": "Marche"
+        }
       },
       "dhw_output_summer": {
         "name": "Puissance ecs été"
@@ -369,7 +393,13 @@
         "name": "Traitement anti-legionel. température DE consigne"
       },
       "dhw_external_source": {
-        "name": "Generateur chal. externe generateur chal. externe"
+        "name": "Generateur chal. externe generateur chal. externe",
+        "state": {
+          "off": "Arrêt",
+          "supported": "Pris en charge",
+          "independent": "Indépendant",
+          "alone": "Seul"
+        }
       },
       "dhw_external_dual_mode_temp": {
         "name": "Generateur chal. externe temp. bivalence ecs"
@@ -381,10 +411,10 @@
         "name": "Generateur chal. externe ecs-pwm"
       },
       "sg_ready_enabled": {
-        "name": "Energiemanagement sgready activé"
+        "name": "Energiemanagement SG Ready activé"
       },
       "sg_ready_input": {
-        "name": "Energiemanagement sg-ready input"
+        "name": "Energiemanagement SG Ready input"
       },
       "sg_ready_heating_buffer": {
         "name": "Energiemanagement ballon tampon chauffage",
