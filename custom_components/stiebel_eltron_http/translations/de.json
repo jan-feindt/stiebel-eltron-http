@@ -330,7 +330,10 @@
           "threaded_immersion_heater": "Einschraubheizkörper",
           "boiler": "Kessel",
           "hzg_pwm": "HZG-PWM",
-          "heating_0_10v": "HZG 0-10V"
+          "heating_0_10v": "HZG 0-10V",
+          "supported": "Unterstützt",
+          "independent": "Unabhängig",
+          "alone": "Allein"
         }
       },
       "heating_external_curve_gap": {

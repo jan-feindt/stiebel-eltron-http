@@ -1150,15 +1150,16 @@ class StiebelEltronScrapingClient:
         
         result = {}
         
-        # val342 = External Heat Source (0-4: OFF/THREADED/BOILER/PWM/0-10V)
+        # val342 = External Heat Source (0-4: OFF/THREADED/BOILER/PWM/0-10V, or 0-3: OFF/SUPPORTED/INDEPENDENT/ALONE on some models)
         if "342" in val_dict:
             raw_val = val_dict["342"]
             # Map radio button index to state keys for translation
+            # Some devices use 0-4 (type-based), others use 0-3 (mode-based)
             source_map = {
                 "0": "off",
-                "1": "threaded_immersion_heater",
-                "2": "boiler",
-                "3": "hzg_pwm",
+                "1": "threaded_immersion_heater",  # or "supported" on some models
+                "2": "boiler",  # or "independent" on some models
+                "3": "hzg_pwm",  # or "alone" on some models
                 "4": "heating_0_10v",
             }
             result[HEATING_EXTERNAL_SOURCE_KEY] = source_map.get(raw_val, raw_val)

@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Patronvärmare",
           "boiler": "Panna",
           "hzg_pwm": "Värme PWM",
-          "heating_0_10v": "Värme 0-10V"
+          "heating_0_10v": "Värme 0-10V",
+          "supported": "Stöds",
+          "independent": "Oberoende",
+          "alone": "Ensam"
         }
       },
       "heating_external_curve_gap": {

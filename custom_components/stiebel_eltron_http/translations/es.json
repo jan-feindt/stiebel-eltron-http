@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Calentador de inmersión roscado",
           "boiler": "Caldera",
           "hzg_pwm": "Calefacción PWM",
-          "heating_0_10v": "Calefacción 0-10V"
+          "heating_0_10v": "Calefacción 0-10V",
+          "supported": "Soportado",
+          "independent": "Independiente",
+          "alone": "Solo"
         }
       },
       "heating_external_curve_gap": {

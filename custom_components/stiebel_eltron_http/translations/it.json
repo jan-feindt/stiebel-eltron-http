@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Resistenza ad avvitare",
           "boiler": "Caldaia",
           "hzg_pwm": "Riscaldamento PWM",
-          "heating_0_10v": "Riscaldamento 0-10V"
+          "heating_0_10v": "Riscaldamento 0-10V",
+          "supported": "Supportato",
+          "independent": "Indipendente",
+          "alone": "Solo"
         }
       },
       "heating_external_curve_gap": {

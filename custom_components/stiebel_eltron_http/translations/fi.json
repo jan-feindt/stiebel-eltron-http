@@ -320,7 +320,10 @@
           "threaded_immersion_heater": "Uppopatruuna",
           "boiler": "Kattila",
           "hzg_pwm": "Lämmitys PWM",
-          "heating_0_10v": "Lämmitys 0-10V"
+          "heating_0_10v": "Lämmitys 0-10V",
+          "supported": "Tuettu",
+          "independent": "Riippumaton",
+          "alone": "Yksin"
         }
       },
       "heating_external_curve_gap": {

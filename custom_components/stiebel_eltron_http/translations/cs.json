@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Šroubovací topné těleso",
           "boiler": "Kotel",
           "hzg_pwm": "Vytápění PWM",
-          "heating_0_10v": "Vytápění 0-10V"
+          "heating_0_10v": "Vytápění 0-10V",
+          "supported": "Podporováno",
+          "independent": "Nezávislý",
+          "alone": "Samostatný"
         }
       },
       "heating_external_curve_gap": {

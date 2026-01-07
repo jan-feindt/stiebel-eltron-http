@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Csavaros fűtőpatron",
           "boiler": "Kazán",
           "hzg_pwm": "Fűtés PWM",
-          "heating_0_10v": "Fűtés 0-10V"
+          "heating_0_10v": "Fűtés 0-10V",
+          "supported": "Támogatott",
+          "independent": "Független",
+          "alone": "Egyedül"
         }
       },
       "heating_external_curve_gap": {

@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Résistance à visser",
           "boiler": "Chaudière",
           "hzg_pwm": "Chauffage PWM",
-          "heating_0_10v": "Chauffage 0-10V"
+          "heating_0_10v": "Chauffage 0-10V",
+          "supported": "Pris en charge",
+          "independent": "Indépendant",
+          "alone": "Seul"
         }
       },
       "heating_external_curve_gap": {

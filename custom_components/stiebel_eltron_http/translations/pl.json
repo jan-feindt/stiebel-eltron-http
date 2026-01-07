@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Grzałka wkręcana",
           "boiler": "Kocioł",
           "hzg_pwm": "Ogrzewanie PWM",
-          "heating_0_10v": "Ogrzewanie 0-10V"
+          "heating_0_10v": "Ogrzewanie 0-10V",
+          "supported": "Obsługiwany",
+          "independent": "Niezależny",
+          "alone": "Sam"
         }
       },
       "heating_external_curve_gap": {

@@ -330,7 +330,10 @@
           "threaded_immersion_heater": "Threaded immersion heater",
           "boiler": "Boiler",
           "hzg_pwm": "Heating PWM",
-          "heating_0_10v": "Heating 0-10V"
+          "heating_0_10v": "Heating 0-10V",
+          "supported": "Supported",
+          "independent": "Independent",
+          "alone": "Alone"
         }
       },
       "heating_external_curve_gap": {

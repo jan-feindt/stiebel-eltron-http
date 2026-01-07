@@ -324,7 +324,10 @@
           "threaded_immersion_heater": "Dykvarmer",
           "boiler": "Kedel",
           "hzg_pwm": "Varme PWM",
-          "heating_0_10v": "Varme 0-10V"
+          "heating_0_10v": "Varme 0-10V",
+          "supported": "Understøttet",
+          "independent": "Uafhængig",
+          "alone": "Alene"
         }
       },
       "heating_external_curve_gap": {
